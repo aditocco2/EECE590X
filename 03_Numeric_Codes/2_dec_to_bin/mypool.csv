@@ -1,0 +1,450 @@
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 247<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11110111,NOT HTML
+ANSWER,100,(?i)(0b)?11110111,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 34<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00100010,NOT HTML
+ANSWER,100,(?i)(0b)?00100010,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 204<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11001100,NOT HTML
+ANSWER,100,(?i)(0b)?11001100,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 73<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01001001,NOT HTML
+ANSWER,100,(?i)(0b)?01001001,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 253<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111101,NOT HTML
+ANSWER,100,(?i)(0b)?11111101,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 97<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01100001,NOT HTML
+ANSWER,100,(?i)(0b)?01100001,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 238<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11101110,NOT HTML
+ANSWER,100,(?i)(0b)?11101110,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 129<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10000001,NOT HTML
+ANSWER,100,(?i)(0b)?10000001,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 123<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01111011,NOT HTML
+ANSWER,100,(?i)(0b)?01111011,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 54<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00110110,NOT HTML
+ANSWER,100,(?i)(0b)?00110110,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 5<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00000101,NOT HTML
+ANSWER,100,(?i)(0b)?00000101,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 213<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11010101,NOT HTML
+ANSWER,100,(?i)(0b)?11010101,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 22<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00010110,NOT HTML
+ANSWER,100,(?i)(0b)?00010110,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 195<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11000011,NOT HTML
+ANSWER,100,(?i)(0b)?11000011,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 205<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11001101,NOT HTML
+ANSWER,100,(?i)(0b)?11001101,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 3<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00000011,NOT HTML
+ANSWER,100,(?i)(0b)?00000011,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 193<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11000001,NOT HTML
+ANSWER,100,(?i)(0b)?11000001,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 74<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01001010,NOT HTML
+ANSWER,100,(?i)(0b)?01001010,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 192<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11000000,NOT HTML
+ANSWER,100,(?i)(0b)?11000000,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 90<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01011010,NOT HTML
+ANSWER,100,(?i)(0b)?01011010,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 77<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01001101,NOT HTML
+ANSWER,100,(?i)(0b)?01001101,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 16<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00010000,NOT HTML
+ANSWER,100,(?i)(0b)?00010000,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 169<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10101001,NOT HTML
+ANSWER,100,(?i)(0b)?10101001,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 101<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01100101,NOT HTML
+ANSWER,100,(?i)(0b)?01100101,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 246<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11110110,NOT HTML
+ANSWER,100,(?i)(0b)?11110110,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 35<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00100011,NOT HTML
+ANSWER,100,(?i)(0b)?00100011,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 115<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01110011,NOT HTML
+ANSWER,100,(?i)(0b)?01110011,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 203<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11001011,NOT HTML
+ANSWER,100,(?i)(0b)?11001011,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 180<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10110100,NOT HTML
+ANSWER,100,(?i)(0b)?10110100,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 11<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00001011,NOT HTML
+ANSWER,100,(?i)(0b)?00001011,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 233<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11101001,NOT HTML
+ANSWER,100,(?i)(0b)?11101001,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 162<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10100010,NOT HTML
+ANSWER,100,(?i)(0b)?10100010,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 107<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01101011,NOT HTML
+ANSWER,100,(?i)(0b)?01101011,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 210<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11010010,NOT HTML
+ANSWER,100,(?i)(0b)?11010010,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 185<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10111001,NOT HTML
+ANSWER,100,(?i)(0b)?10111001,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 41<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00101001,NOT HTML
+ANSWER,100,(?i)(0b)?00101001,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 36<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00100100,NOT HTML
+ANSWER,100,(?i)(0b)?00100100,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 82<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01010010,NOT HTML
+ANSWER,100,(?i)(0b)?01010010,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 186<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10111010,NOT HTML
+ANSWER,100,(?i)(0b)?10111010,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 251<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111011,NOT HTML
+ANSWER,100,(?i)(0b)?11111011,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 201<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11001001,NOT HTML
+ANSWER,100,(?i)(0b)?11001001,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 150<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10010110,NOT HTML
+ANSWER,100,(?i)(0b)?10010110,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 154<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10011010,NOT HTML
+ANSWER,100,(?i)(0b)?10011010,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 40<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00101000,NOT HTML
+ANSWER,100,(?i)(0b)?00101000,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 80<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01010000,NOT HTML
+ANSWER,100,(?i)(0b)?01010000,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 224<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11100000,NOT HTML
+ANSWER,100,(?i)(0b)?11100000,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 143<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10001111,NOT HTML
+ANSWER,100,(?i)(0b)?10001111,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 66<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01000010,NOT HTML
+ANSWER,100,(?i)(0b)?01000010,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 113<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01110001,NOT HTML
+ANSWER,100,(?i)(0b)?01110001,regexp
+
+
+NewQuestion,SA
+Title,dec_to_bin
+QuestionText,<p>Write 147<sub>10</sub> as an 8 bit binary value</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10010011,NOT HTML
+ANSWER,100,(?i)(0b)?10010011,regexp
+
+

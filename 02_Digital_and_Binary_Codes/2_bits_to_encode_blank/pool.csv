@@ -1,0 +1,2295 @@
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 2 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1,NOT HTML
+ANSWER,100,^\s*1\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 3 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,2,NOT HTML
+ANSWER,100,^\s*2\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 4 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,2,NOT HTML
+ANSWER,100,^\s*2\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 5 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,3,NOT HTML
+ANSWER,100,^\s*3\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 6 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,3,NOT HTML
+ANSWER,100,^\s*3\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 7 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,3,NOT HTML
+ANSWER,100,^\s*3\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 8 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,3,NOT HTML
+ANSWER,100,^\s*3\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 9 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,^\s*4\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 10 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,^\s*4\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 11 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,^\s*4\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 12 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,^\s*4\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 13 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,^\s*4\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 14 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,^\s*4\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 15 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,^\s*4\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 16 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,^\s*4\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 17 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 18 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 19 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 20 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 21 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 22 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 23 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 24 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 25 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 26 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 27 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 28 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 29 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 30 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 31 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 32 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 33 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 34 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 35 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 36 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 37 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 38 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 39 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 40 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 41 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 42 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 43 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 44 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 45 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 46 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 47 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 48 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 49 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 50 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 51 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 52 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 53 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 54 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 55 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 56 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 57 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 58 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 59 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 60 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 61 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 62 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 63 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 64 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,^\s*6\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 65 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 66 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 67 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 68 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 69 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 70 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 71 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 72 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 73 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 74 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 75 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 76 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 77 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 78 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 79 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 80 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 81 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 82 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 83 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 84 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 85 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 86 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 87 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 88 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 89 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 90 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 91 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 92 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 93 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 94 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 95 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 96 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 97 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 98 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 99 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 100 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 101 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 102 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 103 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 104 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 105 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 106 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 107 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 108 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 109 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 110 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 111 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 112 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 113 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 114 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 115 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 116 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 117 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 118 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 119 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 120 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 121 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 122 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 123 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 124 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 125 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 126 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 127 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 128 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 129 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 130 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 131 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 132 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 133 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 134 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 135 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 136 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 137 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 138 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 139 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 140 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 141 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 142 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 143 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 144 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 145 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 146 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 147 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 148 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 149 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 150 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 151 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 152 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 153 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 154 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 155 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 156 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 157 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 158 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 159 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 160 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 161 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 162 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 163 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 164 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 165 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 166 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 167 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 168 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 169 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 170 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 171 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 172 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 173 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 174 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 175 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 176 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 177 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 178 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 179 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 180 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 181 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 182 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 183 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 184 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 185 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 186 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 187 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 188 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 189 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 190 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 191 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 192 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 193 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 194 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 195 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 196 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 197 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 198 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 199 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 200 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 201 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 202 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 203 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 204 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 205 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 206 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 207 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 208 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 209 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 210 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 211 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 212 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 213 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 214 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 215 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 216 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 217 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 218 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 219 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 220 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 221 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 222 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 223 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 224 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 225 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 226 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 227 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 228 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 229 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 230 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 231 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 232 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 233 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 234 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 235 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 236 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 237 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 238 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 239 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 240 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 241 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 242 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 243 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 244 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 245 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 246 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 247 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 248 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 249 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 250 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 251 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 252 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 253 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 254 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 255 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+
+NewQuestion,SA
+Title,How many bits to encode a value SA
+QuestionText,How many bits are required to encode 256 values?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,^\s*8\s*$,regexp
+
+

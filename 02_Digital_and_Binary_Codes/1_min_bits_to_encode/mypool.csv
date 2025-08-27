@@ -1,0 +1,171 @@
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,"<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The number of miles between your current position and any point on the earth? The circumference of the earth is approximately 24,902 miles.",HTML
+Points,10
+Difficulty,1
+Feedback,14,NOT HTML
+ANSWER,100,14
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: Which day of the month is today,HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,5
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The current state of a switch that is either pressed or unpressed,HTML
+Points,10
+Difficulty,1
+Feedback,1,NOT HTML
+ANSWER,100,1
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: 2017 unique values,HTML
+Points,10
+Difficulty,1
+Feedback,11,NOT HTML
+ANSWER,100,11
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The letters of the english alphabet,HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,5
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The possible percentage of engineers in a room,HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,7
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The corners on the front side of a standard piece of paper,HTML
+Points,10
+Difficulty,1
+Feedback,2,NOT HTML
+ANSWER,100,2
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The number of bowling pins you knock down on your first throw of a match,HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,4
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The remaining score of a darts game to 301,HTML
+Points,10
+Difficulty,1
+Feedback,9,NOT HTML
+ANSWER,100,9
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The minutes elapsed in the current hour,HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,6
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The amount of paper remaining in a package of 250 sheets,HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,8
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The names of 1000 dogs in a doggy day care,HTML
+Points,10
+Difficulty,1
+Feedback,10,NOT HTML
+ANSWER,100,10
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The face value of a die after being rolled,HTML
+Points,10
+Difficulty,1
+Feedback,3,NOT HTML
+ANSWER,100,3
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The result of a coin flip,HTML
+Points,10
+Difficulty,1
+Feedback,1,NOT HTML
+ANSWER,100,1
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,"<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The number of unoccupied seats in a theater that can fit 4,012 attendees",HTML
+Points,10
+Difficulty,1
+Feedback,12,NOT HTML
+ANSWER,100,12
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The remaining parking spots in a 8063 capacity garage,HTML
+Points,10
+Difficulty,1
+Feedback,13,NOT HTML
+ANSWER,100,13
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,"<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The number of seats occupied in a 16,000 capacity stadium",HTML
+Points,10
+Difficulty,1
+Feedback,15,NOT HTML
+ANSWER,100,15
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The outcome after 16 coin flips,HTML
+Points,10
+Difficulty,1
+Feedback,16,NOT HTML
+ANSWER,100,16
+
+
+NewQuestion,SA
+Title,min_bits_to_encode
+QuestionText,<p>Enter the <i>minimum number</i> of bits required to </p> encode the following information: The open parking spaces in a 300 car garage,HTML
+Points,10
+Difficulty,1
+Feedback,9,NOT HTML
+ANSWER,100,9
+
+

@@ -1,0 +1,50 @@
+NewQuestion,SA
+Title,Determine Kmap Terms
+QuestionText,<p>Determine the algebraic expression for the             terms circled in the Karnaugh Map shown above.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/kmap_0.png
+Feedback,ad+b'c'd',NOT HTML
+ANSWER,100,^\s*(ad|b'c'd')(?!.*\1[^'a-z])\s*\+\s*(ad|b'c'd')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Determine Kmap Terms
+QuestionText,<p>Determine the algebraic expression for the             terms circled in the Karnaugh Map shown above.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/kmap_1.png
+Feedback,ab+b'd',NOT HTML
+ANSWER,100,^\s*(ab|b'd')(?!.*\1[^'a-z])\s*\+\s*(ab|b'd')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Determine Kmap Terms
+QuestionText,<p>Determine the algebraic expression for the             terms circled in the Karnaugh Map shown above.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/kmap_2.png
+Feedback,abc+b'c,NOT HTML
+ANSWER,100,^\s*(abc|b'c)(?!.*\1[^'a-z])\s*\+\s*(abc|b'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Determine Kmap Terms
+QuestionText,<p>Determine the algebraic expression for the             terms circled in the Karnaugh Map shown above.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/kmap_3.png
+Feedback,a'b'c+a'd',NOT HTML
+ANSWER,100,^\s*(a'b'c|a'd')(?!.*\1[^'a-z])\s*\+\s*(a'b'c|a'd')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Determine Kmap Terms
+QuestionText,<p>Determine the algebraic expression for the             terms circled in the Karnaugh Map shown above.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/kmap_4.png
+Feedback,ab'c+a'b'd+bcd,NOT HTML
+ANSWER,100,^\s*(ab'c|a'b'd|bcd)(?!.*\1[^'a-z])\s*\+\s*(ab'c|a'b'd|bcd)(?!.*\2[^'a-z])\s*\+\s*(ab'c|a'b'd|bcd)\s*$,regexp
+
+

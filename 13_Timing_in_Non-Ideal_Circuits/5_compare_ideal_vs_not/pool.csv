@@ -1,0 +1,11 @@
+NewQuestion,MS
+Title,"Compare ideal vs non ideal, MS"
+QuestionText,<p>Analyze the previously given circuit. Which of the following are true about the ideal and non-ideal output values of F? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"<p>The two outputs are identical, but the <i>non-ideal</i> output <b>f</b> arrives <b>5ns later</b>",HTML
+OPTION,1,"<p>Whenever <b>more than 5ns</b> has elapsed since the <i>most recent</i> change in either <i>a</i> or <i>b</i>, the ideal and non-ideal circuits will have the same output.</p>",HTML
+OPTION,1,"This circuit can suffer glitches, which persist for <b><i>no</i> longer than 5ns</b> per single glitch.",HTML
+OPTION,0,"This circuit can suffer glitches, which can persist for <b>longer than 5ns</b> per single glitch.",HTML
+
+

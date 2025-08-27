@@ -1,0 +1,450 @@
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 8d0 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,100011010000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*100011010000\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value f10 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,111100010000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*111100010000\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 35c into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1101011100,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*1101011100\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 33d into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1100111101,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*1100111101\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 51 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1010001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*1010001\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value a53 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,101001010011,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*101001010011\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 2d5 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1011010101,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*1011010101\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 3ad into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1110101101,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*1110101101\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value abd into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,101010111101,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*101010111101\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value c05 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,110000000101,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*110000000101\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 8f1 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,100011110001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*100011110001\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 90d into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,100100001101,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*100100001101\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 18d into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,110001101,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*110001101\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value dd1 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,110111010001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*110111010001\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value d8e into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,110110001110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*110110001110\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value bc0 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,101111000000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*101111000000\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 5be into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10110111110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10110111110\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 510 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10100010000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10100010000\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 651 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11001010001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*11001010001\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value fa6 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,111110100110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*111110100110\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value cc6 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,110011000110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*110011000110\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 2e3 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1011100011,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*1011100011\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 839 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,100000111001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*100000111001\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value f83 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,111110000011,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*111110000011\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value c59 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,110001011001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*110001011001\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value b0e into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,101100001110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*101100001110\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value c1d into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,110000011101,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*110000011101\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 432 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10000110010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10000110010\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 8b into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10001011,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10001011\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 551 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10101010001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10101010001\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value e42 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,111001000010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*111001000010\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 2d5 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1011010101,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*1011010101\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 333 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1100110011,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*1100110011\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 3a5 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1110100101,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*1110100101\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 120 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,100100000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*100100000\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value bb4 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,101110110100,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*101110110100\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 149 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,101001001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*101001001\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 7b0 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11110110000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*11110110000\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value faa into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,111110101010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*111110101010\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value e3a into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,111000111010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*111000111010\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 9da into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,100111011010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*100111011010\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 4a7 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10010100111,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10010100111\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 99b into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,100110011011,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*100110011011\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 5d0 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10111010000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10111010000\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 8da into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,100011011010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*100011011010\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value e18 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,111000011000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*111000011000\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value ae9 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,101011101001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*101011101001\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 969 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,100101101001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*100101101001\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value 4b3 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10010110011,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10010110011\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to binary, SA"
+QuestionText,Convert the hexadecimal value c98 into base 2 (binary).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,110010011000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*110010011000\s*$,regexp
+
+

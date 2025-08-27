@@ -1,0 +1,900 @@
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'd'
+Choice,4,a' + bc'd'
+Choice,5,abc'd'
+Choice,6,a'bc'd'
+Match,2,a' + a'bc'd'
+Match,2,a'(a' + bc'd')
+Match,3,a + a'bc'd'
+Match,5,a(a' + bc'd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'd'
+Choice,4,a' + bc'd'
+Choice,5,abc'd'
+Choice,6,a'bc'd'
+Match,2,a' + a'bc'd'
+Match,2,a'(a' + bc'd')
+Match,4,a' + abc'd'
+Match,5,a(a' + bc'd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'c
+Choice,4,a' + b'c
+Choice,5,ab'c
+Choice,6,a'b'c
+Match,1,a + ab'c
+Match,2,a'(a' + b'c)
+Match,4,a' + ab'c
+Match,6,a'(a + b'c)
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b'+d)
+Choice,4,a' + (b'+d)
+Choice,5,a(b'+d)
+Choice,6,a'(b'+d)
+Match,1,a + a(b'+d)
+Match,2,a'(a' + (b'+d))
+Match,4,a' + a(b'+d)
+Match,5,a(a' + (b'+d))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+c+d)
+Choice,4,a' + (b+c+d)
+Choice,5,a(b+c+d)
+Choice,6,a'(b+c+d)
+Match,2,a' + a'(b+c+d)
+Match,1,a(a + (b+c+d))
+Match,3,a + a'(b+c+d)
+Match,5,a(a' + (b+c+d))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'c'd
+Choice,4,a' + b'c'd
+Choice,5,ab'c'd
+Choice,6,a'b'c'd
+Match,1,a + ab'c'd
+Match,1,a(a + b'c'd)
+Match,3,a + a'b'c'd
+Match,5,a(a' + b'c'd)
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+c'+d')
+Choice,4,a' + (b+c'+d')
+Choice,5,a(b+c'+d')
+Choice,6,a'(b+c'+d')
+Match,1,a + a(b+c'+d')
+Match,2,a'(a' + (b+c'+d'))
+Match,3,a + a'(b+c'+d')
+Match,6,a'(a + (b+c'+d'))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'cd'
+Choice,4,a' + b'cd'
+Choice,5,ab'cd'
+Choice,6,a'b'cd'
+Match,2,a' + a'b'cd'
+Match,2,a'(a' + b'cd')
+Match,3,a + a'b'cd'
+Match,6,a'(a + b'cd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+c)
+Choice,4,a' + (b+c)
+Choice,5,a(b+c)
+Choice,6,a'(b+c)
+Match,2,a' + a'(b+c)
+Match,2,a'(a' + (b+c))
+Match,4,a' + a(b+c)
+Match,6,a'(a + (b+c))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+c'+d)
+Choice,4,a' + (b+c'+d)
+Choice,5,a(b+c'+d)
+Choice,6,a'(b+c'+d)
+Match,1,a + a(b+c'+d)
+Match,1,a(a + (b+c'+d))
+Match,3,a + a'(b+c'+d)
+Match,5,a(a' + (b+c'+d))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'cd
+Choice,4,a' + b'cd
+Choice,5,ab'cd
+Choice,6,a'b'cd
+Match,2,a' + a'b'cd
+Match,1,a(a + b'cd)
+Match,3,a + a'b'cd
+Match,5,a(a' + b'cd)
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'
+Choice,4,a' + bc'
+Choice,5,abc'
+Choice,6,a'bc'
+Match,1,a + abc'
+Match,2,a'(a' + bc')
+Match,3,a + a'bc'
+Match,6,a'(a + bc')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'cd'
+Choice,4,a' + b'cd'
+Choice,5,ab'cd'
+Choice,6,a'b'cd'
+Match,2,a' + a'b'cd'
+Match,2,a'(a' + b'cd')
+Match,4,a' + ab'cd'
+Match,5,a(a' + b'cd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'
+Choice,4,a' + bc'
+Choice,5,abc'
+Choice,6,a'bc'
+Match,1,a + abc'
+Match,2,a'(a' + bc')
+Match,3,a + a'bc'
+Match,5,a(a' + bc')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+c')
+Choice,4,a' + (b+c')
+Choice,5,a(b+c')
+Choice,6,a'(b+c')
+Match,1,a + a(b+c')
+Match,2,a'(a' + (b+c'))
+Match,4,a' + a(b+c')
+Match,5,a(a' + (b+c'))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bd
+Choice,4,a' + bd
+Choice,5,abd
+Choice,6,a'bd
+Match,1,a + abd
+Match,2,a'(a' + bd)
+Match,4,a' + abd
+Match,6,a'(a + bd)
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'cd'
+Choice,4,a' + b'cd'
+Choice,5,ab'cd'
+Choice,6,a'b'cd'
+Match,2,a' + a'b'cd'
+Match,1,a(a + b'cd')
+Match,3,a + a'b'cd'
+Match,6,a'(a + b'cd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'd'
+Choice,4,a' + bc'd'
+Choice,5,abc'd'
+Choice,6,a'bc'd'
+Match,2,a' + a'bc'd'
+Match,2,a'(a' + bc'd')
+Match,4,a' + abc'd'
+Match,5,a(a' + bc'd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'd
+Choice,4,a' + b'd
+Choice,5,ab'd
+Choice,6,a'b'd
+Match,2,a' + a'b'd
+Match,1,a(a + b'd)
+Match,3,a + a'b'd
+Match,6,a'(a + b'd)
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'
+Choice,4,a' + bc'
+Choice,5,abc'
+Choice,6,a'bc'
+Match,2,a' + a'bc'
+Match,2,a'(a' + bc')
+Match,4,a' + abc'
+Match,5,a(a' + bc')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc
+Choice,4,a' + bc
+Choice,5,abc
+Choice,6,a'bc
+Match,2,a' + a'bc
+Match,1,a(a + bc)
+Match,3,a + a'bc
+Match,6,a'(a + bc)
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'd
+Choice,4,a' + b'd
+Choice,5,ab'd
+Choice,6,a'b'd
+Match,1,a + ab'd
+Match,2,a'(a' + b'd)
+Match,4,a' + ab'd
+Match,6,a'(a + b'd)
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'cd'
+Choice,4,a' + b'cd'
+Choice,5,ab'cd'
+Choice,6,a'b'cd'
+Match,1,a + ab'cd'
+Match,1,a(a + b'cd')
+Match,3,a + a'b'cd'
+Match,6,a'(a + b'cd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'd'
+Choice,4,a' + bc'd'
+Choice,5,abc'd'
+Choice,6,a'bc'd'
+Match,2,a' + a'bc'd'
+Match,1,a(a + bc'd')
+Match,3,a + a'bc'd'
+Match,6,a'(a + bc'd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'c
+Choice,4,a' + b'c
+Choice,5,ab'c
+Choice,6,a'b'c
+Match,1,a + ab'c
+Match,1,a(a + b'c)
+Match,4,a' + ab'c
+Match,5,a(a' + b'c)
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+d)
+Choice,4,a' + (b+d)
+Choice,5,a(b+d)
+Choice,6,a'(b+d)
+Match,2,a' + a'(b+d)
+Match,2,a'(a' + (b+d))
+Match,4,a' + a(b+d)
+Match,5,a(a' + (b+d))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+c'+d')
+Choice,4,a' + (b+c'+d')
+Choice,5,a(b+c'+d')
+Choice,6,a'(b+c'+d')
+Match,2,a' + a'(b+c'+d')
+Match,1,a(a + (b+c'+d'))
+Match,3,a + a'(b+c'+d')
+Match,5,a(a' + (b+c'+d'))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'c'd'
+Choice,4,a' + b'c'd'
+Choice,5,ab'c'd'
+Choice,6,a'b'c'd'
+Match,1,a + ab'c'd'
+Match,2,a'(a' + b'c'd')
+Match,3,a + a'b'c'd'
+Match,6,a'(a + b'c'd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'
+Choice,4,a' + bc'
+Choice,5,abc'
+Choice,6,a'bc'
+Match,2,a' + a'bc'
+Match,2,a'(a' + bc')
+Match,3,a + a'bc'
+Match,5,a(a' + bc')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'cd'
+Choice,4,a' + b'cd'
+Choice,5,ab'cd'
+Choice,6,a'b'cd'
+Match,1,a + ab'cd'
+Match,1,a(a + b'cd')
+Match,3,a + a'b'cd'
+Match,6,a'(a + b'cd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+d)
+Choice,4,a' + (b+d)
+Choice,5,a(b+d)
+Choice,6,a'(b+d)
+Match,1,a + a(b+d)
+Match,2,a'(a' + (b+d))
+Match,3,a + a'(b+d)
+Match,5,a(a' + (b+d))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+d')
+Choice,4,a' + (b+d')
+Choice,5,a(b+d')
+Choice,6,a'(b+d')
+Match,1,a + a(b+d')
+Match,2,a'(a' + (b+d'))
+Match,4,a' + a(b+d')
+Match,6,a'(a + (b+d'))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b'+c)
+Choice,4,a' + (b'+c)
+Choice,5,a(b'+c)
+Choice,6,a'(b'+c)
+Match,1,a + a(b'+c)
+Match,2,a'(a' + (b'+c))
+Match,4,a' + a(b'+c)
+Match,6,a'(a + (b'+c))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+c+d)
+Choice,4,a' + (b+c+d)
+Choice,5,a(b+c+d)
+Choice,6,a'(b+c+d)
+Match,1,a + a(b+c+d)
+Match,2,a'(a' + (b+c+d))
+Match,3,a + a'(b+c+d)
+Match,5,a(a' + (b+c+d))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b'+c)
+Choice,4,a' + (b'+c)
+Choice,5,a(b'+c)
+Choice,6,a'(b'+c)
+Match,2,a' + a'(b'+c)
+Match,1,a(a + (b'+c))
+Match,4,a' + a(b'+c)
+Match,6,a'(a + (b'+c))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'd'
+Choice,4,a' + bc'd'
+Choice,5,abc'd'
+Choice,6,a'bc'd'
+Match,1,a + abc'd'
+Match,2,a'(a' + bc'd')
+Match,4,a' + abc'd'
+Match,5,a(a' + bc'd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+c+d')
+Choice,4,a' + (b+c+d')
+Choice,5,a(b+c+d')
+Choice,6,a'(b+c+d')
+Match,1,a + a(b+c+d')
+Match,1,a(a + (b+c+d'))
+Match,4,a' + a(b+c+d')
+Match,5,a(a' + (b+c+d'))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+c+d')
+Choice,4,a' + (b+c+d')
+Choice,5,a(b+c+d')
+Choice,6,a'(b+c+d')
+Match,1,a + a(b+c+d')
+Match,2,a'(a' + (b+c+d'))
+Match,3,a + a'(b+c+d')
+Match,6,a'(a + (b+c+d'))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b'+c'+d')
+Choice,4,a' + (b'+c'+d')
+Choice,5,a(b'+c'+d')
+Choice,6,a'(b'+c'+d')
+Match,2,a' + a'(b'+c'+d')
+Match,1,a(a + (b'+c'+d'))
+Match,3,a + a'(b'+c'+d')
+Match,6,a'(a + (b'+c'+d'))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'd
+Choice,4,a' + bc'd
+Choice,5,abc'd
+Choice,6,a'bc'd
+Match,1,a + abc'd
+Match,1,a(a + bc'd)
+Match,4,a' + abc'd
+Match,6,a'(a + bc'd)
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'd'
+Choice,4,a' + bc'd'
+Choice,5,abc'd'
+Choice,6,a'bc'd'
+Match,2,a' + a'bc'd'
+Match,1,a(a + bc'd')
+Match,3,a + a'bc'd'
+Match,5,a(a' + bc'd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bd'
+Choice,4,a' + bd'
+Choice,5,abd'
+Choice,6,a'bd'
+Match,1,a + abd'
+Match,1,a(a + bd')
+Match,4,a' + abd'
+Match,6,a'(a + bd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+c'+d)
+Choice,4,a' + (b+c'+d)
+Choice,5,a(b+c'+d)
+Choice,6,a'(b+c'+d)
+Match,1,a + a(b+c'+d)
+Match,2,a'(a' + (b+c'+d))
+Match,3,a + a'(b+c'+d)
+Match,5,a(a' + (b+c'+d))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'd'
+Choice,4,a' + bc'd'
+Choice,5,abc'd'
+Choice,6,a'bc'd'
+Match,2,a' + a'bc'd'
+Match,2,a'(a' + bc'd')
+Match,3,a + a'bc'd'
+Match,5,a(a' + bc'd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + (b+c')
+Choice,4,a' + (b+c')
+Choice,5,a(b+c')
+Choice,6,a'(b+c')
+Match,1,a + a(b+c')
+Match,2,a'(a' + (b+c'))
+Match,4,a' + a(b+c')
+Match,5,a(a' + (b+c'))
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'd'
+Choice,4,a' + bc'd'
+Choice,5,abc'd'
+Choice,6,a'bc'd'
+Match,1,a + abc'd'
+Match,1,a(a + bc'd')
+Match,3,a + a'bc'd'
+Match,5,a(a' + bc'd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'd
+Choice,4,a' + b'd
+Choice,5,ab'd
+Choice,6,a'b'd
+Match,1,a + ab'd
+Match,2,a'(a' + b'd)
+Match,3,a + a'b'd
+Match,6,a'(a + b'd)
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + bc'd'
+Choice,4,a' + bc'd'
+Choice,5,abc'd'
+Choice,6,a'bc'd'
+Match,2,a' + a'bc'd'
+Match,1,a(a + bc'd')
+Match,4,a' + abc'd'
+Match,5,a(a' + bc'd')
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'cd
+Choice,4,a' + b'cd
+Choice,5,ab'cd
+Choice,6,a'b'cd
+Match,1,a + ab'cd
+Match,1,a(a + b'cd)
+Match,4,a' + ab'cd
+Match,6,a'(a + b'cd)
+
+
+NewQuestion,M
+Title,Basic Absorption Question MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,a'
+Choice,3,a + b'c'd'
+Choice,4,a' + b'c'd'
+Choice,5,ab'c'd'
+Choice,6,a'b'c'd'
+Match,2,a' + a'b'c'd'
+Match,2,a'(a' + b'c'd')
+Match,4,a' + ab'c'd'
+Match,5,a(a' + b'c'd')
+
+

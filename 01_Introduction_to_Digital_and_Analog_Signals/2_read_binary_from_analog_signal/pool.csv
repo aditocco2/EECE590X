@@ -1,0 +1,80 @@
+NewQuestion,SA
+Title,Read binary bits in analog signal
+QuestionText,"<p>In practical applications, engineers use <b>analog signals</b>
+to describe <b>digital signals</b>, since electricity is an analog
+phenomena. The waveform depicts an <i>analog signal</i> 
+which is being used to transmit <i>binary digital information</i></p>
+<p>If the system considers any voltage greater than 3V
+to be a '1', and any lesser value a '0', what information is being 
+expressed at each of time index shown in the figure?
+",HTML
+Points,10
+Difficulty,1
+Image,imagepools/deadbeef/digital_waveform_module1_0.png
+ANSWER,100,"1[, ]*0[, ]*1[, ]*1[, ]*1",regexp
+
+
+NewQuestion,SA
+Title,Read binary bits in analog signal
+QuestionText,"<p>In practical applications, engineers use <b>analog signals</b>
+to describe <b>digital signals</b>, since electricity is an analog
+phenomena. The waveform depicts an <i>analog signal</i> 
+which is being used to transmit <i>binary digital information</i></p>
+<p>If the system considers any voltage greater than 1V
+to be a '1', and any lesser value a '0', what information is being 
+expressed at each of time index shown in the figure?
+",HTML
+Points,10
+Difficulty,1
+Image,imagepools/deadbeef/digital_waveform_module1_1.png
+ANSWER,100,"1[, ]*1[, ]*1[, ]*0[, ]*0",regexp
+
+
+NewQuestion,SA
+Title,Read binary bits in analog signal
+QuestionText,"<p>In practical applications, engineers use <b>analog signals</b>
+to describe <b>digital signals</b>, since electricity is an analog
+phenomena. The waveform depicts an <i>analog signal</i> 
+which is being used to transmit <i>binary digital information</i></p>
+<p>If the system considers any voltage greater than 2V
+to be a '1', and any lesser value a '0', what information is being 
+expressed at each of time index shown in the figure?
+",HTML
+Points,10
+Difficulty,1
+Image,imagepools/deadbeef/digital_waveform_module1_2.png
+ANSWER,100,"0[, ]*1[, ]*1[, ]*1[, ]*0",regexp
+
+
+NewQuestion,SA
+Title,Read binary bits in analog signal
+QuestionText,"<p>In practical applications, engineers use <b>analog signals</b>
+to describe <b>digital signals</b>, since electricity is an analog
+phenomena. The waveform depicts an <i>analog signal</i> 
+which is being used to transmit <i>binary digital information</i></p>
+<p>If the system considers any voltage greater than 2.5V
+to be a '1', and any lesser value a '0', what information is being 
+expressed at each of time index shown in the figure?
+",HTML
+Points,10
+Difficulty,1
+Image,imagepools/deadbeef/digital_waveform_module1_3.png
+ANSWER,100,"0[, ]*0[, ]*0[, ]*0[, ]*0",regexp
+
+
+NewQuestion,SA
+Title,Read binary bits in analog signal
+QuestionText,"<p>In practical applications, engineers use <b>analog signals</b>
+to describe <b>digital signals</b>, since electricity is an analog
+phenomena. The waveform depicts an <i>analog signal</i> 
+which is being used to transmit <i>binary digital information</i></p>
+<p>If the system considers any voltage greater than 1V
+to be a '1', and any lesser value a '0', what information is being 
+expressed at each of time index shown in the figure?
+",HTML
+Points,10
+Difficulty,1
+Image,imagepools/deadbeef/digital_waveform_module1_4.png
+ANSWER,100,"0[, ]*0[, ]*1[, ]*0[, ]*0",regexp
+
+

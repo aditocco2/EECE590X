@@ -1,0 +1,450 @@
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 403<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,259,NOT HTML
+ANSWER,100,^\s*259\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 7<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 332<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,218,NOT HTML
+ANSWER,100,^\s*218\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 14<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,12,NOT HTML
+ANSWER,100,^\s*12\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 435<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,285,NOT HTML
+ANSWER,100,^\s*285\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 466<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,310,NOT HTML
+ANSWER,100,^\s*310\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 634<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,412,NOT HTML
+ANSWER,100,^\s*412\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 416<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,270,NOT HTML
+ANSWER,100,^\s*270\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 57<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,47,NOT HTML
+ANSWER,100,^\s*47\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 677<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,447,NOT HTML
+ANSWER,100,^\s*447\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 507<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,327,NOT HTML
+ANSWER,100,^\s*327\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 0<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,0,NOT HTML
+ANSWER,100,^\s*0\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 365<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,245,NOT HTML
+ANSWER,100,^\s*245\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 314<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,204,NOT HTML
+ANSWER,100,^\s*204\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 211<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,137,NOT HTML
+ANSWER,100,^\s*137\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 724<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,468,NOT HTML
+ANSWER,100,^\s*468\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 155<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,109,NOT HTML
+ANSWER,100,^\s*109\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 200<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,128,NOT HTML
+ANSWER,100,^\s*128\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 646<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,422,NOT HTML
+ANSWER,100,^\s*422\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 73<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,59,NOT HTML
+ANSWER,100,^\s*59\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 633<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,411,NOT HTML
+ANSWER,100,^\s*411\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 122<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,82,NOT HTML
+ANSWER,100,^\s*82\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 41<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,33,NOT HTML
+ANSWER,100,^\s*33\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 500<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,320,NOT HTML
+ANSWER,100,^\s*320\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 441<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,289,NOT HTML
+ANSWER,100,^\s*289\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 336<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,222,NOT HTML
+ANSWER,100,^\s*222\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 611<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,393,NOT HTML
+ANSWER,100,^\s*393\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 223<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,147,NOT HTML
+ANSWER,100,^\s*147\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 571<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,377,NOT HTML
+ANSWER,100,^\s*377\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 154<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,108,NOT HTML
+ANSWER,100,^\s*108\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 42<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,34,NOT HTML
+ANSWER,100,^\s*34\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 52<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,42,NOT HTML
+ANSWER,100,^\s*42\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 250<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,168,NOT HTML
+ANSWER,100,^\s*168\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 232<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,154,NOT HTML
+ANSWER,100,^\s*154\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 352<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,234,NOT HTML
+ANSWER,100,^\s*234\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 270<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,184,NOT HTML
+ANSWER,100,^\s*184\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 317<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,207,NOT HTML
+ANSWER,100,^\s*207\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 70<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,56,NOT HTML
+ANSWER,100,^\s*56\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 427<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,279,NOT HTML
+ANSWER,100,^\s*279\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 466<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,310,NOT HTML
+ANSWER,100,^\s*310\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 146<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,102,NOT HTML
+ANSWER,100,^\s*102\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 723<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,467,NOT HTML
+ANSWER,100,^\s*467\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 774<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,508,NOT HTML
+ANSWER,100,^\s*508\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 737<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,479,NOT HTML
+ANSWER,100,^\s*479\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 4<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,^\s*4\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 700<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,448,NOT HTML
+ANSWER,100,^\s*448\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 604<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,388,NOT HTML
+ANSWER,100,^\s*388\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 534<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,348,NOT HTML
+ANSWER,100,^\s*348\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 224<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,148,NOT HTML
+ANSWER,100,^\s*148\s*$,regexp
+
+
+NewQuestion,SA
+Title,Convert oct to dec SA
+QuestionText,<p>What is 435<sub>8</sub> in decimal?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,285,NOT HTML
+ANSWER,100,^\s*285\s*$,regexp
+
+

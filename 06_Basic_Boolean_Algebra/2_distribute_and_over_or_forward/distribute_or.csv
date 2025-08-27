@@ -1,0 +1,1000 @@
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a'bc'd+a'c'de
+Choice,2,a'bc'd+be
+Choice,3,be+a'c'de
+Choice,4,a'c'd(b'+e')
+Choice,5,b'(a'c'd+e')
+Choice,6,e'(b'+a'c'd)
+Match,1,a'c'd(b+e)
+Match,2,b(a'c'd+e)
+Match,3,e(b+a'c'd)
+Match,4,a'b'c'd+a'c'de'
+Match,5,a'b'c'd+b'e'
+Match,6,b'e'+a'c'de'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,bce+ad'e
+Choice,2,bce+abcd'
+Choice,3,abcd'+ad'e
+Choice,4,e'(bc'+a'd')
+Choice,5,bc'(e'+a'd')
+Choice,6,a'd'(bc'+e')
+Match,1,e(bc+ad')
+Match,2,bc(e+ad')
+Match,3,ad'(bc+e)
+Match,4,bc'e'+a'd'e'
+Match,5,bc'e'+a'bc'd'
+Match,6,a'bc'd'+a'd'e'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,ade'+bde'
+Choice,2,ade'+ab
+Choice,3,ab+bde'
+Choice,4,de(a+b)
+Choice,5,a(de+b)
+Choice,6,b(a+de)
+Match,1,de'(a+b)
+Match,2,a(de'+b)
+Match,3,b(a+de')
+Match,4,ade+bde
+Match,5,ade+ab
+Match,6,ab+bde
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,wy+vwx'z
+Choice,2,wy+vx'yz
+Choice,3,vx'yz+vwx'z
+Choice,4,w(y+vxz')
+Choice,5,y(w+vxz')
+Choice,6,vxz'(y+w)
+Match,1,w(y+vx'z)
+Match,2,y(w+vx'z)
+Match,3,vx'z(y+w)
+Match,4,wy+vwxz'
+Match,5,wy+vxyz'
+Match,6,vxyz'+vwxz'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,w'xyz'+v'xyz'
+Choice,2,w'xyz'+v'w'
+Choice,3,v'w'+v'xyz'
+Choice,4,xyz(w+v')
+Choice,5,w(xyz+v')
+Choice,6,v'(w+xyz)
+Match,1,xyz'(w'+v')
+Match,2,w'(xyz'+v')
+Match,3,v'(w'+xyz')
+Match,4,wxyz+v'xyz
+Match,5,wxyz+v'w
+Match,6,v'w+v'xyz
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,xy'z'+vxy'
+Choice,2,xy'z'+vz'
+Choice,3,vz'+vxy'
+Choice,4,x'y'(z'+v)
+Choice,5,z'(x'y'+v)
+Choice,6,v(z'+x'y')
+Match,1,xy'(z'+v)
+Match,2,z'(xy'+v)
+Match,3,v(z'+xy')
+Match,4,x'y'z'+vx'y'
+Match,5,x'y'z'+vz'
+Match,6,vz'+vx'y'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,v'wx'z+wy
+Choice,2,v'wx'z+v'x'yz
+Choice,3,v'x'yz+wy
+Choice,4,w(vxz'+y)
+Choice,5,vxz'(w+y)
+Choice,6,y(vxz'+w)
+Match,1,w(v'x'z+y)
+Match,2,v'x'z(w+y)
+Match,3,y(v'x'z+w)
+Match,4,vwxz'+wy
+Match,5,vwxz'+vxyz'
+Match,6,vxyz'+wy
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,vwx'+wx'y'
+Choice,2,vwx'+vy'
+Choice,3,vy'+wx'y'
+Choice,4,w'x(v+y')
+Choice,5,v(w'x+y')
+Choice,6,y'(v+w'x)
+Match,1,wx'(v+y')
+Match,2,v(wx'+y')
+Match,3,y'(v+wx')
+Match,4,vw'x+w'xy'
+Match,5,vw'x+vy'
+Match,6,vy'+w'xy'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'ce+ab'cd'
+Choice,2,b'ce+ad'e
+Choice,3,ad'e+ab'cd'
+Choice,4,b'c(e+a'd)
+Choice,5,e(b'c+a'd)
+Choice,6,a'd(e+b'c)
+Match,1,b'c(e+ad')
+Match,2,e(b'c+ad')
+Match,3,ad'(e+b'c)
+Match,4,b'ce+a'b'cd
+Match,5,b'ce+a'de
+Match,6,a'de+a'b'cd
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a'b'c'd+de'
+Choice,2,a'b'c'd+a'b'c'e'
+Choice,3,a'b'c'e'+de'
+Choice,4,d'(a'bc'+e')
+Choice,5,a'bc'(d'+e')
+Choice,6,e'(a'bc'+d')
+Match,1,d(a'b'c'+e')
+Match,2,a'b'c'(d+e')
+Match,3,e'(a'b'c'+d)
+Match,4,a'bc'd'+d'e'
+Match,5,a'bc'd'+a'bc'e'
+Match,6,a'bc'e'+d'e'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a'bc'e+bc'd
+Choice,2,a'bc'e+a'de
+Choice,3,a'de+bc'd
+Choice,4,bc'(a'e'+d)
+Choice,5,a'e'(bc'+d)
+Choice,6,d(a'e'+bc')
+Match,1,bc'(a'e+d)
+Match,2,a'e(bc'+d)
+Match,3,d(a'e+bc')
+Match,4,a'bc'e'+bc'd
+Match,5,a'bc'e'+a'de'
+Match,6,a'de'+bc'd
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,x'yz'+w'x'
+Choice,2,x'yz'+w'yz'
+Choice,3,w'yz'+w'x'
+Choice,4,x'(y'z'+w)
+Choice,5,y'z'(x'+w)
+Choice,6,w(y'z'+x')
+Match,1,x'(yz'+w')
+Match,2,yz'(x'+w')
+Match,3,w'(yz'+x')
+Match,4,x'y'z'+wx'
+Match,5,x'y'z'+wy'z'
+Match,6,wy'z'+wx'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,vwx'y'+x'z
+Choice,2,vwx'y'+vwy'z
+Choice,3,vwy'z+x'z
+Choice,4,x(v'w'y+z)
+Choice,5,v'w'y(x+z)
+Choice,6,z(v'w'y+x)
+Match,1,x'(vwy'+z)
+Match,2,vwy'(x'+z)
+Match,3,z(vwy'+x')
+Match,4,v'w'xy+xz
+Match,5,v'w'xy+v'w'yz
+Match,6,v'w'yz+xz
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,vwxy+vwyz'
+Choice,2,vwxy+xz'
+Choice,3,xz'+vwyz'
+Choice,4,vwy'(x'+z')
+Choice,5,x'(vwy'+z')
+Choice,6,z'(x'+vwy')
+Match,1,vwy(x+z')
+Match,2,x(vwy+z')
+Match,3,z'(x+vwy)
+Match,4,vwx'y'+vwy'z'
+Match,5,vwx'y'+x'z'
+Match,6,x'z'+vwy'z'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,ce+ae
+Choice,2,ce+ac
+Choice,3,ac+ae
+Choice,4,e'(c'+a)
+Choice,5,c'(e'+a)
+Choice,6,a(c'+e')
+Match,1,e(c+a)
+Match,2,c(e+a)
+Match,3,a(c+e)
+Match,4,c'e'+ae'
+Match,5,c'e'+ac'
+Match,6,ac'+ae'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,vwxy+vyz
+Choice,2,vwxy+wxz
+Choice,3,wxz+vyz
+Choice,4,vy(wx'+z)
+Choice,5,wx'(vy+z)
+Choice,6,z(wx'+vy)
+Match,1,vy(wx+z)
+Match,2,wx(vy+z)
+Match,3,z(wx+vy)
+Match,4,vwx'y+vyz
+Match,5,vwx'y+wx'z
+Match,6,wx'z+vyz
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,abe'+cde'
+Choice,2,abe'+abcd
+Choice,3,abcd+cde'
+Choice,4,e(a'b+c'd)
+Choice,5,a'b(e+c'd)
+Choice,6,c'd(a'b+e)
+Match,1,e'(ab+cd)
+Match,2,ab(e'+cd)
+Match,3,cd(ab+e')
+Match,4,a'be+c'de
+Match,5,a'be+a'bc'd
+Match,6,a'bc'd+c'de
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,vw'+vx'z'
+Choice,2,vw'+w'x'z'
+Choice,3,w'x'z'+vx'z'
+Choice,4,v'(w'+xz)
+Choice,5,w'(v'+xz)
+Choice,6,xz(w'+v')
+Match,1,v(w'+x'z')
+Match,2,w'(v+x'z')
+Match,3,x'z'(w'+v)
+Match,4,v'w'+v'xz
+Match,5,v'w'+w'xz
+Match,6,w'xz+v'xz
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,v'x+v'wyz
+Choice,2,v'x+wxyz
+Choice,3,wxyz+v'wyz
+Choice,4,v'(x'+wy'z')
+Choice,5,x'(v'+wy'z')
+Choice,6,wy'z'(x'+v')
+Match,1,v'(x+wyz)
+Match,2,x(v'+wyz)
+Match,3,wyz(x+v')
+Match,4,v'x'+v'wy'z'
+Match,5,v'x'+wx'y'z'
+Match,6,wx'y'z'+v'wy'z'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,w'x'z'+vw'y
+Choice,2,w'x'z'+vx'yz'
+Choice,3,vx'yz'+vw'y
+Choice,4,w(xz+v'y)
+Choice,5,xz(w+v'y)
+Choice,6,v'y(xz+w)
+Match,1,w'(x'z'+vy)
+Match,2,x'z'(w'+vy)
+Match,3,vy(x'z'+w')
+Match,4,wxz+v'wy
+Match,5,wxz+v'xyz
+Match,6,v'xyz+v'wy
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'de'+ae'
+Choice,2,b'de'+ab'd
+Choice,3,ab'd+ae'
+Choice,4,e'(bd'+a')
+Choice,5,bd'(e'+a')
+Choice,6,a'(bd'+e')
+Match,1,e'(b'd+a)
+Match,2,b'd(e'+a)
+Match,3,a(b'd+e')
+Match,4,bd'e'+a'e'
+Match,5,bd'e'+a'bd'
+Match,6,a'bd'+a'e'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,wyz+vwx
+Choice,2,wyz+vxyz
+Choice,3,vxyz+vwx
+Choice,4,w(yz'+vx)
+Choice,5,yz'(w+vx)
+Choice,6,vx(yz'+w)
+Match,1,w(yz+vx)
+Match,2,yz(w+vx)
+Match,3,vx(yz+w)
+Match,4,wyz'+vwx
+Match,5,wyz'+vxyz'
+Match,6,vxyz'+vwx
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,xy'z+vwy'z
+Choice,2,xy'z+vwx
+Choice,3,vwx+vwy'z
+Choice,4,yz(x'+v'w)
+Choice,5,x'(yz+v'w)
+Choice,6,v'w(x'+yz)
+Match,1,y'z(x+vw)
+Match,2,x(y'z+vw)
+Match,3,vw(x+y'z)
+Match,4,x'yz+v'wyz
+Match,5,x'yz+v'wx'
+Match,6,v'wx'+v'wyz
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a'c'd+c'de
+Choice,2,a'c'd+a'e
+Choice,3,a'e+c'de
+Choice,4,cd(a+e)
+Choice,5,a(cd+e)
+Choice,6,e(a+cd)
+Match,1,c'd(a'+e)
+Match,2,a'(c'd+e)
+Match,3,e(a'+c'd)
+Match,4,acd+cde
+Match,5,acd+ae
+Match,6,ae+cde
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,ac'e'+bd'e'
+Choice,2,ac'e'+abc'd'
+Choice,3,abc'd'+bd'e'
+Choice,4,e(a'c'+b'd)
+Choice,5,a'c'(e+b'd)
+Choice,6,b'd(a'c'+e)
+Match,1,e'(ac'+bd')
+Match,2,ac'(e'+bd')
+Match,3,bd'(ac'+e')
+Match,4,a'c'e+b'de
+Match,5,a'c'e+a'b'c'd
+Match,6,a'b'c'd+b'de
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,xyz'+v'wy
+Choice,2,xyz'+v'wxz'
+Choice,3,v'wxz'+v'wy
+Choice,4,y'(xz+vw')
+Choice,5,xz(y'+vw')
+Choice,6,vw'(xz+y')
+Match,1,y(xz'+v'w)
+Match,2,xz'(y+v'w)
+Match,3,v'w(xz'+y)
+Match,4,xy'z+vw'y'
+Match,5,xy'z+vw'xz
+Match,6,vw'xz+vw'y'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,wy'z'+v'wy'
+Choice,2,wy'z'+v'z'
+Choice,3,v'z'+v'wy'
+Choice,4,w'y(z+v)
+Choice,5,z(w'y+v)
+Choice,6,v(z+w'y)
+Match,1,wy'(z'+v')
+Match,2,z'(wy'+v')
+Match,3,v'(z'+wy')
+Match,4,w'yz+vw'y
+Match,5,w'yz+vz
+Match,6,vz+vw'y
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,v'w'x'z'+v'x'y'z'
+Choice,2,v'w'x'z'+w'y'
+Choice,3,w'y'+v'x'y'z'
+Choice,4,v'x'z'(w'+y)
+Choice,5,w'(v'x'z'+y)
+Choice,6,y(w'+v'x'z')
+Match,1,v'x'z'(w'+y')
+Match,2,w'(v'x'z'+y')
+Match,3,y'(w'+v'x'z')
+Match,4,v'w'x'z'+v'x'yz'
+Match,5,v'w'x'z'+w'y
+Match,6,w'y+v'x'yz'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'c'd+a'c'
+Choice,2,b'c'd+a'b'd
+Choice,3,a'b'd+a'c'
+Choice,4,c'(b'd'+a)
+Choice,5,b'd'(c'+a)
+Choice,6,a(b'd'+c')
+Match,1,c'(b'd+a')
+Match,2,b'd(c'+a')
+Match,3,a'(b'd+c')
+Match,4,b'c'd'+ac'
+Match,5,b'c'd'+ab'd'
+Match,6,ab'd'+ac'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,v'w'y+v'xz'
+Choice,2,v'w'y+w'xyz'
+Choice,3,w'xyz'+v'xz'
+Choice,4,v'(w'y+xz)
+Choice,5,w'y(v'+xz)
+Choice,6,xz(w'y+v')
+Match,1,v'(w'y+xz')
+Match,2,w'y(v'+xz')
+Match,3,xz'(w'y+v')
+Match,4,v'w'y+v'xz
+Match,5,v'w'y+w'xyz
+Match,6,w'xyz+v'xz
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'd+b'ce'
+Choice,2,b'd+cde'
+Choice,3,cde'+b'ce'
+Choice,4,b(d+c'e')
+Choice,5,d(b+c'e')
+Choice,6,c'e'(d+b)
+Match,1,b'(d+ce')
+Match,2,d(b'+ce')
+Match,3,ce'(d+b')
+Match,4,bd+bc'e'
+Match,5,bd+c'de'
+Match,6,c'de'+bc'e'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a'bc'e'+bc'd'
+Choice,2,a'bc'e'+a'd'e'
+Choice,3,a'd'e'+bc'd'
+Choice,4,b'c'(a'e'+d')
+Choice,5,a'e'(b'c'+d')
+Choice,6,d'(a'e'+b'c')
+Match,1,bc'(a'e'+d')
+Match,2,a'e'(bc'+d')
+Match,3,d'(a'e'+bc')
+Match,4,a'b'c'e'+b'c'd'
+Match,5,a'b'c'e'+a'd'e'
+Match,6,a'd'e'+b'c'd'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,v'x+w'x
+Choice,2,v'x+v'w'
+Choice,3,v'w'+w'x
+Choice,4,x(v'+w)
+Choice,5,v'(x+w)
+Choice,6,w(v'+x)
+Match,1,x(v'+w')
+Match,2,v'(x+w')
+Match,3,w'(v'+x)
+Match,4,v'x+wx
+Match,5,v'x+v'w
+Match,6,v'w+wx
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,y'z+v'wz
+Choice,2,y'z+v'wy'
+Choice,3,v'wy'+v'wz
+Choice,4,z(y'+vw)
+Choice,5,y'(z+vw)
+Choice,6,vw(y'+z)
+Match,1,z(y'+v'w)
+Match,2,y'(z+v'w)
+Match,3,v'w(y'+z)
+Match,4,y'z+vwz
+Match,5,y'z+vwy'
+Match,6,vwy'+vwz
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,v'xyz'+wxyz'
+Choice,2,v'xyz'+v'w
+Choice,3,v'w+wxyz'
+Choice,4,xyz(v'+w')
+Choice,5,v'(xyz+w')
+Choice,6,w'(v'+xyz)
+Match,1,xyz'(v'+w)
+Match,2,v'(xyz'+w)
+Match,3,w(v'+xyz')
+Match,4,v'xyz+w'xyz
+Match,5,v'xyz+v'w'
+Match,6,v'w'+w'xyz
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'ce+a'b'd'
+Choice,2,b'ce+a'cd'e
+Choice,3,a'cd'e+a'b'd'
+Choice,4,b'(c'e'+ad)
+Choice,5,c'e'(b'+ad)
+Choice,6,ad(c'e'+b')
+Match,1,b'(ce+a'd')
+Match,2,ce(b'+a'd')
+Match,3,a'd'(ce+b')
+Match,4,b'c'e'+ab'd
+Match,5,b'c'e'+ac'de'
+Match,6,ac'de'+ab'd
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,w'xy'z+vw'xz
+Choice,2,w'xy'z+vy'
+Choice,3,vy'+vw'xz
+Choice,4,w'xz'(y'+v')
+Choice,5,y'(w'xz'+v')
+Choice,6,v'(y'+w'xz')
+Match,1,w'xz(y'+v)
+Match,2,y'(w'xz+v)
+Match,3,v(y'+w'xz)
+Match,4,w'xy'z'+v'w'xz'
+Match,5,w'xy'z'+v'y'
+Match,6,v'y'+v'w'xz'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,bc'd'e'+ac'd'
+Choice,2,bc'd'e'+abe'
+Choice,3,abe'+ac'd'
+Choice,4,c'd(be+a')
+Choice,5,be(c'd+a')
+Choice,6,a'(be+c'd)
+Match,1,c'd'(be'+a)
+Match,2,be'(c'd'+a)
+Match,3,a(be'+c'd')
+Match,4,bc'de+a'c'd
+Match,5,bc'de+a'be
+Match,6,a'be+a'c'd
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,bd'e'+abc'd'
+Choice,2,bd'e'+ac'e'
+Choice,3,ac'e'+abc'd'
+Choice,4,bd(e'+a'c)
+Choice,5,e'(bd+a'c)
+Choice,6,a'c(e'+bd)
+Match,1,bd'(e'+ac')
+Match,2,e'(bd'+ac')
+Match,3,ac'(e'+bd')
+Match,4,bde'+a'bcd
+Match,5,bde'+a'ce'
+Match,6,a'ce'+a'bcd
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,ad+cd
+Choice,2,ad+ac
+Choice,3,ac+cd
+Choice,4,d'(a'+c)
+Choice,5,a'(d'+c)
+Choice,6,c(a'+d')
+Match,1,d(a+c)
+Match,2,a(d+c)
+Match,3,c(a+d)
+Match,4,a'd'+cd'
+Match,5,a'd'+a'c
+Match,6,a'c+cd'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,wxz'+vwx
+Choice,2,wxz'+vz'
+Choice,3,vz'+vwx
+Choice,4,w'x(z+v)
+Choice,5,z(w'x+v)
+Choice,6,v(z+w'x)
+Match,1,wx(z'+v)
+Match,2,z'(wx+v)
+Match,3,v(z'+wx)
+Match,4,w'xz+vw'x
+Match,5,w'xz+vz
+Match,6,vz+vw'x
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,bd'e'+a'c'd'
+Choice,2,bd'e'+a'bc'e'
+Choice,3,a'bc'e'+a'c'd'
+Choice,4,d(be'+ac')
+Choice,5,be'(d+ac')
+Choice,6,ac'(be'+d)
+Match,1,d'(be'+a'c')
+Match,2,be'(d'+a'c')
+Match,3,a'c'(be'+d')
+Match,4,bde'+ac'd
+Match,5,bde'+abc'e'
+Match,6,abc'e'+ac'd
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,yz+v'wxz
+Choice,2,yz+v'wxy
+Choice,3,v'wxy+v'wxz
+Choice,4,z(y+v'wx)
+Choice,5,y(z+v'wx)
+Choice,6,v'wx(y+z)
+Match,1,z(y+v'wx)
+Match,2,y(z+v'wx)
+Match,3,v'wx(y+z)
+Match,4,yz+v'wxz
+Match,5,yz+v'wxy
+Match,6,v'wxy+v'wxz
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,v'w'y'z+v'w'x
+Choice,2,v'w'y'z+xy'z
+Choice,3,xy'z+v'w'x
+Choice,4,v'w(yz+x)
+Choice,5,yz(v'w+x)
+Choice,6,x(yz+v'w)
+Match,1,v'w'(y'z+x)
+Match,2,y'z(v'w'+x)
+Match,3,x(y'z+v'w')
+Match,4,v'wyz+v'wx
+Match,5,v'wyz+xyz
+Match,6,xyz+v'wx
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,ab+bce
+Choice,2,ab+ace
+Choice,3,ace+bce
+Choice,4,b(a+c'e)
+Choice,5,a(b+c'e)
+Choice,6,c'e(a+b)
+Match,1,b(a+ce)
+Match,2,a(b+ce)
+Match,3,ce(a+b)
+Match,4,ab+bc'e
+Match,5,ab+ac'e
+Match,6,ac'e+bc'e
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,w'x'z+v'w'z
+Choice,2,w'x'z+v'x'
+Choice,3,v'x'+v'w'z
+Choice,4,wz'(x+v')
+Choice,5,x(wz'+v')
+Choice,6,v'(x+wz')
+Match,1,w'z(x'+v')
+Match,2,x'(w'z+v')
+Match,3,v'(x'+w'z)
+Match,4,wxz'+v'wz'
+Match,5,wxz'+v'x
+Match,6,v'x+v'wz'
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,yz+vz
+Choice,2,yz+vy
+Choice,3,vy+vz
+Choice,4,z(y+v)
+Choice,5,y(z+v)
+Choice,6,v(y+z)
+Match,1,z(y+v)
+Match,2,y(z+v)
+Match,3,v(y+z)
+Match,4,yz+vz
+Match,5,yz+vy
+Match,6,vy+vz
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,vw'x'y+vx'yz'
+Choice,2,vw'x'y+w'z'
+Choice,3,w'z'+vx'yz'
+Choice,4,v'xy(w'+z)
+Choice,5,w'(v'xy+z)
+Choice,6,z(w'+v'xy)
+Match,1,vx'y(w'+z')
+Match,2,w'(vx'y+z')
+Match,3,z'(w'+vx'y)
+Match,4,v'w'xy+v'xyz
+Match,5,v'w'xy+w'z
+Match,6,w'z+v'xyz
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,v'wxy'+xz'
+Choice,2,v'wxy'+v'wy'z'
+Choice,3,v'wy'z'+xz'
+Choice,4,x'(vw'y'+z)
+Choice,5,vw'y'(x'+z)
+Choice,6,z(vw'y'+x')
+Match,1,x(v'wy'+z')
+Match,2,v'wy'(x+z')
+Match,3,z'(v'wy'+x)
+Match,4,vw'x'y'+x'z
+Match,5,vw'x'y'+vw'y'z
+Match,6,vw'y'z+x'z
+
+
+NewQuestion,M
+Title,Distribute over OR
+QuestionText,Match each expression on the left with the expression on the right that is logically equivalent.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,v'wx'y+wz'
+Choice,2,v'wx'y+v'x'yz'
+Choice,3,v'x'yz'+wz'
+Choice,4,w'(vxy+z)
+Choice,5,vxy(w'+z)
+Choice,6,z(vxy+w')
+Match,1,w(v'x'y+z')
+Match,2,v'x'y(w+z')
+Match,3,z'(v'x'y+w)
+Match,4,vw'xy+w'z
+Match,5,vw'xy+vxyz
+Match,6,vxyz+w'z
+
+

@@ -1,0 +1,450 @@
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 68<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10111011,NOT HTML
+ANSWER,100,(?i)(0b)?10111011,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 198<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00111001,NOT HTML
+ANSWER,100,(?i)(0b)?00111001,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 179<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01001100,NOT HTML
+ANSWER,100,(?i)(0b)?01001100,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 208<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00101111,NOT HTML
+ANSWER,100,(?i)(0b)?00101111,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 208<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00101111,NOT HTML
+ANSWER,100,(?i)(0b)?00101111,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 187<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01000100,NOT HTML
+ANSWER,100,(?i)(0b)?01000100,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 13<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11110010,NOT HTML
+ANSWER,100,(?i)(0b)?11110010,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 11<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11110100,NOT HTML
+ANSWER,100,(?i)(0b)?11110100,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 11<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11110100,NOT HTML
+ANSWER,100,(?i)(0b)?11110100,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 43<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11010100,NOT HTML
+ANSWER,100,(?i)(0b)?11010100,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 99<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10011100,NOT HTML
+ANSWER,100,(?i)(0b)?10011100,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 48<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11001111,NOT HTML
+ANSWER,100,(?i)(0b)?11001111,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 0<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111111,NOT HTML
+ANSWER,100,(?i)(0b)?11111111,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 160<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01011111,NOT HTML
+ANSWER,100,(?i)(0b)?01011111,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 192<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00111111,NOT HTML
+ANSWER,100,(?i)(0b)?00111111,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 68<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10111011,NOT HTML
+ANSWER,100,(?i)(0b)?10111011,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 217<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00100110,NOT HTML
+ANSWER,100,(?i)(0b)?00100110,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 203<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00110100,NOT HTML
+ANSWER,100,(?i)(0b)?00110100,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 23<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11101000,NOT HTML
+ANSWER,100,(?i)(0b)?11101000,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 90<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10100101,NOT HTML
+ANSWER,100,(?i)(0b)?10100101,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 209<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00101110,NOT HTML
+ANSWER,100,(?i)(0b)?00101110,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 86<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10101001,NOT HTML
+ANSWER,100,(?i)(0b)?10101001,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 241<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00001110,NOT HTML
+ANSWER,100,(?i)(0b)?00001110,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 92<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10100011,NOT HTML
+ANSWER,100,(?i)(0b)?10100011,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 89<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10100110,NOT HTML
+ANSWER,100,(?i)(0b)?10100110,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 167<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01011000,NOT HTML
+ANSWER,100,(?i)(0b)?01011000,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 82<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10101101,NOT HTML
+ANSWER,100,(?i)(0b)?10101101,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 21<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11101010,NOT HTML
+ANSWER,100,(?i)(0b)?11101010,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 8<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11110111,NOT HTML
+ANSWER,100,(?i)(0b)?11110111,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 236<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00010011,NOT HTML
+ANSWER,100,(?i)(0b)?00010011,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 244<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00001011,NOT HTML
+ANSWER,100,(?i)(0b)?00001011,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 179<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01001100,NOT HTML
+ANSWER,100,(?i)(0b)?01001100,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 233<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00010110,NOT HTML
+ANSWER,100,(?i)(0b)?00010110,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 202<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00110101,NOT HTML
+ANSWER,100,(?i)(0b)?00110101,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 241<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00001110,NOT HTML
+ANSWER,100,(?i)(0b)?00001110,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 15<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11110000,NOT HTML
+ANSWER,100,(?i)(0b)?11110000,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 94<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10100001,NOT HTML
+ANSWER,100,(?i)(0b)?10100001,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 18<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11101101,NOT HTML
+ANSWER,100,(?i)(0b)?11101101,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 120<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10000111,NOT HTML
+ANSWER,100,(?i)(0b)?10000111,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 137<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01110110,NOT HTML
+ANSWER,100,(?i)(0b)?01110110,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 55<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11001000,NOT HTML
+ANSWER,100,(?i)(0b)?11001000,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 193<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00111110,NOT HTML
+ANSWER,100,(?i)(0b)?00111110,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 138<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01110101,NOT HTML
+ANSWER,100,(?i)(0b)?01110101,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 40<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11010111,NOT HTML
+ANSWER,100,(?i)(0b)?11010111,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 208<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00101111,NOT HTML
+ANSWER,100,(?i)(0b)?00101111,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 183<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01001000,NOT HTML
+ANSWER,100,(?i)(0b)?01001000,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 156<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01100011,NOT HTML
+ANSWER,100,(?i)(0b)?01100011,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 7<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111000,NOT HTML
+ANSWER,100,(?i)(0b)?11111000,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 188<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01000011,NOT HTML
+ANSWER,100,(?i)(0b)?01000011,regexp
+
+
+NewQuestion,SA
+Title,decimal_not_gate
+QuestionText,<p>What is the result of NOT 152<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01100111,NOT HTML
+ANSWER,100,(?i)(0b)?01100111,regexp
+
+

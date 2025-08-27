@@ -1,0 +1,32 @@
+NewQuestion,SA
+Title,Develop a code
+QuestionText,"You are designing a digital circuit which can process 3 unique values, called Value_A through Value_C.  Before starting the design, you must first decide on a method to encode the values. For efficiency, you should use the fewest number of bits possible to encode the values. In the box below, enter a possible encoding for the 3 values: Value_A, Value_B, Value_C",NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\W*(\b[01]{2}\b)(?!.*\1)\W*(\b[01]{2}\b)(?!.*\2)\W*(\b[01]{2}\b)\W*$,regexp
+
+
+NewQuestion,SA
+Title,Develop a code
+QuestionText,"You are designing a digital circuit which can process 4 unique values, called Value_A through Value_D.  Before starting the design, you must first decide on a method to encode the values. For efficiency, you should use the fewest number of bits possible to encode the values. In the box below, enter a possible encoding for the 4 values: Value_A, Value_B, Value_C, Value_D",NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\W*(\b[01]{2}\b)(?!.*\1)\W*(\b[01]{2}\b)(?!.*\2)\W*(\b[01]{2}\b)(?!.*\3)\W*(\b[01]{2}\b)\W*$,regexp
+
+
+NewQuestion,SA
+Title,Develop a code
+QuestionText,"You are designing a digital circuit which can process 5 unique values, called Value_A through Value_E.  Before starting the design, you must first decide on a method to encode the values. For efficiency, you should use the fewest number of bits possible to encode the values. In the box below, enter a possible encoding for the 5 values: Value_A, Value_B, Value_C, Value_D, Value_E",NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\W*(\b[01]{3}\b)(?!.*\1)\W*(\b[01]{3}\b)(?!.*\2)\W*(\b[01]{3}\b)(?!.*\3)\W*(\b[01]{3}\b)(?!.*\4)\W*(\b[01]{3}\b)\W*$,regexp
+
+
+NewQuestion,SA
+Title,Develop a code
+QuestionText,"You are designing a digital circuit which can process 6 unique values, called Value_A through Value_F.  Before starting the design, you must first decide on a method to encode the values. For efficiency, you should use the fewest number of bits possible to encode the values. In the box below, enter a possible encoding for the 6 values: Value_A, Value_B, Value_C, Value_D, Value_E, Value_F",NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\W*(\b[01]{3}\b)(?!.*\1)\W*(\b[01]{3}\b)(?!.*\2)\W*(\b[01]{3}\b)(?!.*\3)\W*(\b[01]{3}\b)(?!.*\4)\W*(\b[01]{3}\b)(?!.*\5)\W*(\b[01]{3}\b)\W*$,regexp
+
+

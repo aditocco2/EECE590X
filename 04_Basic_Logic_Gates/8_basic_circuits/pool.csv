@@ -1,0 +1,56 @@
+NewQuestion,MC
+Title,Choose basic circuit
+QuestionText,"<p>The <i>safety circuit</i> from the previous question has two inputs:</p><p><b>X:</b>    A <b><u>window open signal</u></b>, which is '1' if                the window is open, and '0' if it is closed.</p><p><b>Y:</b>    A <b><u>motion detection signal</u></b>, which is '1' when motion is detected inside the room,                and '0' otherwise.</p><p>Choose which circuit above would send a '0' value alarm only when both <u>the window is open</u> and <u>there is motion detected</u>.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/base_circuits.png
+OPTION,0,B,HTML
+OPTION,0,C,HTML
+OPTION,100,A,HTML
+OPTION,0,D,HTML
+OPTION,0,E,HTML
+OPTION,0,F,HTML
+
+
+NewQuestion,MC
+Title,Choose basic circuit
+QuestionText,"<p>The <i>safety circuit</i> from the previous question has two inputs:</p><p><b>X:</b>    A <b><u>window open signal</u></b>, which is '1' if                the window is open, and '0' if it is closed.</p><p><b>Y:</b>    A <b><u>motion detection signal</u></b>, which is '1' when motion is detected inside the room,                and '0' otherwise.</p><p>Choose which circuit above would send a '1' value alarm only when both <u>the window is open</u> and <u>there is motion detected</u>.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/base_circuits.png
+OPTION,0,E,HTML
+OPTION,100,B,HTML
+OPTION,0,F,HTML
+OPTION,0,C,HTML
+OPTION,0,A,HTML
+OPTION,0,D,HTML
+
+
+NewQuestion,MC
+Title,Choose basic circuit
+QuestionText,"<p>The <i>safety circuit</i> from the previous question has two inputs:</p><p><b>X:</b>    A <b><u>window open signal</u></b>, which is '1' if                the window is open, and '0' if it is closed.</p><p><b>Y:</b>    A <b><u>motion detection signal</u></b>, which is '1' when motion is detected inside the room,                and '0' otherwise.</p><p>Choose which circuit above would send a '1' value alarm only when both <u>the window is closed</u> and <u>no motion is detected</u>.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/base_circuits.png
+OPTION,0,B,HTML
+OPTION,0,F,HTML
+OPTION,0,C,HTML
+OPTION,0,E,HTML
+OPTION,100,D,HTML
+OPTION,0,A,HTML
+
+
+NewQuestion,MC
+Title,Choose basic circuit
+QuestionText,"<p>The <i>safety circuit</i> from the previous question has two inputs:</p><p><b>X:</b>    A <b><u>window open signal</u></b>, which is '1' if                the window is open, and '0' if it is closed.</p><p><b>Y:</b>    A <b><u>motion detection signal</u></b>, which is '1' when motion is detected inside the room,                and '0' otherwise.</p><p>Choose which circuit above would send a '1' value alarm when there is at least <u>a window is open</u> or <u>there is motion detected</u>.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/base_circuits.png
+OPTION,0,A,HTML
+OPTION,0,E,HTML
+OPTION,0,B,HTML
+OPTION,0,D,HTML
+OPTION,0,C,HTML
+OPTION,100,F,HTML
+
+

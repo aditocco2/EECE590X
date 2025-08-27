@@ -1,0 +1,650 @@
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = abc + d'e'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(a+b'+c)(d'+e'),HTML
+OPTION,0,(a+b'+c)(d+e),HTML
+OPTION,100,(a'+b'+c')(d+e),HTML
+OPTION,0,ab'c + d'e,HTML
+OPTION,0,a'bc' + d'e',HTML
+OPTION,0,(a'+b+c')(d+e),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = vw'x + y'z'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,v'wx' + yz',HTML
+OPTION,100,(v'+w+x')(y+z),HTML
+OPTION,0,v'w'x' + yz,HTML
+OPTION,0,(v+w'+x)(y+z),HTML
+OPTION,0,(v'+w+x')(y'+z'),HTML
+OPTION,0,(v'+w'+x')(y+z),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (g+h'+i)(j'+k)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(g+h'+i)(j+k),HTML
+OPTION,0,(g'+h+i')(j+k'),HTML
+OPTION,0,(g+h'+i)(j'+k'),HTML
+OPTION,0,g'hi' + jk,HTML
+OPTION,0,gh'i + j'k',HTML
+OPTION,100,g'hi' + jk',HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = vw'x + y'z'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,v'wx' + y'z',HTML
+OPTION,0,vw'x + y'z',HTML
+OPTION,0,(v+w'+x)(y+z),HTML
+OPTION,100,(v'+w+x')(y+z),HTML
+OPTION,0,(v+w'+x)(y'+z),HTML
+OPTION,0,(v'+w+x')(y'+z'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = g'hi' + jk? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(g+h'+i)(j'+k),HTML
+OPTION,0,gh'i + j'k,HTML
+OPTION,0,ghi + j'k',HTML
+OPTION,0,g'hi' + jk,HTML
+OPTION,100,(g+h'+i)(j'+k'),HTML
+OPTION,0,g'hi' + j'k',HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (a'+b'+c')(d+e)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(a+b'+c)(d+e),HTML
+OPTION,0,(a'+b+c')(d+e'),HTML
+OPTION,0,ab'c + d'e,HTML
+OPTION,0,a'b'c' + de,HTML
+OPTION,0,(a'+b+c')(d+e),HTML
+OPTION,100,abc + d'e',HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = a'bc' + de? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(a'+b+c')(d'+e'),HTML
+OPTION,0,(a+b+c)(d'+e'),HTML
+OPTION,0,a'bc' + de',HTML
+OPTION,0,(a'+b'+c')(d+e),HTML
+OPTION,0,ab'c + de,HTML
+OPTION,100,(a+b'+c)(d'+e'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = v'w'x' + yz? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(v+w'+x)(y'+z'),HTML
+OPTION,100,(v+w+x)(y'+z'),HTML
+OPTION,0,v'wx' + y'z',HTML
+OPTION,0,vw'x + yz,HTML
+OPTION,0,(v'+w+x')(y+z'),HTML
+OPTION,0,vw'x + y'z',HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = v'wx' + yz'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(v'+w+x')(y'+z'),HTML
+OPTION,0,v'wx' + y'z',HTML
+OPTION,0,v'wx' + yz,HTML
+OPTION,0,(v'+w+x')(y+z),HTML
+OPTION,0,vw'x + y'z,HTML
+OPTION,100,(v+w'+x)(y'+z),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (g+h'+i)(j+k)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(g'+h'+i')(j+k),HTML
+OPTION,100,g'hi' + j'k',HTML
+OPTION,0,(g'+h+i')(j+k'),HTML
+OPTION,0,gh'i + j'k,HTML
+OPTION,0,ghi + j'k',HTML
+OPTION,0,(g+h'+i)(j+k),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (g+h'+i)(j'+k)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,gh'i + j'k',HTML
+OPTION,0,(g'+h+i')(j+k),HTML
+OPTION,100,g'hi' + jk',HTML
+OPTION,0,g'hi' + jk,HTML
+OPTION,0,(g'+h+i')(j'+k'),HTML
+OPTION,0,(g+h'+i)(j'+k),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = ab'c + d'e? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,a'b'c' + de,HTML
+OPTION,100,(a'+b+c')(d+e'),HTML
+OPTION,0,(a+b'+c)(d+e),HTML
+OPTION,0,(a+b+c)(d'+e'),HTML
+OPTION,0,a'bc' + d'e',HTML
+OPTION,0,ab'c + de,HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = ab'c + d'e'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,a'bc' + de',HTML
+OPTION,0,ab'c + de,HTML
+OPTION,0,(a+b+c)(d'+e'),HTML
+OPTION,0,ab'c + d'e,HTML
+OPTION,100,(a'+b+c')(d+e),HTML
+OPTION,0,(a+b'+c)(d'+e'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (a+b'+c)(d'+e)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,100,a'bc' + de',HTML
+OPTION,0,a'bc' + de,HTML
+OPTION,0,(a+b+c)(d'+e'),HTML
+OPTION,0,(a+b'+c)(d'+e),HTML
+OPTION,0,ab'c + de,HTML
+OPTION,0,a'b'c' + de,HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (v+w+x)(y'+z')? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(v'+w+x')(y+z'),HTML
+OPTION,100,v'w'x' + yz,HTML
+OPTION,0,v'wx' + yz,HTML
+OPTION,0,v'wx' + y'z',HTML
+OPTION,0,(v'+w'+x')(y+z),HTML
+OPTION,0,(v+w'+x)(y'+z'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (v+w'+x)(y+z)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(v+w+x)(y'+z'),HTML
+OPTION,0,(v+w'+x)(y'+z),HTML
+OPTION,0,vw'x + y'z',HTML
+OPTION,0,v'wx' + yz,HTML
+OPTION,100,v'wx' + y'z',HTML
+OPTION,0,(v+w'+x)(y'+z'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = vw'x + yz? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(v+w'+x)(y'+z),HTML
+OPTION,100,(v'+w+x')(y'+z'),HTML
+OPTION,0,(v'+w'+x')(y+z),HTML
+OPTION,0,(v'+w+x')(y+z'),HTML
+OPTION,0,(v+w'+x)(y'+z'),HTML
+OPTION,0,(v+w'+x)(y+z),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (v+w'+x)(y'+z')? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,100,v'wx' + yz,HTML
+OPTION,0,(v+w'+x)(y'+z),HTML
+OPTION,0,(v'+w'+x')(y+z),HTML
+OPTION,0,(v'+w+x')(y'+z'),HTML
+OPTION,0,v'wx' + yz',HTML
+OPTION,0,vw'x + y'z',HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = v'wx' + y'z'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(v'+w'+x')(y+z),HTML
+OPTION,0,vw'x + y'z,HTML
+OPTION,100,(v+w'+x)(y+z),HTML
+OPTION,0,v'wx' + y'z',HTML
+OPTION,0,v'w'x' + yz,HTML
+OPTION,0,(v'+w+x')(y'+z'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = ghi + j'k'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,100,(g'+h'+i')(j+k),HTML
+OPTION,0,(g+h'+i)(j'+k'),HTML
+OPTION,0,ghi + j'k',HTML
+OPTION,0,gh'i + j'k',HTML
+OPTION,0,(g+h'+i)(j+k),HTML
+OPTION,0,g'hi' + jk,HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (v+w'+x)(y+z)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,v'w'x' + yz,HTML
+OPTION,100,v'wx' + y'z',HTML
+OPTION,0,(v+w'+x)(y'+z'),HTML
+OPTION,0,(v+w+x)(y'+z'),HTML
+OPTION,0,(v'+w+x')(y+z),HTML
+OPTION,0,(v'+w+x')(y'+z'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = vw'x + y'z'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(v'+w+x')(y+z'),HTML
+OPTION,0,vw'x + y'z',HTML
+OPTION,100,(v'+w+x')(y+z),HTML
+OPTION,0,v'w'x' + yz,HTML
+OPTION,0,(v+w'+x)(y'+z'),HTML
+OPTION,0,(v+w'+x)(y+z),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = a'b'c' + de? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,100,(a+b+c)(d'+e'),HTML
+OPTION,0,a'bc' + de,HTML
+OPTION,0,(a+b'+c)(d+e),HTML
+OPTION,0,(a+b'+c)(d'+e'),HTML
+OPTION,0,a'b'c' + de,HTML
+OPTION,0,(a'+b+c')(d+e),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = vw'x + yz? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,v'w'x' + yz,HTML
+OPTION,0,vwx + y'z',HTML
+OPTION,0,vw'x + yz,HTML
+OPTION,0,v'wx' + yz',HTML
+OPTION,100,(v'+w+x')(y'+z'),HTML
+OPTION,0,(v+w'+x)(y'+z'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = ghi + j'k'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(g+h'+i)(j'+k'),HTML
+OPTION,0,gh'i + j'k',HTML
+OPTION,0,gh'i + jk,HTML
+OPTION,0,g'hi' + jk,HTML
+OPTION,100,(g'+h'+i')(j+k),HTML
+OPTION,0,ghi + j'k',HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (a+b'+c)(d+e)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,a'bc' + de',HTML
+OPTION,100,a'bc' + d'e',HTML
+OPTION,0,ab'c + d'e',HTML
+OPTION,0,a'bc' + de,HTML
+OPTION,0,(a+b'+c)(d'+e'),HTML
+OPTION,0,(a'+b+c')(d'+e'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (a'+b+c')(d+e')? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(a'+b'+c')(d+e),HTML
+OPTION,0,ab'c + d'e',HTML
+OPTION,0,ab'c + de,HTML
+OPTION,0,a'bc' + de',HTML
+OPTION,0,a'b'c' + de,HTML
+OPTION,100,ab'c + d'e,HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (a'+b'+c')(d+e)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(a'+b+c')(d+e'),HTML
+OPTION,0,ab'c + d'e,HTML
+OPTION,0,(a+b'+c)(d'+e'),HTML
+OPTION,100,abc + d'e',HTML
+OPTION,0,(a+b'+c)(d'+e),HTML
+OPTION,0,a'b'c' + de,HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = v'wx' + y'z'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,v'w'x' + yz,HTML
+OPTION,0,(v+w'+x)(y'+z'),HTML
+OPTION,0,(v'+w+x')(y+z),HTML
+OPTION,0,v'wx' + yz,HTML
+OPTION,100,(v+w'+x)(y+z),HTML
+OPTION,0,(v'+w+x')(y'+z'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (v+w+x)(y'+z')? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,vw'x + y'z,HTML
+OPTION,0,(v+w'+x)(y'+z),HTML
+OPTION,0,vwx + y'z',HTML
+OPTION,0,(v'+w'+x')(y+z),HTML
+OPTION,0,(v+w'+x)(y+z),HTML
+OPTION,100,v'w'x' + yz,HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = gh'i + j'k? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(g+h+i)(j'+k'),HTML
+OPTION,0,ghi + j'k',HTML
+OPTION,0,(g'+h+i')(j'+k'),HTML
+OPTION,100,(g'+h+i')(j+k'),HTML
+OPTION,0,g'hi' + jk,HTML
+OPTION,0,(g+h'+i)(j+k),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (v+w'+x)(y'+z')? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,vw'x + y'z,HTML
+OPTION,0,(v'+w+x')(y+z'),HTML
+OPTION,0,(v+w'+x)(y'+z'),HTML
+OPTION,0,vw'x + y'z',HTML
+OPTION,100,v'wx' + yz,HTML
+OPTION,0,(v+w'+x)(y+z),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = a'bc' + d'e'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,ab'c + de,HTML
+OPTION,0,ab'c + d'e,HTML
+OPTION,0,a'bc' + de',HTML
+OPTION,100,(a+b'+c)(d+e),HTML
+OPTION,0,(a'+b+c')(d+e'),HTML
+OPTION,0,a'b'c' + de,HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = v'w'x' + yz? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,vw'x + y'z,HTML
+OPTION,0,v'wx' + y'z',HTML
+OPTION,100,(v+w+x)(y'+z'),HTML
+OPTION,0,vw'x + yz,HTML
+OPTION,0,v'wx' + yz',HTML
+OPTION,0,v'wx' + yz,HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = gh'i + j'k? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(g+h'+i)(j'+k),HTML
+OPTION,0,g'hi' + jk',HTML
+OPTION,100,(g'+h+i')(j+k'),HTML
+OPTION,0,ghi + j'k',HTML
+OPTION,0,(g'+h+i')(j'+k'),HTML
+OPTION,0,g'hi' + j'k',HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = gh'i + j'k'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,100,(g'+h+i')(j+k),HTML
+OPTION,0,(g+h+i)(j'+k'),HTML
+OPTION,0,(g+h'+i)(j'+k),HTML
+OPTION,0,(g+h'+i)(j+k),HTML
+OPTION,0,ghi + j'k',HTML
+OPTION,0,gh'i + j'k,HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (g'+h'+i')(j+k)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,gh'i + jk,HTML
+OPTION,0,g'hi' + jk,HTML
+OPTION,100,ghi + j'k',HTML
+OPTION,0,(g'+h'+i')(j+k),HTML
+OPTION,0,g'h'i' + jk,HTML
+OPTION,0,(g+h'+i)(j+k),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = g'hi' + jk'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(g'+h+i')(j+k'),HTML
+OPTION,0,g'hi' + jk,HTML
+OPTION,100,(g+h'+i)(j'+k),HTML
+OPTION,0,g'hi' + j'k',HTML
+OPTION,0,(g+h'+i)(j'+k'),HTML
+OPTION,0,(g'+h'+i')(j+k),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = a'b'c' + de? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,ab'c + d'e,HTML
+OPTION,0,(a+b'+c)(d+e),HTML
+OPTION,0,a'b'c' + de,HTML
+OPTION,0,(a'+b+c')(d'+e'),HTML
+OPTION,0,(a'+b+c')(d+e),HTML
+OPTION,100,(a+b+c)(d'+e'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = gh'i + j'k? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,g'hi' + j'k',HTML
+OPTION,0,gh'i + j'k,HTML
+OPTION,0,g'hi' + jk',HTML
+OPTION,0,(g'+h+i')(j+k),HTML
+OPTION,0,g'h'i' + jk,HTML
+OPTION,100,(g'+h+i')(j+k'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (v+w'+x)(y+z)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,vw'x + y'z,HTML
+OPTION,0,(v+w'+x)(y'+z),HTML
+OPTION,0,v'w'x' + yz,HTML
+OPTION,0,(v+w'+x)(y'+z'),HTML
+OPTION,0,vwx + y'z',HTML
+OPTION,100,v'wx' + y'z',HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = v'wx' + yz'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,v'w'x' + yz,HTML
+OPTION,0,vw'x + y'z,HTML
+OPTION,0,(v+w'+x)(y+z),HTML
+OPTION,100,(v+w'+x)(y'+z),HTML
+OPTION,0,vwx + y'z',HTML
+OPTION,0,v'wx' + y'z',HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (a'+b'+c')(d+e)? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(a'+b+c')(d+e),HTML
+OPTION,0,a'bc' + d'e',HTML
+OPTION,0,(a+b'+c)(d+e),HTML
+OPTION,0,a'bc' + de,HTML
+OPTION,0,(a+b+c)(d'+e'),HTML
+OPTION,100,abc + d'e',HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = abc + d'e'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(a+b'+c)(d'+e'),HTML
+OPTION,0,(a'+b+c')(d'+e'),HTML
+OPTION,0,(a'+b+c')(d+e),HTML
+OPTION,0,(a+b'+c)(d'+e),HTML
+OPTION,0,abc + d'e',HTML
+OPTION,100,(a'+b'+c')(d+e),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = v'wx' + y'z'? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(v+w'+x)(y'+z),HTML
+OPTION,0,vw'x + yz,HTML
+OPTION,0,v'wx' + yz,HTML
+OPTION,0,v'wx' + yz',HTML
+OPTION,0,v'wx' + y'z',HTML
+OPTION,100,(v+w'+x)(y+z),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = gh'i + jk? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,(g+h+i)(j'+k'),HTML
+OPTION,0,(g'+h'+i')(j+k),HTML
+OPTION,0,(g+h'+i)(j'+k'),HTML
+OPTION,0,(g'+h+i')(j+k'),HTML
+OPTION,0,gh'i + j'k',HTML
+OPTION,100,(g'+h+i')(j'+k'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = vw'x + y'z? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,vw'x + y'z,HTML
+OPTION,0,v'wx' + y'z',HTML
+OPTION,0,(v'+w'+x')(y+z),HTML
+OPTION,0,v'w'x' + yz,HTML
+OPTION,100,(v'+w+x')(y+z'),HTML
+OPTION,0,(v+w'+x)(y'+z'),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = g'h'i' + jk? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,ghi + j'k',HTML
+OPTION,0,gh'i + jk,HTML
+OPTION,0,gh'i + j'k',HTML
+OPTION,0,g'hi' + jk,HTML
+OPTION,100,(g+h+i)(j'+k'),HTML
+OPTION,0,(g+h'+i)(j+k),HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = v'wx' + yz? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,v'wx' + yz',HTML
+OPTION,100,(v+w'+x)(y'+z'),HTML
+OPTION,0,vw'x + yz,HTML
+OPTION,0,v'wx' + y'z',HTML
+OPTION,0,vwx + y'z',HTML
+OPTION,0,vw'x + y'z',HTML
+
+
+NewQuestion,MC
+Title,"Applying DeMorgan's theorem to F, MC"
+QuestionText,"<p>Which expression is the correct <i>DeMorgan's complement</i> of the function F = (v+w'+x)(y'+z')? In other words, which expression could be obtained by applying onlyDeMorgan's theorem to F?</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,vw'x + yz,HTML
+OPTION,0,v'w'x' + yz,HTML
+OPTION,0,vwx + y'z',HTML
+OPTION,0,v'wx' + yz',HTML
+OPTION,0,(v+w'+x)(y'+z),HTML
+OPTION,100,v'wx' + yz,HTML
+
+

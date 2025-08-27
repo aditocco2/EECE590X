@@ -1,0 +1,450 @@
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3529 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,dc9,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*dc9\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1630 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,65e,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*65e\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 2915 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,b63,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*b63\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3960 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,f78,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*f78\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 2922 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,b6a,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*b6a\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3118 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,c2e,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*c2e\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3266 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,cc2,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*cc2\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1600 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,640,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*640\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1810 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,712,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*712\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 2739 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,ab3,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*ab3\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1345 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,541,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*541\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 2214 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8a6,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*8a6\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 354 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,162,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*162\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1056 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,420,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*420\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 2158 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,86e,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*86e\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3653 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,e45,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*e45\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3035 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,bdb,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*bdb\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 2133 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,855,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*855\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3464 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,d88,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*d88\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3742 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,e9e,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*e9e\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3517 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,dbd,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*dbd\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1318 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,526,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*526\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1032 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,408,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*408\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 2792 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,ae8,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*ae8\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1033 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,409,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*409\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1815 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,717,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*717\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1868 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,74c,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*74c\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 318 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,13e,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*13e\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 886 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,376,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*376\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 311 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,137,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*137\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 786 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,312,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*312\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 496 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1f0,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*1f0\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1474 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5c2,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*5c2\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3335 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,d07,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*d07\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1315 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,523,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*523\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 1712 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6b0,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*6b0\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 2040 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7f8,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*7f8\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 2323 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,913,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*913\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3635 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,e33,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*e33\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 4019 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,fb3,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*fb3\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3057 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,bf1,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*bf1\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 2161 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,871,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*871\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3651 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,e43,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*e43\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 58 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,3a,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*3a\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3354 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,d1a,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*d1a\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 819 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,333,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*333\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 341 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,155,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*155\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 694 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,2b6,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*2b6\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3693 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,e6d,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*e6d\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert dec to hex, SA"
+QuestionText,Convert the decimal number 3038 into hexadecimal (base 16).,NOT HTML
+Points,10
+Difficulty,1
+Feedback,bde,NOT HTML
+ANSWER,100,(?i)^\s*(0x)?0*bde\s*$,regexp
+
+

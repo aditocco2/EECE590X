@@ -1,0 +1,400 @@
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value aab into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2731\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 9a3 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2467\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 31f into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*799\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 3d5 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*981\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value b74 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2932\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value bd into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*189\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 7ef into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2031\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 91a into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2330\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value b73 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2931\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value edc into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*3804\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value a29 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2601\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 2a4 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*676\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 5a0 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1440\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 6bb into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1723\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value de6 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*3558\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value f99 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*3993\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value e3e into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*3646\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value b4d into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2893\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value cad into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*3245\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 9a3 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2467\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 84d into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2125\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 36b into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*875\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 3ef into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1007\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value a9f into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2719\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 563 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1379\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 7bc into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1980\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 9f4 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2548\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 6da into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1754\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 923 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2339\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value f9 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*249\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value cef into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*3311\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value cff into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*3327\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 153 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*339\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value c8c into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*3212\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 3f3 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1011\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 66f into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1647\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value f6 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*246\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 437 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1079\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value aa1 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2721\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 530 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1328\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 409 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1033\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 72e into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1838\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 969 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2409\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 33a into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*826\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value eb4 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*3764\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value e62 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*3682\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 3e2 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*994\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value b81 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*2945\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 715 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1813\s*$,regexp
+
+
+NewQuestion,SA
+Title,"Convert hex to decimal, SA"
+QuestionText,Convert the hexadecimal value 776 into base 10 (decimal).,NOT HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*0*1910\s*$,regexp
+
+

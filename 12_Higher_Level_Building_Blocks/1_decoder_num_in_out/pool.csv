@@ -1,0 +1,270 @@
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 2 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,4
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 4 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,2,NOT HTML
+ANSWER,100,2
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 3 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,8
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 8 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,3,NOT HTML
+ANSWER,100,3
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 4 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,16,NOT HTML
+ANSWER,100,16
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 16 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,4
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 5 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,32,NOT HTML
+ANSWER,100,32
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 32 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,5
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 6 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,64,NOT HTML
+ANSWER,100,64
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 64 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,6
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 7 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,128,NOT HTML
+ANSWER,100,128
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 128 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,7
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 8 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,256,NOT HTML
+ANSWER,100,256
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 256 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,8
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 9 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,512,NOT HTML
+ANSWER,100,512
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 512 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,9,NOT HTML
+ANSWER,100,9
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 10 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1024,NOT HTML
+ANSWER,100,1024
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 1024 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10,NOT HTML
+ANSWER,100,10
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 11 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,2048,NOT HTML
+ANSWER,100,2048
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 2048 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11,NOT HTML
+ANSWER,100,11
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 12 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4096,NOT HTML
+ANSWER,100,4096
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 4096 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,12,NOT HTML
+ANSWER,100,12
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 13 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8192,NOT HTML
+ANSWER,100,8192
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 8192 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,13,NOT HTML
+ANSWER,100,13
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 14 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,16384,NOT HTML
+ANSWER,100,16384
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 16384 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,14,NOT HTML
+ANSWER,100,14
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 15 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,32768,NOT HTML
+ANSWER,100,32768
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 32768 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,15,NOT HTML
+ANSWER,100,15
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many output bits does a decoder with 16 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,65536,NOT HTML
+ANSWER,100,65536
+
+
+NewQuestion,SA
+Title,"decoder_num_in_out, SA"
+QuestionText,How many input bits does a decoder with 65536 output bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,16,NOT HTML
+ANSWER,100,16
+
+

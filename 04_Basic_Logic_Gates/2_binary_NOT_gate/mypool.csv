@@ -1,0 +1,450 @@
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00111011 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11000100,NOT HTML
+ANSWER,100,(?i)(0b)?11000100,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00101111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11010000,NOT HTML
+ANSWER,100,(?i)(0b)?11010000,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00101100 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11010011,NOT HTML
+ANSWER,100,(?i)(0b)?11010011,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 01100011 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10011100,NOT HTML
+ANSWER,100,(?i)(0b)?10011100,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10001110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01110001,NOT HTML
+ANSWER,100,(?i)(0b)?01110001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11000110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00111001,NOT HTML
+ANSWER,100,(?i)(0b)?00111001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00011011 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11100100,NOT HTML
+ANSWER,100,(?i)(0b)?11100100,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 01011101 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10100010,NOT HTML
+ANSWER,100,(?i)(0b)?10100010,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11111100 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00000011,NOT HTML
+ANSWER,100,(?i)(0b)?00000011,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11100110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00011001,NOT HTML
+ANSWER,100,(?i)(0b)?00011001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 01101100 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10010011,NOT HTML
+ANSWER,100,(?i)(0b)?10010011,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 01110000 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10001111,NOT HTML
+ANSWER,100,(?i)(0b)?10001111,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 01111111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10000000,NOT HTML
+ANSWER,100,(?i)(0b)?10000000,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00110011 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11001100,NOT HTML
+ANSWER,100,(?i)(0b)?11001100,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00111111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11000000,NOT HTML
+ANSWER,100,(?i)(0b)?11000000,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00101110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11010001,NOT HTML
+ANSWER,100,(?i)(0b)?11010001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10010000 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01101111,NOT HTML
+ANSWER,100,(?i)(0b)?01101111,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11001010 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00110101,NOT HTML
+ANSWER,100,(?i)(0b)?00110101,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00111101 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11000010,NOT HTML
+ANSWER,100,(?i)(0b)?11000010,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11111111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00000000,NOT HTML
+ANSWER,100,(?i)(0b)?00000000,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11110010 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00001101,NOT HTML
+ANSWER,100,(?i)(0b)?00001101,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10111111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01000000,NOT HTML
+ANSWER,100,(?i)(0b)?01000000,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 01110110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10001001,NOT HTML
+ANSWER,100,(?i)(0b)?10001001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 01110100 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10001011,NOT HTML
+ANSWER,100,(?i)(0b)?10001011,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10001001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01110110,NOT HTML
+ANSWER,100,(?i)(0b)?01110110,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00011110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11100001,NOT HTML
+ANSWER,100,(?i)(0b)?11100001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11001010 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00110101,NOT HTML
+ANSWER,100,(?i)(0b)?00110101,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00010110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11101001,NOT HTML
+ANSWER,100,(?i)(0b)?11101001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11101011 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00010100,NOT HTML
+ANSWER,100,(?i)(0b)?00010100,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00101110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11010001,NOT HTML
+ANSWER,100,(?i)(0b)?11010001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11000100 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00111011,NOT HTML
+ANSWER,100,(?i)(0b)?00111011,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10001111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01110000,NOT HTML
+ANSWER,100,(?i)(0b)?01110000,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 01010010 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10101101,NOT HTML
+ANSWER,100,(?i)(0b)?10101101,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10001001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01110110,NOT HTML
+ANSWER,100,(?i)(0b)?01110110,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00111101 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11000010,NOT HTML
+ANSWER,100,(?i)(0b)?11000010,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10001001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01110110,NOT HTML
+ANSWER,100,(?i)(0b)?01110110,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10101110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01010001,NOT HTML
+ANSWER,100,(?i)(0b)?01010001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11000110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00111001,NOT HTML
+ANSWER,100,(?i)(0b)?00111001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11111001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00000110,NOT HTML
+ANSWER,100,(?i)(0b)?00000110,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10111011 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01000100,NOT HTML
+ANSWER,100,(?i)(0b)?01000100,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10001010 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01110101,NOT HTML
+ANSWER,100,(?i)(0b)?01110101,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00001101 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11110010,NOT HTML
+ANSWER,100,(?i)(0b)?11110010,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00001110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11110001,NOT HTML
+ANSWER,100,(?i)(0b)?11110001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10001110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01110001,NOT HTML
+ANSWER,100,(?i)(0b)?01110001,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10111111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01000000,NOT HTML
+ANSWER,100,(?i)(0b)?01000000,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10110001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01001110,NOT HTML
+ANSWER,100,(?i)(0b)?01001110,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11011100 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00100011,NOT HTML
+ANSWER,100,(?i)(0b)?00100011,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 11000111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00111000,NOT HTML
+ANSWER,100,(?i)(0b)?00111000,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 10110111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01001000,NOT HTML
+ANSWER,100,(?i)(0b)?01001000,regexp
+
+
+NewQuestion,SA
+Title,binary_not_gate
+QuestionText,What is the result of NOT 00111000 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11000111,NOT HTML
+ANSWER,100,(?i)(0b)?11000111,regexp
+
+

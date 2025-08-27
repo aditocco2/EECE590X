@@ -1,0 +1,450 @@
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 10001010 OR 01111000 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111010,NOT HTML
+ANSWER,100,(?i)(0b)?11111010,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 10110000 OR 11010000 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11110000,NOT HTML
+ANSWER,100,(?i)(0b)?11110000,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01111111 OR 10111000 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111111,NOT HTML
+ANSWER,100,(?i)(0b)?11111111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00101010 OR 01001001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01101011,NOT HTML
+ANSWER,100,(?i)(0b)?01101011,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00111001 OR 11010011 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111011,NOT HTML
+ANSWER,100,(?i)(0b)?11111011,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00011011 OR 00101111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00111111,NOT HTML
+ANSWER,100,(?i)(0b)?00111111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01110111 OR 10110010 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11110111,NOT HTML
+ANSWER,100,(?i)(0b)?11110111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00011010 OR 00101001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00111011,NOT HTML
+ANSWER,100,(?i)(0b)?00111011,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 10111000 OR 01000110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111110,NOT HTML
+ANSWER,100,(?i)(0b)?11111110,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01001101 OR 11001001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11001101,NOT HTML
+ANSWER,100,(?i)(0b)?11001101,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 11110001 OR 11101110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111111,NOT HTML
+ANSWER,100,(?i)(0b)?11111111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 10000111 OR 11110111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11110111,NOT HTML
+ANSWER,100,(?i)(0b)?11110111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00101110 OR 10100110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10101110,NOT HTML
+ANSWER,100,(?i)(0b)?10101110,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01110111 OR 11101101 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111111,NOT HTML
+ANSWER,100,(?i)(0b)?11111111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 11010011 OR 11101010 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111011,NOT HTML
+ANSWER,100,(?i)(0b)?11111011,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 11111100 OR 10011100 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111100,NOT HTML
+ANSWER,100,(?i)(0b)?11111100,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01111011 OR 11110111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111111,NOT HTML
+ANSWER,100,(?i)(0b)?11111111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 10010011 OR 11000000 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11010011,NOT HTML
+ANSWER,100,(?i)(0b)?11010011,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01100110 OR 10100111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11100111,NOT HTML
+ANSWER,100,(?i)(0b)?11100111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00101100 OR 10100001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10101101,NOT HTML
+ANSWER,100,(?i)(0b)?10101101,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00000100 OR 11101101 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11101101,NOT HTML
+ANSWER,100,(?i)(0b)?11101101,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00101011 OR 11010110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111111,NOT HTML
+ANSWER,100,(?i)(0b)?11111111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 10001110 OR 00101001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10101111,NOT HTML
+ANSWER,100,(?i)(0b)?10101111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01101111 OR 01100000 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01101111,NOT HTML
+ANSWER,100,(?i)(0b)?01101111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 11111001 OR 11010001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111001,NOT HTML
+ANSWER,100,(?i)(0b)?11111001,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01011000 OR 11101101 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111101,NOT HTML
+ANSWER,100,(?i)(0b)?11111101,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01111001 OR 01001011 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01111011,NOT HTML
+ANSWER,100,(?i)(0b)?01111011,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00010000 OR 00100000 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00110000,NOT HTML
+ANSWER,100,(?i)(0b)?00110000,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01001110 OR 11010111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11011111,NOT HTML
+ANSWER,100,(?i)(0b)?11011111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 11101101 OR 00111000 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111101,NOT HTML
+ANSWER,100,(?i)(0b)?11111101,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00100001 OR 01000011 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01100011,NOT HTML
+ANSWER,100,(?i)(0b)?01100011,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00100101 OR 11010001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11110101,NOT HTML
+ANSWER,100,(?i)(0b)?11110101,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00101100 OR 01011100 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01111100,NOT HTML
+ANSWER,100,(?i)(0b)?01111100,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01111100 OR 11101001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111101,NOT HTML
+ANSWER,100,(?i)(0b)?11111101,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01000001 OR 11000110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11000111,NOT HTML
+ANSWER,100,(?i)(0b)?11000111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 10110100 OR 10101111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10111111,NOT HTML
+ANSWER,100,(?i)(0b)?10111111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00010010 OR 11000110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11010110,NOT HTML
+ANSWER,100,(?i)(0b)?11010110,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 11100000 OR 11100011 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11100011,NOT HTML
+ANSWER,100,(?i)(0b)?11100011,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 11110100 OR 10010001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11110101,NOT HTML
+ANSWER,100,(?i)(0b)?11110101,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00010101 OR 01110110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01110111,NOT HTML
+ANSWER,100,(?i)(0b)?01110111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 10011101 OR 11000010 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11011111,NOT HTML
+ANSWER,100,(?i)(0b)?11011111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 11111000 OR 01011111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111111,NOT HTML
+ANSWER,100,(?i)(0b)?11111111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00011010 OR 01110110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01111110,NOT HTML
+ANSWER,100,(?i)(0b)?01111110,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 10001100 OR 10111110 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10111110,NOT HTML
+ANSWER,100,(?i)(0b)?10111110,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00110000 OR 00000111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00110111,NOT HTML
+ANSWER,100,(?i)(0b)?00110111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01101010 OR 11000111 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11101111,NOT HTML
+ANSWER,100,(?i)(0b)?11101111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 11111011 OR 10101101 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11111111,NOT HTML
+ANSWER,100,(?i)(0b)?11111111,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 100000000 OR 10010000 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,110010000,NOT HTML
+ANSWER,100,(?i)(0b)?110010000,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 01110100 OR 00110001 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,01110101,NOT HTML
+ANSWER,100,(?i)(0b)?01110101,regexp
+
+
+NewQuestion,SA
+Title,binary_or_gate
+QuestionText,What is the result of 00010100 OR 00100100 in binary? Enter your solution as 8 bits without spaces.,NOT HTML
+Points,10
+Difficulty,1
+Feedback,00110100,NOT HTML
+ANSWER,100,(?i)(0b)?00110100,regexp
+
+

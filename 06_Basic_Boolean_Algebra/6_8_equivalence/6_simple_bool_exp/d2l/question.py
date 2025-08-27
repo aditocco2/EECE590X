@@ -1,0 +1,187 @@
+#!/bin/python -B
+#Doug Summerville, Binghamton University
+#BlackBoard Question Classes
+
+from random import shuffle
+import re
+from .sigfigs import regex_match_significant_digits
+
+def html_attribute(text):
+    is_html=re.compile("</?\s*[a-z-][^>]*\s*>|(\&(?:[\w\d]+|#\d+|#x[a-f\d]+);)")
+    if is_html.match(text):
+        return "HTML"
+    else:
+        return "NOT HTML"
+
+class Question(object):
+    def __init__(self,qtype="",title="",text="",points=10,difficulty=1):
+        self.set_type(qtype)
+        self.set_title(title)
+        self.set_question_text(text)
+        self.set_points(points)
+        self.set_difficulty(difficulty)
+        self.answers=[]
+        self.shuffle=False;
+
+    def add_image(self,image):
+        self.Image=(image)
+
+    def add_hint(self,text):
+        self.Hint=(text,html_attribute(text))
+
+    def add_feedback(self,text):
+        self.Feedback=(text,html_attribute(text))
+
+    def set_title(self,title):
+        self.Title=(title)
+
+    def title(self):
+        return self.Title
+
+    def set_type(self,qtype):
+        assert( qtype in {"TF","MC","SA","NSA","M","MS"} )
+        self.NewQuestion=qtype
+
+    def type(self):
+        return self.NewQuestion
+
+    def set_question_text(self,text):
+        self.QuestionText=(text,html_attribute(text))
+
+    def text(self):
+        return self.QuestionText
+
+    def set_points(self,points):
+        self.Points=points
+
+    def points(self):
+        return self.Points
+
+    def set_difficulty(self,difficulty):
+        self.Difficulty=difficulty
+
+    def difficulty(self):
+        return self.Difficulty
+
+    def dump(self):
+        for m in ("NewQuestion","Title","QuestionText","Points","Difficulty","Image","shuffle"):
+            if not hasattr(self,m):
+                continue
+            print(m,": ",getattr(self,m))
+        for a in self.answers:
+            print(a)
+
+    def write_to_csv(self,writer,title=""):
+        if title != "":
+            self.set_title(title)
+        for m in ("NewQuestion","Title","QuestionText","Points","Difficulty","Image","Hint","Feedback"):
+            if m == "answers":
+                continue
+            if not hasattr(self,m):
+                continue
+            if type(getattr(self,m)) is tuple:
+                writer.writerow([m]+list(getattr(self,m)))
+            else:
+                writer.writerow([m]+[getattr(self,m)])
+        if self.shuffle:
+            shuffle(self.answers)
+        for a in self.answers:
+            writer.writerow(a)
+        writer.writerow([])
+
+    def checks_out(self):
+        if not self.answers: #has at least one answer
+            return False
+        return True
+
+class TFQuestion(Question):
+    def __init__(self,text="",points=10,difficulty=1,title=""):
+        super().__init__("TF",title,text,points,difficulty)
+    def add_answer(self,value=True,incorrect_percent=0):
+        if value is True:
+            self.answers.append(("TRUE",100))
+            self.answers.append(("FALSE",incorrect_percent))
+        else:
+            self.answers.append(("TRUE",incorrect_percent))
+            self.answers.append(("FALSE",100))
+
+#todo verify that one answer is 100 and others are 0-99
+class MCQuestion(Question):
+    def __init__(self,text="",points=10,difficulty=1,title="",shuffle=True):
+        super().__init__("MC",title,text,points,difficulty)
+        if shuffle:
+            self.shuffle=True
+    def add_answer(self,text="",points=0):
+            self.answers.append(("OPTION",points,text,"HTML"))
+
+#todo verify that one answer is 100 and others are 0-99
+class MSQuestion(Question):
+    def __init__(self,text="",points=10,difficulty=1,title="",shuffle=True):
+        super().__init__("MS",title,text,points,difficulty)
+        if shuffle:
+            self.shuffle=True
+    def add_answer(self,text="",is_correct=True):
+            self.answers.append(("OPTION",1 if is_correct else 0,text,"HTML"))
+
+class SAQuestion(Question):
+    def __init__(self,text="",points=10,difficulty=1,title=""):
+        super().__init__("SA",title,text,points,difficulty)
+    def add_answer(self,text="",points=100,is_regex=False):
+        if is_regex:
+            self.answers.append(("ANSWER",points,text,"regexp"))
+        else:
+            self.answers.append(("ANSWER",points,text))
+
+class NSAQuestion(Question):
+    def __init__(self,text="",points=10,difficulty=1,title=""):
+        super().__init__("NSA",title,text,points,difficulty)
+    def add_answer(self,value=1.0, sigfigs=2, exact=False ,points=100):
+            text = regex_match_significant_digits(value, sigfigs, exact )
+            self.answers.append(("ANSWER",points,text,"regexp"))
+
+class MQuestion(Question):
+    def __init__(self,text="",points=10,difficulty=1,title="",shuffle=False):
+        super().__init__("M",title,text,points,difficulty)
+        self.shuffle=shuffle 
+    def add_answer(self,left="",right="",points=10,left_is_regex=False,right_is_regex=False):
+        assert left and right, "Must specify value matching value for both left and right answer"
+        self.answers.append((left,left_is_regex,right,right_is_regex))
+    def write_to_csv(self,writer,title=""):
+        #print(self.answers)
+        if title != "":
+            self.set_title(title)
+        for m in ("NewQuestion","Title","QuestionText","Points","Difficulty","Image","Hint","Feedback"):
+            if not hasattr(self,m):
+                continue
+            if type(getattr(self,m)) is tuple:
+                writer.writerow([m]+list(getattr(self,m)))
+            else:
+                writer.writerow([m]+[getattr(self,m)])
+        writer.writerow(["Scoring","EquallyWeighted"])
+        if self.shuffle:
+            shuffle(self.answers)
+        #keep a list of matches to allow multiple of the same
+        choice_list=[]
+        for a in self.answers:
+            new_answer=False
+            if a[2] not in choice_list:
+                choice_list.append(a[2])
+                writer.writerow(["Choice",1+choice_list.index(a[2]),a[2]]+["regexp" if a[3] else None])
+            writer.writerow(["Match",1+choice_list.index(a[2]),a[0]]+["regexp" if a[1] else None] )
+        writer.writerow([])
+
+#//ORDERING QUESTION TYPE            
+#//Items must include text in column2            
+#NewQuestion O       
+#ID  CHEM110-240     
+#Title   This is an ordering question        
+#QuestionText    This is the question text for O1        
+#Points  2       
+#Difficulty  2       
+#Scoring RightMinusWrong     
+#Image   images/O1.jpg       
+#Item    This is the text for item 1 NOT HTML    This is feedback for option 1
+#Item    This is the text for item 2 HTML    This is feedback for option 2
+#Hint    This is the hint text       
+#Feedback    This is the feedback text       
+

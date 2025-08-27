@@ -1,0 +1,459 @@
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c' + a'bc' + a'b'c</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c' + a'bc' + a'b'c<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,01101000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00010110|01101000\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c' + ab'c + abc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c' + ab'c + abc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00001101,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10110000|00001101\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc' + a'b'c' + abc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc' + a'b'c' + abc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10100010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01000101|10100010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c' + a'bc + a'b'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c' + a'bc + a'b'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10011000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00011001|10011000\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = abc' + a'b'c' + ab'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> abc' + a'b'c' + ab'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10001010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01010001|10001010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc' + ab'c' + abc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc' + ab'c' + abc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00101010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01010100|00101010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c + a'bc' + abc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c + a'bc' + abc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00100110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01100100|00100110\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'b'c + abc + a'b'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'b'c + abc + a'b'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,11000001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10000011|11000001\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc' + a'b'c' + abc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc' + a'b'c' + abc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10100001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10000101|10100001\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c' + ab'c + a'b'c</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c' + ab'c + a'b'c<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,01001100,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00110010|01001100\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'b'c + a'bc + a'bc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'b'c + a'bc + a'bc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,01110000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00001110|01110000\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc' + abc' + a'b'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc' + abc' + a'b'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10100010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01000101|10100010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc + a'bc' + abc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc + a'bc' + abc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00110010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01001100|00110010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = abc' + a'bc + abc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> abc' + a'bc + abc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00010011,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*11001000|00010011\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'b'c' + ab'c + a'bc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'b'c' + ab'c + a'bc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10010100,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00101001|10010100\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = abc' + ab'c' + a'bc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> abc' + ab'c' + a'bc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00011010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01011000|00011010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c' + a'bc' + a'b'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c' + a'bc' + a'b'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10101000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00010101|10101000\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc + ab'c' + abc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc + ab'c' + abc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00011010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01011000|00011010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc' + ab'c + abc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc' + ab'c + abc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00100110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01100100|00100110\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = abc + a'b'c + a'bc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> abc + a'b'c + a'bc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,01010001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10001010|01010001\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c' + a'b'c + abc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c' + a'b'c + abc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,01001001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10010010|01001001\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc + a'b'c' + a'b'c</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc + a'b'c' + a'b'c<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,11010000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00001011|11010000\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c + a'b'c' + ab'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c + a'b'c' + ab'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10001100,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00110001|10001100\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc + a'bc' + a'b'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc + a'bc' + a'b'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10110000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00001101|10110000\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc' + abc' + a'b'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc' + abc' + a'b'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10100010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01000101|10100010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c' + a'b'c + abc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c' + a'b'c + abc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,01001001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10010010|01001001\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'b'c' + a'b'c + abc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'b'c' + a'b'c + abc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,11000010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01000011|11000010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc' + ab'c' + a'b'c</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc' + ab'c' + a'b'c<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,01101000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00010110|01101000\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c + a'b'c' + abc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c + a'b'c' + abc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10000110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01100001|10000110\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c + abc' + abc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c + abc' + abc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00000111,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*11100000|00000111\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'b'c' + a'b'c + ab'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'b'c' + a'b'c + ab'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,11001000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00010011|11001000\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc + abc' + abc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc + abc' + abc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00010011,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*11001000|00010011\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = abc + a'bc + a'b'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> abc + a'bc + a'b'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10010001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10001001|10010001\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = abc' + a'b'c' + a'bc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> abc' + a'b'c' + a'bc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10100010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01000101|10100010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c' + a'bc' + a'bc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c' + a'bc' + a'bc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00111000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00011100|00111000\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc + a'b'c' + abc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc + a'b'c' + abc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10010010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01001001|10010010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc' + abc' + a'bc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc' + abc' + a'bc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00110010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01001100|00110010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'b'c' + a'bc + ab'c</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'b'c' + a'bc + ab'c<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10010100,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00101001|10010100\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'b'c + ab'c' + abc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'b'c + ab'c' + abc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,01001001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10010010|01001001\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c + a'b'c' + a'bc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c + a'b'c' + a'bc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10010100,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00101001|10010100\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c' + a'bc' + a'b'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c' + a'bc' + a'b'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10101000,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00010101|10101000\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'b'c + ab'c + abc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'b'c + ab'c + abc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,01000110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01100010|01000110\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = abc' + ab'c + a'b'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> abc' + ab'c + a'b'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10000110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01100001|10000110\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = abc' + ab'c + a'bc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> abc' + ab'c + a'bc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00100110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01100100|00100110\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'bc + a'b'c' + ab'c</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'bc + a'b'c' + ab'c<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10010100,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00101001|10010100\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c + ab'c' + a'bc'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c + ab'c' + a'bc'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00101100,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00110100|00101100\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = abc' + ab'c + a'bc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> abc' + ab'c + a'bc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00010110,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01101000|00010110\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = ab'c + a'b'c + a'b'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> ab'c + a'b'c + a'b'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,11000100,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*00100011|11000100\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = abc' + ab'c' + a'b'c'</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> abc' + ab'c' + a'b'c'<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,10001010,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*01010001|10001010\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = a'b'c + a'bc' + abc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> a'b'c + a'bc' + abc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,01100001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10000110|01100001\s*$,regexp
+
+
+NewQuestion,SA
+Title,mux_three_input_bool
+QuestionText,"<p>An <b>8-to-1 multiplexer</b> has three select inputs (a=>s2, b=>s1, c=>s0). Assume you want the multiplexer output to be equivalent to the following expression: </p><p> Out = abc + a'bc' + a'bc</p> <p> Thus, your digital circuit would look as follows: </p> <pre>  +------------------------+ <br>  |           Mux          |<br>X---> in0                  |<br>X---> in1                  |<br>X---> in2                  |<br>X---> in3                  |<br>X---> in4                  |<br>X---> in5                  |<br>X---> in6                  |<br>X---> in7                  |<br>  |                   Out ---> abc + a'bc' + a'bc<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>abc-----------!</pre> <p>What values should be connected to the data inputs? Please enter the 8 bits without spaces.</p>",HTML
+Points,10
+Difficulty,1
+Feedback,00110001,NOT HTML
+ANSWER,100,(?i)^\s*(0b)?0*10001100|00110001\s*$,regexp
+
+

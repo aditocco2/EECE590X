@@ -1,0 +1,9 @@
+NewQuestion,SA
+Title,"Time to correct output, SA"
+QuestionText,"<p>Assume that inputs <i>a</i> and <i>b</i> both change at 0ns, and remain constant afterwards. At what time will the output of F be correct?</p>",HTML
+Points,10
+Difficulty,1
+Feedback,Consider how long it takes both signals topropogate through the entire circuit,NOT HTML
+ANSWER,100,^\s*(5)\s*(ns)*\s*$,regexp
+
+

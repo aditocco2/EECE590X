@@ -1,0 +1,1171 @@
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b
+Choice,2,c
+Choice,3,c + ab
+Choice,4,a
+Choice,5,b'
+Choice,6,b'(a + c)
+Choice,7,a'
+Choice,8,b(a + c)
+Choice,9,c'
+Choice,10,c' + a'b
+Match,5,b' + a'b'c
+Match,5,b'(a' + b' + c)
+Match,3,c + abc'
+Match,8,b(a + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b' + ac
+Choice,2,c'
+Choice,3,b'(a' + c)
+Choice,4,c
+Choice,5,c'(a + b)
+Choice,6,b
+Choice,7,c(a' + b)
+Choice,8,c + a'b
+Choice,9,b'
+Choice,10,a'
+Choice,11,a
+Choice,12,c' + a'b
+Match,6,b + abc
+Match,4,c(a' + b + c)
+Match,8,c + a'bc'
+Match,7,c(a' + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c + a'b
+Choice,2,a'
+Choice,3,b(a' + c)
+Choice,4,b
+Choice,5,b' + a'c
+Choice,6,c'
+Choice,7,a
+Choice,8,c(a + b)
+Choice,9,b'
+Choice,10,c
+Match,6,c' + a'bc'
+Match,4,b(a + b + c')
+Match,5,b' + a'bc
+Match,8,c(a + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c + ab
+Choice,2,c(a + b)
+Choice,3,b'
+Choice,4,b'(a' + c)
+Choice,5,c
+Choice,6,b
+Choice,7,c'
+Choice,8,a
+Choice,9,b' + ac
+Choice,10,a'
+Choice,11,c + a'b
+Match,6,b + a'bc
+Match,6,b(a + b + c)
+Match,11,c + a'bc'
+Match,2,c(a + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'
+Choice,2,c(a + b)
+Choice,3,a
+Choice,4,c
+Choice,5,c + a'b
+Choice,6,c'
+Choice,7,b' + a'c
+Choice,8,b'(a' + c)
+Choice,9,a'
+Choice,10,b
+Choice,11,b + ac
+Match,10,b + abc'
+Match,1,b'(a' + b' + c)
+Match,5,c + a'bc'
+Match,8,b'(a' + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c'
+Choice,2,c
+Choice,3,a'
+Choice,4,a
+Choice,5,b' + a'c
+Choice,6,c(a' + b)
+Choice,7,c' + ab
+Choice,8,b(a + c)
+Choice,9,b
+Choice,10,b'
+Choice,11,c + a'b
+Choice,12,c(a + b)
+Match,2,c + a'bc
+Match,1,c'(a + b' + c')
+Match,11,c + a'bc'
+Match,12,c(a + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b + ac
+Choice,2,b'(a + c)
+Choice,3,b(a' + c)
+Choice,4,a'
+Choice,5,b' + ac
+Choice,6,c' + a'b
+Choice,7,c'
+Choice,8,a
+Choice,9,b
+Choice,10,b'
+Choice,11,c
+Choice,12,b(a + c)
+Match,10,b' + a'b'c
+Match,9,b(a + b + c')
+Match,6,c' + a'bc
+Match,12,b(a + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,c(a' + b)
+Choice,3,b'
+Choice,4,b + ac
+Choice,5,b(a + c)
+Choice,6,b
+Choice,7,c'
+Choice,8,c(a + b)
+Choice,9,b' + ac
+Choice,10,a'
+Choice,11,c
+Choice,12,b' + a'c
+Match,7,c' + abc'
+Match,11,c(a' + b + c)
+Match,9,b' + abc
+Match,8,c(a + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,c(a' + b)
+Choice,3,b + a'c
+Choice,4,b(a + c)
+Choice,5,b + ac
+Choice,6,b' + a'c
+Choice,7,c'
+Choice,8,b'
+Choice,9,b
+Choice,10,c(a + b)
+Choice,11,c
+Choice,12,a'
+Match,7,c' + ab'c'
+Match,11,c(a + b + c)
+Match,5,b + ab'c
+Match,4,b(a + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c'(a + b)
+Choice,2,a'
+Choice,3,b(a' + c)
+Choice,4,b' + a'c
+Choice,5,c
+Choice,6,b'(a' + c)
+Choice,7,b'
+Choice,8,c'
+Choice,9,c + ab
+Choice,10,b
+Choice,11,a
+Choice,12,c' + a'b
+Match,8,c' + a'bc'
+Match,8,c'(a' + b + c')
+Match,9,c + abc'
+Match,1,c'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'
+Choice,2,b'(a + c)
+Choice,3,a
+Choice,4,a'
+Choice,5,c + a'b
+Choice,6,c(a + b)
+Choice,7,c + ab
+Choice,8,c(a' + b)
+Choice,9,c'
+Choice,10,b' + ac
+Choice,11,b
+Choice,12,c
+Match,11,b + a'bc
+Match,11,b(a + b + c)
+Match,7,c + abc'
+Match,2,b'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a'
+Choice,2,b' + ac
+Choice,3,a
+Choice,4,c(a' + b)
+Choice,5,c + a'b
+Choice,6,c
+Choice,7,c(a + b)
+Choice,8,b
+Choice,9,b'(a' + c)
+Choice,10,c'
+Choice,11,b + ac
+Choice,12,b'
+Match,6,c + ab'c
+Match,10,c'(a + b' + c')
+Match,11,b + ab'c
+Match,4,c(a' + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'(a + c)
+Choice,2,b
+Choice,3,b + ac
+Choice,4,a'
+Choice,5,c'(a' + b)
+Choice,6,c + ab
+Choice,7,b'
+Choice,8,c'
+Choice,9,b' + ac
+Choice,10,c
+Choice,11,a
+Choice,12,b(a + c)
+Match,7,b' + a'b'c
+Match,8,c'(a + b' + c')
+Match,6,c + abc'
+Match,1,b'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c'(a + b)
+Choice,2,a'
+Choice,3,b
+Choice,4,a
+Choice,5,c(a + b)
+Choice,6,c
+Choice,7,c'
+Choice,8,b' + ac
+Choice,9,c + ab
+Choice,10,b'
+Match,10,b' + ab'c
+Match,10,b'(a' + b' + c)
+Match,9,c + abc'
+Match,5,c(a + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c
+Choice,2,c'(a' + b)
+Choice,3,a'
+Choice,4,b' + ac
+Choice,5,c'
+Choice,6,b
+Choice,7,c + a'b
+Choice,8,c(a' + b)
+Choice,9,a
+Choice,10,b'
+Choice,11,b'(a + c)
+Choice,12,b' + a'c
+Match,1,c + a'bc
+Match,1,c(a' + b + c)
+Match,4,b' + abc
+Match,11,b'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'
+Choice,2,a'
+Choice,3,b' + a'c
+Choice,4,b
+Choice,5,b'(a + c)
+Choice,6,a
+Choice,7,b + a'c
+Choice,8,c
+Choice,9,b'(a' + c)
+Choice,10,c'
+Choice,11,b' + ac
+Match,10,c' + abc'
+Match,4,b(a' + b + c)
+Match,3,b' + a'bc
+Match,5,b'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b
+Choice,2,a'
+Choice,3,c'(a + b)
+Choice,4,b(a' + c)
+Choice,5,c'
+Choice,6,b' + ac
+Choice,7,c
+Choice,8,c(a + b)
+Choice,9,a
+Choice,10,c + a'b
+Choice,11,b'
+Choice,12,c' + a'b
+Match,7,c + abc
+Match,5,c'(a' + b + c')
+Match,10,c + a'bc'
+Match,3,c'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b
+Choice,2,b'(a + c)
+Choice,3,b'
+Choice,4,c(a + b)
+Choice,5,b(a' + c)
+Choice,6,c'
+Choice,7,c' + a'b
+Choice,8,a'
+Choice,9,a
+Choice,10,b + ac
+Choice,11,c + ab
+Choice,12,c
+Match,1,b + abc'
+Match,12,c(a + b' + c)
+Match,11,c + abc'
+Match,5,b(a' + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c + a'b
+Choice,2,b(a' + c)
+Choice,3,a
+Choice,4,b
+Choice,5,b + ac
+Choice,6,c
+Choice,7,c'
+Choice,8,b'
+Choice,9,c + ab
+Choice,10,c'(a' + b)
+Choice,11,a'
+Choice,12,c(a' + b)
+Match,6,c + a'bc
+Match,8,b'(a' + b' + c)
+Match,1,c + a'bc'
+Match,2,b(a' + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,c + ab
+Choice,3,b' + ac
+Choice,4,c'
+Choice,5,c'(a' + b)
+Choice,6,c
+Choice,7,a'
+Choice,8,b(a' + c)
+Choice,9,c' + a'b
+Choice,10,b
+Choice,11,b'
+Match,10,b + abc
+Match,10,b(a + b + c)
+Match,3,b' + abc
+Match,8,b(a' + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'
+Choice,2,a'
+Choice,3,a
+Choice,4,b
+Choice,5,b' + ac
+Choice,6,c(a + b)
+Choice,7,c
+Choice,8,b(a' + c)
+Choice,9,b + ac
+Choice,10,b'(a' + c)
+Choice,11,c'
+Match,1,b' + ab'c
+Match,1,b'(a' + b' + c)
+Match,9,b + ab'c
+Match,6,c(a + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a
+Choice,2,c + a'b
+Choice,3,b
+Choice,4,b' + ac
+Choice,5,a'
+Choice,6,c(a + b)
+Choice,7,c
+Choice,8,b'
+Choice,9,c(a' + b)
+Choice,10,c'
+Choice,11,c'(a' + b)
+Match,3,b + abc
+Match,7,c(a + b + c)
+Match,2,c + a'bc'
+Match,9,c(a' + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c'(a + b)
+Choice,2,b
+Choice,3,c'
+Choice,4,b'(a' + c)
+Choice,5,c'(a' + b)
+Choice,6,a
+Choice,7,a'
+Choice,8,c + a'b
+Choice,9,c
+Choice,10,b' + a'c
+Choice,11,b'
+Match,11,b' + a'b'c
+Match,11,b'(a + b' + c')
+Match,10,b' + a'bc
+Match,5,c'(a' + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a'
+Choice,2,b'
+Choice,3,c'
+Choice,4,c
+Choice,5,c'(a' + b)
+Choice,6,b'(a' + c)
+Choice,7,c'(a + b)
+Choice,8,b
+Choice,9,b' + ac
+Choice,10,a
+Choice,11,b + a'c
+Match,8,b + abc'
+Match,3,c'(a + b' + c')
+Match,11,b + a'b'c
+Match,7,c'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a'
+Choice,2,c' + a'b
+Choice,3,b'(a' + c)
+Choice,4,a
+Choice,5,c'
+Choice,6,c
+Choice,7,b(a + c)
+Choice,8,c'(a' + b)
+Choice,9,b + a'c
+Choice,10,b
+Choice,11,b + ac
+Choice,12,b'
+Match,12,b' + a'b'c
+Match,12,b'(a + b' + c')
+Match,9,b + a'b'c
+Match,3,b'(a' + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c' + a'b
+Choice,2,a
+Choice,3,c'
+Choice,4,c(a' + b)
+Choice,5,a'
+Choice,6,c
+Choice,7,b(a' + c)
+Choice,8,b
+Choice,9,b + ac
+Choice,10,b'
+Match,6,c + a'bc
+Match,6,c(a + b' + c)
+Match,1,c' + a'bc
+Match,4,c(a' + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b + ac
+Choice,2,c
+Choice,3,c'(a' + b)
+Choice,4,c + ab
+Choice,5,b'
+Choice,6,c(a + b)
+Choice,7,a'
+Choice,8,b
+Choice,9,b' + a'c
+Choice,10,c'
+Choice,11,a
+Choice,12,b'(a' + c)
+Match,8,b + abc
+Match,2,c(a + b + c)
+Match,1,b + ab'c
+Match,3,c'(a' + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'
+Choice,2,c
+Choice,3,b(a + c)
+Choice,4,a'
+Choice,5,c'
+Choice,6,c + ab
+Choice,7,b' + ac
+Choice,8,c' + ab
+Choice,9,a
+Choice,10,b'(a' + c)
+Choice,11,b
+Match,5,c' + a'bc'
+Match,11,b(a + b + c)
+Match,7,b' + abc
+Match,3,b(a + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'(a' + c)
+Choice,2,c + a'b
+Choice,3,b'
+Choice,4,b
+Choice,5,c
+Choice,6,b + ac
+Choice,7,c'(a' + b)
+Choice,8,a
+Choice,9,a'
+Choice,10,c'
+Choice,11,b + a'c
+Match,4,b + abc'
+Match,3,b'(a + b' + c)
+Match,2,c + a'bc'
+Match,7,c'(a' + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b' + ac
+Choice,2,a'
+Choice,3,c' + ab
+Choice,4,b'(a + c)
+Choice,5,c' + a'b
+Choice,6,b'
+Choice,7,c'(a' + b)
+Choice,8,b
+Choice,9,c
+Choice,10,c'(a + b)
+Choice,11,c'
+Choice,12,a
+Match,6,b' + ab'c'
+Match,9,c(a + b' + c)
+Match,5,c' + a'bc
+Match,10,c'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,a'
+Choice,2,c(a' + b)
+Choice,3,b' + a'c
+Choice,4,a
+Choice,5,c'
+Choice,6,b
+Choice,7,b'(a' + c)
+Choice,8,b'
+Choice,9,c
+Choice,10,c + ab
+Match,6,b + a'bc
+Match,5,c'(a + b + c')
+Match,10,c + abc'
+Match,7,b'(a' + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b(a' + c)
+Choice,2,a'
+Choice,3,b
+Choice,4,c
+Choice,5,a
+Choice,6,b' + a'c
+Choice,7,c'
+Choice,8,b + a'c
+Choice,9,b' + ac
+Choice,10,c'(a + b)
+Choice,11,c(a' + b)
+Choice,12,b'
+Match,7,c' + ab'c'
+Match,7,c'(a + b + c')
+Match,8,b + a'b'c
+Match,11,c(a' + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c' + ab
+Choice,2,c'
+Choice,3,b
+Choice,4,b'
+Choice,5,a'
+Choice,6,b'(a' + c)
+Choice,7,c(a' + b)
+Choice,8,c + a'b
+Choice,9,c + ab
+Choice,10,c
+Choice,11,c'(a + b)
+Choice,12,a
+Match,4,b' + ab'c
+Match,4,b'(a + b' + c)
+Match,9,c + abc'
+Match,6,b'(a' + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c' + a'b
+Choice,2,b' + ac
+Choice,3,c
+Choice,4,a
+Choice,5,c'
+Choice,6,c'(a' + b)
+Choice,7,b'(a + c)
+Choice,8,b'
+Choice,9,b
+Choice,10,a'
+Choice,11,c + ab
+Choice,12,b'(a' + c)
+Match,9,b + a'bc
+Match,9,b(a' + b + c)
+Match,11,c + abc'
+Match,6,c'(a' + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c'
+Choice,2,c
+Choice,3,b' + ac
+Choice,4,a
+Choice,5,b + a'c
+Choice,6,b(a' + c)
+Choice,7,b(a + c)
+Choice,8,c' + a'b
+Choice,9,b'
+Choice,10,a'
+Choice,11,b
+Choice,12,b'(a + c)
+Match,11,b + a'bc
+Match,1,c'(a + b' + c')
+Match,5,b + a'b'c
+Match,12,b'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'(a + c)
+Choice,2,b
+Choice,3,c
+Choice,4,b(a + c)
+Choice,5,c'
+Choice,6,b' + ac
+Choice,7,c + ab
+Choice,8,a'
+Choice,9,b'
+Choice,10,a
+Match,3,c + abc
+Match,2,b(a' + b + c)
+Match,7,c + abc'
+Match,1,b'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'
+Choice,2,b'(a' + c)
+Choice,3,c' + a'b
+Choice,4,b' + ac
+Choice,5,c'(a + b)
+Choice,6,a
+Choice,7,c
+Choice,8,a'
+Choice,9,c + a'b
+Choice,10,c'
+Choice,11,b
+Match,11,b + abc
+Match,1,b'(a' + b' + c)
+Match,9,c + a'bc'
+Match,5,c'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c
+Choice,2,b' + a'c
+Choice,3,a
+Choice,4,c'
+Choice,5,b(a + c)
+Choice,6,b + ac
+Choice,7,a'
+Choice,8,b'(a' + c)
+Choice,9,b
+Choice,10,c + a'b
+Choice,11,b'
+Match,1,c + ab'c
+Match,1,c(a + b + c)
+Match,2,b' + a'bc
+Match,5,b(a + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'
+Choice,2,c + a'b
+Choice,3,b'(a' + c)
+Choice,4,c
+Choice,5,c' + a'b
+Choice,6,b
+Choice,7,a'
+Choice,8,c'
+Choice,9,b(a + c)
+Choice,10,b + ac
+Choice,11,c'(a + b)
+Choice,12,a
+Match,1,b' + ab'c'
+Match,8,c'(a' + b + c')
+Match,5,c' + a'bc
+Match,9,b(a + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'
+Choice,2,b'(a' + c)
+Choice,3,a
+Choice,4,c'
+Choice,5,a'
+Choice,6,c
+Choice,7,b + ac
+Choice,8,c(a + b)
+Choice,9,c(a' + b)
+Choice,10,c' + ab
+Choice,11,c' + a'b
+Choice,12,b
+Match,12,b + a'bc
+Match,6,c(a' + b + c)
+Match,7,b + ab'c
+Match,9,c(a' + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c + ab
+Choice,2,a
+Choice,3,c
+Choice,4,c + a'b
+Choice,5,c'
+Choice,6,b'
+Choice,7,b + ac
+Choice,8,c(a' + b)
+Choice,9,b(a' + c)
+Choice,10,b
+Choice,11,a'
+Choice,12,b'(a + c)
+Match,6,b' + ab'c
+Match,5,c'(a' + b + c')
+Match,4,c + a'bc'
+Match,12,b'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b + ac
+Choice,2,b + a'c
+Choice,3,c
+Choice,4,b(a + c)
+Choice,5,a'
+Choice,6,b
+Choice,7,c'
+Choice,8,b'
+Choice,9,a
+Choice,10,c + a'b
+Choice,11,c(a' + b)
+Choice,12,c(a + b)
+Match,8,b' + a'b'c
+Match,7,c'(a + b' + c')
+Match,1,b + ab'c
+Match,4,b(a + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'
+Choice,2,c'
+Choice,3,a'
+Choice,4,b'(a + c)
+Choice,5,b
+Choice,6,c' + a'b
+Choice,7,b(a' + c)
+Choice,8,c
+Choice,9,c(a + b)
+Choice,10,b + a'c
+Choice,11,a
+Match,8,c + ab'c
+Match,8,c(a + b + c)
+Match,6,c' + a'bc
+Match,4,b'(a + b + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c(a + b)
+Choice,2,c
+Choice,3,c' + a'b
+Choice,4,a'
+Choice,5,b(a + c)
+Choice,6,c + ab
+Choice,7,c'
+Choice,8,b'
+Choice,9,b
+Choice,10,c'(a + b)
+Choice,11,a
+Match,2,c + a'bc
+Match,2,c(a + b' + c)
+Match,3,c' + a'bc
+Match,5,b(a + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c + a'b
+Choice,2,b'
+Choice,3,c' + ab
+Choice,4,b'(a + c)
+Choice,5,c(a + b)
+Choice,6,c
+Choice,7,b + a'c
+Choice,8,b
+Choice,9,c'(a' + b)
+Choice,10,c'
+Choice,11,a
+Choice,12,a'
+Match,8,b + abc
+Match,8,b(a' + b + c)
+Match,3,c' + abc
+Match,5,c(a + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b + a'c
+Choice,2,a'
+Choice,3,c'(a + b)
+Choice,4,b(a + c)
+Choice,5,c' + ab
+Choice,6,b'
+Choice,7,b
+Choice,8,c
+Choice,9,b(a' + c)
+Choice,10,a
+Choice,11,c'
+Choice,12,c + a'b
+Match,6,b' + ab'c
+Match,7,b(a + b + c')
+Match,5,c' + abc
+Match,9,b(a' + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,c'(a' + b)
+Choice,2,a
+Choice,3,b + ac
+Choice,4,c
+Choice,5,b'
+Choice,6,b
+Choice,7,b + a'c
+Choice,8,b(a' + c)
+Choice,9,c + a'b
+Choice,10,c(a + b)
+Choice,11,c'
+Choice,12,a'
+Match,4,c + ab'c
+Match,11,c'(a + b + c')
+Match,3,b + ab'c
+Match,8,b(a' + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'(a + c)
+Choice,2,c
+Choice,3,b(a + c)
+Choice,4,a
+Choice,5,b
+Choice,6,c' + ab
+Choice,7,b' + ac
+Choice,8,c'(a + b)
+Choice,9,c + a'b
+Choice,10,c'
+Choice,11,a'
+Choice,12,b'
+Match,2,c + ab'c
+Match,5,b(a + b + c')
+Match,6,c' + abc
+Match,3,b(a + b' + c)
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b(a + c)
+Choice,2,a
+Choice,3,b
+Choice,4,c(a + b)
+Choice,5,c
+Choice,6,b'
+Choice,7,a'
+Choice,8,b' + ac
+Choice,9,c'
+Choice,10,c' + a'b
+Match,6,b' + ab'c'
+Match,6,b'(a' + b' + c)
+Match,8,b' + abc
+Match,4,c(a + b + c')
+
+
+NewQuestion,M
+Title,Absorption using commutative property MAT
+QuestionText,Match each of the following expressions with its reduced form.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,b'(a + c)
+Choice,2,c
+Choice,3,c' + ab
+Choice,4,b'
+Choice,5,b(a + c)
+Choice,6,a'
+Choice,7,c'
+Choice,8,b'(a' + c)
+Choice,9,a
+Choice,10,b
+Choice,11,c + a'b
+Match,10,b + a'bc
+Match,10,b(a' + b + c)
+Match,11,c + a'bc'
+Match,8,b'(a' + b + c)
+
+

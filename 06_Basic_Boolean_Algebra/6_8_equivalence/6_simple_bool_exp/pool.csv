@@ -1,0 +1,48 @@
+NewQuestion,MC
+Title,Choose expression equivalent to circuit
+QuestionText,<p>The <i>schematic</i> above describes a binary            digital system whose output Q is a function of its four             inputs:</p><p>Construct a <b>Boolean expression</b> which is equivalent            to output Q.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/exp_1.png
+OPTION,0,a+b+c,HTML
+OPTION,0,abc,HTML
+OPTION,0,(a+b)(a+c),HTML
+OPTION,1,ab+ac,HTML
+
+
+NewQuestion,MC
+Title,Choose expression equivalent to circuit
+QuestionText,<p>The <i>schematic</i> above describes a binary            digital system whose output Q is a function of its four             inputs:</p><p>Construct a <b>Boolean expression</b> which is equivalent            to output Q.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/exp_2.png
+OPTION,0,ab+ac,HTML
+OPTION,0,a+b+c,HTML
+OPTION,1,(a+b)(a+c),HTML
+OPTION,0,abc,HTML
+
+
+NewQuestion,MC
+Title,Choose expression equivalent to circuit
+QuestionText,<p>The <i>schematic</i> above describes a binary            digital system whose output Q is a function of its four             inputs:</p><p>Construct a <b>Boolean expression</b> which is equivalent            to output Q.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/exp_3.png
+OPTION,1,a+b+c,HTML
+OPTION,0,ab+ac,HTML
+OPTION,0,(a+b)(a+c),HTML
+OPTION,0,abc,HTML
+
+
+NewQuestion,MC
+Title,Choose expression equivalent to circuit
+QuestionText,<p>The <i>schematic</i> above describes a binary            digital system whose output Q is a function of its four             inputs:</p><p>Construct a <b>Boolean expression</b> which is equivalent            to output Q.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/exp_4.png
+OPTION,0,(a+b)(a+c),HTML
+OPTION,0,a+b+c,HTML
+OPTION,0,ab+ac,HTML
+OPTION,1,abc,HTML
+
+

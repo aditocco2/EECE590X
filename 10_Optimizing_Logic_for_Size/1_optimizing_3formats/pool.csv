@@ -1,0 +1,648 @@
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c' + a',NOT HTML
+ANSWER,100,^\s*(b'c'|a')(?!.*\1[^'a-z])\s*\+\s*(b'c'|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'b'c + a'bc' + a'bc + ab'c'</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c' + a',NOT HTML
+ANSWER,100,^\s*(b'c'|a')(?!.*\1[^'a-z])\s*\+\s*(b'c'|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 1, 2, 3, 4)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c' + a',NOT HTML
+ANSWER,100,^\s*(b'c'|a')(?!.*\1[^'a-z])\s*\+\s*(b'c'|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c + a',NOT HTML
+ANSWER,100,^\s*(b'c|a')(?!.*\1[^'a-z])\s*\+\s*(b'c|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'b'c + a'bc' + a'bc + ab'c</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c + a',NOT HTML
+ANSWER,100,^\s*(b'c|a')(?!.*\1[^'a-z])\s*\+\s*(b'c|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 1, 2, 3, 5)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c + a',NOT HTML
+ANSWER,100,^\s*(b'c|a')(?!.*\1[^'a-z])\s*\+\s*(b'c|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc' + a',NOT HTML
+ANSWER,100,^\s*(bc'|a')(?!.*\1[^'a-z])\s*\+\s*(bc'|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'b'c + a'bc' + a'bc + abc'</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc' + a',NOT HTML
+ANSWER,100,^\s*(bc'|a')(?!.*\1[^'a-z])\s*\+\s*(bc'|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 1, 2, 3, 6)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc' + a',NOT HTML
+ANSWER,100,^\s*(bc'|a')(?!.*\1[^'a-z])\s*\+\s*(bc'|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc + a',NOT HTML
+ANSWER,100,^\s*(bc|a')(?!.*\1[^'a-z])\s*\+\s*(bc|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'b'c + a'bc' + a'bc + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc + a',NOT HTML
+ANSWER,100,^\s*(bc|a')(?!.*\1[^'a-z])\s*\+\s*(bc|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 1, 2, 3, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc + a',NOT HTML
+ANSWER,100,^\s*(bc|a')(?!.*\1[^'a-z])\s*\+\s*(bc|a')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c' + a,NOT HTML
+ANSWER,100,^\s*(b'c'|a)(?!.*\1[^'a-z])\s*\+\s*(b'c'|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + ab'c' + ab'c + abc' + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c' + a,NOT HTML
+ANSWER,100,^\s*(b'c'|a)(?!.*\1[^'a-z])\s*\+\s*(b'c'|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 4, 5, 6, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c' + a,NOT HTML
+ANSWER,100,^\s*(b'c'|a)(?!.*\1[^'a-z])\s*\+\s*(b'c'|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c + a,NOT HTML
+ANSWER,100,^\s*(b'c|a)(?!.*\1[^'a-z])\s*\+\s*(b'c|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c + ab'c' + ab'c + abc' + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c + a,NOT HTML
+ANSWER,100,^\s*(b'c|a)(?!.*\1[^'a-z])\s*\+\s*(b'c|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(1, 4, 5, 6, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,b'c + a,NOT HTML
+ANSWER,100,^\s*(b'c|a)(?!.*\1[^'a-z])\s*\+\s*(b'c|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc' + a,NOT HTML
+ANSWER,100,^\s*(bc'|a)(?!.*\1[^'a-z])\s*\+\s*(bc'|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'bc' + ab'c' + ab'c + abc' + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc' + a,NOT HTML
+ANSWER,100,^\s*(bc'|a)(?!.*\1[^'a-z])\s*\+\s*(bc'|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(2, 4, 5, 6, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc' + a,NOT HTML
+ANSWER,100,^\s*(bc'|a)(?!.*\1[^'a-z])\s*\+\s*(bc'|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc + a,NOT HTML
+ANSWER,100,^\s*(bc|a)(?!.*\1[^'a-z])\s*\+\s*(bc|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'bc + ab'c' + ab'c + abc' + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc + a,NOT HTML
+ANSWER,100,^\s*(bc|a)(?!.*\1[^'a-z])\s*\+\s*(bc|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(3, 4, 5, 6, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,bc + a,NOT HTML
+ANSWER,100,^\s*(bc|a)(?!.*\1[^'a-z])\s*\+\s*(bc|a)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c' + b',NOT HTML
+ANSWER,100,^\s*(a'c'|b')(?!.*\1[^'a-z])\s*\+\s*(a'c'|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'b'c + a'bc' + ab'c' + ab'c</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c' + b',NOT HTML
+ANSWER,100,^\s*(a'c'|b')(?!.*\1[^'a-z])\s*\+\s*(a'c'|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 1, 2, 4, 5)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c' + b',NOT HTML
+ANSWER,100,^\s*(a'c'|b')(?!.*\1[^'a-z])\s*\+\s*(a'c'|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c + b',NOT HTML
+ANSWER,100,^\s*(a'c|b')(?!.*\1[^'a-z])\s*\+\s*(a'c|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'b'c + a'bc + ab'c' + ab'c</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c + b',NOT HTML
+ANSWER,100,^\s*(a'c|b')(?!.*\1[^'a-z])\s*\+\s*(a'c|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 1, 3, 4, 5)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c + b',NOT HTML
+ANSWER,100,^\s*(a'c|b')(?!.*\1[^'a-z])\s*\+\s*(a'c|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac' + b',NOT HTML
+ANSWER,100,^\s*(ac'|b')(?!.*\1[^'a-z])\s*\+\s*(ac'|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'b'c + ab'c' + ab'c + abc'</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac' + b',NOT HTML
+ANSWER,100,^\s*(ac'|b')(?!.*\1[^'a-z])\s*\+\s*(ac'|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 1, 4, 5, 6)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac' + b',NOT HTML
+ANSWER,100,^\s*(ac'|b')(?!.*\1[^'a-z])\s*\+\s*(ac'|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac + b',NOT HTML
+ANSWER,100,^\s*(ac|b')(?!.*\1[^'a-z])\s*\+\s*(ac|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'b'c + ab'c' + ab'c + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac + b',NOT HTML
+ANSWER,100,^\s*(ac|b')(?!.*\1[^'a-z])\s*\+\s*(ac|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 1, 4, 5, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac + b',NOT HTML
+ANSWER,100,^\s*(ac|b')(?!.*\1[^'a-z])\s*\+\s*(ac|b')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c' + b,NOT HTML
+ANSWER,100,^\s*(a'c'|b)(?!.*\1[^'a-z])\s*\+\s*(a'c'|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'bc' + a'bc + abc' + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c' + b,NOT HTML
+ANSWER,100,^\s*(a'c'|b)(?!.*\1[^'a-z])\s*\+\s*(a'c'|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 2, 3, 6, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c' + b,NOT HTML
+ANSWER,100,^\s*(a'c'|b)(?!.*\1[^'a-z])\s*\+\s*(a'c'|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c + b,NOT HTML
+ANSWER,100,^\s*(a'c|b)(?!.*\1[^'a-z])\s*\+\s*(a'c|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c + a'bc' + a'bc + abc' + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c + b,NOT HTML
+ANSWER,100,^\s*(a'c|b)(?!.*\1[^'a-z])\s*\+\s*(a'c|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(1, 2, 3, 6, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'c + b,NOT HTML
+ANSWER,100,^\s*(a'c|b)(?!.*\1[^'a-z])\s*\+\s*(a'c|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac' + b,NOT HTML
+ANSWER,100,^\s*(ac'|b)(?!.*\1[^'a-z])\s*\+\s*(ac'|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'bc' + a'bc + ab'c' + abc' + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac' + b,NOT HTML
+ANSWER,100,^\s*(ac'|b)(?!.*\1[^'a-z])\s*\+\s*(ac'|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(2, 3, 4, 6, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac' + b,NOT HTML
+ANSWER,100,^\s*(ac'|b)(?!.*\1[^'a-z])\s*\+\s*(ac'|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac + b,NOT HTML
+ANSWER,100,^\s*(ac|b)(?!.*\1[^'a-z])\s*\+\s*(ac|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'bc' + a'bc + ab'c + abc' + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac + b,NOT HTML
+ANSWER,100,^\s*(ac|b)(?!.*\1[^'a-z])\s*\+\s*(ac|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(2, 3, 5, 6, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ac + b,NOT HTML
+ANSWER,100,^\s*(ac|b)(?!.*\1[^'a-z])\s*\+\s*(ac|b)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b' + c',NOT HTML
+ANSWER,100,^\s*(a'b'|c')(?!.*\1[^'a-z])\s*\+\s*(a'b'|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'b'c + a'bc' + ab'c' + abc'</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b' + c',NOT HTML
+ANSWER,100,^\s*(a'b'|c')(?!.*\1[^'a-z])\s*\+\s*(a'b'|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 1, 2, 4, 6)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b' + c',NOT HTML
+ANSWER,100,^\s*(a'b'|c')(?!.*\1[^'a-z])\s*\+\s*(a'b'|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b + c',NOT HTML
+ANSWER,100,^\s*(a'b|c')(?!.*\1[^'a-z])\s*\+\s*(a'b|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'bc' + a'bc + ab'c' + abc'</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b + c',NOT HTML
+ANSWER,100,^\s*(a'b|c')(?!.*\1[^'a-z])\s*\+\s*(a'b|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 2, 3, 4, 6)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b + c',NOT HTML
+ANSWER,100,^\s*(a'b|c')(?!.*\1[^'a-z])\s*\+\s*(a'b|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab' + c',NOT HTML
+ANSWER,100,^\s*(ab'|c')(?!.*\1[^'a-z])\s*\+\s*(ab'|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'bc' + ab'c' + ab'c + abc'</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab' + c',NOT HTML
+ANSWER,100,^\s*(ab'|c')(?!.*\1[^'a-z])\s*\+\s*(ab'|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 2, 4, 5, 6)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab' + c',NOT HTML
+ANSWER,100,^\s*(ab'|c')(?!.*\1[^'a-z])\s*\+\s*(ab'|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab + c',NOT HTML
+ANSWER,100,^\s*(ab|c')(?!.*\1[^'a-z])\s*\+\s*(ab|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'bc' + ab'c' + abc' + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab + c',NOT HTML
+ANSWER,100,^\s*(ab|c')(?!.*\1[^'a-z])\s*\+\s*(ab|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 2, 4, 6, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab + c',NOT HTML
+ANSWER,100,^\s*(ab|c')(?!.*\1[^'a-z])\s*\+\s*(ab|c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b' + c,NOT HTML
+ANSWER,100,^\s*(a'b'|c)(?!.*\1[^'a-z])\s*\+\s*(a'b'|c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c' + a'b'c + a'bc + ab'c + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b' + c,NOT HTML
+ANSWER,100,^\s*(a'b'|c)(?!.*\1[^'a-z])\s*\+\s*(a'b'|c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(0, 1, 3, 5, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b' + c,NOT HTML
+ANSWER,100,^\s*(a'b'|c)(?!.*\1[^'a-z])\s*\+\s*(a'b'|c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b + c,NOT HTML
+ANSWER,100,^\s*(a'b|c)(?!.*\1[^'a-z])\s*\+\s*(a'b|c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c + a'bc' + a'bc + ab'c + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b + c,NOT HTML
+ANSWER,100,^\s*(a'b|c)(?!.*\1[^'a-z])\s*\+\s*(a'b|c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(1, 2, 3, 5, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,a'b + c,NOT HTML
+ANSWER,100,^\s*(a'b|c)(?!.*\1[^'a-z])\s*\+\s*(a'b|c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab' + c,NOT HTML
+ANSWER,100,^\s*(ab'|c)(?!.*\1[^'a-z])\s*\+\s*(ab'|c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c + a'bc + ab'c' + ab'c + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab' + c,NOT HTML
+ANSWER,100,^\s*(ab'|c)(?!.*\1[^'a-z])\s*\+\s*(ab'|c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(1, 3, 4, 5, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab' + c,NOT HTML
+ANSWER,100,^\s*(ab'|c)(?!.*\1[^'a-z])\s*\+\s*(ab'|c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the truth_table below for size. <p><table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>a</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>b</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>c</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Result</th></tr>  <tr>    <td>0</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>0</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>0</td>    <td style='border-left: 2px solid black;'>0</td></tr>  <tr>    <td>1</td>    <td>0</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>0</td>    <td style='border-left: 2px solid black;'>1</td></tr>  <tr>    <td>1</td>    <td>1</td>    <td>1</td>    <td style='border-left: 2px solid black;'>1</td></tr></table></p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab + c,NOT HTML
+ANSWER,100,^\s*(ab|c)(?!.*\1[^'a-z])\s*\+\s*(ab|c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the expression below for size. <p>a'b'c + a'bc + ab'c + abc' + abc</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab + c,NOT HTML
+ANSWER,100,^\s*(ab|c)(?!.*\1[^'a-z])\s*\+\s*(ab|c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,Optimizing without KMaps SA
+QuestionText,"<p>Using any method, optimize the function below for size. <p>F(a, b, c) = &#931;m(1, 3, 5, 6, 7)</p></p>",HTML
+Points,10
+Difficulty,1
+Feedback,ab + c,NOT HTML
+ANSWER,100,^\s*(ab|c)(?!.*\1[^'a-z])\s*\+\s*(ab|c)\s*$,regexp
+
+

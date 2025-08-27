@@ -1,0 +1,280 @@
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital clock that displays the date and time. Three engineers were each tasked with designing a method for encoding the months of the year: Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Jan</td><td>0000</td><td>1011</td><td>0000</td></tr><tr><td>Feb</td><td>1000</td><td>1001</td><td>0001</td></tr><tr><td>Mar</td><td>0100</td><td>1010</td><td>0010</td></tr><tr><td>Apr</td><td>1100</td><td>1101</td><td>0011</td></tr><tr><td>May</td><td>0010</td><td>0001</td><td>0100</td></tr><tr><td>Jun</td><td>1010</td><td>0011</td><td>0101</td></tr><tr><td>Jul</td><td>0110</td><td>0101</td><td>0110</td></tr><tr><td>Aug</td><td>1110</td><td>0000</td><td>0111</td></tr><tr><td>Sep</td><td>0001</td><td>1110</td><td>1000</td></tr><tr><td>Oct</td><td>1001</td><td>0100</td><td>1001</td></tr><tr><td>Nov</td><td>0101</td><td>0111</td><td>1010</td></tr><tr><td>Dec</td><td>1101</td><td>0010</td><td>1011</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital clock that displays the date and time. Three engineers were each tasked with designing a method for encoding the months of the year: Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Jan</td><td>0100</td><td>0001</td><td>0000</td></tr><tr><td>Feb</td><td>0110</td><td>0010</td><td>1000</td></tr><tr><td>Mar</td><td>0001</td><td>0011</td><td>0100</td></tr><tr><td>Apr</td><td>1010</td><td>0100</td><td>1100</td></tr><tr><td>May</td><td>1000</td><td>0101</td><td>0000</td></tr><tr><td>Jun</td><td>0111</td><td>0110</td><td>1010</td></tr><tr><td>Jul</td><td>1001</td><td>0111</td><td>0110</td></tr><tr><td>Aug</td><td>0101</td><td>1000</td><td>1110</td></tr><tr><td>Sep</td><td>0011</td><td>1001</td><td>0001</td></tr><tr><td>Oct</td><td>1110</td><td>1010</td><td>1001</td></tr><tr><td>Nov</td><td>1111</td><td>1011</td><td>0101</td></tr><tr><td>Dec</td><td>1100</td><td>1100</td><td>1101</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital Hebrew calendar that displays months. Three engineers were each tasked with designing a method for encoding the months of the Hebrew calendar: Nisan, Iyar, Sivan, Tammuz, Av, Elul, Tishrei, Heshvan, Kislev, Tevet, Shevat, Adar. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Nisan</td><td>0001</td><td>1011</td><td>0000</td></tr><tr><td>Iyar</td><td>0010</td><td>1000</td><td>0001</td></tr><tr><td>Sivan</td><td>0011</td><td>0111</td><td>0101</td></tr><tr><td>Tammuz</td><td>0100</td><td>0101</td><td>0011</td></tr><tr><td>Av</td><td>0101</td><td>1111</td><td>0100</td></tr><tr><td>Elul</td><td>0110</td><td>1110</td><td>0101</td></tr><tr><td>Tishrei</td><td>0111</td><td>1100</td><td>0110</td></tr><tr><td>Heshvan</td><td>1000</td><td>0110</td><td>0111</td></tr><tr><td>Kislev</td><td>1001</td><td>1101</td><td>1000</td></tr><tr><td>Tevet</td><td>1010</td><td>1110</td><td>1001</td></tr><tr><td>Shevat</td><td>1011</td><td>1001</td><td>1010</td></tr><tr><td>Adar</td><td>1100</td><td>0100</td><td>1011</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,0,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital Hebrew calendar that displays months. Three engineers were each tasked with designing a method for encoding the months of the Hebrew calendar: Nisan, Iyar, Sivan, Tammuz, Av, Elul, Tishrei, Heshvan, Kislev, Tevet, Shevat, Adar. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Nisan</td><td>1001</td><td>0000</td><td>0101</td></tr><tr><td>Iyar</td><td>1001</td><td>1000</td><td>1001</td></tr><tr><td>Sivan</td><td>1010</td><td>0100</td><td>0111</td></tr><tr><td>Tammuz</td><td>1011</td><td>1100</td><td>1111</td></tr><tr><td>Av</td><td>1100</td><td>0000</td><td>1110</td></tr><tr><td>Elul</td><td>1101</td><td>1010</td><td>0001</td></tr><tr><td>Tishrei</td><td>1110</td><td>0110</td><td>0101</td></tr><tr><td>Heshvan</td><td>0000</td><td>1110</td><td>1000</td></tr><tr><td>Kislev</td><td>0001</td><td>0001</td><td>1110</td></tr><tr><td>Tevet</td><td>0010</td><td>1001</td><td>1011</td></tr><tr><td>Shevat</td><td>0011</td><td>0101</td><td>0000</td></tr><tr><td>Adar</td><td>0100</td><td>1101</td><td>0100</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital astronomy clock that tracks the phases of the moon.. Three engineers were each tasked with designing a method for encoding the phases of the moon: new, waxing crescent, first quarter, waxing gibbous, full, waning gibbous, last quarter, waning crescent. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>new</td><td>0001</td><td>0000</td><td>1101</td></tr><tr><td>waxing crescent</td><td>0010</td><td>1000</td><td>0111</td></tr><tr><td>first quarter</td><td>0011</td><td>0100</td><td>0101</td></tr><tr><td>waxing gibbous</td><td>0100</td><td>1100</td><td>0001</td></tr><tr><td>full</td><td>0101</td><td>0000</td><td>1111</td></tr><tr><td>waning gibbous</td><td>0110</td><td>1010</td><td>0100</td></tr><tr><td>last quarter</td><td>0111</td><td>0110</td><td>1110</td></tr><tr><td>waning crescent</td><td>1000</td><td>1110</td><td>1010</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital astronomy clock that tracks the phases of the moon.. Three engineers were each tasked with designing a method for encoding the phases of the moon: new, waxing crescent, first quarter, waxing gibbous, full, waning gibbous, last quarter, waning crescent. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>new</td><td>1001</td><td>0000</td><td>0100</td></tr><tr><td>waxing crescent</td><td>1001</td><td>1000</td><td>0101</td></tr><tr><td>first quarter</td><td>1010</td><td>0100</td><td>1110</td></tr><tr><td>waxing gibbous</td><td>1011</td><td>1100</td><td>1111</td></tr><tr><td>full</td><td>1011</td><td>0000</td><td>1010</td></tr><tr><td>waning gibbous</td><td>1101</td><td>1010</td><td>1001</td></tr><tr><td>last quarter</td><td>1110</td><td>0110</td><td>1100</td></tr><tr><td>waning crescent</td><td>0000</td><td>1100</td><td>0111</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Engineer A,HTML
+OPTION,0,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital astrology device that shows the current zodiac sign. Three engineers were each tasked with designing a method for encoding the zodiac signs: Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Sagittarius, Capricorn. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Aries</td><td>0000</td><td>1111</td><td>1011</td></tr><tr><td>Taurus</td><td>1000</td><td>1110</td><td>1101</td></tr><tr><td>Gemini</td><td>0100</td><td>1101</td><td>0100</td></tr><tr><td>Cancer</td><td>1100</td><td>1100</td><td>0011</td></tr><tr><td>Leo</td><td>0000</td><td>1011</td><td>1000</td></tr><tr><td>Virgo</td><td>1010</td><td>1010</td><td>0101</td></tr><tr><td>Libra</td><td>0110</td><td>1001</td><td>1111</td></tr><tr><td>Sagittarius</td><td>1100</td><td>1000</td><td>1010</td></tr><tr><td>Capricorn</td><td>0001</td><td>0111</td><td>1000</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital astrology device that shows the current zodiac sign. Three engineers were each tasked with designing a method for encoding the zodiac signs: Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Sagittarius, Capricorn. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Aries</td><td>0000</td><td>1001</td><td>1011</td></tr><tr><td>Taurus</td><td>1000</td><td>1001</td><td>0110</td></tr><tr><td>Gemini</td><td>0100</td><td>1010</td><td>0100</td></tr><tr><td>Cancer</td><td>1100</td><td>1011</td><td>0101</td></tr><tr><td>Leo</td><td>0000</td><td>1011</td><td>1101</td></tr><tr><td>Virgo</td><td>1010</td><td>1101</td><td>1110</td></tr><tr><td>Libra</td><td>0110</td><td>1110</td><td>1001</td></tr><tr><td>Sagittarius</td><td>1100</td><td>0000</td><td>0011</td></tr><tr><td>Capricorn</td><td>1100</td><td>0001</td><td>1010</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital fingerprinting device. Three engineers were each tasked with designing a method for encoding the five fingers on two hands: Left Thumb, Left Index, Left Middle, Left Ring, Left Pinkie, Right Thumb, Right Index, Right Middle, Right Ring, Right Pinkie. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Left Thumb</td><td>1001</td><td>1110</td><td>0001</td></tr><tr><td>Left Index</td><td>1001</td><td>1111</td><td>0010</td></tr><tr><td>Left Middle</td><td>1010</td><td>0100</td><td>0011</td></tr><tr><td>Left Ring</td><td>1011</td><td>0001</td><td>0100</td></tr><tr><td>Left Pinkie</td><td>1011</td><td>1000</td><td>0101</td></tr><tr><td>Right Thumb</td><td>1101</td><td>0111</td><td>0110</td></tr><tr><td>Right Index</td><td>1110</td><td>0000</td><td>0111</td></tr><tr><td>Right Middle</td><td>0000</td><td>1010</td><td>1000</td></tr><tr><td>Right Ring</td><td>0001</td><td>0101</td><td>1001</td></tr><tr><td>Right Pinkie</td><td>0010</td><td>1101</td><td>1010</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital fingerprinting device. Three engineers were each tasked with designing a method for encoding the five fingers on two hands: Left Thumb, Left Index, Left Middle, Left Ring, Left Pinkie, Right Thumb, Right Index, Right Middle, Right Ring, Right Pinkie. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Left Thumb</td><td>1010</td><td>1111</td><td>0000</td></tr><tr><td>Left Index</td><td>1001</td><td>1110</td><td>0001</td></tr><tr><td>Left Middle</td><td>1110</td><td>1101</td><td>0011</td></tr><tr><td>Left Ring</td><td>0001</td><td>1100</td><td>0010</td></tr><tr><td>Left Pinkie</td><td>0100</td><td>1011</td><td>0110</td></tr><tr><td>Right Thumb</td><td>0011</td><td>1010</td><td>0111</td></tr><tr><td>Right Index</td><td>0110</td><td>1001</td><td>0101</td></tr><tr><td>Right Middle</td><td>0101</td><td>1000</td><td>0100</td></tr><tr><td>Right Ring</td><td>1101</td><td>0111</td><td>1100</td></tr><tr><td>Right Pinkie</td><td>1100</td><td>0110</td><td>0010</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital astronomy device that to track the major and dwarf planets. Three engineers were each tasked with designing a method for encoding the major and dwarf planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Ceres, Pluto, Haumea, Makemake, Eris. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Mercury</td><td>0001</td><td>1011</td><td>0000</td></tr><tr><td>Venus</td><td>0010</td><td>0101</td><td>0001</td></tr><tr><td>Earth</td><td>0011</td><td>0111</td><td>0101</td></tr><tr><td>Mars</td><td>0100</td><td>0110</td><td>0011</td></tr><tr><td>Jupiter</td><td>0101</td><td>1000</td><td>0101</td></tr><tr><td>Saturn</td><td>0110</td><td>1001</td><td>0101</td></tr><tr><td>Uranus</td><td>0111</td><td>1100</td><td>0110</td></tr><tr><td>Neptune</td><td>1000</td><td>0011</td><td>0111</td></tr><tr><td>Ceres</td><td>0100</td><td>1111</td><td>1000</td></tr><tr><td>Pluto</td><td>1010</td><td>0001</td><td>1001</td></tr><tr><td>Haumea</td><td>1011</td><td>1110</td><td>1010</td></tr><tr><td>Makemake</td><td>1100</td><td>1101</td><td>1011</td></tr><tr><td>Eris</td><td>1101</td><td>1010</td><td>1100</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital astronomy device that to track the major and dwarf planets. Three engineers were each tasked with designing a method for encoding the major and dwarf planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, Ceres, Pluto, Haumea, Makemake, Eris. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Mercury</td><td>0000</td><td>0011</td><td>1001</td></tr><tr><td>Venus</td><td>0001</td><td>1110</td><td>1001</td></tr><tr><td>Earth</td><td>0101</td><td>1111</td><td>1010</td></tr><tr><td>Mars</td><td>0011</td><td>0111</td><td>1011</td></tr><tr><td>Jupiter</td><td>0101</td><td>1011</td><td>1011</td></tr><tr><td>Saturn</td><td>0101</td><td>0101</td><td>1101</td></tr><tr><td>Uranus</td><td>0110</td><td>0110</td><td>1110</td></tr><tr><td>Neptune</td><td>0111</td><td>0000</td><td>0000</td></tr><tr><td>Ceres</td><td>1000</td><td>1100</td><td>0001</td></tr><tr><td>Pluto</td><td>1001</td><td>1101</td><td>0010</td></tr><tr><td>Haumea</td><td>0110</td><td>1010</td><td>0011</td></tr><tr><td>Makemake</td><td>1011</td><td>0101</td><td>0100</td></tr><tr><td>Eris</td><td>1100</td><td>0101</td><td>0101</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a healthy fruit vending machine that will serve only fresh fruit. Three engineers were each tasked with designing a method for encoding the types of fruit the machine will sell: Apple, Banana, Orange, Grape, Pear, Pineapple, Strawberry, Mango, Watermelon, Cherry. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Apple</td><td>1001</td><td>1111</td><td>0110</td></tr><tr><td>Banana</td><td>0000</td><td>1110</td><td>0101</td></tr><tr><td>Orange</td><td>1010</td><td>1101</td><td>1100</td></tr><tr><td>Grape</td><td>1011</td><td>1100</td><td>0101</td></tr><tr><td>Pear</td><td>1011</td><td>1011</td><td>1000</td></tr><tr><td>Pineapple</td><td>1101</td><td>1010</td><td>0011</td></tr><tr><td>Strawberry</td><td>1110</td><td>1001</td><td>0101</td></tr><tr><td>Mango</td><td>0000</td><td>1000</td><td>0110</td></tr><tr><td>Watermelon</td><td>0001</td><td>1100</td><td>1001</td></tr><tr><td>Cherry</td><td>0010</td><td>0110</td><td>0000</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Engineer A,HTML
+OPTION,0,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a healthy fruit vending machine that will serve only fresh fruit. Three engineers were each tasked with designing a method for encoding the types of fruit the machine will sell: Apple, Banana, Orange, Grape, Pear, Pineapple, Strawberry, Mango, Watermelon, Cherry. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Apple</td><td>0000</td><td>1100</td><td>1111</td></tr><tr><td>Banana</td><td>1000</td><td>1000</td><td>1110</td></tr><tr><td>Orange</td><td>0100</td><td>0110</td><td>0110</td></tr><tr><td>Grape</td><td>1100</td><td>0111</td><td>1100</td></tr><tr><td>Pear</td><td>0000</td><td>0000</td><td>1011</td></tr><tr><td>Pineapple</td><td>1010</td><td>0101</td><td>1010</td></tr><tr><td>Strawberry</td><td>0100</td><td>1001</td><td>1001</td></tr><tr><td>Mango</td><td>1100</td><td>1011</td><td>1000</td></tr><tr><td>Watermelon</td><td>1100</td><td>0011</td><td>1100</td></tr><tr><td>Cherry</td><td>1001</td><td>0110</td><td>0110</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Engineer A,HTML
+OPTION,0,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a candy vending machine. Three engineers were each tasked with designing a method for encoding the types of candy the machine will sell: Snickers, Hershey Chocolate Bar, Reese's Peanut Butter Cup, Twix, Airheads, Sour Patch Kids, M&Ms, Nerds, Starbursts, Skittles. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Snickers</td><td>1011</td><td>0000</td><td>0001</td></tr><tr><td>Hershey Chocolate Bar</td><td>0110</td><td>1000</td><td>0010</td></tr><tr><td>Reese's Peanut Butter Cup</td><td>0000</td><td>0100</td><td>0011</td></tr><tr><td>Twix</td><td>0110</td><td>1100</td><td>0100</td></tr><tr><td>Airheads</td><td>0011</td><td>0000</td><td>0101</td></tr><tr><td>Sour Patch Kids</td><td>1000</td><td>1010</td><td>0110</td></tr><tr><td>M&Ms</td><td>0111</td><td>0100</td><td>0111</td></tr><tr><td>Nerds</td><td>0001</td><td>1100</td><td>1000</td></tr><tr><td>Starbursts</td><td>0101</td><td>1100</td><td>0100</td></tr><tr><td>Skittles</td><td>0101</td><td>1001</td><td>1010</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a candy vending machine. Three engineers were each tasked with designing a method for encoding the types of candy the machine will sell: Snickers, Hershey Chocolate Bar, Reese's Peanut Butter Cup, Twix, Airheads, Sour Patch Kids, M&Ms, Nerds, Starbursts, Skittles. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Snickers</td><td>0111</td><td>1001</td><td>0000</td></tr><tr><td>Hershey Chocolate Bar</td><td>1000</td><td>0000</td><td>1000</td></tr><tr><td>Reese's Peanut Butter Cup</td><td>1100</td><td>1010</td><td>0100</td></tr><tr><td>Twix</td><td>1001</td><td>1011</td><td>1100</td></tr><tr><td>Airheads</td><td>1011</td><td>1011</td><td>0000</td></tr><tr><td>Sour Patch Kids</td><td>0110</td><td>1101</td><td>1010</td></tr><tr><td>M&Ms</td><td>0011</td><td>1110</td><td>0100</td></tr><tr><td>Nerds</td><td>1111</td><td>0000</td><td>1000</td></tr><tr><td>Starbursts</td><td>0101</td><td>0001</td><td>1100</td></tr><tr><td>Skittles</td><td>0000</td><td>0010</td><td>1001</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital piano. Three engineers were each tasked with designing a method for encoding the musical notes: C, C#, D, D#, E, F, F#, G, G#, A, A#, B. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>C</td><td>0000</td><td>0000</td><td>1111</td></tr><tr><td>C#</td><td>1000</td><td>0110</td><td>1110</td></tr><tr><td>D</td><td>0100</td><td>0101</td><td>0110</td></tr><tr><td>D#</td><td>1100</td><td>1100</td><td>1100</td></tr><tr><td>E</td><td>0000</td><td>1000</td><td>1011</td></tr><tr><td>F</td><td>1010</td><td>0110</td><td>1010</td></tr><tr><td>F#</td><td>0100</td><td>1110</td><td>1001</td></tr><tr><td>G</td><td>1000</td><td>1111</td><td>1000</td></tr><tr><td>G#</td><td>1100</td><td>0001</td><td>1100</td></tr><tr><td>A</td><td>1001</td><td>0111</td><td>0110</td></tr><tr><td>A#</td><td>0101</td><td>1001</td><td>0101</td></tr><tr><td>B</td><td>1101</td><td>0101</td><td>0100</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital piano. Three engineers were each tasked with designing a method for encoding the musical notes: C, C#, D, D#, E, F, F#, G, G#, A, A#, B. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>C</td><td>0000</td><td>0001</td><td>0101</td></tr><tr><td>C#</td><td>1000</td><td>0010</td><td>0110</td></tr><tr><td>D</td><td>0100</td><td>0011</td><td>1101</td></tr><tr><td>D#</td><td>1100</td><td>0100</td><td>0101</td></tr><tr><td>E</td><td>0000</td><td>0101</td><td>0110</td></tr><tr><td>F</td><td>1010</td><td>0110</td><td>1011</td></tr><tr><td>F#</td><td>0100</td><td>0011</td><td>0000</td></tr><tr><td>G</td><td>1000</td><td>1000</td><td>0001</td></tr><tr><td>G#</td><td>1100</td><td>0100</td><td>0011</td></tr><tr><td>A</td><td>1001</td><td>1010</td><td>0111</td></tr><tr><td>A#</td><td>0101</td><td>1011</td><td>1001</td></tr><tr><td>B</td><td>1101</td><td>1100</td><td>1101</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,0,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital trivia device. Three engineers were each tasked with designing a method for encoding the player positions in a baseball game: pitcher, catcher, first baseman, second baseman, third baseman, shortstop, left fielder, center fielder, right fielder. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>pitcher</td><td>1001</td><td>1111</td><td>1100</td></tr><tr><td>catcher</td><td>0000</td><td>1110</td><td>0000</td></tr><tr><td>first baseman</td><td>1010</td><td>0110</td><td>1110</td></tr><tr><td>second baseman</td><td>1011</td><td>1100</td><td>1101</td></tr><tr><td>third baseman</td><td>1011</td><td>1011</td><td>0110</td></tr><tr><td>shortstop</td><td>1101</td><td>1010</td><td>0011</td></tr><tr><td>left fielder</td><td>1110</td><td>1001</td><td>0110</td></tr><tr><td>center fielder</td><td>0000</td><td>1000</td><td>0101</td></tr><tr><td>right fielder</td><td>0001</td><td>1100</td><td>0101</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital trivia device. Three engineers were each tasked with designing a method for encoding the player positions in a baseball game: pitcher, catcher, first baseman, second baseman, third baseman, shortstop, left fielder, center fielder, right fielder. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>pitcher</td><td>1110</td><td>0000</td><td>0000</td></tr><tr><td>catcher</td><td>0011</td><td>0001</td><td>1000</td></tr><tr><td>first baseman</td><td>0001</td><td>0011</td><td>0100</td></tr><tr><td>second baseman</td><td>0101</td><td>0010</td><td>1100</td></tr><tr><td>third baseman</td><td>1101</td><td>0110</td><td>0000</td></tr><tr><td>shortstop</td><td>0110</td><td>0111</td><td>1010</td></tr><tr><td>left fielder</td><td>0110</td><td>0101</td><td>0100</td></tr><tr><td>center fielder</td><td>1100</td><td>0001</td><td>1000</td></tr><tr><td>right fielder</td><td>0111</td><td>1100</td><td>1100</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,0,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital medical device. Three engineers were each tasked with designing a method for encoding the major organs in the human body: Brain, Heart, Lungs, Liver, Kidneys, Stomach, Pancreas, Spleen, Gallbladde, Adrenal glands, Thyroid glands. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Brain</td><td>0000</td><td>1001</td><td>0110</td></tr><tr><td>Heart</td><td>0001</td><td>0000</td><td>0001</td></tr><tr><td>Lungs</td><td>0011</td><td>1010</td><td>1000</td></tr><tr><td>Liver</td><td>0010</td><td>0010</td><td>0101</td></tr><tr><td>Kidneys</td><td>0110</td><td>1011</td><td>1100</td></tr><tr><td>Stomach</td><td>0111</td><td>1101</td><td>0110</td></tr><tr><td>Pancreas</td><td>0101</td><td>1110</td><td>0111</td></tr><tr><td>Spleen</td><td>0001</td><td>0000</td><td>1101</td></tr><tr><td>Gallbladde</td><td>1100</td><td>0001</td><td>0101</td></tr><tr><td>Adrenal glands</td><td>0010</td><td>0010</td><td>0011</td></tr><tr><td>Thyroid glands</td><td>1111</td><td>0011</td><td>1110</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,0,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital medical device. Three engineers were each tasked with designing a method for encoding the major organs in the human body: Brain, Heart, Lungs, Liver, Kidneys, Stomach, Pancreas, Spleen, Gallbladde, Adrenal glands, Thyroid glands. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Brain</td><td>0001</td><td>0000</td><td>0000</td></tr><tr><td>Heart</td><td>0010</td><td>1000</td><td>0001</td></tr><tr><td>Lungs</td><td>0011</td><td>0001</td><td>0101</td></tr><tr><td>Liver</td><td>0100</td><td>0110</td><td>0011</td></tr><tr><td>Kidneys</td><td>0101</td><td>1111</td><td>0101</td></tr><tr><td>Stomach</td><td>0110</td><td>1001</td><td>0101</td></tr><tr><td>Pancreas</td><td>0011</td><td>0111</td><td>0110</td></tr><tr><td>Spleen</td><td>1000</td><td>0000</td><td>0111</td></tr><tr><td>Gallbladde</td><td>0100</td><td>1011</td><td>1000</td></tr><tr><td>Adrenal glands</td><td>1010</td><td>0110</td><td>1001</td></tr><tr><td>Thyroid glands</td><td>1011</td><td>0101</td><td>0110</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,0,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital paint color device. Three engineers were each tasked with designing a method for encoding the colors on a color wheel: Red, Orange, Yellow, Green, Blue, Indigo, Violet, Magenta, Cyan, Lime, Brown. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Red</td><td>1111</td><td>1100</td><td>0000</td></tr><tr><td>Orange</td><td>1110</td><td>0001</td><td>1000</td></tr><tr><td>Yellow</td><td>0110</td><td>0101</td><td>0100</td></tr><tr><td>Green</td><td>1100</td><td>1111</td><td>1100</td></tr><tr><td>Blue</td><td>1011</td><td>1101</td><td>0000</td></tr><tr><td>Indigo</td><td>1010</td><td>0110</td><td>1010</td></tr><tr><td>Violet</td><td>1001</td><td>0000</td><td>0100</td></tr><tr><td>Magenta</td><td>1000</td><td>0101</td><td>1000</td></tr><tr><td>Cyan</td><td>1100</td><td>0110</td><td>1100</td></tr><tr><td>Lime</td><td>0110</td><td>0111</td><td>1001</td></tr><tr><td>Brown</td><td>1011</td><td>1110</td><td>0101</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital paint color device. Three engineers were each tasked with designing a method for encoding the colors on a color wheel: Red, Orange, Yellow, Green, Blue, Indigo, Violet, Magenta, Cyan, Lime, Brown. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Red</td><td>0101</td><td>0000</td><td>0000</td></tr><tr><td>Orange</td><td>0110</td><td>0001</td><td>0001</td></tr><tr><td>Yellow</td><td>1101</td><td>0011</td><td>0101</td></tr><tr><td>Green</td><td>1111</td><td>0010</td><td>0011</td></tr><tr><td>Blue</td><td>1110</td><td>0101</td><td>0101</td></tr><tr><td>Indigo</td><td>0110</td><td>0111</td><td>0101</td></tr><tr><td>Violet</td><td>0110</td><td>0101</td><td>0110</td></tr><tr><td>Magenta</td><td>1100</td><td>0001</td><td>0111</td></tr><tr><td>Cyan</td><td>0011</td><td>1100</td><td>0011</td></tr><tr><td>Lime</td><td>0111</td><td>0010</td><td>1001</td></tr><tr><td>Brown</td><td>1000</td><td>1111</td><td>0110</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Engineer A,HTML
+OPTION,0,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital produce scale. Three engineers were each tasked with designing a method for encoding the common vegetables available for sale: Carrot, Broccoli, Celery, Tomato, Potato, Onion, Pepper, Cucumber, Zucchini, Eggplant, Cauliflower. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Carrot</td><td>1111</td><td>0000</td><td>0101</td></tr><tr><td>Broccoli</td><td>1110</td><td>1000</td><td>0110</td></tr><tr><td>Celery</td><td>0110</td><td>0100</td><td>0011</td></tr><tr><td>Tomato</td><td>1100</td><td>1100</td><td>0111</td></tr><tr><td>Potato</td><td>1011</td><td>0000</td><td>0111</td></tr><tr><td>Onion</td><td>1010</td><td>1010</td><td>0110</td></tr><tr><td>Pepper</td><td>1001</td><td>0100</td><td>0000</td></tr><tr><td>Cucumber</td><td>1000</td><td>1000</td><td>1111</td></tr><tr><td>Zucchini</td><td>1100</td><td>1100</td><td>1101</td></tr><tr><td>Eggplant</td><td>0110</td><td>1001</td><td>1011</td></tr><tr><td>Cauliflower</td><td>1011</td><td>1000</td><td>0001</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,0,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a digital produce scale. Three engineers were each tasked with designing a method for encoding the common vegetables available for sale: Carrot, Broccoli, Celery, Tomato, Potato, Onion, Pepper, Cucumber, Zucchini, Eggplant, Cauliflower. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Carrot</td><td>0000</td><td>1100</td><td>0000</td></tr><tr><td>Broccoli</td><td>1000</td><td>1110</td><td>0001</td></tr><tr><td>Celery</td><td>0100</td><td>0000</td><td>0011</td></tr><tr><td>Tomato</td><td>1100</td><td>0101</td><td>0010</td></tr><tr><td>Potato</td><td>0000</td><td>0101</td><td>0101</td></tr><tr><td>Onion</td><td>1010</td><td>0000</td><td>0111</td></tr><tr><td>Pepper</td><td>0100</td><td>0110</td><td>0101</td></tr><tr><td>Cucumber</td><td>1001</td><td>1011</td><td>0001</td></tr><tr><td>Zucchini</td><td>1100</td><td>1111</td><td>1100</td></tr><tr><td>Eggplant</td><td>1001</td><td>0101</td><td>0010</td></tr><tr><td>Cauliflower</td><td>1000</td><td>0111</td><td>1111</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Engineer A,HTML
+OPTION,0,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a soda vending machine. Three engineers were each tasked with designing a method for encoding the types of soda the machine will sell: Coca-Cola, Pepsi, Dr Pepper, Sprite, Mountain Dew, Diet Coke, Diet Pepsi, Fanta, A&W Root Beer, Coke Zero. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Coca-Cola</td><td>0001</td><td>0011</td><td>1111</td></tr><tr><td>Pepsi</td><td>0010</td><td>0110</td><td>1110</td></tr><tr><td>Dr Pepper</td><td>0011</td><td>0111</td><td>0110</td></tr><tr><td>Sprite</td><td>0100</td><td>1101</td><td>1100</td></tr><tr><td>Mountain Dew</td><td>0101</td><td>1100</td><td>1011</td></tr><tr><td>Diet Coke</td><td>0110</td><td>0101</td><td>1010</td></tr><tr><td>Diet Pepsi</td><td>0011</td><td>0101</td><td>1001</td></tr><tr><td>Fanta</td><td>1000</td><td>1111</td><td>1000</td></tr><tr><td>A&W Root Beer</td><td>0100</td><td>1110</td><td>1100</td></tr><tr><td>Coke Zero</td><td>1010</td><td>0000</td><td>0110</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,1,Engineer C,HTML
+
+
+NewQuestion,MS
+Title,Determine which encoding is correct
+QuestionText,"<p>A team of engineers is designing a soda vending machine. Three engineers were each tasked with designing a method for encoding the types of soda the machine will sell: Coca-Cola, Pepsi, Dr Pepper, Sprite, Mountain Dew, Diet Coke, Diet Pepsi, Fanta, A&W Root Beer, Coke Zero. The encodings they came up with are shown in the table below.</p><table><tr><th>Item to be Encoded</th><th>Engineer A's Encoding</th><th>Engineer B's Encoding</th><th>Engineer C's Encoding</th></tr><tr><td>Coca-Cola</td><td>1111</td><td>0101</td><td>0000</td></tr><tr><td>Pepsi</td><td>1110</td><td>0110</td><td>0100</td></tr><tr><td>Dr Pepper</td><td>0110</td><td>0001</td><td>0100</td></tr><tr><td>Sprite</td><td>1100</td><td>1111</td><td>1100</td></tr><tr><td>Mountain Dew</td><td>1011</td><td>0111</td><td>0000</td></tr><tr><td>Diet Coke</td><td>1010</td><td>1100</td><td>1010</td></tr><tr><td>Diet Pepsi</td><td>1001</td><td>1110</td><td>0100</td></tr><tr><td>Fanta</td><td>1000</td><td>0011</td><td>1001</td></tr><tr><td>A&W Root Beer</td><td>1100</td><td>1011</td><td>1100</td></tr><tr><td>Coke Zero</td><td>0110</td><td>1001</td><td>1001</td></tr></table><p>Which of the engineers' codes are correct? Select all that apply.</p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Engineer A,HTML
+OPTION,1,Engineer B,HTML
+OPTION,0,Engineer C,HTML
+
+

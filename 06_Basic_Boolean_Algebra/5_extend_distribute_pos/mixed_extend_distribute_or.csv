@@ -1,0 +1,225 @@
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (y'+w')(w'+x)(v+w') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*w'\s*\+\s*(?:y'xv|y'vx|xy'v|xvy'|vy'x|vxy')\s*$,regexp
+ANSWER,100,^\s*(?:y'xv|y'vx|xy'v|xvy'|vy'x|vxy')\s*\+\s*w'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (y+w)(z'+w)(w+v') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*w\s*\+\s*(?:yz'v'|yv'z'|z'yv'|z'v'y|v'yz'|v'z'y)\s*$,regexp
+ANSWER,100,^\s*(?:yz'v'|yv'z'|z'yv'|z'v'y|v'yz'|v'z'y)\s*\+\s*w\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (z+w')(z+x)(v+z) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z\s*\+\s*(?:w'xv|w'vx|xw'v|xvw'|vw'x|vxw')\s*$,regexp
+ANSWER,100,^\s*(?:w'xv|w'vx|xw'v|xvw'|vw'x|vxw')\s*\+\s*z\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (w+v)(v+z')(x+v) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*v\s*\+\s*(?:wz'x|wxz'|z'wx|z'xw|xwz'|xz'w)\s*$,regexp
+ANSWER,100,^\s*(?:wz'x|wxz'|z'wx|z'xw|xwz'|xz'w)\s*\+\s*v\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (v'+w')(v'+x')(v'+z) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*v'\s*\+\s*(?:w'x'z|w'zx'|x'w'z|x'zw'|zw'x'|zx'w')\s*$,regexp
+ANSWER,100,^\s*(?:w'x'z|w'zx'|x'w'z|x'zw'|zw'x'|zx'w')\s*\+\s*v'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (z'+x)(z'+w)(z'+v) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z'\s*\+\s*(?:xwv|xvw|wxv|wvx|vxw|vwx)\s*$,regexp
+ANSWER,100,^\s*(?:xwv|xvw|wxv|wvx|vxw|vwx)\s*\+\s*z'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (y+w')(y+x')(y+z') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*y\s*\+\s*(?:w'x'z'|w'z'x'|x'w'z'|x'z'w'|z'w'x'|z'x'w')\s*$,regexp
+ANSWER,100,^\s*(?:w'x'z'|w'z'x'|x'w'z'|x'z'w'|z'w'x'|z'x'w')\s*\+\s*y\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (y+z)(z+w)(z+v') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z\s*\+\s*(?:ywv'|yv'w|wyv'|wv'y|v'yw|v'wy)\s*$,regexp
+ANSWER,100,^\s*(?:ywv'|yv'w|wyv'|wv'y|v'yw|v'wy)\s*\+\s*z\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (w'+v)(x+w')(y'+w') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*w'\s*\+\s*(?:vxy'|vy'x|xvy'|xy'v|y'vx|y'xv)\s*$,regexp
+ANSWER,100,^\s*(?:vxy'|vy'x|xvy'|xy'v|y'vx|y'xv)\s*\+\s*w'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (x'+z')(x'+y')(w+x') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*x'\s*\+\s*(?:z'y'w|z'wy'|y'z'w|y'wz'|wz'y'|wy'z')\s*$,regexp
+ANSWER,100,^\s*(?:z'y'w|z'wy'|y'z'w|y'wz'|wz'y'|wy'z')\s*\+\s*x'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (v+w')(y+v)(z+v) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*v\s*\+\s*(?:w'yz|w'zy|yw'z|yzw'|zw'y|zyw')\s*$,regexp
+ANSWER,100,^\s*(?:w'yz|w'zy|yw'z|yzw'|zw'y|zyw')\s*\+\s*v\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (v+y')(y'+z)(y'+x) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*y'\s*\+\s*(?:vzx|vxz|zvx|zxv|xvz|xzv)\s*$,regexp
+ANSWER,100,^\s*(?:vzx|vxz|zvx|zxv|xvz|xzv)\s*\+\s*y'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (x+y')(z'+x)(x+v) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*x\s*\+\s*(?:y'z'v|y'vz'|z'y'v|z'vy'|vy'z'|vz'y')\s*$,regexp
+ANSWER,100,^\s*(?:y'z'v|y'vz'|z'y'v|z'vy'|vy'z'|vz'y')\s*\+\s*x\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (w'+v)(x'+w')(w'+y') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*w'\s*\+\s*(?:vx'y'|vy'x'|x'vy'|x'y'v|y'vx'|y'x'v)\s*$,regexp
+ANSWER,100,^\s*(?:vx'y'|vy'x'|x'vy'|x'y'v|y'vx'|y'x'v)\s*\+\s*w'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (v+x')(v+y')(w+v) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*v\s*\+\s*(?:x'y'w|x'wy'|y'x'w|y'wx'|wx'y'|wy'x')\s*$,regexp
+ANSWER,100,^\s*(?:x'y'w|x'wy'|y'x'w|y'wx'|wx'y'|wy'x')\s*\+\s*v\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (v+y)(z'+y)(y+w) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*y\s*\+\s*(?:vz'w|vwz'|z'vw|z'wv|wvz'|wz'v)\s*$,regexp
+ANSWER,100,^\s*(?:vz'w|vwz'|z'vw|z'wv|wvz'|wz'v)\s*\+\s*y\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (w+z)(w+v)(x+w) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*w\s*\+\s*(?:zvx|zxv|vzx|vxz|xzv|xvz)\s*$,regexp
+ANSWER,100,^\s*(?:zvx|zxv|vzx|vxz|xzv|xvz)\s*\+\s*w\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (x+y)(x+w')(x+z') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*x\s*\+\s*(?:yw'z'|yz'w'|w'yz'|w'z'y|z'yw'|z'w'y)\s*$,regexp
+ANSWER,100,^\s*(?:yw'z'|yz'w'|w'yz'|w'z'y|z'yw'|z'w'y)\s*\+\s*x\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (w'+z')(y+z')(z'+x) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z'\s*\+\s*(?:w'yx|w'xy|yw'x|yxw'|xw'y|xyw')\s*$,regexp
+ANSWER,100,^\s*(?:w'yx|w'xy|yw'x|yxw'|xw'y|xyw')\s*\+\s*z'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (v'+y')(y'+z')(y'+w') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*y'\s*\+\s*(?:v'z'w'|v'w'z'|z'v'w'|z'w'v'|w'v'z'|w'z'v')\s*$,regexp
+ANSWER,100,^\s*(?:v'z'w'|v'w'z'|z'v'w'|z'w'v'|w'v'z'|w'z'v')\s*\+\s*y'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (y'+v')(v'+z')(x'+v') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*v'\s*\+\s*(?:y'z'x'|y'x'z'|z'y'x'|z'x'y'|x'y'z'|x'z'y')\s*$,regexp
+ANSWER,100,^\s*(?:y'z'x'|y'x'z'|z'y'x'|z'x'y'|x'y'z'|x'z'y')\s*\+\s*v'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (z+y)(y+w)(v'+y) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*y\s*\+\s*(?:zwv'|zv'w|wzv'|wv'z|v'zw|v'wz)\s*$,regexp
+ANSWER,100,^\s*(?:zwv'|zv'w|wzv'|wv'z|v'zw|v'wz)\s*\+\s*y\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (v'+w')(w'+y)(w'+z') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*w'\s*\+\s*(?:v'yz'|v'z'y|yv'z'|yz'v'|z'v'y|z'yv')\s*$,regexp
+ANSWER,100,^\s*(?:v'yz'|v'z'y|yv'z'|yz'v'|z'v'y|z'yv')\s*\+\s*w'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (v'+z')(x+v')(v'+y) which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*v'\s*\+\s*(?:z'xy|z'yx|xz'y|xyz'|yz'x|yxz')\s*$,regexp
+ANSWER,100,^\s*(?:z'xy|z'yx|xz'y|xyz'|yz'x|yxz')\s*\+\s*v'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,<p> Write a Boolean expression that is equivalent to (w+y')(x+y')(y'+z') which does not use parenthesis.</p>,HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*y'\s*\+\s*(?:wxz'|wz'x|xwz'|xz'w|z'wx|z'xw)\s*$,regexp
+ANSWER,100,^\s*(?:wxz'|wz'x|xwz'|xz'w|z'wx|z'xw)\s*\+\s*y'\s*$,regexp
+
+

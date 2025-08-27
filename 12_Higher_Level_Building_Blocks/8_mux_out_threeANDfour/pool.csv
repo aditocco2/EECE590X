@@ -1,0 +1,216 @@
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>1---> in1                  |<br>0---> in2                  |<br>0---> in3                  |<br>0---> in4                  |<br>1---> in5                  |<br>1---> in6                  |<br>0---> in7                  |<br>  |                   Out ---> X<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>000-----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,100,1,HTML
+OPTION,0,0,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>0---> in1                  |<br>0---> in2                  |<br>0---> in3                  |<br>0---> in4                  |<br>0---> in5                  |<br>0---> in6                  |<br>0---> in7                  |<br>  |                   Out ---> X<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>001-----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,100,0,HTML
+OPTION,0,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>1---> in1                  |<br>0---> in2                  |<br>0---> in3                  |<br>0---> in4                  |<br>0---> in5                  |<br>0---> in6                  |<br>1---> in7                  |<br>  |                   Out ---> X<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>010-----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,100,0,HTML
+OPTION,0,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>0---> in1                  |<br>0---> in2                  |<br>0---> in3                  |<br>1---> in4                  |<br>0---> in5                  |<br>1---> in6                  |<br>1---> in7                  |<br>  |                   Out ---> X<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>011-----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,1,HTML
+OPTION,100,0,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>0---> in0                  |<br>0---> in1                  |<br>1---> in2                  |<br>1---> in3                  |<br>0---> in4                  |<br>0---> in5                  |<br>1---> in6                  |<br>0---> in7                  |<br>  |                   Out ---> X<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>100-----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,1,HTML
+OPTION,100,0,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>0---> in1                  |<br>1---> in2                  |<br>0---> in3                  |<br>1---> in4                  |<br>0---> in5                  |<br>1---> in6                  |<br>0---> in7                  |<br>  |                   Out ---> X<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>101-----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,1,HTML
+OPTION,100,0,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>1---> in1                  |<br>1---> in2                  |<br>0---> in3                  |<br>1---> in4                  |<br>0---> in5                  |<br>1---> in6                  |<br>0---> in7                  |<br>  |                   Out ---> X<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>110-----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,0,HTML
+OPTION,100,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>0---> in0                  |<br>0---> in1                  |<br>0---> in2                  |<br>0---> in3                  |<br>0---> in4                  |<br>0---> in5                  |<br>0---> in6                  |<br>0---> in7                  |<br>  |                   Out ---> X<br>  |        sel[2:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>111-----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,100,0,HTML
+OPTION,0,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>0---> in1                  |<br>1---> in2                  |<br>0---> in3                  |<br>0---> in4                  |<br>1---> in5                  |<br>1---> in6                  |<br>0---> in7                  |<br>1---> in8                  |<br>0---> in9                  |<br>1---> in10                 |<br>0---> in11                 |<br>1---> in12                 |<br>0---> in13                 |<br>1---> in14                 |<br>0---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>0000----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,0,HTML
+OPTION,100,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>0---> in0                  |<br>0---> in1                  |<br>0---> in2                  |<br>0---> in3                  |<br>0---> in4                  |<br>1---> in5                  |<br>0---> in6                  |<br>1---> in7                  |<br>0---> in8                  |<br>0---> in9                  |<br>1---> in10                 |<br>1---> in11                 |<br>1---> in12                 |<br>0---> in13                 |<br>1---> in14                 |<br>0---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>0001----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,1,HTML
+OPTION,100,0,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>0---> in0                  |<br>1---> in1                  |<br>1---> in2                  |<br>1---> in3                  |<br>0---> in4                  |<br>1---> in5                  |<br>0---> in6                  |<br>0---> in7                  |<br>0---> in8                  |<br>1---> in9                  |<br>0---> in10                 |<br>0---> in11                 |<br>1---> in12                 |<br>1---> in13                 |<br>1---> in14                 |<br>0---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>0010----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,0,HTML
+OPTION,100,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>0---> in0                  |<br>1---> in1                  |<br>0---> in2                  |<br>1---> in3                  |<br>0---> in4                  |<br>1---> in5                  |<br>1---> in6                  |<br>1---> in7                  |<br>1---> in8                  |<br>0---> in9                  |<br>1---> in10                 |<br>1---> in11                 |<br>0---> in12                 |<br>1---> in13                 |<br>1---> in14                 |<br>1---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>0011----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,0,HTML
+OPTION,100,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>0---> in0                  |<br>0---> in1                  |<br>0---> in2                  |<br>0---> in3                  |<br>1---> in4                  |<br>0---> in5                  |<br>0---> in6                  |<br>1---> in7                  |<br>1---> in8                  |<br>0---> in9                  |<br>1---> in10                 |<br>1---> in11                 |<br>1---> in12                 |<br>1---> in13                 |<br>1---> in14                 |<br>1---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>0100----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,0,HTML
+OPTION,100,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>0---> in1                  |<br>0---> in2                  |<br>1---> in3                  |<br>1---> in4                  |<br>1---> in5                  |<br>0---> in6                  |<br>0---> in7                  |<br>1---> in8                  |<br>0---> in9                  |<br>1---> in10                 |<br>1---> in11                 |<br>1---> in12                 |<br>0---> in13                 |<br>1---> in14                 |<br>1---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>0101----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,0,HTML
+OPTION,100,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>0---> in0                  |<br>1---> in1                  |<br>1---> in2                  |<br>0---> in3                  |<br>1---> in4                  |<br>0---> in5                  |<br>0---> in6                  |<br>1---> in7                  |<br>0---> in8                  |<br>1---> in9                  |<br>0---> in10                 |<br>0---> in11                 |<br>0---> in12                 |<br>1---> in13                 |<br>0---> in14                 |<br>0---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>0110----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,100,0,HTML
+OPTION,0,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>0---> in0                  |<br>1---> in1                  |<br>1---> in2                  |<br>1---> in3                  |<br>0---> in4                  |<br>1---> in5                  |<br>1---> in6                  |<br>0---> in7                  |<br>1---> in8                  |<br>1---> in9                  |<br>1---> in10                 |<br>1---> in11                 |<br>0---> in12                 |<br>0---> in13                 |<br>0---> in14                 |<br>1---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>0111----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,1,HTML
+OPTION,100,0,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>1---> in1                  |<br>1---> in2                  |<br>0---> in3                  |<br>1---> in4                  |<br>0---> in5                  |<br>0---> in6                  |<br>1---> in7                  |<br>1---> in8                  |<br>1---> in9                  |<br>1---> in10                 |<br>1---> in11                 |<br>0---> in12                 |<br>0---> in13                 |<br>0---> in14                 |<br>0---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>1000----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,0,HTML
+OPTION,100,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>0---> in1                  |<br>1---> in2                  |<br>1---> in3                  |<br>0---> in4                  |<br>1---> in5                  |<br>0---> in6                  |<br>1---> in7                  |<br>1---> in8                  |<br>0---> in9                  |<br>1---> in10                 |<br>1---> in11                 |<br>1---> in12                 |<br>1---> in13                 |<br>0---> in14                 |<br>1---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>1001----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,1,HTML
+OPTION,100,0,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>0---> in0                  |<br>0---> in1                  |<br>0---> in2                  |<br>0---> in3                  |<br>1---> in4                  |<br>0---> in5                  |<br>0---> in6                  |<br>0---> in7                  |<br>1---> in8                  |<br>0---> in9                  |<br>0---> in10                 |<br>0---> in11                 |<br>1---> in12                 |<br>0---> in13                 |<br>1---> in14                 |<br>0---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>1010----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,1,HTML
+OPTION,100,0,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>1---> in1                  |<br>1---> in2                  |<br>1---> in3                  |<br>0---> in4                  |<br>1---> in5                  |<br>1---> in6                  |<br>0---> in7                  |<br>0---> in8                  |<br>0---> in9                  |<br>0---> in10                 |<br>1---> in11                 |<br>1---> in12                 |<br>0---> in13                 |<br>0---> in14                 |<br>0---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>1011----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,0,HTML
+OPTION,100,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>0---> in0                  |<br>0---> in1                  |<br>1---> in2                  |<br>1---> in3                  |<br>0---> in4                  |<br>1---> in5                  |<br>1---> in6                  |<br>1---> in7                  |<br>1---> in8                  |<br>0---> in9                  |<br>0---> in10                 |<br>1---> in11                 |<br>1---> in12                 |<br>0---> in13                 |<br>0---> in14                 |<br>1---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>1100----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,100,1,HTML
+OPTION,0,0,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>0---> in1                  |<br>0---> in2                  |<br>0---> in3                  |<br>1---> in4                  |<br>0---> in5                  |<br>1---> in6                  |<br>0---> in7                  |<br>0---> in8                  |<br>1---> in9                  |<br>0---> in10                 |<br>0---> in11                 |<br>0---> in12                 |<br>0---> in13                 |<br>1---> in14                 |<br>1---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>1101----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,100,0,HTML
+OPTION,0,1,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>0---> in0                  |<br>0---> in1                  |<br>0---> in2                  |<br>0---> in3                  |<br>0---> in4                  |<br>1---> in5                  |<br>0---> in6                  |<br>0---> in7                  |<br>0---> in8                  |<br>0---> in9                  |<br>0---> in10                 |<br>0---> in11                 |<br>1---> in12                 |<br>1---> in13                 |<br>0---> in14                 |<br>1---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>1110----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,1,HTML
+OPTION,100,0,HTML
+
+
+NewQuestion,MC
+Title,three_input_mux
+QuestionText,<p>What is the output for the following mux? <br> <pre>  +------------------------+ <br>  |           Mux          |<br>1---> in0                  |<br>0---> in1                  |<br>0---> in2                  |<br>1---> in3                  |<br>1---> in4                  |<br>1---> in5                  |<br>0---> in6                  |<br>0---> in7                  |<br>1---> in8                  |<br>0---> in9                  |<br>1---> in10                 |<br>0---> in11                 |<br>0---> in12                 |<br>1---> in13                 |<br>0---> in14                 |<br>0---> in15                 |<br>  |                   Out ---> X<br>  |        sel[3:0]        |<br>  |         //_\          |<br>  +-----------|------------+<br>              |<br>1111----------!</pre></p>,HTML
+Points,10
+Difficulty,1
+OPTION,100,0,HTML
+OPTION,0,1,HTML
+
+

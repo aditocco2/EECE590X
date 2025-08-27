@@ -1,0 +1,270 @@
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 2 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,4
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 4 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,2,NOT HTML
+ANSWER,100,2
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 3 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,8
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 8 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,3,NOT HTML
+ANSWER,100,3
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 4 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,16,NOT HTML
+ANSWER,100,16
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 16 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,4
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 5 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,32,NOT HTML
+ANSWER,100,32
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 32 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,5,NOT HTML
+ANSWER,100,5
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 6 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,64,NOT HTML
+ANSWER,100,64
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 64 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,6,NOT HTML
+ANSWER,100,6
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 7 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,128,NOT HTML
+ANSWER,100,128
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 128 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,7,NOT HTML
+ANSWER,100,7
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 8 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,256,NOT HTML
+ANSWER,100,256
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 256 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,8
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 9 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,512,NOT HTML
+ANSWER,100,512
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 512 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,9,NOT HTML
+ANSWER,100,9
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 10 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,1024,NOT HTML
+ANSWER,100,1024
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 1024 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,10,NOT HTML
+ANSWER,100,10
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 11 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,2048,NOT HTML
+ANSWER,100,2048
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 2048 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,11,NOT HTML
+ANSWER,100,11
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 12 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,4096,NOT HTML
+ANSWER,100,4096
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 4096 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,12,NOT HTML
+ANSWER,100,12
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 13 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,8192,NOT HTML
+ANSWER,100,8192
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 8192 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,13,NOT HTML
+ANSWER,100,13
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 14 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,16384,NOT HTML
+ANSWER,100,16384
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 16384 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,14,NOT HTML
+ANSWER,100,14
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 15 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,32768,NOT HTML
+ANSWER,100,32768
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 32768 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,15,NOT HTML
+ANSWER,100,15
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many input bits does a mux with 16 select bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,65536,NOT HTML
+ANSWER,100,65536
+
+
+NewQuestion,SA
+Title,"mux_num_in_sel, SA"
+QuestionText,How many select bits does a mux with 65536 input bits have?,NOT HTML
+Points,10
+Difficulty,1
+Feedback,16,NOT HTML
+ANSWER,100,16
+
+

@@ -1,0 +1,153 @@
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 0 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,1,NOT HTML
+ANSWER,100,1
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 1 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,2,NOT HTML
+ANSWER,100,2
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 2 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,4,NOT HTML
+ANSWER,100,4
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 3 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,8,NOT HTML
+ANSWER,100,8
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 4 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,16,NOT HTML
+ANSWER,100,16
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 5 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,32,NOT HTML
+ANSWER,100,32
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 6 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,64,NOT HTML
+ANSWER,100,64
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 7 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,128,NOT HTML
+ANSWER,100,128
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 8 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,256,NOT HTML
+ANSWER,100,256
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 9 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,512,NOT HTML
+ANSWER,100,512
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 10 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,1024,NOT HTML
+ANSWER,100,1024
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 11 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,2048,NOT HTML
+ANSWER,100,2048
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 12 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,4096,NOT HTML
+ANSWER,100,4096
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 13 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,8192,NOT HTML
+ANSWER,100,8192
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 14 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,16384,NOT HTML
+ANSWER,100,16384
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 15 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,32768,NOT HTML
+ANSWER,100,32768
+
+
+NewQuestion,SA
+Title,values_from_bit_length
+QuestionText,<p>How many <i>unique values</i> can be expressed using binary encoding with 16 bits?</p>,HTML
+Points,10
+Difficulty,1
+Feedback,65536,NOT HTML
+ANSWER,100,65536
+
+

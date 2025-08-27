@@ -1,0 +1,84 @@
+NewQuestion,MC
+Title,Choose expression with equivalent structure
+QuestionText,<p>The <i>schematic</i> above produces a single            output Q.</p><p>Construct a <b>Boolean expression</b> with the same            <u>structure</u> as the the circuit shown.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/exp_1.png
+OPTION,0,a(bc),HTML
+OPTION,0,(a+b)+c,HTML
+OPTION,0,(a+a)(b+c),HTML
+OPTION,0,a(b+c),HTML
+OPTION,0,a+(b+c),HTML
+OPTION,0,(ab)c,HTML
+OPTION,0,a(b(c)),HTML
+OPTION,1,ab+ac,HTML
+OPTION,0,abc,HTML
+OPTION,0,a,HTML
+OPTION,0,(a+b)(a+c),HTML
+OPTION,0,a+b+c,HTML
+OPTION,0,a+bc,HTML
+
+
+NewQuestion,MC
+Title,Choose expression with equivalent structure
+QuestionText,<p>The <i>schematic</i> above produces a single            output Q.</p><p>Construct a <b>Boolean expression</b> with the same            <u>structure</u> as the the circuit shown.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/exp_2.png
+OPTION,0,abc,HTML
+OPTION,0,ab+ac,HTML
+OPTION,0,a+b+c,HTML
+OPTION,0,a+bc,HTML
+OPTION,0,a(b(c)),HTML
+OPTION,0,a(bc),HTML
+OPTION,0,(ab)c,HTML
+OPTION,0,a(b+c),HTML
+OPTION,0,a+(b+c),HTML
+OPTION,0,(a+a)(b+c),HTML
+OPTION,1,(a+b)(a+c),HTML
+OPTION,0,(a+b)+c,HTML
+OPTION,0,a,HTML
+
+
+NewQuestion,MC
+Title,Choose expression with equivalent structure
+QuestionText,<p>The <i>schematic</i> above produces a single            output Q.</p><p>Construct a <b>Boolean expression</b> with the same            <u>structure</u> as the the circuit shown.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/exp_3.png
+OPTION,1,a+b+c,HTML
+OPTION,0,a(b+c),HTML
+OPTION,0,(a+b)+c,HTML
+OPTION,0,a(b(c)),HTML
+OPTION,0,abc,HTML
+OPTION,0,a(bc),HTML
+OPTION,0,a+(b+c),HTML
+OPTION,0,(ab)c,HTML
+OPTION,0,(a+b)(a+c),HTML
+OPTION,0,ab+ac,HTML
+OPTION,0,(a+a)(b+c),HTML
+OPTION,0,a,HTML
+OPTION,0,a+bc,HTML
+
+
+NewQuestion,MC
+Title,Choose expression with equivalent structure
+QuestionText,<p>The <i>schematic</i> above produces a single            output Q.</p><p>Construct a <b>Boolean expression</b> with the same            <u>structure</u> as the the circuit shown.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/exp_4.png
+OPTION,0,a,HTML
+OPTION,0,a(b+c),HTML
+OPTION,1,abc,HTML
+OPTION,0,a(bc),HTML
+OPTION,0,a+(b+c),HTML
+OPTION,0,ab+ac,HTML
+OPTION,0,a(b(c)),HTML
+OPTION,0,(a+b)+c,HTML
+OPTION,0,(a+b)(a+c),HTML
+OPTION,0,(a+a)(b+c),HTML
+OPTION,0,a+bc,HTML
+OPTION,0,a+b+c,HTML
+OPTION,0,(ab)c,HTML
+
+

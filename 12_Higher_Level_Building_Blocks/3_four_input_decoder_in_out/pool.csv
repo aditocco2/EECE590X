@@ -1,0 +1,736 @@
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>0--->in0             Out0 ---> ?<br>0--->in1             Out1 ---> ?<br>0--->in2             Out2 ---> ?<br>0--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out15,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out10,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out2,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out3,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out4,HTML
+OPTION,1,Out0,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 1<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,abcd: 0000,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 0110,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>1--->in0             Out0 ---> ?<br>0--->in1             Out1 ---> ?<br>0--->in2             Out2 ---> ?<br>0--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out10,HTML
+OPTION,1,Out1,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out15,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out2,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out4,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out3,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 1<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,1,abcd: 0001,HTML
+OPTION,0,abcd: 1100,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>0--->in0             Out0 ---> ?<br>1--->in1             Out1 ---> ?<br>0--->in2             Out2 ---> ?<br>0--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out5,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out10,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out3,HTML
+OPTION,0,Out15,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out4,HTML
+OPTION,1,Out2,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 1<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 1001,HTML
+OPTION,1,abcd: 0010,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>1--->in0             Out0 ---> ?<br>1--->in1             Out1 ---> ?<br>0--->in2             Out2 ---> ?<br>0--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out12,HTML
+OPTION,0,Out8,HTML
+OPTION,1,Out3,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out2,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out10,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out4,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out15,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 1<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,1,abcd: 0011,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>0--->in0             Out0 ---> ?<br>0--->in1             Out1 ---> ?<br>1--->in2             Out2 ---> ?<br>0--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out2,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out10,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out3,HTML
+OPTION,1,Out4,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out15,HTML
+OPTION,0,Out11,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 1<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,1,abcd: 0100,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 1000,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>1--->in0             Out0 ---> ?<br>0--->in1             Out1 ---> ?<br>1--->in2             Out2 ---> ?<br>0--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out10,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out3,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out2,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out4,HTML
+OPTION,0,Out15,HTML
+OPTION,1,Out5,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 1<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,1,abcd: 0101,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 1111,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>0--->in0             Out0 ---> ?<br>1--->in1             Out1 ---> ?<br>1--->in2             Out2 ---> ?<br>0--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out15,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out2,HTML
+OPTION,1,Out6,HTML
+OPTION,0,Out10,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out4,HTML
+OPTION,0,Out3,HTML
+OPTION,0,Out5,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 1<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,1,abcd: 0110,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 1010,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>1--->in0             Out0 ---> ?<br>1--->in1             Out1 ---> ?<br>1--->in2             Out2 ---> ?<br>0--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out3,HTML
+OPTION,0,Out15,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out10,HTML
+OPTION,0,Out4,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out2,HTML
+OPTION,1,Out7,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out8,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 1<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,1,abcd: 0111,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 1001,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>0--->in0             Out0 ---> ?<br>0--->in1             Out1 ---> ?<br>0--->in2             Out2 ---> ?<br>1--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out0,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out2,HTML
+OPTION,0,Out10,HTML
+OPTION,0,Out3,HTML
+OPTION,0,Out15,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out14,HTML
+OPTION,1,Out8,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out4,HTML
+OPTION,0,Out9,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 1<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,1,abcd: 1000,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 0111,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>1--->in0             Out0 ---> ?<br>0--->in1             Out1 ---> ?<br>0--->in2             Out2 ---> ?<br>1--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out15,HTML
+OPTION,0,Out2,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out10,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out4,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out3,HTML
+OPTION,0,Out8,HTML
+OPTION,1,Out9,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out7,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 1<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,abcd: 1001,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 0000,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>0--->in0             Out0 ---> ?<br>1--->in1             Out1 ---> ?<br>0--->in2             Out2 ---> ?<br>1--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out4,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out15,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out3,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out2,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out14,HTML
+OPTION,1,Out10,HTML
+OPTION,0,Out13,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 1<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,1,abcd: 1010,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 1110,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>1--->in0             Out0 ---> ?<br>1--->in1             Out1 ---> ?<br>0--->in2             Out2 ---> ?<br>1--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,1,Out11,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out15,HTML
+OPTION,0,Out10,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out3,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out4,HTML
+OPTION,0,Out2,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out0,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 1<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,1,abcd: 1011,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 1101,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>0--->in0             Out0 ---> ?<br>0--->in1             Out1 ---> ?<br>1--->in2             Out2 ---> ?<br>1--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out14,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out3,HTML
+OPTION,1,Out12,HTML
+OPTION,0,Out15,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out10,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out2,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out4,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 1<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,1,abcd: 1100,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>1--->in0             Out0 ---> ?<br>0--->in1             Out1 ---> ?<br>1--->in2             Out2 ---> ?<br>1--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out15,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out2,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out10,HTML
+OPTION,1,Out13,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out4,HTML
+OPTION,0,Out3,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out12,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 1<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,1,abcd: 1101,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 1111,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>0--->in0             Out0 ---> ?<br>1--->in1             Out1 ---> ?<br>1--->in2             Out2 ---> ?<br>1--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out15,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out2,HTML
+OPTION,0,Out4,HTML
+OPTION,0,Out1,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out0,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out10,HTML
+OPTION,1,Out14,HTML
+OPTION,0,Out3,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 1<br>  |                 Out15 ---> 0<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 1111,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,1,abcd: 1110,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 0011,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 1010,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>For the following decoder, which output(s): are high? <br> <pre>  +------------------------+ <br>  |        Decoder         |<br>1--->in0             Out0 ---> ?<br>1--->in1             Out1 ---> ?<br>1--->in2             Out2 ---> ?<br>1--->in3             Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                  Out8 ---> ?<br>  |                  Out9 ---> ?<br>  |                 Out10 ---> ?<br>  |                 Out11 ---> ?<br>  |                 Out12 ---> ?<br>  |                 Out13 ---> ?<br>  |                 Out14 ---> ?<br>  |                 Out15 ---> ?<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,Out0,HTML
+OPTION,0,Out2,HTML
+OPTION,1,Out15,HTML
+OPTION,0,Out13,HTML
+OPTION,0,Out5,HTML
+OPTION,0,Out7,HTML
+OPTION,0,Out10,HTML
+OPTION,0,Out4,HTML
+OPTION,0,Out14,HTML
+OPTION,0,Out3,HTML
+OPTION,0,Out11,HTML
+OPTION,0,Out9,HTML
+OPTION,0,Out6,HTML
+OPTION,0,Out12,HTML
+OPTION,0,Out8,HTML
+OPTION,0,Out1,HTML
+
+
+NewQuestion,MS
+Title,"four_input_decoder_in_out, SA"
+QuestionText,"<p>What is the binary input, abcd, for the following : decoder? <pre>  +------------------------+ <br>  |        Decoder         |<br>d--->in0             Out0 ---> 0<br>c--->in1             Out1 ---> 0<br>b--->in2             Out2 ---> 0<br>a--->in3             Out3 ---> 0<br>  |                  Out4 ---> 0<br>  |                  Out5 ---> 0<br>  |                  Out6 ---> 0<br>  |                  Out7 ---> 0<br>  |                  Out8 ---> 0<br>  |                  Out9 ---> 0<br>  |                 Out10 ---> 0<br>  |                 Out11 ---> 0<br>  |                 Out12 ---> 0<br>  |                 Out13 ---> 0<br>  |                 Out14 ---> 0<br>  |                 Out15 ---> 1<br>  |                        |<br>  +------------------------+</pre></p>",HTML
+Points,10
+Difficulty,1
+OPTION,0,abcd: 1100,HTML
+OPTION,0,abcd: 1110,HTML
+OPTION,0,abcd: 1010,HTML
+OPTION,0,abcd: 1011,HTML
+OPTION,0,abcd: 0101,HTML
+OPTION,0,abcd: 0111,HTML
+OPTION,0,abcd: 0001,HTML
+OPTION,0,abcd: 0010,HTML
+OPTION,0,abcd: 1001,HTML
+OPTION,0,abcd: 0100,HTML
+OPTION,0,abcd: 1101,HTML
+OPTION,0,abcd: 1000,HTML
+OPTION,1,abcd: 1111,HTML
+OPTION,0,abcd: 0110,HTML
+OPTION,0,abcd: 0000,HTML
+OPTION,0,abcd: 0011,HTML
+
+

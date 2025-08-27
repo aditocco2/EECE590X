@@ -1,0 +1,765 @@
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'c' + ac + a'b'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ac + b'c' + a'b'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b + b'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b' + abc'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'c + ab</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'c + a'bc'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ab + b'c'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ab'c' + a'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b'c' + bc</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ab + a'bc + ab'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'c + ac' + abc</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = bc' + a'c + a'b'c'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = b'c' + abc</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = bc + ab'c'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = bc + ab'c' + a'bc'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,1,<p>d<sub>2</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = abc' + a'b'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ac' + a'bc' + ab'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>2</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b + a'b'c + ac'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>2</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b'c' + ac</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b'c + ab</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = bc + ac'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = b'c + abc' + a'bc + a'b'c'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'bc + b'c'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ac + a'bc + abc'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b'c' + ab</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ab' + bc'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = bc + a'b'c' + abc'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ac' + ac + a'bc'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ab + a'b' + ab'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = bc' + a'b'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = b'c + a'bc</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'c' + bc + ab'c'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ab' + a'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = b'c + abc</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ab' + abc'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = bc' + bc</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,1,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = bc' + a'b'c + ab'c'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ab'c + abc' + a'bc</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ac + b'c'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = abc' + b'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ab + a'c'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,1,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b' + ac' + a'bc'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>2</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b + ac'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'c' + ab'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,1,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b + a'b'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'c' + ab'c + abc' + a'bc</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,1,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = ab + a'b'c</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = b'c' + a'bc</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b + a'b'c'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b + a'b'c' + abc</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,1,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>3</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>1</sub></p>,HTML
+
+
+NewQuestion,MS
+Title,"Boolean_Function_Through_Decoder, MS"
+QuestionText,"<p>Assume you'd like to implement the followng <i>Boolean function</i> with a three-input decoder and an OR gate (not shown):</p><p>F = a'b' + bc + ab'c'</p><p>If a, b, and c are connected to i2, i1, and i0 respectively, which of the following decoder outputs should you utilize?</p> <pre>  +------------------------+ <br>  |        Decoder         |<br>c--->in0             Out0 ---> ?<br>b--->in1             Out1 ---> ?<br>a--->in2             Out2 ---> ?<br>  |                  Out3 ---> ?<br>  |                  Out4 ---> ?<br>  |                  Out5 ---> ?<br>  |                  Out6 ---> ?<br>  |                  Out7 ---> ?<br>  |                        |<br>  +------------------------+</pre>",HTML
+Points,10
+Difficulty,1
+OPTION,0,<p>d<sub>0</sub></p>,HTML
+OPTION,1,<p>d<sub>7</sub></p>,HTML
+OPTION,0,<p>d<sub>5</sub></p>,HTML
+OPTION,0,<p>d<sub>6</sub></p>,HTML
+OPTION,0,<p>d<sub>2</sub></p>,HTML
+OPTION,0,<p>d<sub>3</sub></p>,HTML
+OPTION,1,<p>d<sub>4</sub></p>,HTML
+OPTION,1,<p>d<sub>1</sub></p>,HTML
+
+

@@ -1,0 +1,600 @@
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Putting an item on a shelf at the grocery store,HTML
+OPTION,1,Representing an arbitrary piece of information as a short unique sequence of decimal numbers,HTML
+OPTION,1,Representing web pages as unique URLs,HTML
+OPTION,1,"Referring to the location of a given building as a combination of a street name and number, rather than coordinates on a map",HTML
+OPTION,0,Reading a book out loud so it can be transcribed on another piece of paper,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Using ASL rather than spoken language,HTML
+OPTION,0,"Interpreting a number on a cash register as the price of an item, in dollars",HTML
+OPTION,1,Assigning a distinctive account number to every bank account,HTML
+OPTION,1,Representing an arbitrary piece of information as a short unique sequence of decimal numbers,HTML
+OPTION,1,Assigning a unique code to every item at the grocery store,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Typing a message on a keyboard,HTML
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+OPTION,1,Representing web pages as unique URLs,HTML
+OPTION,0,Writing the length and width of a room into a written representation on apiece of paper,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+OPTION,1,Representing a melody using sheet music,HTML
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+OPTION,1,"Referring to the location of a given building as a combination of a street name and number, rather than coordinates on a map",HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Assigning a distinctive account number to every bank account,HTML
+OPTION,0,Putting an item on a shelf at the grocery store,HTML
+OPTION,0,Reading a book out loud so it can be transcribed on another piece of paper,HTML
+OPTION,1,"Referring to the location of a given building as a combination of a street name and number, rather than coordinates on a map",HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Using an emoji to express an emotion in a text message,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,1,"Referring to the location of a given building as a combination of a street name and number, rather than coordinates on a map",HTML
+OPTION,0,"Interpreting a number on a cash register as the price of an item, in dollars",HTML
+OPTION,0,Typing a message on a keyboard,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+OPTION,0,Typing a message on a keyboard,HTML
+OPTION,1,Using ASL rather than spoken language,HTML
+OPTION,1,Labeling each apartment in a building with its own number,HTML
+OPTION,1,Assigning a unique code to every item at the grocery store,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Assigning numerical codes to books (ISBN),HTML
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+OPTION,1,Representing web pages as unique URLs,HTML
+OPTION,1,Assigning a distinctive account number to every bank account,HTML
+OPTION,0,Copying a passage from a book into a notebook,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"Referring to the location of a given building as a combination of a street name and number, rather than coordinates on a map",HTML
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+OPTION,1,Representing a melody using sheet music,HTML
+OPTION,1,Using ASL rather than spoken language,HTML
+OPTION,0,Writing the length and width of a room into a written representation on apiece of paper,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Assigning a distinctive account number to every bank account,HTML
+OPTION,1,Representing web pages as unique URLs,HTML
+OPTION,0,Reading a book out loud so it can be transcribed on another piece of paper,HTML
+OPTION,1,Labeling each apartment in a building with its own number,HTML
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+OPTION,1,Representing the color of a paint in a can using a six-digit number,HTML
+OPTION,1,Representing an arbitrary piece of information as a short unique sequence of decimal numbers,HTML
+OPTION,1,"Referring to the location of a given building as a combination of a street name and number, rather than coordinates on a map",HTML
+OPTION,1,Representing web pages as unique URLs,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+OPTION,0,"Interpreting a number on a cash register as the price of an item, in dollars",HTML
+OPTION,1,Labeling each apartment in a building with its own number,HTML
+OPTION,0,Typing a message on a keyboard,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Typing a message on a keyboard,HTML
+OPTION,1,Assigning numerical codes to books (ISBN),HTML
+OPTION,1,Labeling each apartment in a building with its own number,HTML
+OPTION,0,Writing the length and width of a room into a written representation on apiece of paper,HTML
+OPTION,0,Putting an item on a shelf at the grocery store,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+OPTION,1,Representing a melody using sheet music,HTML
+OPTION,0,Using an emoji to express an emotion in a text message,HTML
+OPTION,1,Assigning a distinctive account number to every bank account,HTML
+OPTION,0,Counting how many students are in a class,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Using an emoji to express an emotion in a text message,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,1,Assigning a unique code to every item at the grocery store,HTML
+OPTION,0,Pasting a clickable URL into a Microsoft Word document,HTML
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Representing web pages as unique URLs,HTML
+OPTION,0,Pasting a clickable URL into a Microsoft Word document,HTML
+OPTION,1,Assigning a unique code to every item at the grocery store,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,1,Representing a melody using sheet music,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Representing a melody using sheet music,HTML
+OPTION,1,Representing web pages as unique URLs,HTML
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+OPTION,0,Reading a book out loud so it can be transcribed on another piece of paper,HTML
+OPTION,0,Putting an item on a shelf at the grocery store,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Pasting a clickable URL into a Microsoft Word document,HTML
+OPTION,1,Representing an arbitrary piece of information as a short unique sequence of decimal numbers,HTML
+OPTION,1,Assigning a distinctive account number to every bank account,HTML
+OPTION,0,Counting how many students are in a class,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Writing the length and width of a room into a written representation on apiece of paper,HTML
+OPTION,0,Copying a six-digit number from one piece of paper to another,HTML
+OPTION,1,Representing a melody using sheet music,HTML
+OPTION,1,Representing web pages as unique URLs,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Writing the length and width of a room into a written representation on apiece of paper,HTML
+OPTION,0,Copying a six-digit number from one piece of paper to another,HTML
+OPTION,0,Copying and pasting a paragraph from a PDF into a submission box,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,1,Representing a melody using sheet music,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Pasting a clickable URL into a Microsoft Word document,HTML
+OPTION,1,Representing the color of a paint in a can using a six-digit number,HTML
+OPTION,0,"Interpreting a number on a cash register as the price of an item, in dollars",HTML
+OPTION,0,Using an emoji to express an emotion in a text message,HTML
+OPTION,0,Copying and pasting a paragraph from a PDF into a submission box,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,1,Assigning numerical codes to books (ISBN),HTML
+OPTION,1,Using ASL rather than spoken language,HTML
+OPTION,1,"Referring to the location of a given building as a combination of a street name and number, rather than coordinates on a map",HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Representing a melody using sheet music,HTML
+OPTION,1,Assigning a distinctive account number to every bank account,HTML
+OPTION,1,Assigning a unique code to every item at the grocery store,HTML
+OPTION,0,Copying and pasting a paragraph from a PDF into a submission box,HTML
+OPTION,0,Putting an item on a shelf at the grocery store,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+OPTION,1,Representing an arbitrary piece of information as a short unique sequence of decimal numbers,HTML
+OPTION,0,Copying a six-digit number from one piece of paper to another,HTML
+OPTION,0,Writing the length and width of a room into a written representation on apiece of paper,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Pasting a clickable URL into a Microsoft Word document,HTML
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+OPTION,1,Representing the color of a paint in a can using a six-digit number,HTML
+OPTION,0,Assigning a student to a class,HTML
+OPTION,0,Reading a book out loud so it can be transcribed on another piece of paper,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Copying and pasting a paragraph from a PDF into a submission box,HTML
+OPTION,1,Representing a melody using sheet music,HTML
+OPTION,0,Copying a six-digit number from one piece of paper to another,HTML
+OPTION,1,Representing web pages as unique URLs,HTML
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+OPTION,1,Using ASL rather than spoken language,HTML
+OPTION,0,Writing the length and width of a room into a written representation on apiece of paper,HTML
+OPTION,0,Counting how many students are in a class,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Using an emoji to express an emotion in a text message,HTML
+OPTION,0,Copying a six-digit number from one piece of paper to another,HTML
+OPTION,0,Counting how many students are in a class,HTML
+OPTION,1,Representing the color of a paint in a can using a six-digit number,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+OPTION,0,Reading a book out loud so it can be transcribed on another piece of paper,HTML
+OPTION,0,Putting an item on a shelf at the grocery store,HTML
+OPTION,1,Labeling each apartment in a building with its own number,HTML
+OPTION,1,Assigning numerical codes to books (ISBN),HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+OPTION,0,Putting an item on a shelf at the grocery store,HTML
+OPTION,1,Assigning a unique code to every item at the grocery store,HTML
+OPTION,1,Assigning a distinctive account number to every bank account,HTML
+OPTION,0,Reading a book out loud so it can be transcribed on another piece of paper,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+OPTION,0,Typing a message on a keyboard,HTML
+OPTION,1,Assigning numerical codes to books (ISBN),HTML
+OPTION,0,Counting how many students are in a class,HTML
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Copying a passage from a book into a notebook,HTML
+OPTION,1,Representing the color of a paint in a can using a six-digit number,HTML
+OPTION,0,Putting an item on a shelf at the grocery store,HTML
+OPTION,1,Using ASL rather than spoken language,HTML
+OPTION,0,Copying a six-digit number from one piece of paper to another,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Counting how many students are in a class,HTML
+OPTION,0,Copying a six-digit number from one piece of paper to another,HTML
+OPTION,0,Reading a book out loud so it can be transcribed on another piece of paper,HTML
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+OPTION,1,Representing a melody using sheet music,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Assigning a distinctive account number to every bank account,HTML
+OPTION,0,Assigning a student to a class,HTML
+OPTION,1,"Referring to the location of a given building as a combination of a street name and number, rather than coordinates on a map",HTML
+OPTION,0,Using an emoji to express an emotion in a text message,HTML
+OPTION,1,Labeling each apartment in a building with its own number,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Counting how many students are in a class,HTML
+OPTION,1,Representing an arbitrary piece of information as a short unique sequence of decimal numbers,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,1,"Referring to the location of a given building as a combination of a street name and number, rather than coordinates on a map",HTML
+OPTION,1,Representing a melody using sheet music,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Counting how many students are in a class,HTML
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+OPTION,0,Writing the length and width of a room into a written representation on apiece of paper,HTML
+OPTION,0,Using an emoji to express an emotion in a text message,HTML
+OPTION,1,Representing a melody using sheet music,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Assigning a student to a class,HTML
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+OPTION,0,Using an emoji to express an emotion in a text message,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Assigning a unique code to every item at the grocery store,HTML
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+OPTION,0,Using an emoji to express an emotion in a text message,HTML
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+OPTION,0,Counting how many students are in a class,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,0,Typing a message on a keyboard,HTML
+OPTION,0,Copying a passage from a book into a notebook,HTML
+OPTION,1,Using ASL rather than spoken language,HTML
+OPTION,0,Pasting a clickable URL into a Microsoft Word document,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,1,Assigning a unique code to every item at the grocery store,HTML
+OPTION,0,Using an emoji to express an emotion in a text message,HTML
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+OPTION,1,Representing the color of a paint in a can using a six-digit number,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Reading a book out loud so it can be transcribed on another piece of paper,HTML
+OPTION,0,Pasting a clickable URL into a Microsoft Word document,HTML
+OPTION,1,Assigning a unique code to every item at the grocery store,HTML
+OPTION,1,Labeling each apartment in a building with its own number,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Copying a passage from a book into a notebook,HTML
+OPTION,0,Copying and pasting a paragraph from a PDF into a submission box,HTML
+OPTION,1,Using ASL rather than spoken language,HTML
+OPTION,1,Representing the color of a paint in a can using a six-digit number,HTML
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"Referring to the location of a given building as a combination of a street name and number, rather than coordinates on a map",HTML
+OPTION,0,Copying and pasting a paragraph from a PDF into a submission box,HTML
+OPTION,0,Putting an item on a shelf at the grocery store,HTML
+OPTION,0,Typing a message on a keyboard,HTML
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Putting an item on a shelf at the grocery store,HTML
+OPTION,0,Copying a six-digit number from one piece of paper to another,HTML
+OPTION,0,Counting how many students are in a class,HTML
+OPTION,1,Representing the color of a paint in a can using a six-digit number,HTML
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Labeling each apartment in a building with its own number,HTML
+OPTION,0,Pasting a clickable URL into a Microsoft Word document,HTML
+OPTION,1,Representing web pages as unique URLs,HTML
+OPTION,1,Assigning numerical codes to books (ISBN),HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,Representing web pages as unique URLs,HTML
+OPTION,0,Assigning a student to a class,HTML
+OPTION,0,Copying a passage from a book into a notebook,HTML
+OPTION,0,Pasting a clickable URL into a Microsoft Word document,HTML
+OPTION,0,Reading a book out loud so it can be transcribed on another piece of paper,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,0,Pasting a clickable URL into a Microsoft Word document,HTML
+OPTION,1,Representing web pages as unique URLs,HTML
+OPTION,1,Labeling each apartment in a building with its own number,HTML
+OPTION,1,Representing a website URL as a scannable QR code,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Typing a message on a keyboard,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,0,Counting how many students are in a class,HTML
+OPTION,1,Labeling each apartment in a building with its own number,HTML
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+OPTION,1,"Referring to a student by their BNumber in an online administrative system, rather than their name",HTML
+OPTION,0,Counting how many students are in a class,HTML
+OPTION,0,Using an emoji to express an emotion in a text message,HTML
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+
+
+NewQuestion,MS
+Title,Examples of encoding
+QuestionText,<p>Which of the following are examples of encoding? <i>Select all that apply.</i></p>,HTML
+Points,10
+Difficulty,1
+OPTION,0,Copying excerpts of a web page into Microsoft Word,HTML
+OPTION,0,"Interpreting a number on a cash register as the price of an item, in dollars",HTML
+OPTION,1,"Dialing a number to call someone on the phone, rather than their name",HTML
+OPTION,0,Copying a six-digit number from one piece of paper to another,HTML
+OPTION,1,Assigning a unique code to every item at the grocery store,HTML
+
+

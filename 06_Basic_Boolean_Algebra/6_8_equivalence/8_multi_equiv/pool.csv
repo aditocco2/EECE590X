@@ -1,0 +1,48 @@
+NewQuestion,MS
+Title,Choose expressions with equivalent functionpool.csv
+QuestionText,<p>Choose the expressions that are functionally            equivalent to the circuit in the schematic above.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/mult_exp_1.png
+OPTION,1,d+ab+c,HTML
+OPTION,1,ab+(c+d),HTML
+OPTION,0,(a+d)(b+c),HTML
+OPTION,0,a+b+c+d,HTML
+
+
+NewQuestion,MS
+Title,Choose expressions with equivalent functionpool.csv
+QuestionText,<p>Choose the expressions that are functionally            equivalent to the circuit in the schematic above.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/mult_exp_2.png
+OPTION,0,(ab)c+(ab)d,HTML
+OPTION,0,abcd,HTML
+OPTION,1,acd+bcd,HTML
+OPTION,1,(a+b)(cd),HTML
+
+
+NewQuestion,MS
+Title,Choose expressions with equivalent functionpool.csv
+QuestionText,<p>Choose the expressions that are functionally            equivalent to the circuit in the schematic above.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/mult_exp_3.png
+OPTION,1,(a+d)+c+b,HTML
+OPTION,1,a+b+c+d,HTML
+OPTION,0,(abcd),HTML
+OPTION,0,(((ab)c)d),HTML
+
+
+NewQuestion,MS
+Title,Choose expressions with equivalent functionpool.csv
+QuestionText,<p>Choose the expressions that are functionally            equivalent to the circuit in the schematic above.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/mult_exp_4.png
+OPTION,1,a(bc)d,HTML
+OPTION,0,(cd)+b+a,HTML
+OPTION,0,a+b+cd,HTML
+OPTION,1,abcd,HTML
+
+

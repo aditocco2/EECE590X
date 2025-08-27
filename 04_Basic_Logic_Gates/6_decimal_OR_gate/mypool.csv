@@ -1,0 +1,450 @@
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 164<sub>10</sub> OR 131<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10100111,NOT HTML
+ANSWER,100,(?i)(0b)?10100111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 31<sub>10</sub> OR 70<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01011111,NOT HTML
+ANSWER,100,(?i)(0b)?01011111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 112<sub>10</sub> OR 253<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111101,NOT HTML
+ANSWER,100,(?i)(0b)?11111101,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 140<sub>10</sub> OR 222<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11011110,NOT HTML
+ANSWER,100,(?i)(0b)?11011110,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 181<sub>10</sub> OR 174<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10111111,NOT HTML
+ANSWER,100,(?i)(0b)?10111111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 251<sub>10</sub> OR 154<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111011,NOT HTML
+ANSWER,100,(?i)(0b)?11111011,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 55<sub>10</sub> OR 35<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00110111,NOT HTML
+ANSWER,100,(?i)(0b)?00110111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 18<sub>10</sub> OR 53<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,00110111,NOT HTML
+ANSWER,100,(?i)(0b)?00110111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 5<sub>10</sub> OR 103<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01100111,NOT HTML
+ANSWER,100,(?i)(0b)?01100111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 180<sub>10</sub> OR 2<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10110110,NOT HTML
+ANSWER,100,(?i)(0b)?10110110,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 183<sub>10</sub> OR 162<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10110111,NOT HTML
+ANSWER,100,(?i)(0b)?10110111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 76<sub>10</sub> OR 13<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01001101,NOT HTML
+ANSWER,100,(?i)(0b)?01001101,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 100<sub>10</sub> OR 182<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11110110,NOT HTML
+ANSWER,100,(?i)(0b)?11110110,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 217<sub>10</sub> OR 142<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11011111,NOT HTML
+ANSWER,100,(?i)(0b)?11011111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 130<sub>10</sub> OR 151<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10010111,NOT HTML
+ANSWER,100,(?i)(0b)?10010111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 136<sub>10</sub> OR 141<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10001101,NOT HTML
+ANSWER,100,(?i)(0b)?10001101,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 218<sub>10</sub> OR 155<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11011011,NOT HTML
+ANSWER,100,(?i)(0b)?11011011,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 223<sub>10</sub> OR 25<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11011111,NOT HTML
+ANSWER,100,(?i)(0b)?11011111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 201<sub>10</sub> OR 61<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111101,NOT HTML
+ANSWER,100,(?i)(0b)?11111101,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 194<sub>10</sub> OR 182<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11110110,NOT HTML
+ANSWER,100,(?i)(0b)?11110110,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 146<sub>10</sub> OR 4<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10010110,NOT HTML
+ANSWER,100,(?i)(0b)?10010110,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 238<sub>10</sub> OR 196<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11101110,NOT HTML
+ANSWER,100,(?i)(0b)?11101110,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 125<sub>10</sub> OR 248<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111101,NOT HTML
+ANSWER,100,(?i)(0b)?11111101,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 74<sub>10</sub> OR 100<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01101110,NOT HTML
+ANSWER,100,(?i)(0b)?01101110,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 240<sub>10</sub> OR 77<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111101,NOT HTML
+ANSWER,100,(?i)(0b)?11111101,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 254<sub>10</sub> OR 28<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111110,NOT HTML
+ANSWER,100,(?i)(0b)?11111110,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 227<sub>10</sub> OR 189<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111111,NOT HTML
+ANSWER,100,(?i)(0b)?11111111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 139<sub>10</sub> OR 45<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10101111,NOT HTML
+ANSWER,100,(?i)(0b)?10101111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 250<sub>10</sub> OR 73<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111011,NOT HTML
+ANSWER,100,(?i)(0b)?11111011,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 34<sub>10</sub> OR 218<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111010,NOT HTML
+ANSWER,100,(?i)(0b)?11111010,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 28<sub>10</sub> OR 93<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01011101,NOT HTML
+ANSWER,100,(?i)(0b)?01011101,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 21<sub>10</sub> OR 111<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01111111,NOT HTML
+ANSWER,100,(?i)(0b)?01111111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 35<sub>10</sub> OR 203<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11101011,NOT HTML
+ANSWER,100,(?i)(0b)?11101011,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 226<sub>10</sub> OR 253<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111111,NOT HTML
+ANSWER,100,(?i)(0b)?11111111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 250<sub>10</sub> OR 130<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111010,NOT HTML
+ANSWER,100,(?i)(0b)?11111010,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 231<sub>10</sub> OR 11<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11101111,NOT HTML
+ANSWER,100,(?i)(0b)?11101111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 161<sub>10</sub> OR 135<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10100111,NOT HTML
+ANSWER,100,(?i)(0b)?10100111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 178<sub>10</sub> OR 103<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11110111,NOT HTML
+ANSWER,100,(?i)(0b)?11110111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 1<sub>10</sub> OR 70<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01000111,NOT HTML
+ANSWER,100,(?i)(0b)?01000111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 70<sub>10</sub> OR 233<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11101111,NOT HTML
+ANSWER,100,(?i)(0b)?11101111,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 212<sub>10</sub> OR 117<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11110101,NOT HTML
+ANSWER,100,(?i)(0b)?11110101,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 138<sub>10</sub> OR 40<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10101010,NOT HTML
+ANSWER,100,(?i)(0b)?10101010,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 4<sub>10</sub> OR 126<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01111110,NOT HTML
+ANSWER,100,(?i)(0b)?01111110,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 92<sub>10</sub> OR 129<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11011101,NOT HTML
+ANSWER,100,(?i)(0b)?11011101,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 88<sub>10</sub> OR 219<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11011011,NOT HTML
+ANSWER,100,(?i)(0b)?11011011,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 72<sub>10</sub> OR 114<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,01111010,NOT HTML
+ANSWER,100,(?i)(0b)?01111010,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 49<sub>10</sub> OR 168<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10111001,NOT HTML
+ANSWER,100,(?i)(0b)?10111001,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 218<sub>10</sub> OR 153<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11011011,NOT HTML
+ANSWER,100,(?i)(0b)?11011011,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 14<sub>10</sub> OR 186<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,10111110,NOT HTML
+ANSWER,100,(?i)(0b)?10111110,regexp
+
+
+NewQuestion,SA
+Title,decimal_or_gate
+QuestionText,<p>What is the result of 172<sub>10</sub> OR 80<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.</p>,HTML
+Points,10
+Difficulty,1
+Feedback,11111100,NOT HTML
+ANSWER,100,(?i)(0b)?11111100,regexp
+
+

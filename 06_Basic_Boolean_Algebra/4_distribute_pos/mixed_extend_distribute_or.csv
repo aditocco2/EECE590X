@@ -1,0 +1,225 @@
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (x'+v')(x'+w)(x'+z) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*x'\s*\+\s*(?:v'wz|v'zw|wv'z|wzv'|zv'w|zwv')\s*$,regexp
+ANSWER,100,^\s*(?:v'wz|v'zw|wv'z|wzv'|zv'w|zwv')\s*\+\s*x'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (x+z')(x+y)(x+w') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*x\s*\+\s*(?:z'yw'|z'w'y|yz'w'|yw'z'|w'z'y|w'yz')\s*$,regexp
+ANSWER,100,^\s*(?:z'yw'|z'w'y|yz'w'|yw'z'|w'z'y|w'yz')\s*\+\s*x\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (v+z')(v+y')(v+x') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*v\s*\+\s*(?:z'y'x'|z'x'y'|y'z'x'|y'x'z'|x'z'y'|x'y'z')\s*$,regexp
+ANSWER,100,^\s*(?:z'y'x'|z'x'y'|y'z'x'|y'x'z'|x'z'y'|x'y'z')\s*\+\s*v\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (y+x')(y+w)(y+v') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*y\s*\+\s*(?:x'wv'|x'v'w|wx'v'|wv'x'|v'x'w|v'wx')\s*$,regexp
+ANSWER,100,^\s*(?:x'wv'|x'v'w|wx'v'|wv'x'|v'x'w|v'wx')\s*\+\s*y\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (x'+v')(x'+z)(x'+y') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*x'\s*\+\s*(?:v'zy'|v'y'z|zv'y'|zy'v'|y'v'z|y'zv')\s*$,regexp
+ANSWER,100,^\s*(?:v'zy'|v'y'z|zv'y'|zy'v'|y'v'z|y'zv')\s*\+\s*x'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (z'+x)(z'+w')(z'+y) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z'\s*\+\s*(?:xw'y|xyw'|w'xy|w'yx|yxw'|yw'x)\s*$,regexp
+ANSWER,100,^\s*(?:xw'y|xyw'|w'xy|w'yx|yxw'|yw'x)\s*\+\s*z'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (x'+w')(x'+v)(x'+y') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*x'\s*\+\s*(?:w'vy'|w'y'v|vw'y'|vy'w'|y'w'v|y'vw')\s*$,regexp
+ANSWER,100,^\s*(?:w'vy'|w'y'v|vw'y'|vy'w'|y'w'v|y'vw')\s*\+\s*x'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (z'+v')(z'+w)(z'+y) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z'\s*\+\s*(?:v'wy|v'yw|wv'y|wyv'|yv'w|ywv')\s*$,regexp
+ANSWER,100,^\s*(?:v'wy|v'yw|wv'y|wyv'|yv'w|ywv')\s*\+\s*z'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (x+z')(x+w')(x+v') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*x\s*\+\s*(?:z'w'v'|z'v'w'|w'z'v'|w'v'z'|v'z'w'|v'w'z')\s*$,regexp
+ANSWER,100,^\s*(?:z'w'v'|z'v'w'|w'z'v'|w'v'z'|v'z'w'|v'w'z')\s*\+\s*x\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (z+v)(z+w)(z+y') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z\s*\+\s*(?:vwy'|vy'w|wvy'|wy'v|y'vw|y'wv)\s*$,regexp
+ANSWER,100,^\s*(?:vwy'|vy'w|wvy'|wy'v|y'vw|y'wv)\s*\+\s*z\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (v+z')(v+x)(v+y) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*v\s*\+\s*(?:z'xy|z'yx|xz'y|xyz'|yz'x|yxz')\s*$,regexp
+ANSWER,100,^\s*(?:z'xy|z'yx|xz'y|xyz'|yz'x|yxz')\s*\+\s*v\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (v'+w)(v'+y')(v'+x) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*v'\s*\+\s*(?:wy'x|wxy'|y'wx|y'xw|xwy'|xy'w)\s*$,regexp
+ANSWER,100,^\s*(?:wy'x|wxy'|y'wx|y'xw|xwy'|xy'w)\s*\+\s*v'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (y+x')(y+w)(y+v) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*y\s*\+\s*(?:x'wv|x'vw|wx'v|wvx'|vx'w|vwx')\s*$,regexp
+ANSWER,100,^\s*(?:x'wv|x'vw|wx'v|wvx'|vx'w|vwx')\s*\+\s*y\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (y+x)(y+w)(y+v) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*y\s*\+\s*(?:xwv|xvw|wxv|wvx|vxw|vwx)\s*$,regexp
+ANSWER,100,^\s*(?:xwv|xvw|wxv|wvx|vxw|vwx)\s*\+\s*y\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (z+v)(z+w)(z+y') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z\s*\+\s*(?:vwy'|vy'w|wvy'|wy'v|y'vw|y'wv)\s*$,regexp
+ANSWER,100,^\s*(?:vwy'|vy'w|wvy'|wy'v|y'vw|y'wv)\s*\+\s*z\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (z+x')(z+y')(z+w) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z\s*\+\s*(?:x'y'w|x'wy'|y'x'w|y'wx'|wx'y'|wy'x')\s*$,regexp
+ANSWER,100,^\s*(?:x'y'w|x'wy'|y'x'w|y'wx'|wx'y'|wy'x')\s*\+\s*z\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (z'+x)(z'+v')(z'+y') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z'\s*\+\s*(?:xv'y'|xy'v'|v'xy'|v'y'x|y'xv'|y'v'x)\s*$,regexp
+ANSWER,100,^\s*(?:xv'y'|xy'v'|v'xy'|v'y'x|y'xv'|y'v'x)\s*\+\s*z'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (z+x)(z+v')(z+y) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z\s*\+\s*(?:xv'y|xyv'|v'xy|v'yx|yxv'|yv'x)\s*$,regexp
+ANSWER,100,^\s*(?:xv'y|xyv'|v'xy|v'yx|yxv'|yv'x)\s*\+\s*z\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (x'+z')(x'+y')(x'+w) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*x'\s*\+\s*(?:z'y'w|z'wy'|y'z'w|y'wz'|wz'y'|wy'z')\s*$,regexp
+ANSWER,100,^\s*(?:z'y'w|z'wy'|y'z'w|y'wz'|wz'y'|wy'z')\s*\+\s*x'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (v+z')(v+x)(v+w') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*v\s*\+\s*(?:z'xw'|z'w'x|xz'w'|xw'z'|w'z'x|w'xz')\s*$,regexp
+ANSWER,100,^\s*(?:z'xw'|z'w'x|xz'w'|xw'z'|w'z'x|w'xz')\s*\+\s*v\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (z'+x')(z'+v')(z'+y) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z'\s*\+\s*(?:x'v'y|x'yv'|v'x'y|v'yx'|yx'v'|yv'x')\s*$,regexp
+ANSWER,100,^\s*(?:x'v'y|x'yv'|v'x'y|v'yx'|yx'v'|yv'x')\s*\+\s*z'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (x'+y)(x'+v)(x'+w') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*x'\s*\+\s*(?:yvw'|yw'v|vyw'|vw'y|w'yv|w'vy)\s*$,regexp
+ANSWER,100,^\s*(?:yvw'|yw'v|vyw'|vw'y|w'yv|w'vy)\s*\+\s*x'\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (x+z')(x+w)(x+v) which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*x\s*\+\s*(?:z'wv|z'vw|wz'v|wvz'|vz'w|vwz')\s*$,regexp
+ANSWER,100,^\s*(?:z'wv|z'vw|wz'v|wvz'|vz'w|vwz')\s*\+\s*x\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (z+y')(z+x')(z+w') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z\s*\+\s*(?:y'x'w'|y'w'x'|x'y'w'|x'w'y'|w'y'x'|w'x'y')\s*$,regexp
+ANSWER,100,^\s*(?:y'x'w'|y'w'x'|x'y'w'|x'w'y'|w'y'x'|w'x'y')\s*\+\s*z\s*$,regexp
+
+
+NewQuestion,SA
+Title,Extend Distributive Or
+QuestionText,"<p>Consider the following application of Boolean identities on the expression a+bcd:</p><pre>a+bcd = a+b(cd)         (by the Associative Property)<br>      = (a+b)(a+cd)     (by the Distributive Property)<br>      = (a+b)(a+c)(a+d) (by the Distributive Property) </pre><p>Knowing this, write a Boolean expression that is equivalent to (z+v)(z+x')(z+w') which does not use parenthesis.</p>",HTML
+Points,10
+Difficulty,1
+ANSWER,100,^\s*z\s*\+\s*(?:vx'w'|vw'x'|x'vw'|x'w'v|w'vx'|w'x'v)\s*$,regexp
+ANSWER,100,^\s*(?:vx'w'|vw'x'|x'vw'|x'w'v|w'vx'|w'x'v)\s*\+\s*z\s*$,regexp
+
+

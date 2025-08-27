@@ -1,0 +1,36 @@
+NewQuestion,MC
+Title,Choose basic gate
+QuestionText,"<p>An engineer decides to design a simple        security system for her home before she goes on vacation.        She puts a sensor on her first floor window that outputs a        logic '1' when the window is opened, and a '0' otherwise.</p>She also adds a motion detector that outputs a                '1' when motion is detected in the room, and '0' otherwise.<p>Her security circuit is designed to receive a logic '1' when            both the window is open and motion is detected.</p><p><b>What type of gate should be used to        interface the sensor(s) with the security system?</b></p><p>Select One:</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/base_gates.png
+OPTION,0,D,HTML
+OPTION,0,B,HTML
+OPTION,0,C,HTML
+OPTION,100,A,HTML
+
+
+NewQuestion,MC
+Title,Choose basic gate
+QuestionText,"<p>An engineer decides to design a simple        security system for her home before she goes on vacation.        She puts a sensor on her first floor window that outputs a        logic '1' when the window is opened, and a '0' otherwise.</p>She also adds a motion detector that outputs a                '1' when motion is detected in the room, and '0' otherwise.<p>Her security circuit is designed to receive a logic '1' when            the window is open or motion is detected, or both.</p><p><b>What type of gate should be used to        interface the sensor(s) with the security system?</b></p><p>Select One:</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/base_gates.png
+OPTION,0,C,HTML
+OPTION,0,D,HTML
+OPTION,100,B,HTML
+OPTION,0,A,HTML
+
+
+NewQuestion,MC
+Title,Choose basic gate
+QuestionText,"<p>An engineer decides to design a simple        security system for her home before she goes on vacation.        She puts a sensor on her first floor window that outputs a        logic '1' when the window is opened, and a '0' otherwise.</p><p>Her security circuit is designed to receive a logic '1' when            the window is closed.</p><p><b>What type of gate should be used to        interface the sensor(s) with the security system?</b></p><p>Select One:</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/base_gates.png
+OPTION,0,A,HTML
+OPTION,0,D,HTML
+OPTION,100,C,HTML
+OPTION,0,B,HTML
+
+

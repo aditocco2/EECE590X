@@ -1,0 +1,450 @@
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 182<sub>10</sub> AND 98<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00100010,NOT HTML
+ANSWER,100,(?i)(0b)?00100010,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 239<sub>10</sub> AND 170<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,10101010,NOT HTML
+ANSWER,100,(?i)(0b)?10101010,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 101<sub>10</sub> AND 14<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000100,NOT HTML
+ANSWER,100,(?i)(0b)?00000100,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 18<sub>10</sub> AND 57<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00010000,NOT HTML
+ANSWER,100,(?i)(0b)?00010000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 58<sub>10</sub> AND 1<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000000,NOT HTML
+ANSWER,100,(?i)(0b)?00000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 240<sub>10</sub> AND 48<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00110000,NOT HTML
+ANSWER,100,(?i)(0b)?00110000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 195<sub>10</sub> AND 104<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,01000000,NOT HTML
+ANSWER,100,(?i)(0b)?01000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 31<sub>10</sub> AND 245<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00010101,NOT HTML
+ANSWER,100,(?i)(0b)?00010101,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 246<sub>10</sub> AND 188<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,10110100,NOT HTML
+ANSWER,100,(?i)(0b)?10110100,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 15<sub>10</sub> AND 15<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00001111,NOT HTML
+ANSWER,100,(?i)(0b)?00001111,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 252<sub>10</sub> AND 52<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00110100,NOT HTML
+ANSWER,100,(?i)(0b)?00110100,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 23<sub>10</sub> AND 53<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00010101,NOT HTML
+ANSWER,100,(?i)(0b)?00010101,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 3<sub>10</sub> AND 67<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000011,NOT HTML
+ANSWER,100,(?i)(0b)?00000011,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 56<sub>10</sub> AND 10<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00001000,NOT HTML
+ANSWER,100,(?i)(0b)?00001000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 144<sub>10</sub> AND 242<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,10010000,NOT HTML
+ANSWER,100,(?i)(0b)?10010000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 167<sub>10</sub> AND 128<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,10000000,NOT HTML
+ANSWER,100,(?i)(0b)?10000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 135<sub>10</sub> AND 254<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,10000110,NOT HTML
+ANSWER,100,(?i)(0b)?10000110,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 90<sub>10</sub> AND 187<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00011010,NOT HTML
+ANSWER,100,(?i)(0b)?00011010,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 215<sub>10</sub> AND 74<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,01000010,NOT HTML
+ANSWER,100,(?i)(0b)?01000010,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 192<sub>10</sub> AND 193<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,11000000,NOT HTML
+ANSWER,100,(?i)(0b)?11000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 60<sub>10</sub> AND 253<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00111100,NOT HTML
+ANSWER,100,(?i)(0b)?00111100,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 57<sub>10</sub> AND 253<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00111001,NOT HTML
+ANSWER,100,(?i)(0b)?00111001,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 32<sub>10</sub> AND 69<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000000,NOT HTML
+ANSWER,100,(?i)(0b)?00000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 171<sub>10</sub> AND 71<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000011,NOT HTML
+ANSWER,100,(?i)(0b)?00000011,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 217<sub>10</sub> AND 36<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000000,NOT HTML
+ANSWER,100,(?i)(0b)?00000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 5<sub>10</sub> AND 211<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000001,NOT HTML
+ANSWER,100,(?i)(0b)?00000001,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 206<sub>10</sub> AND 171<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,10001010,NOT HTML
+ANSWER,100,(?i)(0b)?10001010,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 43<sub>10</sub> AND 218<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00001010,NOT HTML
+ANSWER,100,(?i)(0b)?00001010,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 10<sub>10</sub> AND 217<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00001000,NOT HTML
+ANSWER,100,(?i)(0b)?00001000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 193<sub>10</sub> AND 78<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,01000000,NOT HTML
+ANSWER,100,(?i)(0b)?01000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 218<sub>10</sub> AND 172<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,10001000,NOT HTML
+ANSWER,100,(?i)(0b)?10001000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 188<sub>10</sub> AND 135<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,10000100,NOT HTML
+ANSWER,100,(?i)(0b)?10000100,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 229<sub>10</sub> AND 81<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,01000001,NOT HTML
+ANSWER,100,(?i)(0b)?01000001,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 84<sub>10</sub> AND 24<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00010000,NOT HTML
+ANSWER,100,(?i)(0b)?00010000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 128<sub>10</sub> AND 125<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000000,NOT HTML
+ANSWER,100,(?i)(0b)?00000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 228<sub>10</sub> AND 110<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,01100100,NOT HTML
+ANSWER,100,(?i)(0b)?01100100,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 96<sub>10</sub> AND 38<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00100000,NOT HTML
+ANSWER,100,(?i)(0b)?00100000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 236<sub>10</sub> AND 53<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00100100,NOT HTML
+ANSWER,100,(?i)(0b)?00100100,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 249<sub>10</sub> AND 200<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,11001000,NOT HTML
+ANSWER,100,(?i)(0b)?11001000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 204<sub>10</sub> AND 67<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,01000000,NOT HTML
+ANSWER,100,(?i)(0b)?01000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 163<sub>10</sub> AND 69<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000001,NOT HTML
+ANSWER,100,(?i)(0b)?00000001,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 149<sub>10</sub> AND 116<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00010100,NOT HTML
+ANSWER,100,(?i)(0b)?00010100,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 125<sub>10</sub> AND 144<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00010000,NOT HTML
+ANSWER,100,(?i)(0b)?00010000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 59<sub>10</sub> AND 256<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000000,NOT HTML
+ANSWER,100,(?i)(0b)?00000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 70<sub>10</sub> AND 75<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,01000010,NOT HTML
+ANSWER,100,(?i)(0b)?01000010,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 206<sub>10</sub> AND 208<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,11000000,NOT HTML
+ANSWER,100,(?i)(0b)?11000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 152<sub>10</sub> AND 6<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000000,NOT HTML
+ANSWER,100,(?i)(0b)?00000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 68<sub>10</sub> AND 186<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,00000000,NOT HTML
+ANSWER,100,(?i)(0b)?00000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 194<sub>10</sub> AND 229<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,11000000,NOT HTML
+ANSWER,100,(?i)(0b)?11000000,regexp
+
+
+NewQuestion,SA
+Title,decimal_and_gate
+QuestionText,<p>What is the result of 228<sub>10</sub> AND 89<sub>10</sub> in binary? Enter your solution as 8 bits without spaces.,HTML
+Points,10
+Difficulty,1
+Feedback,01000000,NOT HTML
+ANSWER,100,(?i)(0b)?01000000,regexp
+
+
