@@ -1,15 +1,11 @@
-import wave_utils as wu
+from wave_utils import *
 
-a_bin, a_wave = wu.make_random_signal(20)
-b_bin, b_wave = wu.make_random_signal(20)
+a = make_random_signal(20)
+b = make_random_signal(20)
 
-print(f"a:\nbinary:   {a_bin:0{20}b}\nwavedrom: {a_wave}")
-print(f"b:\nbinary:   {b_bin:0{20}b}\nwavedrom: {b_wave}")
+f = wavedrom_gate("xor", a, b, 0)
 
-# a and not b
-answer = a_bin & ~b_bin
-answer = f"{a_bin:0{20}b}"
-print(f"answer:   {answer}")
+print(f"a: {a}\nb: {b}\nf: {f}")
 
-# q = wu.make_question_text("Question 1", ["a", "b"], [w1, w2], ["F"])
-# print(q)
+q = make_question_link("Question 1", ["a", "b"], [a, b], ["F"])
+print(q)
