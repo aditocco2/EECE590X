@@ -1,3 +1,5 @@
+# BUGGED - CHECK NOT GATE IMPLEMENTATION
+
 import random
 import urllib.parse
 
@@ -115,61 +117,25 @@ def wavedrom_gate(gate, a, b="", delay=0):
     # Turn output back to string
     out = f"{out:0{length}b}"
 
-    # Apply gate delay and put x at the beginning
+    # Apply gate delay and put x (unknown) at the beginning
     out = ("x" * delay) + out[0:(length - delay)]
 
     # Convert back to wavedrom format
-    out = binary_to_wavedrom (out)
+    out = binary_to_wavedrom(out)
 
     return out
 
-# def generate_wavedrom(head_text, sig_names, gen_sigs, fill_sigs = ["F"]):
-#     """
-#     Generates wavedrom related question text: copy & paste manual 
-#     wavedrom, url, and wiki url 
 
-#     Args:
-#         head_text (str): String to label timing diagram "EECE 251 HW 3 Question 2"
-#         gen_sigs (list): List of signal names that need generated exs -> ["a", "b"]
-#         fill_sigs (list): List of signal names to hold space for
-#         students to complete -> ["a'","b'","ab'","F"] (default output signal 'F')
-#     """
-#     head_text_html = head_text.replace(' ','%20')
-    
-#     lines_url = []
-#     for sig in gen_sigs:
-#         line = f"{{name: \"{sig}\", wave: \"{sig}\"}},"
-#         lines_url.append(line)
-#     for sig in fill_sigs:
-#         line = f"{{name: \"{sig}\", wave: ''}},"
-#         lines_url.append(line)
-
-#     url_gen = urllib.parse.quote("".join(lines_url))
-    
-#     lines_text = []
-#     for sig in gen_sigs:
-#         gen_wave = randomize_sig()
-#         line = f"{{name: \"{sig}\", wave: \"{gen_wave}\"}},"
-#         lines_text.append(line)
-#     for sig in fill_sigs:
-#         line = f"{{name: \"{sig}\", wave: ''}},"
-#         lines_text.append(line)
-#     text_gen = "<br/>    ".join(lines_text)
-   
-#     return(f"<a rel=\"noopener\" href='https://watsonwiki.binghamton.edu/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27{head_text_html}%27%7D%2C%0Asignal%3A%0A%5B%0A{url_gen}%5D%2C%0A%20%20foot%3A%7Btock%3A1%7D%0A%7D' target=\"_blank\">"+\
-#            f"<pre>{{\nhead:{{text:\"{head_text}\"}},<br/>signal:[<br/>   {text_gen}<br/>],  foot:{{tock:1}}}}</pre></a>")
-
-def make_question_link(title, sig_names, gen_sigs, fill_sig_names):
+def make_question_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "WaveDrom Link"):
     """
-    Generates wavedrom related question text: copy & paste manual 
-    wavedrom, url, and wiki url 
+    Generates wavedrom related question link in HTML
 
     Args:
-        title (str): String to label timing diagram "EECE 251 HW 3 Question 2"
-        sig_names (list): List of signal names that need generated exs -> ["a", "b"]
+        title (str): String to label timing diagram like "Question 2"
+        sig_names (list): List of input signal names like ["a", "b"]
         gen_sigs (list): List of generated signals corresponding to sig_names
         fill_sig_names (list): List of signal names to hold space for
-        students to complete -> ["a'","b'","ab'","F"] (default output signal 'F')
+        students to complete -> ["a'","b'","ab'","F"]
     """
 
     title_html = title.replace(' ','%20')
@@ -184,18 +150,18 @@ def make_question_link(title, sig_names, gen_sigs, fill_sig_names):
 
     url_gen = urllib.parse.quote("".join(lines_url))
     
-    full_link = f"https://watsonwiki.binghamton.edu/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27{title_html}%27%7D%2C%0Asignal%3A%0A%5B%0A{url_gen}%5D%2C%0A%20%20foot%3A%7Btock%3A1%7D%0A%7D"
+    link = f"https://watsonwiki.binghamton.edu/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27{title_html}%27%7D%2C%0Asignal%3A%0A%5B%0A{url_gen}%5D%2C%0A%20%20foot%3A%7Btock%3A1%7D%0A%7D"
 
-    # lines_text = []
-    # for sig_name, sig in sig_names, gen_sigs:
-    #     line = f"{{name: \"{sig_name}\", wave: \"{sig}\"}},"
-    #     lines_text.append(line)
-    # for sig_name in fill_sig_names:
-    #     line = f"{{name: \"{sig_name}\", wave: ''}},"
-    #     lines_text.append(line)
-    # text_gen = "<br/>    ".join(lines_text)
-   
-    #return(f"<a rel=\"noopener\" href='https://watsonwiki.binghamton.edu/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27{title_html}%27%7D%2C%0Asignal%3A%0A%5B%0A{url_gen}%5D%2C%0A%20%20foot%3A%7Btock%3A1%7D%0A%7D' target=\"_blank\">"+\
-    #       f"<pre>{{\nhead:{{text:\"{title}\"}},<br/>signal:[<br/>   {text_gen}<br/>],  foot:{{tock:1}}}}</pre></a>")
+    # Convert to HTML link and make it open in new tab
+    link_html = f"<a href=\"{link}\" target=\"_blank\">{link_text}</a>"
 
-    return full_link
+    return link_html
+
+def to_regex(name, signal):
+    """
+    name: name of output signal like "f"
+    signal: output wavedrom signal like "0...1..0."
+    """
+    # Case insensitive, "name", name, "wave", signal, with anything in between
+    regex_ans = f"(?i).*name.*{name}.*wave.*{signal}.*"
+    return regex_ans
