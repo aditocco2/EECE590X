@@ -1,0 +1,48 @@
+NewQuestion,MC
+Title,Choose basic circuit (fixed)
+QuestionText,"<p>A security system has two inputs. The first input is X, a 'window open' signal                     which is 1 if a window is open and 0 if it's closed. The second input is                     Y, a 'motion detected' signal that is 1 if motion is detected and 0 otherwise.</p>                     <p>Choose a system above whose output F will be <b>'1'</b> when both the window is open and there is motion detected.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/basic_circuits_4_systems.png
+OPTION,100,A,HTML
+OPTION,0,B,HTML
+OPTION,0,C,HTML
+OPTION,0,D,HTML
+
+
+NewQuestion,MC
+Title,Choose basic circuit (fixed)
+QuestionText,"<p>A security system has two inputs. The first input is X, a 'window open' signal                     which is 1 if a window is open and 0 if it's closed. The second input is                     Y, a 'motion detected' signal that is 1 if motion is detected and 0 otherwise.</p>                     <p>Choose a system above whose output F will be <b>'1'</b> when either the window is open or there is motion detected (or both).</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/basic_circuits_4_systems.png
+OPTION,0,A,HTML
+OPTION,100,B,HTML
+OPTION,0,C,HTML
+OPTION,0,D,HTML
+
+
+NewQuestion,MC
+Title,Choose basic circuit (fixed)
+QuestionText,"<p>A security system has two inputs. The first input is X, a 'window open' signal                     which is 1 if a window is open and 0 if it's closed. The second input is                     Y, a 'motion detected' signal that is 1 if motion is detected and 0 otherwise.</p>                     <p>Choose a system above whose output F will be <b>'0'</b> when both the window is open and there is motion detected.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/basic_circuits_4_systems.png
+OPTION,0,A,HTML
+OPTION,0,B,HTML
+OPTION,100,C,HTML
+OPTION,0,D,HTML
+
+
+NewQuestion,MC
+Title,Choose basic circuit (fixed)
+QuestionText,"<p>A security system has two inputs. The first input is X, a 'window open' signal                     which is 1 if a window is open and 0 if it's closed. The second input is                     Y, a 'motion detected' signal that is 1 if motion is detected and 0 otherwise.</p>                     <p>Choose a system above whose output F will be <b>'1'</b> only when the window is closed and no motion is detected.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/basic_circuits_4_systems.png
+OPTION,0,A,HTML
+OPTION,0,B,HTML
+OPTION,0,C,HTML
+OPTION,100,D,HTML
+
+
