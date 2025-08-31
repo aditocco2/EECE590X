@@ -83,40 +83,56 @@ def wavedrom_gate(gate, a, b="", delay=0):
     """
     
     length = len(a)
+    gate = gate.lower()
 
     # Convert wavedrom signal to binary format
     a = wavedrom_to_binary(a)
-    # Turn binary string into number (base 2)
-    a = int(a, 2)
+    a = a.lower()
 
     # Do the same with b if specified
     if b:
         b = wavedrom_to_binary(b)
-        b = int(b, 2)
+        b = b.lower()
 
-    # Use bitwise logic to get the result
-    if gate == "or":
-        out = a | b
-    elif gate == "and":
-        out = a & b
-    elif gate == "not":
-        out = ~a
-    elif gate == "nor":
-        out = ~(a|b)
-    elif gate == "xor":
-        out = (a ^ b)
-    elif gate == "xnor":
-        out = ~(a ^ b)
-    elif gate == "nand":
-        out = ~(a & b)
-    else:
-        out = a
+    out = ""
 
-    # Bit mask to make it unsigned
-    out = out & int("1" * length, 2)
+    # Apply bit logic individually to each bit in a and b
+    for i in range(len(a)):
 
-    # Turn output back to string
-    out = f"{out:0{length}b}"
+        
+        a_bit = int(a[i]) if a[i].isdigit() else a[i]
+
+        if b:
+            b_bit = int(b[i]) if b[i].isdigit() else b[i]
+
+        # Unknown going into a gate always outputs an unknown
+        if a[i] == "x" or (b and b[i] == "x"):
+            out_bit = "x"
+        
+        elif gate == "buf":
+            out_bit = a_bit
+        elif gate == "not":
+            out_bit = ~a_bit
+        elif gate == "or":
+            out_bit = a_bit | b_bit
+        elif gate == "and":
+            out_bit = a_bit & b_bit
+        elif gate == "xor":
+            out_bit = a_bit ^ b_bit
+        elif gate == "nor":
+            out_bit = ~(a_bit | b_bit)
+        elif gate == "nand":
+            out_bit = ~(a_bit & b_bit)
+        elif gate == "xnor":
+            out_bit = ~(a_bit ^ b_bit)
+        else:
+            raise Exception("Invalid gate name")
+
+        # Isolate LSB and avoid weird python integer jank
+        if out_bit != "x":
+            out_bit &= 1
+
+        out += str(out_bit)
 
     # Apply gate delay and put x (unknown) at the beginning
     out = ("x" * delay) + out[0:(length - delay)]
@@ -165,7 +181,7 @@ def to_regex(name, signal):
     """
 
     # Escape the silly dots
-    signal = signal.replace(".", "\.")
+    signal = signal.replace(".", "\\.")
 
     # Case insensitive, "name", name, "wave", signal, with anything in between
     regex_ans = f"(?i).*name.*{name}.*wave.*{signal}.*"

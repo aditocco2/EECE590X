@@ -19,7 +19,7 @@ for i in range(10):
 
     regex_ans = to_regex("f", f)
 
-    q_link = make_question_link("Topic 13 Question 2", ["a", "b"], [a, b], 
+    q_link = make_question_link(f"Topic 13 Question 2", ["a", "b"], [a, b], 
                                 ["a'", "b'", "ab", "a'b'", "F"])
 
     q_text = f"<p> The above circuit is NON-ideal, so each gate now has a delay as shown. \
