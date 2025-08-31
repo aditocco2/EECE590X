@@ -1,5 +1,3 @@
-# BUGGED - CHECK NOT GATE IMPLEMENTATION
-
 import random
 import urllib.parse
 
@@ -113,6 +111,9 @@ def wavedrom_gate(gate, a, b="", delay=0):
         out = ~(a & b)
     else:
         out = a
+
+    # Bit mask to make it unsigned
+    out = out & 0xFFFFFFFFFFFFFFFF
 
     # Turn output back to string
     out = f"{out:0{length}b}"
