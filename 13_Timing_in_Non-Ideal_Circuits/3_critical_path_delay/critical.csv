@@ -1,0 +1,40 @@
+NewQuestion,SA
+Title,Critical Path
+QuestionText,<p>What is the <b>critical path delay</b> of the following <b>non-ideal</b> circuit?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/critical_A.png
+Feedback,Consider the longest possible path.,NOT HTML
+ANSWER,100,^\s*(5)\s*(ns)*\s*$,regexp
+
+
+NewQuestion,SA
+Title,Critical Path
+QuestionText,<p>What is the <b>critical path delay</b> of the following <b>non-ideal</b> circuit?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/critical_B.png
+Feedback,Consider the longest possible path.,NOT HTML
+ANSWER,100,^\s*(7)\s*(ns)*\s*$,regexp
+
+
+NewQuestion,SA
+Title,Critical Path
+QuestionText,<p>What is the <b>critical path delay</b> of the following <b>non-ideal</b> circuit?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/critical_C.png
+Feedback,Consider the longest possible path.,NOT HTML
+ANSWER,100,^\s*(12)\s*(ns)*\s*$,regexp
+
+
+NewQuestion,SA
+Title,Critical Path
+QuestionText,<p>What is the <b>critical path delay</b> of the following <b>non-ideal</b> circuit?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/critical_D.png
+Feedback,Consider the longest possible path.,NOT HTML
+ANSWER,100,^\s*(6)\s*(ns)*\s*$,regexp
+
+
