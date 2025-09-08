@@ -4,9 +4,9 @@ QuestionText,<p>Analyze the circuit above. Which of the following are true about
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/ideal_vs_not.png
-OPTION,1,"<p>Whenever <b>more than 5ns</b> has elapsed since the <i>most recent</i> change in either <i>A</i> or <i>B</i>, the ideal and non-ideal circuits will have the same output.</p>",HTML
-OPTION,0,"This circuit can suffer glitches, which can persist for <b>longer than 5ns</b> per single glitch.",HTML
 OPTION,1,"This circuit can suffer glitches, which persist for <b><i>no</i> longer than 5ns</b> per single glitch.",HTML
-OPTION,1,"<p>The two outputs are identical, but the <i>non-ideal</i> output <b>f</b> arrives <b>5ns later</b>",HTML
+OPTION,1,"<p>Whenever <b>more than 5ns</b> has elapsed since the <i>most recent</i> change in either <i>A</i> or <i>B</i>, the ideal and non-ideal circuits will have the same output.</p>",HTML
+OPTION,1,"<p>The two outputs are identical, but the <i>non-ideal</i> output <b>F</b> arrives <b>5ns later</b>",HTML
+OPTION,0,"This circuit can suffer glitches, which can persist for <b>longer than 5ns</b> per single glitch.",HTML
 
 
