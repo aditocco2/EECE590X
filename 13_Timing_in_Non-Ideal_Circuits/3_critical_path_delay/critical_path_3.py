@@ -1,5 +1,5 @@
 import d2l
-from PIL import Image, ImageDraw, ImageFont
+from label_utils.label_utils import *
 
 pool = d2l.QuestionPool("Critical Path", "critical.csv")
 question_text = f'<p>What is the <b>critical path delay</b> of the following <b>non-ideal</b> circuit?</p>'
@@ -19,22 +19,18 @@ or_coords  = [(820, 325)]
 
 for variant in variants:
 
-    # Make copies of the diagram with 
-    pic = Image.open("critical.png")
-    drawer = ImageDraw.Draw(pic)
-    font = ImageFont.truetype("calibri.ttf", 25)
+    # Make list of labels/coords
+    # Circuit has 2 nots, 1 and, and 1 or
+    coords = not_coords + and_coords + or_coords
+    labels = [f"{variant['not_delay']} ns", f"{variant['not_delay']} ns", 
+              f"{variant['and_delay']} ns", f"{variant['or_delay']} ns"]
+
+    # Make copies of the diagram called "critical_A.png", etc.
+    image_name = "critical.png"
     image_copy_name = f"critical_{variant['name']}.png"
 
-    # Draw label centered on coords
-    for coords in not_coords:
-        drawer.text(coords, f"{variant['not_delay']} ns", anchor="mm", font=font, fill='black')
-    for coords in and_coords:
-        drawer.text(coords, f"{variant['and_delay']} ns", anchor="mm", font=font, fill='black')
-    for coords in or_coords:
-        drawer.text(coords, f"{variant[ 'or_delay']} ns", anchor="mm", font=font, fill='black')
-
-    # critical_A.png, etc.
-    pic.save(image_copy_name)
+    # Add labels
+    apply_labels(image_name, image_copy_name, labels, coords)
 
     ans = variant['not_delay'] + variant['or_delay'] + variant["and_delay"]
 

@@ -1,9 +1,40 @@
 NewQuestion,SA
-Title,"Time to correct output, SA"
-QuestionText,"<p>Assume that inputs <i>a</i> and <i>b</i> both change at 0ns, and remain constant afterwards. At what time will the output of F be correct?</p>",HTML
+Title,Time to correct output
+QuestionText,"<p>Assume that inputs A, B, C, and D aboveall change at 0 ns, and remain constant afterwards. At what time will the output G be correct?</p>",HTML
 Points,10
 Difficulty,1
-Feedback,Consider how long it takes both signals topropogate through the entire circuit,NOT HTML
-ANSWER,100,^\s*(5)\s*(ns)*\s*$,regexp
+Image,/imagepools/quantumbeef/time_A.png
+Feedback,Consider how long it takes all signals to propagate through the entire circuit.,NOT HTML
+ANSWER,100,^\s*(6)\s*(ns)*\s*$,regexp
+
+
+NewQuestion,SA
+Title,Time to correct output
+QuestionText,"<p>Assume that inputs A, B, C, and D aboveall change at 0 ns, and remain constant afterwards. At what time will the output G be correct?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/time_B.png
+Feedback,Consider how long it takes all signals to propagate through the entire circuit.,NOT HTML
+ANSWER,100,^\s*(10)\s*(ns)*\s*$,regexp
+
+
+NewQuestion,SA
+Title,Time to correct output
+QuestionText,"<p>Assume that inputs A, B, C, and D aboveall change at 0 ns, and remain constant afterwards. At what time will the output G be correct?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/time_C.png
+Feedback,Consider how long it takes all signals to propagate through the entire circuit.,NOT HTML
+ANSWER,100,^\s*(6)\s*(ns)*\s*$,regexp
+
+
+NewQuestion,SA
+Title,Time to correct output
+QuestionText,"<p>Assume that inputs A, B, C, and D aboveall change at 0 ns, and remain constant afterwards. At what time will the output G be correct?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/time_D.png
+Feedback,Consider how long it takes all signals to propagate through the entire circuit.,NOT HTML
+ANSWER,100,^\s*(12)\s*(ns)*\s*$,regexp
 
 

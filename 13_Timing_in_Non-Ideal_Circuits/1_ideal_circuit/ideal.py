@@ -1,7 +1,7 @@
 # Makes a pool of 10 random questions for the same ideal circuit
 
 import d2l
-from wave_utils import *
+from wave_utils.wave_utils import *
 
 pool = d2l.QuestionPool("1_ideal_circuit", "ideal.csv")
 
