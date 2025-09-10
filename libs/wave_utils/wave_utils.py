@@ -1,5 +1,6 @@
 import random
 import urllib.parse
+import wavedrom
 
 def make_random_signal(length):
 
@@ -77,7 +78,8 @@ def binary_to_wavedrom(binary):
 def wavedrom_gate(gate, a, b="", delay=0):
     """
     Puts two wavedrom signals of same length through a logic gate
-    a, b: two wavedrom format signals (1..0.1..)
+    a: first wavedrom format signal (1..0.1..)
+    b: second wavedrom format signal if need be
     gate: can be "or", "and", "not", "xor", "xnor", "nand", "nor", or "buf"
     delay: delay in ns to shift output
     """
@@ -174,6 +176,34 @@ def make_question_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "
 
     return link_html
 
+def make_wavedrom_image(title, sig_names, gen_sigs, fill_sig_names=[], out_filename="image.svg"):
+    """
+    Generates wavedrom image of specified signals
+    Args:
+        title (str): String to label timing diagram like "Question 2"
+        sig_names (list): List of input signal names like ["a", "b"]
+        gen_sigs (list): List of generated signals corresponding to sig_names
+        fill_sig_names (list): List of signal names to hold space for
+        students to complete -> ["a'","b'","ab'","F"]. Empty if not specified
+        out_filename (str): SVG output file
+    """
+    
+    lines = []
+    for sig_name, sig in zip(sig_names, gen_sigs):
+        line = f"{{name: \"{sig_name}\", wave: \"{sig}\"}},"
+        lines.append(line)
+    for sig_name in fill_sig_names:
+        line = f"{{name: \"{sig_name}\", wave: ''}},"
+        lines.append(line)
+
+    code = " ".join(lines)
+
+    code = "{signal: [ " + code + "],  foot:{tock:1}}"
+
+    img = wavedrom.render(code)
+    img.saveas(out_filename)
+    
+
 def to_regex(name, signal):
     """
     name: name of output signal like "f"
@@ -184,5 +214,5 @@ def to_regex(name, signal):
     signal = signal.replace(".", "\\.")
 
     # Case insensitive, "name", name, "wave", signal, with anything in between
-    regex_ans = f"(?i).*name.*{name}.*wave.*{signal}.*"
+    regex_ans = f"""(?iname\s*:\s*,\s*['"]{name}['"]\s*,\s*wave\s*:\s*,\s*['"]{signal}['"])"""
     return regex_ans

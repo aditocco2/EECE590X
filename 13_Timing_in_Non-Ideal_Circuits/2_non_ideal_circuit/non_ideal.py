@@ -5,7 +5,7 @@ from wave_utils.wave_utils import *
 
 pool = d2l.QuestionPool("2_non_ideal_circuit", "non_ideal.csv")
 
-for i in range(10):
+for i in range(50):
     
     a = make_random_signal(20)
     b = make_random_signal(20)

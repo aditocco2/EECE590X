@@ -5,7 +5,7 @@ from wave_utils.wave_utils import *
 
 pool = d2l.QuestionPool("1_ideal_circuit", "ideal.csv")
 
-for i in range(10):
+for i in range(50):
     
     a = make_random_signal(20)
     b = make_random_signal(20)
@@ -30,6 +30,9 @@ for i in range(10):
     question = d2l.SAQuestion(q_text)
     question.add_image(f"/imagepools/quantumbeef/ideal.png")
     question.add_answer(f"{regex_ans}", is_regex = True)
+
+    # To Do: add feedback (right answer as link)
+    # question.add_feedback()
 
     pool.add_question(question)
 

@@ -15,7 +15,7 @@ question = d2l.MSQuestion(question_text)
 question.add_answer(f"<p>The two outputs are identical, but the" \
                     f" <i>non-ideal</i> output <b>F</b> arrives " \
                     f"<b>5ns later</b>", 
-                    is_correct = True)
+                    is_correct = False)
 
 question.add_answer(f"<p>Whenever <b>more than 5ns</b> has elapsed " \
                     f"since the <i>most recent</i> change in either <i>A</i>" \
