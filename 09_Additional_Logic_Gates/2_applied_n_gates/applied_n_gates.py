@@ -20,6 +20,8 @@ question_terms ={
     "6": "during the night if at least 1 door is unlocked."
 }        
 
+# Note: I guess time of day is just a distractor
+
 d = schemdraw.Drawing()
 # Answer Labels - update schemdraw version to use
 #d.add(schemdraw.elements.Label('1', color='red').at((0.75, -1))) 
@@ -54,7 +56,7 @@ or_gate = sgl.Or().at((5,-2))
 d.add(or_gate)
 
 d.draw()
-d.save("n_base_circuits_no_labels.png") # is already generated for an earlier hw
+#d.save("n_base_circuits_no_labels.png") # is already generated for an earlier hw
 
 for key in question_terms.keys():
     question_text= f"<p>The local candy store owner wants to secure the \
@@ -67,7 +69,8 @@ for key in question_terms.keys():
     question = d2l.MCQuestion( question_text )
     question.add_image("/imagepools/alivebeef/n_base_circuits_1.png")
     for key2 in question_terms.keys():
-        question.add_answer(f"{key2}", 1 if key2 in key else 0) #is_correct = key )
+        # Bruh, you made it 1 instead of 100
+        question.add_answer(f"{key2}", 100 if key2 in key else 0) #is_correct = key )
     pool.add_question(question)
 
 pool.dump()

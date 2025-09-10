@@ -4,11 +4,11 @@ QuestionText,"<p>The local candy store owner wants to secure the             fro
 Points,10
 Difficulty,1
 Image,/imagepools/alivebeef/n_base_circuits_1.png
+OPTION,100,1,HTML
 OPTION,0,4,HTML
-OPTION,0,6,HTML
-OPTION,1,1,HTML
-OPTION,0,3,HTML
 OPTION,0,5,HTML
+OPTION,0,3,HTML
+OPTION,0,6,HTML
 OPTION,0,2,HTML
 
 
@@ -18,12 +18,12 @@ QuestionText,"<p>The local candy store owner wants to secure the             fro
 Points,10
 Difficulty,1
 Image,/imagepools/alivebeef/n_base_circuits_1.png
-OPTION,0,1,HTML
+OPTION,0,6,HTML
 OPTION,0,5,HTML
 OPTION,0,4,HTML
 OPTION,0,3,HTML
-OPTION,0,6,HTML
-OPTION,1,2,HTML
+OPTION,0,1,HTML
+OPTION,100,2,HTML
 
 
 NewQuestion,MC
@@ -32,12 +32,12 @@ QuestionText,"<p>The local candy store owner wants to secure the             fro
 Points,10
 Difficulty,1
 Image,/imagepools/alivebeef/n_base_circuits_1.png
-OPTION,0,1,HTML
-OPTION,0,2,HTML
 OPTION,0,4,HTML
-OPTION,0,5,HTML
-OPTION,1,3,HTML
+OPTION,0,1,HTML
 OPTION,0,6,HTML
+OPTION,100,3,HTML
+OPTION,0,2,HTML
+OPTION,0,5,HTML
 
 
 NewQuestion,MC
@@ -46,11 +46,11 @@ QuestionText,"<p>The local candy store owner wants to secure the             fro
 Points,10
 Difficulty,1
 Image,/imagepools/alivebeef/n_base_circuits_1.png
-OPTION,0,1,HTML
-OPTION,0,3,HTML
-OPTION,0,6,HTML
-OPTION,1,4,HTML
 OPTION,0,2,HTML
+OPTION,0,3,HTML
+OPTION,100,4,HTML
+OPTION,0,1,HTML
+OPTION,0,6,HTML
 OPTION,0,5,HTML
 
 
@@ -60,12 +60,12 @@ QuestionText,"<p>The local candy store owner wants to secure the             fro
 Points,10
 Difficulty,1
 Image,/imagepools/alivebeef/n_base_circuits_1.png
-OPTION,0,1,HTML
-OPTION,0,6,HTML
 OPTION,0,2,HTML
-OPTION,0,4,HTML
 OPTION,0,3,HTML
-OPTION,1,5,HTML
+OPTION,100,5,HTML
+OPTION,0,1,HTML
+OPTION,0,4,HTML
+OPTION,0,6,HTML
 
 
 NewQuestion,MC
@@ -74,11 +74,11 @@ QuestionText,"<p>The local candy store owner wants to secure the             fro
 Points,10
 Difficulty,1
 Image,/imagepools/alivebeef/n_base_circuits_1.png
-OPTION,0,4,HTML
-OPTION,0,1,HTML
 OPTION,0,5,HTML
+OPTION,0,4,HTML
 OPTION,0,3,HTML
-OPTION,1,6,HTML
 OPTION,0,2,HTML
+OPTION,100,6,HTML
+OPTION,0,1,HTML
 
 
