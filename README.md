@@ -1,6 +1,13 @@
 # EECE590X
 EECE251 Question Development
 
+## How it Works
+Each question has an associated Python script, which generates relevant data to the question. This includes the question text, answers, hints, feedback, images, etc.
+
+Dr. Summerville's `d2l` library is used to form a CSV file using the data in the question. Often, multiple variations of the same question are generated, making the CSV a question pool.
+
+We can then upload the CSV file to Brightspace to import the questions and add them into the quizzes.
+
 ## Uploading Question Pools to Brightspace
 
 Once the CSV question pools (and supplemental images) have been generated, you can turn them into Brightspace quizzes with the following steps:
@@ -25,7 +32,8 @@ Once the CSV question pools (and supplemental images) have been generated, you c
 - Select the section/folder with all the questions and `Import`
 - Give the question pool a relevant name
 - Select `1` for `Number of Questions to Select` (unless you want more)
-- `Save` the question and `Preview` the quiz to make sure it looks right
+- `Save` the question
+- Be sure to `Preview` the quiz to make sure it looks right
 
 ## Importing Custom Libraries and Modules
 This project uses many custom modules stored in the `libs` folder, the most notable being `d2l`. In order to use these modules in your Python files, you will need to add `libs` to your default Python path. Here's how to do this in Windows:
