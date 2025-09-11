@@ -145,9 +145,9 @@ def wavedrom_gate(gate, a, b="", delay=0):
     return out
 
 
-def make_question_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "WaveDrom Link"):
+def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "WaveDrom Link"):
     """
-    Generates wavedrom related question link in HTML
+    Generates wavedrom related question or answer link in HTML
 
     Args:
         title (str): String to label timing diagram like "Question 2"
@@ -213,6 +213,6 @@ def to_regex(name, signal):
     # Escape the silly dots
     signal = signal.replace(".", "\\.")
 
-    # Case insensitive, "name", name, "wave", signal, with anything in between
-    regex_ans = f"""(?iname\s*:\s*,\s*['"]{name}['"]\s*,\s*wave\s*:\s*,\s*['"]{signal}['"])"""
+    # Super-ultra-mega-monster regex, shoutout to the man himself Doug for this one
+    regex_ans = f"""(?i:name\s*:\s*['"]{name}['"]\s*,\s*wave\s*:\s*['"]{signal}['"])"""
     return regex_ans
