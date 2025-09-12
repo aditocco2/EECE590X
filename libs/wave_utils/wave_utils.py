@@ -68,7 +68,7 @@ def binary_to_wavedrom(binary):
         # If the character is a repeat, replace it with a dot
         if i == signal_value:
             wavedrom += "."
-        # Otherwise preserve the 1 or 0 and update what was last seen
+        # Otherwise preserve the 1 or 0 (or x) and update what was last seen
         else:
             wavedrom += i
             signal_value = i
@@ -198,7 +198,7 @@ def make_wavedrom_image(title, sig_names, gen_sigs, fill_sig_names=[], out_filen
 
     code = " ".join(lines)
 
-    code = "{signal: [ " + code + "],  foot:{tock:1}}"
+    code = '{signal: [ ' + code + '],  foot:{"tock":1},}'
 
     img = wavedrom.render(code)
     img.saveas(out_filename)

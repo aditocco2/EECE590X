@@ -1,0 +1,48 @@
+NewQuestion,MC
+Title,Examine Timing Diagram
+QuestionText,"<p>The timing diagram above represents the expression <b>ab'</b>. Based on the diagram, which of the following is true about the circuit?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/examine_A.png
+OPTION,0,The circuit is non-ideal and has a critical path delay of 0 ns,HTML
+OPTION,100,The circuit is ideal and has no delays,HTML
+OPTION,0,The circuit is ideal and has a critical path delay of 0 ns,HTML
+OPTION,0,The circuit is non-ideal and has a critical path delay of 0 ns,HTML
+
+
+NewQuestion,MC
+Title,Examine Timing Diagram
+QuestionText,"<p>The timing diagram above represents the expression <b>ab'</b>. Based on the diagram, which of the following is true about the circuit?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/examine_B.png
+OPTION,0,The circuit is ideal and has a critical path delay of 8 ns,HTML
+OPTION,0,The circuit is non-ideal and has a critical path delay of 4 ns,HTML
+OPTION,0,The circuit is ideal and has no delays,HTML
+OPTION,100,The circuit is non-ideal and has a critical path delay of 8 ns,HTML
+
+
+NewQuestion,MC
+Title,Examine Timing Diagram
+QuestionText,"<p>The timing diagram above represents the expression <b>ab'</b>. Based on the diagram, which of the following is true about the circuit?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/examine_C.png
+OPTION,0,The circuit is non-ideal and has a critical path delay of 3 ns,HTML
+OPTION,100,The circuit is non-ideal and has a critical path delay of 4 ns,HTML
+OPTION,0,The circuit is ideal and has a critical path delay of 4 ns,HTML
+OPTION,0,The circuit is ideal and has no delays,HTML
+
+
+NewQuestion,MC
+Title,Examine Timing Diagram
+QuestionText,"<p>The timing diagram above represents the expression <b>ab'</b>. Based on the diagram, which of the following is true about the circuit?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/examine_D.png
+OPTION,0,The circuit is ideal and has no delays,HTML
+OPTION,0,The circuit is non-ideal and has a critical path delay of 3 ns,HTML
+OPTION,0,The circuit is ideal and has a critical path delay of 7 ns,HTML
+OPTION,100,The circuit is non-ideal and has a critical path delay of 7 ns,HTML
+
+

@@ -1,9 +1,0 @@
-NewQuestion,SA
-Title,Critical Path
-QuestionText,<p>What is the <b>critical path delay</b> of the <b>non-ideal</b> circuit.</p>,HTML
-Points,10
-Difficulty,1
-Feedback,Consider the longest possible path.,NOT HTML
-ANSWER,100,^\s*(5)\s*(ns)*\s*$,regexp
-
-
