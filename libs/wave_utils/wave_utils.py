@@ -236,7 +236,8 @@ def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "
     Args:
         title (str): String to label timing diagram like "Question 2"
         sig_names (list): List of input signal names like ["a", "b"]
-        gen_sigs (list): List of generated signals corresponding to sig_names
+        gen_sigs (list): List of generated signals corresponding to sig_names 
+        (in wavedrom format)
         fill_sig_names (list): List of signal names to hold space for
         students to complete -> ["a'","b'","ab'","F"]
     """

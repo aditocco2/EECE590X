@@ -4,7 +4,7 @@ from html_tt import html_tt
 from html_kmap import html_kmap
 
 pool = d2l.QuestionPool("Converting a Truth Table to a Karnaugh Map",
-                        "mypool.csv")
+                        "q11_q1.csv")
 
 number_questions = 50
 
@@ -19,7 +19,7 @@ while i < number_questions:
                                                    (bin_string[15] == bin_string[14])):
         continue
     
-    truth_table = html_tt(bin_string, ["A", "B", "C", "D", "F"])
+    truth_table = html_tt(bin_string, ["a", "b", "c", "d", "f"])
   
     correct_kmap = html_kmap(bin_string)
 

@@ -1,7 +1,6 @@
 import d2l
 import random
 from schemdraw_kmap.schemdraw_kmap import draw_kmap
-import image_utils.image_utils as img
 
 pool = d2l.QuestionPool("Determine Kmap Terms", "pool.csv")
 
@@ -17,11 +16,11 @@ groups = {
 count = 0
 
 for key in groups:
-    draw_kmap(key,f'kmap_{count}')
+    draw_kmap(key,f'kmap_{count}', "abcd")
 
     question_text = f"<p>Determine the algebraic expression for the \
-            terms circled in the Karnaugh Map shown above. Specify \
-            your answer using only lowercase letters with no parentheses.</p>"
+            terms circled in the Karnaugh Map shown above.</p>"
+
 
     question = d2l.SAQuestion(question_text)
 
@@ -30,7 +29,6 @@ for key in groups:
     feedback = "+".join(groups[key])
 
     for i in range(len(groups[key])-1):
-
         regex_ans += f"\\s*({ans})(?!.*\\{i+1}[^'a-z])\\s*\\+"
     regex_ans += f"\\s*({ans})\\s*$"
     question.add_image(f"/imagepools/alivebeef/kmap_{count}.png")

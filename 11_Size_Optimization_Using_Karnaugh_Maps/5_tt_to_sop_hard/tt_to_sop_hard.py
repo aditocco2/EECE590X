@@ -3,7 +3,7 @@ import random
 from html_tt import html_tt
 from html_kmap import html_kmap
 
-pool = d2l.QuestionPool("Truth Table to SOP (hard), SA", "pool.csv")
+pool = d2l.QuestionPool("Truth Table to SOP (hard), SA", "q11_q5.csv")
 
 number_questions = 50
 expressions = {"1110011110100010" : [["b'd'","cd'","a'bd","a'c'd"],
@@ -20,10 +20,10 @@ expressions = {"1110011110100010" : [["b'd'","cd'","a'bd","a'c'd"],
                "1101011100010100" : [["a'b'c'","bc'd","a'bc","b'cd"]]}
 
 for exp in list(expressions):
-    truth_table = html_tt(exp, ["A", "B", "C", "D", "F"])
+    truth_table = html_tt(exp, ["a", "b", "c", "d", "f"])
     question_text = f"<p>Given the following truth table for " \
-            "the circuit F, use a Karnaugh Map to find the " \
-            "simplified SOP (sum of products) expression for F." \
+            "the circuit f, use a Karnaugh Map to find the " \
+            "simplified SOP (sum of products) expression for f." \
             f"{truth_table}</p>"
     
     feedback_ans = "+".join(expressions[exp][0])

@@ -38,10 +38,10 @@ expressions = {'11101000' : ["b'c'", "a'b'", "a'c'"],
                '10101011' : ["c'", 'ab'],
                '01010111' : ['c', 'ab']}
 for exp in list(expressions):
-    truth_table = html_tt(exp, ["A", "B", "C", "F"])
+    truth_table = html_tt(exp, ["a", "b", "c", "f"])
     question_text = f"<p>Given the following truth table for " +\
-            "the circuit F, use a Karnaugh Map to find the " +\
-            "simplified SOP (sum of products) expression for F." +\
+            "the circuit f, use a Karnaugh Map to find the " +\
+            "simplified SOP (sum of products) expression for f." +\
             f"{truth_table}</p>"
 
     question = d2l.SAQuestion(question_text)
@@ -51,7 +51,7 @@ for exp in list(expressions):
     feedback_ans = "+".join(expressions[exp])
 
     for i in range(len(expressions[exp])-1):
-        regex_ans += f"\\s*({ans})(?!.*\\{i+1})[^'a-z]\\s*\\+"
+        regex_ans += f"\\s*({ans})(?!.*\\{i+1}[^'a-z])\\s*\\+"
     regex_ans += f"\\s*({ans})\\s*$"
 
     question.add_answer(f"{regex_ans}", is_regex = True)
