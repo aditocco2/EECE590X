@@ -1,7 +1,7 @@
 import schemdraw
 import schemdraw.logic as logic
 import itertools
-
+import matplotlib
 
 # Used in next function to determine if a term matches a group and should
 # be included.
@@ -64,6 +64,9 @@ def draw_kmap(groups_in, filename, var_names='abcd'):
     num_vars = len(var_names)
     truth_table = generate_truth_table(num_vars, groups_temp)
 
+    # Avoid opening Matplotlib GUI
+    matplotlib.use('Agg')
+
     d = schemdraw.Drawing()
     d.add(logic.Kmap(
         names=new_var_names,
@@ -71,4 +74,4 @@ def draw_kmap(groups_in, filename, var_names='abcd'):
         groups=groups_out
     ))
     d.draw()
-    d.save(f'{filename}.svg')
+    d.save(f'{filename}.png')
