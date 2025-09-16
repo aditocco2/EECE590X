@@ -1,6 +1,7 @@
 import d2l
 import random
-from schemdraw_kmap import draw_kmap
+from schemdraw_kmap.schemdraw_kmap import draw_kmap
+import image_utils.image_utils as img
 
 pool = d2l.QuestionPool("Determine Kmap Terms", "pool.csv")
 
@@ -17,7 +18,8 @@ count = 0
 
 for key in groups:
     # draw_kmap(key,f'kmap_{count}')
-    # Already done
+    # img.svg2png(f'kmap_{count}.svg', f"kmap_{count}.png")
+    # Inkscape doesn't do transparency right, how unlucky
 
     question_text = f"<p>Determine the algebraic expression for the \
             terms circled in the Karnaugh Map shown above. Specify \

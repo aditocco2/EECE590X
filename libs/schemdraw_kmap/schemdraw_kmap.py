@@ -30,7 +30,7 @@ def switch_chars(s):
         return s
 
 
-def draw_kmap(groups_in, filename, var_names='ABCD'):
+def draw_kmap(groups_in, filename, var_names='abcd'):
     """
     Draws a K-map using only groups (groups like '11..'), no Xs allowed.
 
@@ -71,4 +71,4 @@ def draw_kmap(groups_in, filename, var_names='ABCD'):
         groups=groups_out
     ))
     d.draw()
-    d.save(f'{filename}.png')
+    d.save(f'{filename}.svg')
