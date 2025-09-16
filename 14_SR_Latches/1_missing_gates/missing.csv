@@ -1,0 +1,17 @@
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,NOR
+Choice,2,XOR
+Choice,3,AND
+Choice,4,OR
+Choice,5,XNOR
+Choice,6,NAND
+Match,4,Gate A
+Match,3,Gate B
+
+

@@ -1,0 +1,20 @@
+NewQuestion,MC
+Title,Adding Enable to SR Latch
+QuestionText,"Suppose you want to add an ""Enable"" (E) signal to an SR         latch, where the output Q can only be set or reset if E is         high. Would the above diagram be a correct way of implementing         this feature?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_with_enable_right.png
+OPTION,100,Yes,HTML
+OPTION,0,No,HTML
+
+
+NewQuestion,MC
+Title,Adding Enable to SR Latch
+QuestionText,"Suppose you want to add an ""Enable"" (E) signal to an SR         latch, where the output Q can only be set or reset if E is         high. Would the above diagram be a correct way of implementing         this feature?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_with_enable_wrong.png
+OPTION,0,Yes,HTML
+OPTION,100,No,HTML
+
+

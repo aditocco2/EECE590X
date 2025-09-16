@@ -1,0 +1,25 @@
+import d2l
+
+pool = d2l.QuestionPool("Fill In Missing Gates", "missing.csv")
+
+q_text = "Suppose you are designing an SR latch from scratch \
+          using basic logic gates. Which gates would belong \
+          in slots A and B in the diagram above?"
+
+question = d2l.MQuestion(q_text, shuffle=True)
+
+question.add_image("/imagepools/quantumbeef/sr_latch_missing_gates.png")
+
+# Correct choices
+question.add_answer("Gate A", "OR")
+question.add_answer("Gate B", "AND")
+
+# Distractors
+question.add_answer(choice="XOR")
+question.add_answer(choice="NOR")
+question.add_answer(choice="NAND")
+question.add_answer(choice="XNOR")
+
+pool.add_question(question)
+
+pool.package()

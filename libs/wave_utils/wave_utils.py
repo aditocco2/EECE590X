@@ -144,6 +144,90 @@ def wavedrom_gate(gate, a, b="", delay=0):
 
     return out
 
+def wavedrom_sr_latch(s, r, initial=0, delay=0):
+    """
+    Emulates an SR latch with WaveDrom signals
+    Currently doesn't support inputs with delay
+    s (str): set signal in wavedrom format
+    r (str): reset signal in wavedrom format
+    initial_value (int): 0 or 1 for how the output starts
+    delay (int): delay in ns (assumes the latch as a whole has a delay)
+
+    Big shoutout to my man Justin for helping me debug this
+    """
+    
+    initial = str(initial)
+
+    length = len(s)
+
+    s = wavedrom_to_binary(s)
+    r = wavedrom_to_binary(r)
+
+    out = ""
+
+    out_bit = initial
+
+    # Process using the SR latch logic
+    for i in range(length):
+
+        # Look for set
+        if out_bit == "0" and s[i] == "1":
+            out_bit = "1" # I had double equals here bruh
+        # Look for reset
+        if out_bit == "1" and r[i] == "1":
+            out_bit = "0"
+        # Else don't change output value
+
+        # If set and reset are high at the same time, it resets
+        
+        out += out_bit
+    
+    # Apply gate delay and put x (unknown) at the beginning
+    out = ("x" * delay) + out[0:(length - delay)]
+
+    # Convert back to wavedrom format
+    out = binary_to_wavedrom(out)
+
+    return out
+
+def wavedrom_d_latch(d, e, initial=0, delay=0):
+    """
+    Emulates a D latch with WaveDrom signals. Honestly not sure if it works yet
+    Currently doesn't support inputs with delay
+    s (str): data signal in wavedrom format
+    r (str): enable signal in wavedrom format
+    initial_value (int): 0 or 1 for how the output starts
+    delay (int): delay in ns (assumes the latch as a whole has a delay)
+    """
+    
+    initial = str(initial)
+
+    length = len(s)
+
+    d = wavedrom_to_binary(d)
+    e = wavedrom_to_binary(e)
+
+    out = ""
+
+    out_bit = initial
+
+    # Process using the SR latch logic
+    for i in range(length):
+
+        # Take current d value if e is high
+        if e[i] == "1":
+            out_bit = d[i]
+        # Else don't change output value
+        
+        out += out_bit
+    
+    # Apply gate delay and put x (unknown) at the beginning
+    out = ("x" * delay) + out[0:(length - delay)]
+
+    # Convert back to wavedrom format
+    out = binary_to_wavedrom(out)
+
+    return out
 
 def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "WaveDrom Link"):
     """
