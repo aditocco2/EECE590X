@@ -35,7 +35,10 @@ Once the CSV question pools (and supplemental images) have been generated, you c
 - `Save` the question
 - Be sure to `Preview` the quiz to make sure it looks right
 
-## Importing Custom Libraries and Modules
+## Setting Up for Development
+In order to run the scripts, you may need to do some extra setup on your computer.
+
+### Configuring Custom Libraries
 This project uses many custom modules stored in the `libs` folder, the most notable being `d2l`. In order to use these modules in your Python files, you will need to add `libs` to your default Python path. Here's how to do this in Windows:
 - Search the Start menu for "environment variables"
 - Click `Environment Variables`
@@ -47,6 +50,15 @@ This project uses many custom modules stored in the `libs` folder, the most nota
 
 Alternatively, you can specify PYTHONPATH in the command line as you run the script:
 - `PYTHONPATH="/path/to/your/EECE590X/libs" python3 <script>.py`
+
+### Installing Inkscape
+Inkscape is the backend this project currently uses for converting SVG to PNG. Similarly to the custom libraries, this will need to be installed and specified in your default path. Here's the list of steps for Windows:
+- Download and install [Inkscape](https://inkscape.org/) (Latest stable version is fine)
+- Search the Start menu for "environment variables"
+- Click `Environment Variables`
+- Find `PATH` under `System Variables` and click `Edit`
+- Add a `New` value
+- Enter your path to your Inkscape installation, such as `C:\Program Files\Inkscape\bin`
 
 ### Generating Requirements File
 - `pip3 install pipreqs`
