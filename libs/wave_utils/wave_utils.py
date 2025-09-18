@@ -35,6 +35,42 @@ def make_random_signal(length):
 
     return signal
 
+def make_clock(length, period=10, first_rising_edge=5):
+    """
+    Makes a wavedrom signal representing a clock
+    length: length of the signal in ns
+    period: clock period in ns, must be even, default 10
+    first_rising_edge: position of first rising edge, default 0
+    """
+
+    if period % 2 != 0:
+        raise Exception("Clock period must be even")
+
+    signal = []
+    signal_value = 0
+
+    # Generate a longer clock signal so a portion of it can be taken later
+    for i in range(length + period):
+        # Toggle the signal on multiples of half the period
+        if i % (period/2) == 0:
+            signal_value = 1 - signal_value
+            # Put the 0 or 1 there
+            signal.append(signal_value)
+        else:
+            # Put the . there if not a 0 or 1
+            signal.append(".")
+    
+    # Turn list into string
+    signal = [str(i) for i in signal]
+    signal = "".join(signal)
+
+    # Find out which portion to take to align the first rising edge
+    start = period - first_rising_edge
+    end = start + length
+    signal = signal[start:end]
+
+    return signal
+
 def wavedrom_to_binary(wavedrom):
 
     """
@@ -211,7 +247,7 @@ def wavedrom_d_latch(d, e, initial=0, delay=0):
 
     out_bit = initial
 
-    # Process using the SR latch logic
+    # Process using the D latch logic
     for i in range(length):
 
         # Take current d value if e is high
@@ -228,6 +264,10 @@ def wavedrom_d_latch(d, e, initial=0, delay=0):
     out = binary_to_wavedrom(out)
 
     return out
+
+# def wavedrom_d_flip_flop(clk, d, q, en="", delay=0):
+#     # Not done yet
+#     pass
 
 def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "WaveDrom Link"):
     """
@@ -299,5 +339,5 @@ def to_regex(name, signal):
     signal = signal.replace(".", "\\.")
 
     # Super-ultra-mega-monster regex, shoutout to the man himself Doug for this one
-    regex_ans = f"""(?i:name\s*:\s*['"]{name}['"]\s*,\s*wave\s*:\s*['"]{signal}['"])"""
+    regex_ans = f"""(?i:name\\s*:\\s*['"]{name}['"]\\s*,\\s*wave\\s*:\\s*['"]{signal}['"])"""
     return regex_ans
