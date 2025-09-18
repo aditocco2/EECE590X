@@ -5,11 +5,10 @@ from html_kmap import html_kmap
 
 pool = d2l.QuestionPool("Truth Table to SOP (medium), SA", "q11_q4.csv")
 
-number_questions = 50
 expressions = {"1100111111111100": ["c'","a'b","ab'"],
-               "1111111101000001": ["a'","bcd","ab'c'd" ],
+               "1111111101000001": ["a'","bcd","b'c'd"],
                "1100110100110111": ["a'c'","bd","ac"],
-               "1111000110010011": ["a'b'","cd","abc","ab'c'd'"],
+               "1111000110010011": ["a'b'","cd","abc","b'c'd'"],
                "1000111100010011": ["a'c'd'","a'b","bc","acd"],
                "0111010111011111": ["d","ab","ac'","a'b'c"],
                "1101110111110010": ["a'c'","a'd","ab'","acd'"]}
