@@ -5,12 +5,675 @@ Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
 Scoring,EquallyWeighted
-Choice,1,NOR
-Choice,2,XOR
+Choice,1,XOR
+Choice,2,NAND
+Choice,3,OR
+Choice,4,XNOR
+Choice,5,AND
+Choice,6,NOR
+Match,3,Gate A
+Match,5,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XOR
+Choice,2,OR
+Choice,3,XNOR
+Choice,4,NAND
+Choice,5,AND
+Choice,6,NOR
+Match,2,Gate A
+Match,5,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,OR
+Choice,2,XNOR
 Choice,3,AND
+Choice,4,XOR
+Choice,5,NOR
+Choice,6,NAND
+Match,1,Gate A
+Match,3,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XOR
+Choice,2,NOR
+Choice,3,NAND
+Choice,4,AND
+Choice,5,XNOR
+Choice,6,OR
+Match,6,Gate A
+Match,4,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XOR
+Choice,2,OR
+Choice,3,XNOR
+Choice,4,NAND
+Choice,5,NOR
+Choice,6,AND
+Match,2,Gate A
+Match,6,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,OR
+Choice,2,NOR
+Choice,3,AND
+Choice,4,NAND
+Choice,5,XOR
+Choice,6,XNOR
+Match,1,Gate A
+Match,3,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,OR
+Choice,2,XOR
+Choice,3,NAND
+Choice,4,AND
+Choice,5,XNOR
+Choice,6,NOR
+Match,1,Gate A
+Match,4,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XNOR
+Choice,2,NAND
+Choice,3,XOR
+Choice,4,NOR
+Choice,5,AND
+Choice,6,OR
+Match,6,Gate A
+Match,5,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,AND
+Choice,2,XOR
+Choice,3,NAND
 Choice,4,OR
 Choice,5,XNOR
+Choice,6,NOR
+Match,4,Gate A
+Match,1,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,AND
+Choice,2,NOR
+Choice,3,XOR
+Choice,4,XNOR
+Choice,5,OR
 Choice,6,NAND
+Match,5,Gate A
+Match,1,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,NAND
+Choice,2,AND
+Choice,3,XNOR
+Choice,4,XOR
+Choice,5,OR
+Choice,6,NOR
+Match,5,Gate A
+Match,2,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,OR
+Choice,2,AND
+Choice,3,XOR
+Choice,4,NAND
+Choice,5,NOR
+Choice,6,XNOR
+Match,1,Gate A
+Match,2,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XNOR
+Choice,2,OR
+Choice,3,NOR
+Choice,4,XOR
+Choice,5,NAND
+Choice,6,AND
+Match,2,Gate A
+Match,6,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XNOR
+Choice,2,OR
+Choice,3,NAND
+Choice,4,AND
+Choice,5,XOR
+Choice,6,NOR
+Match,2,Gate A
+Match,4,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,NAND
+Choice,2,OR
+Choice,3,NOR
+Choice,4,XNOR
+Choice,5,AND
+Choice,6,XOR
+Match,2,Gate A
+Match,5,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,NOR
+Choice,2,NAND
+Choice,3,XNOR
+Choice,4,AND
+Choice,5,OR
+Choice,6,XOR
+Match,5,Gate A
+Match,4,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,AND
+Choice,2,OR
+Choice,3,NOR
+Choice,4,NAND
+Choice,5,XNOR
+Choice,6,XOR
+Match,2,Gate A
+Match,1,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,NAND
+Choice,2,XOR
+Choice,3,OR
+Choice,4,XNOR
+Choice,5,NOR
+Choice,6,AND
+Match,3,Gate A
+Match,6,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XNOR
+Choice,2,XOR
+Choice,3,OR
+Choice,4,NOR
+Choice,5,AND
+Choice,6,NAND
+Match,3,Gate A
+Match,5,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XOR
+Choice,2,AND
+Choice,3,NOR
+Choice,4,XNOR
+Choice,5,NAND
+Choice,6,OR
+Match,6,Gate A
+Match,2,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,NAND
+Choice,2,XNOR
+Choice,3,XOR
+Choice,4,AND
+Choice,5,OR
+Choice,6,NOR
+Match,5,Gate A
+Match,4,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,NAND
+Choice,2,AND
+Choice,3,XOR
+Choice,4,NOR
+Choice,5,XNOR
+Choice,6,OR
+Match,6,Gate A
+Match,2,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,AND
+Choice,2,XNOR
+Choice,3,NAND
+Choice,4,XOR
+Choice,5,NOR
+Choice,6,OR
+Match,6,Gate A
+Match,1,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,AND
+Choice,2,OR
+Choice,3,NOR
+Choice,4,XNOR
+Choice,5,NAND
+Choice,6,XOR
+Match,2,Gate A
+Match,1,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XOR
+Choice,2,NAND
+Choice,3,NOR
+Choice,4,XNOR
+Choice,5,AND
+Choice,6,OR
+Match,6,Gate A
+Match,5,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,NOR
+Choice,2,OR
+Choice,3,XOR
+Choice,4,NAND
+Choice,5,AND
+Choice,6,XNOR
+Match,2,Gate A
+Match,5,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,AND
+Choice,2,NAND
+Choice,3,OR
+Choice,4,XNOR
+Choice,5,NOR
+Choice,6,XOR
+Match,3,Gate A
+Match,1,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,NAND
+Choice,2,AND
+Choice,3,XNOR
+Choice,4,NOR
+Choice,5,XOR
+Choice,6,OR
+Match,6,Gate A
+Match,2,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XNOR
+Choice,2,OR
+Choice,3,AND
+Choice,4,NAND
+Choice,5,NOR
+Choice,6,XOR
+Match,2,Gate A
+Match,3,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,OR
+Choice,2,XNOR
+Choice,3,XOR
+Choice,4,NAND
+Choice,5,AND
+Choice,6,NOR
+Match,1,Gate A
+Match,5,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XOR
+Choice,2,XNOR
+Choice,3,NOR
+Choice,4,NAND
+Choice,5,OR
+Choice,6,AND
+Match,5,Gate A
+Match,6,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XOR
+Choice,2,NAND
+Choice,3,XNOR
+Choice,4,OR
+Choice,5,NOR
+Choice,6,AND
+Match,4,Gate A
+Match,6,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,AND
+Choice,2,XOR
+Choice,3,XNOR
+Choice,4,NOR
+Choice,5,NAND
+Choice,6,OR
+Match,6,Gate A
+Match,1,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,AND
+Choice,2,NOR
+Choice,3,XOR
+Choice,4,XNOR
+Choice,5,OR
+Choice,6,NAND
+Match,5,Gate A
+Match,1,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,AND
+Choice,2,NOR
+Choice,3,OR
+Choice,4,XNOR
+Choice,5,XOR
+Choice,6,NAND
+Match,3,Gate A
+Match,1,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XOR
+Choice,2,OR
+Choice,3,XNOR
+Choice,4,AND
+Choice,5,NAND
+Choice,6,NOR
+Match,2,Gate A
+Match,4,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,NAND
+Choice,2,AND
+Choice,3,XOR
+Choice,4,NOR
+Choice,5,XNOR
+Choice,6,OR
+Match,6,Gate A
+Match,2,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XNOR
+Choice,2,AND
+Choice,3,XOR
+Choice,4,OR
+Choice,5,NAND
+Choice,6,NOR
+Match,4,Gate A
+Match,2,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XNOR
+Choice,2,AND
+Choice,3,NOR
+Choice,4,OR
+Choice,5,NAND
+Choice,6,XOR
+Match,4,Gate A
+Match,2,Gate B
+
+
+NewQuestion,M
+Title,Fill In Missing Gates
+QuestionText,Suppose you are designing an SR latch from scratch           using basic logic gates. Which gates would belong           in slots A and B in the diagram above?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sr_latch_missing_gates.png
+Scoring,EquallyWeighted
+Choice,1,XOR
+Choice,2,NAND
+Choice,3,AND
+Choice,4,OR
+Choice,5,NOR
+Choice,6,XNOR
 Match,4,Gate A
 Match,3,Gate B
 
