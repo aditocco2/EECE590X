@@ -180,25 +180,29 @@ def wavedrom_gate(gate, a, b="", delay=0):
 
     return out
 
-def wavedrom_sr_latch(s, r, delay=0):
+def wavedrom_sr_latch(s, r, delay=0, initial_value = "x"):
     """
     Emulates an SR latch with WaveDrom signals
     s (str): set signal in wavedrom format
     r (str): reset signal in wavedrom format
     delay (int): delay in ns (assumes the latch as a whole has a delay)
-
-    Big shoutout to my man Justin for helping me debug this
+    initial_value: "x" for unknown by default, can also be "0" or "1"
     """
 
     length = len(s)
 
+    # Check S and R don't go low at the same time (undefined behavior)
+    for i in range(1, length):
+        if s[i] == "0" and r[i] == "0":
+            raise Exception("S and R can't go low at the same time")
+
+    # THEN convert to binary form
     s = wavedrom_to_binary(s)
     r = wavedrom_to_binary(r)
 
     out = ""
 
-    # Start with unknown output
-    signal_value = "x"
+    signal_value = initial_value
 
     # Process using the SR latch logic
     for i in range(length):

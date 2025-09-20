@@ -5,10 +5,16 @@ pool = d2l.QuestionPool("SR Latch Timing Diagram", "sr_timing.csv")
 
 for i in range(50):
 
-    S = wu.make_random_signal(20)
-    R = wu.make_random_signal(20)
-    # SR latch assuming initial value is 0
-    Q = wu.wavedrom_sr_latch(S, R, 0)
+    # Repeat until valid signals are made to pass through the SR latch
+    while True:
+        try:
+            S = wu.make_random_signal(20)
+            R = wu.make_random_signal(20)
+            # SR latch with unknown initial value
+            Q = wu.wavedrom_sr_latch(S, R)
+            break
+        except:
+            pass
 
     regex_ans = wu.to_regex("Q", Q)
 
@@ -24,8 +30,6 @@ for i in range(50):
         Click on the link below to open the problem in WaveDrom. \
         Complete the timing diagram, and then paste all your code \
         into the answer box.</p>" \
-        "<p><b>Assume that the initial value of the signal is 0.<br>" \
-        "Assume that if both S and R are high, the latch resets.</b></p>" \
         f"<p>{q_link}</p>" \
         f"<p>{q_link_alt}</p>"
 
