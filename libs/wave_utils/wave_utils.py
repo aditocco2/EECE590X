@@ -180,19 +180,15 @@ def wavedrom_gate(gate, a, b="", delay=0):
 
     return out
 
-def wavedrom_sr_latch(s, r, initial=0, delay=0):
+def wavedrom_sr_latch(s, r, delay=0):
     """
     Emulates an SR latch with WaveDrom signals
-    Currently doesn't support inputs with delay
     s (str): set signal in wavedrom format
     r (str): reset signal in wavedrom format
-    initial_value (int): 0 or 1 for how the output starts
     delay (int): delay in ns (assumes the latch as a whole has a delay)
 
     Big shoutout to my man Justin for helping me debug this
     """
-    
-    initial = str(initial)
 
     length = len(s)
 
@@ -201,22 +197,25 @@ def wavedrom_sr_latch(s, r, initial=0, delay=0):
 
     out = ""
 
-    out_bit = initial
+    # Start with unknown output
+    signal_value = "x"
 
     # Process using the SR latch logic
     for i in range(length):
 
+        # Look for unknown
+
         # Look for set
-        if out_bit == "0" and s[i] == "1":
-            out_bit = "1" # I had double equals here bruh
+        if s[i] == "1":
+            signal_value = "1" # I had double equals here bruh
         # Look for reset
-        if out_bit == "1" and r[i] == "1":
-            out_bit = "0"
+        if r[i] == "1":
+            signal_value = "0"
         # Else don't change output value
 
         # If set and reset are high at the same time, it resets
         
-        out += out_bit
+        out += signal_value
     
     # Apply gate delay and put x (unknown) at the beginning
     out = ("x" * delay) + out[0:(length - delay)]
@@ -280,6 +279,8 @@ def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "
         (in wavedrom format)
         fill_sig_names (list): List of signal names to hold space for
         students to complete -> ["a'","b'","ab'","F"]
+        link_text (str): text for the link to appear as
+        alternate (bool): whether to use GitHub (true) or Watson Wiki (false)
     """
 
     title_html = title.replace(' ','%20')
@@ -300,6 +301,16 @@ def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "
     link_html = f"<a href=\"{link}\" target=\"_blank\">{link_text}</a>"
 
     return link_html
+
+def to_alternate(link):
+
+    """Converts Watson Wiki WaveDrom Link to GitHub Link"""
+
+    link = link.replace("watsonwiki.binghamton.edu", "dougsummerville.github.io")
+    link = link.replace("</a>", " (Alternate)</a>")
+
+    return link
+
 
 def make_wavedrom_image(title, sig_names, gen_sigs, fill_sig_names=[], out_filename="image.svg"):
     """
