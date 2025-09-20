@@ -15,19 +15,6 @@ for i in range(40):
 
     question.add_image("/imagepools/quantumbeef/sr_latch_missing_gates.png")
 
-    # # First two are correct for gates A and B, others are distractors
-    # choices = ["OR", "AND", "XOR", "NOR", "NAND", "XNOR"]
-
-    # random.shuffle(choices)
-
-    # for gate in choices:
-    #     if gate == "OR":
-    #         question.add_answer("Gate A", gate)
-    #     elif gate == "AND":
-    #         question.add_answer("Gate B", gate)
-    #     else:
-    #         question.add_answer(choice=gate)
-
     # Correct Choices
     question.add_answer("Gate A", "OR")
     question.add_answer("Gate B", "AND")

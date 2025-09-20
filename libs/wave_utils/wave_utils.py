@@ -192,6 +192,8 @@ def wavedrom_sr_latch(s, r, delay=0, initial_value = "x"):
     length = len(s)
 
     # Check S and R don't go low at the same time (undefined behavior)
+    # Note that having them START both low is fine, that just results
+    # in unknown output (x)
     for i in range(1, length):
         if s[i] == "0" and r[i] == "0":
             raise Exception("S and R can't go low at the same time")
@@ -206,8 +208,6 @@ def wavedrom_sr_latch(s, r, delay=0, initial_value = "x"):
 
     # Process using the SR latch logic
     for i in range(length):
-
-        # Look for unknown
 
         # Look for set
         if s[i] == "1":
