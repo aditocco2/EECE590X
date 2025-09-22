@@ -1,0 +1,300 @@
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Combinational
+Choice,2,Memory
+Match,1,Determining whether two binary numbers are equal
+Match,2,Turning off the screen when you leave for 15 minutes
+Match,2,Beeping every few seconds if a device is low on battery
+Match,1,Turning an LED on when a button is pressed down
+Match,2,Toggling case with the Caps Lock key
+Match,1,Finding the remainder when a number is divided by 8
+Match,2,Detecting someone's pulse
+Match,2,Updating the total cost as you scan each item at the store
+Match,1,Turning on a light when the fridge door is open
+Match,2,Sounding an alarm if a door is propped open for too long
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Combinational
+Choice,2,Memory
+Match,1,Using a knob to set the heat on the stove
+Match,1,Turning on a light when the fridge door is open
+Match,2,Beeping every few seconds if a device is low on battery
+Match,2,Keeping a 7-day average of new cases of a disease
+Match,1,Turning on a light when your seatbelt is not fastened
+Match,2,Turning off the screen when you leave for 15 minutes
+Match,2,Detecting someone's pulse
+Match,1,Adding two binary numbers together
+Match,2,Updating the total cost as you scan each item at the store
+Match,1,Showing a binary number as a hex digit on a 7-segment display
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Combinational
+Choice,2,Memory
+Match,1,Implementing a Boolean product of maxterms
+Match,2,Keeping a 7-day average of new cases of a disease
+Match,2,Detecting someone's pulse
+Match,1,Detecting whether the number of high inputs is even or odd
+Match,1,Turning on a light when your seatbelt is not fastened
+Match,1,Finding the remainder when a number is divided by 8
+Match,1,Showing a binary number as a hex digit on a 7-segment display
+Match,1,Adding two binary numbers together
+Match,1,Subtracting two binary numbers
+Match,2,Keeping track of your maximum MPG on a road trip
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Combinational
+Choice,2,Memory
+Match,1,Turning an LED on when a button is pressed down
+Match,2,Sounding an alarm if a door is propped open for too long
+Match,2,Keeping a 7-day average of new cases of a disease
+Match,1,Using a knob to set the heat on the stove
+Match,1,Turning on a light when your seatbelt is not fastened
+Match,2,Setting a timer on the microwave
+Match,2,Reading a stream of bits sent through a USB cable
+Match,1,Turning on the A/C when the temperature is above 72 degrees
+Match,2,Keeping a traffic light yellow for 5 seconds
+Match,1,Implementing a Boolean sum of minterms
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Combinational
+Choice,2,Memory
+Match,1,Implementing a Boolean product of maxterms
+Match,1,Subtracting two binary numbers
+Match,2,Reading a stream of bits sent through a USB cable
+Match,2,Setting a timer on the microwave
+Match,1,Turning on a light when the fridge door is open
+Match,1,Determining whether two binary numbers are equal
+Match,1,Showing a binary number as a hex digit on a 7-segment display
+Match,2,Sounding an alarm if a door is propped open for too long
+Match,2,Beeping every few seconds if a device is low on battery
+Match,1,Turning on a light when your seatbelt is not fastened
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Combinational
+Choice,2,Memory
+Match,1,Implementing a Boolean sum of minterms
+Match,1,Showing a binary number as a hex digit on a 7-segment display
+Match,1,Turning on a light when your seatbelt is not fastened
+Match,1,Detecting whether the number of high inputs is even or odd
+Match,1,Finding the remainder when a number is divided by 8
+Match,2,Keeping a 7-day average of new cases of a disease
+Match,2,Turning off the screen when you leave for 15 minutes
+Match,1,Determining whether two binary numbers are equal
+Match,1,Turning an LED on when a button is pressed down
+Match,2,Updating the total cost as you scan each item at the store
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Memory
+Choice,2,Combinational
+Match,1,Keeping a 7-day average of new cases of a disease
+Match,2,Showing a binary number as a hex digit on a 7-segment display
+Match,2,Turning on a light when your seatbelt is not fastened
+Match,1,Keeping a traffic light yellow for 5 seconds
+Match,2,Turning on the A/C when the temperature is above 72 degrees
+Match,2,Detecting whether the number of high inputs is even or odd
+Match,1,Detecting someone's pulse
+Match,1,Updating the total cost as you scan each item at the store
+Match,2,Adding two binary numbers together
+Match,1,Turning off the screen when you leave for 15 minutes
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Combinational
+Choice,2,Memory
+Match,1,Turning on a light when the fridge door is open
+Match,1,Using a knob to set the heat on the stove
+Match,2,Keeping track of your maximum MPG on a road trip
+Match,2,Sounding an alarm if a door is propped open for too long
+Match,1,Showing a binary number as a hex digit on a 7-segment display
+Match,1,Adding two binary numbers together
+Match,2,Toggling case with the Caps Lock key
+Match,2,Detecting someone's pulse
+Match,2,Keeping a traffic light yellow for 5 seconds
+Match,2,Turning off the screen when you leave for 15 minutes
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Combinational
+Choice,2,Memory
+Match,1,Turning on a light when the fridge door is open
+Match,1,Implementing a Boolean product of maxterms
+Match,2,Sounding an alarm if a door is propped open for too long
+Match,2,Toggling case with the Caps Lock key
+Match,1,Detecting whether the number of high inputs is even or odd
+Match,1,Subtracting two binary numbers
+Match,1,Turning on the A/C when the temperature is above 72 degrees
+Match,2,Reading a stream of bits sent through a USB cable
+Match,1,Implementing a Boolean sum of minterms
+Match,2,Keeping track of your maximum MPG on a road trip
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Memory
+Choice,2,Combinational
+Match,1,Keeping a 7-day average of new cases of a disease
+Match,2,Turning on the A/C when the temperature is above 72 degrees
+Match,1,Toggling case with the Caps Lock key
+Match,1,Having an LED stay on when you let go of a button
+Match,2,Turning on a light when the fridge door is open
+Match,1,Detecting someone's pulse
+Match,2,Showing a binary number as a hex digit on a 7-segment display
+Match,2,Turning on a light when your seatbelt is not fastened
+Match,1,Turning off the screen when you leave for 15 minutes
+Match,1,Beeping every few seconds if a device is low on battery
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Memory
+Choice,2,Combinational
+Match,1,Having an LED stay on when you let go of a button
+Match,1,Beeping every few seconds if a device is low on battery
+Match,1,Reading a stream of bits sent through a USB cable
+Match,1,Turning off the screen when you leave for 15 minutes
+Match,2,Turning on the A/C when the temperature is above 72 degrees
+Match,2,Showing a binary number as a hex digit on a 7-segment display
+Match,2,Using a knob to set the heat on the stove
+Match,2,Turning an LED on when a button is pressed down
+Match,1,Setting a timer on the microwave
+Match,1,Detecting someone's pulse
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Combinational
+Choice,2,Memory
+Match,1,Determining whether two binary numbers are equal
+Match,1,Finding the remainder when a number is divided by 8
+Match,1,Implementing a Boolean product of maxterms
+Match,1,Subtracting two binary numbers
+Match,1,Turning on the A/C when the temperature is above 72 degrees
+Match,1,Showing a binary number as a hex digit on a 7-segment display
+Match,2,Updating the total cost as you scan each item at the store
+Match,1,Adding two binary numbers together
+Match,2,Sounding an alarm if a door is propped open for too long
+Match,2,Keeping a 7-day average of new cases of a disease
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Memory
+Choice,2,Combinational
+Match,1,Keeping a traffic light yellow for 5 seconds
+Match,1,Repeatedly adding 1 to a number
+Match,2,Implementing a Boolean sum of minterms
+Match,2,Determining whether two binary numbers are equal
+Match,1,Keeping a 7-day average of new cases of a disease
+Match,2,Detecting whether the number of high inputs is even or odd
+Match,1,Detecting someone's pulse
+Match,2,Implementing a Boolean product of maxterms
+Match,1,Toggling case with the Caps Lock key
+Match,2,Turning an LED on when a button is pressed down
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Memory
+Choice,2,Combinational
+Match,1,Sounding an alarm if a door is propped open for too long
+Match,1,Keeping a traffic light yellow for 5 seconds
+Match,1,Repeatedly adding 1 to a number
+Match,2,Finding the remainder when a number is divided by 8
+Match,1,Updating the total cost as you scan each item at the store
+Match,2,Adding two binary numbers together
+Match,2,Implementing a Boolean sum of minterms
+Match,2,Using a knob to set the heat on the stove
+Match,1,Toggling case with the Caps Lock key
+Match,2,Turning on a light when your seatbelt is not fastened
+
+
+NewQuestion,M
+Title,Combinational vs. Memory (Matching)
+QuestionText,"For each scenario below, choose whether it is best represented by a combinational circuit or a memory circuit.",NOT HTML
+Points,10
+Difficulty,1
+Scoring,EquallyWeighted
+Choice,1,Combinational
+Choice,2,Memory
+Match,1,Implementing a Boolean sum of minterms
+Match,1,Turning on a light when the fridge door is open
+Match,2,Toggling case with the Caps Lock key
+Match,1,Turning on the A/C when the temperature is above 72 degrees
+Match,2,Having an LED stay on when you let go of a button
+Match,1,Turning an LED on when a button is pressed down
+Match,2,Keeping track of your maximum MPG on a road trip
+Match,2,Sounding an alarm if a door is propped open for too long
+Match,2,Turning off the screen when you leave for 15 minutes
+Match,1,Using a knob to set the heat on the stove
+
+

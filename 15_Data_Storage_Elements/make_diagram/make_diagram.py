@@ -1,32 +1,32 @@
 import d2l
 import wave_utils.wave_utils as wu
 
-pool = d2l.QuestionPool("SR Latch Timing Diagram", "sr_timing.csv")
+pool = d2l.QuestionPool("D Latch Timing Diagram", "d_timing.csv")
 
 for i in range(50):
 
-    # Repeat until valid signals are made to pass through the SR latch
+    # Repeat until valid signals are made to pass through the D latch
     while True:
         try:
-            S = wu.make_random_signal(20)
-            R = wu.make_random_signal(20)
-            # SR latch with unknown initial value
-            Q = wu.wavedrom_sr_latch(S, R)
+            D = wu.make_random_signal(20)
+            E = wu.make_random_signal(20)
+            # D latch with unknown initial value
+            Q = wu.wavedrom_d_latch(D, E)
             break
         except:
             pass
 
     regex_ans = wu.to_regex("Q", Q)
 
-    q_link = wu.make_wavedrom_link("Topic 14 Question 2", ["S", "R"],
-                                   [S, R], ["Q"])
+    q_link = wu.make_wavedrom_link("D Latch Timing Diagram", ["D", "E"],
+                                   [D, E], ["Q"])
     q_link_alt = wu.to_alternate(q_link)
     
-    a_link = wu.make_wavedrom_link("Topic 14 Question 2 Answer", ["S", "R", "Q"],
-                                   [S, R, Q], [])
+    a_link = wu.make_wavedrom_link("D Latch Timing Diagram Answer", ["D", "E", "Q"],
+                                   [D, E, Q], [])
     a_link_alt = wu.to_alternate(a_link)
     
-    q_text = "<p>The image above shows a standard implementation of an SR latch. \
+    q_text = "<p>The image above shows a standard implementation of a D latch. \
         Click on the link below to open the problem in WaveDrom. \
         Complete the timing diagram, and then paste all your code \
         into the answer box.</p>" \
@@ -34,7 +34,7 @@ for i in range(50):
         f"<p>{q_link_alt}</p>"
 
     question = d2l.SAQuestion(q_text)
-    question.add_image(f"/imagepools/quantumbeef/sr_latch.png")
+    question.add_image(f"/imagepools/quantumbeef/d_latch.png")
     question.add_answer(regex_ans, is_regex = True)
 
     question.add_hint('Your wave for Q should have 20 characters and look \

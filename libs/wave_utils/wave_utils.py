@@ -186,7 +186,7 @@ def wavedrom_sr_latch(s, r, delay=0, initial_value = "x"):
     s (str): set signal in wavedrom format
     r (str): reset signal in wavedrom format
     delay (int): delay in ns (assumes the latch as a whole has a delay)
-    initial_value: "x" for unknown by default, can also be "0" or "1"
+    initial_value (str): "x" for unknown by default, can also be "0" or "1"
     """
 
     length = len(s)
@@ -211,7 +211,7 @@ def wavedrom_sr_latch(s, r, delay=0, initial_value = "x"):
 
         # Look for set
         if s[i] == "1":
-            signal_value = "1" # I had double equals here bruh
+            signal_value = "1"
         # Look for reset
         if r[i] == "1":
             signal_value = "0"
@@ -229,36 +229,39 @@ def wavedrom_sr_latch(s, r, delay=0, initial_value = "x"):
 
     return out
 
-def wavedrom_d_latch(d, e, initial=0, delay=0):
+def wavedrom_d_latch(d, e, delay=0, initial_value = "x"):
     """
-    Emulates a D latch with WaveDrom signals. Honestly not sure if it works yet
-    Currently doesn't support inputs with delay
-    s (str): data signal in wavedrom format
-    r (str): enable signal in wavedrom format
-    initial_value (int): 0 or 1 for how the output starts
+    Emulates a D latch with WaveDrom signals
+    D (str): data signal in wavedrom format
+    E (str): enable signal in wavedrom format
     delay (int): delay in ns (assumes the latch as a whole has a delay)
+    initial_value (str): "x" for unknown by default, can also be "0" or "1"
     """
-    
-    initial = str(initial)
 
-    length = len(s)
+    length = len(d)
 
+    # Make sure a transition doesn't occur while D goes low
+    for i in range(1, length):
+        if e[i] == "0" and (d[i] == "0" or d[i] == "1"):
+            raise Exception("E can't go low at the same time as a transition")
+
+    # THEN convert to binary form
     d = wavedrom_to_binary(d)
     e = wavedrom_to_binary(e)
 
     out = ""
 
-    out_bit = initial
+    signal_value = initial_value
 
     # Process using the D latch logic
     for i in range(length):
 
         # Take current d value if e is high
         if e[i] == "1":
-            out_bit = d[i]
+            signal_value = d[i]
         # Else don't change output value
         
-        out += out_bit
+        out += signal_value
     
     # Apply gate delay and put x (unknown) at the beginning
     out = ("x" * delay) + out[0:(length - delay)]
@@ -327,9 +330,14 @@ def make_wavedrom_image(title, sig_names, gen_sigs, fill_sig_names=[], out_filen
         students to complete -> ["a'","b'","ab'","F"]. Empty if not specified
         out_filename (str): SVG output file
     """
-    
+
+
     lines = []
     for sig_name, sig in zip(sig_names, gen_sigs):
+        # Force sharp edges by replacing 1 and 0 with h and l
+        sig = sig.replace("1", "h")
+        sig = sig.replace("0", "l")
+        
         line = f"{{name: \"{sig_name}\", wave: \"{sig}\"}},"
         lines.append(line)
     for sig_name in fill_sig_names:
