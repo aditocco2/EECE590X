@@ -36,7 +36,7 @@ for i in range(50):
     question.add_answer(f"{regex_ans}", is_regex = True)
 
     question.add_hint('Your wave for F should have 20 characters and look \
-                      something like "0....1....0..1..0..."')
+                      something like "00000111110001110000" (or "0....1....0..1..0...")')
 
     question.add_feedback(f"<p>Here was the right answer:</p> \
                           <p> {a_link} </p><p> {a_link_alt} </p>")

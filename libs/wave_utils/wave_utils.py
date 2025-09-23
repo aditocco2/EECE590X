@@ -6,7 +6,7 @@ def make_random_signal(length):
 
     """
     Makes a random wavedrom signal of length length and puts it in the form
-    1...0..1.0...
+    1...0..1.0... (dotted form)
     """
 
     signal = []
@@ -71,51 +71,57 @@ def make_clock(length, period=10, first_rising_edge=5):
 
     return signal
 
-def wavedrom_to_binary(wavedrom):
+def to_dotless(dotted):
 
     """
-    Turns a wavedrom signal (1..0..1.) into binary (11100011)
+    Turns a dotted signal (1..0..1.) into dotless (11100011)
     """
     
-    binary = ""
+    dotless = ""
     signal_value = ""
 
-    # Iterate through every character in the wavedrom signal
-    for i in wavedrom:
+    # Iterate through every character in the dotted signal
+    for i in dotted:
         # Turn dots into 1 or 0 depending on what was last seen
         if i == ".":
-            binary += signal_value
+            dotless += signal_value
         # Preserve 1s and 0s while noting what was last seen
         else:
-            binary += i
+            dotless += i
             signal_value = i
 
-    return binary
+    return dotless
 
-def binary_to_wavedrom(binary):
+def to_dotted(dotless):
     """
-    Turns a binary signal (11100011) into wavedrom form (1..0..1.)
+    Turns a dotless signal (11100011) into dotted form (1..0..1.)
     """
 
-    wavedrom = ""
+    dotted = ""
     signal_value = ""
 
-    for i in binary:
+    for i in dotless:
         # If the character is a repeat, replace it with a dot
         if i == signal_value:
-            wavedrom += "."
+            dotted += "."
         # Otherwise preserve the 1 or 0 (or x) and update what was last seen
         else:
-            wavedrom += i
+            dotted += i
             signal_value = i
 
-    return wavedrom
+    return dotted
+
+# Legacy function names
+def binary_to_wavedrom(binary):
+    return to_dotted(binary)
+def wavedrom_to_binary(wavedrom):
+    return to_dotless(wavedrom)
 
 def wavedrom_gate(gate, a, b="", delay=0):
     """
     Puts two wavedrom signals of same length through a logic gate
-    a: first wavedrom format signal (1..0.1..)
-    b: second wavedrom format signal if need be
+    a: first wavedrom dot format signal (1..0.1..)
+    b: second wavedrom dot format signal if need be
     gate: can be "or", "and", "not", "xor", "xnor", "nand", "nor", or "buf"
     delay: delay in ns to shift output
     """
@@ -123,13 +129,13 @@ def wavedrom_gate(gate, a, b="", delay=0):
     length = len(a)
     gate = gate.lower()
 
-    # Convert wavedrom signal to binary format
-    a = wavedrom_to_binary(a)
+    # Convert dotted signal to dotless format
+    a = to_dotless(a)
     a = a.lower()
 
     # Do the same with b if specified
     if b:
-        b = wavedrom_to_binary(b)
+        b = to_dotless(b)
         b = b.lower()
 
     out = ""
@@ -175,8 +181,8 @@ def wavedrom_gate(gate, a, b="", delay=0):
     # Apply gate delay and put x (unknown) at the beginning
     out = ("x" * delay) + out[0:(length - delay)]
 
-    # Convert back to wavedrom format
-    out = binary_to_wavedrom(out)
+    # Convert back to dotted format
+    out = to_dotted(out)
 
     return out
 
@@ -198,9 +204,9 @@ def wavedrom_sr_latch(s, r, delay=0, initial_value = "x"):
         if s[i] == "0" and r[i] == "0":
             raise Exception("S and R can't go low at the same time")
 
-    # THEN convert to binary form
-    s = wavedrom_to_binary(s)
-    r = wavedrom_to_binary(r)
+    # THEN convert to dotless form
+    s = to_dotless(s)
+    r = to_dotless(r)
 
     out = ""
 
@@ -224,16 +230,16 @@ def wavedrom_sr_latch(s, r, delay=0, initial_value = "x"):
     # Apply gate delay and put x (unknown) at the beginning
     out = ("x" * delay) + out[0:(length - delay)]
 
-    # Convert back to wavedrom format
-    out = binary_to_wavedrom(out)
+    # Convert back to dotted format
+    out = to_dotted(out)
 
     return out
 
 def wavedrom_d_latch(d, e, delay=0, initial_value = "x"):
     """
     Emulates a D latch with WaveDrom signals
-    D (str): data signal in wavedrom format
-    E (str): enable signal in wavedrom format
+    D (str): data signal in dotted format
+    E (str): enable signal in dotted format
     delay (int): delay in ns (assumes the latch as a whole has a delay)
     initial_value (str): "x" for unknown by default, can also be "0" or "1"
     """
@@ -245,9 +251,9 @@ def wavedrom_d_latch(d, e, delay=0, initial_value = "x"):
         if e[i] == "0" and (d[i] == "0" or d[i] == "1"):
             raise Exception("E can't go low at the same time as a transition")
 
-    # THEN convert to binary form
-    d = wavedrom_to_binary(d)
-    e = wavedrom_to_binary(e)
+    # THEN convert to dotless form
+    d = to_dotless(d)
+    e = to_dotless(e)
 
     out = ""
 
@@ -266,8 +272,8 @@ def wavedrom_d_latch(d, e, delay=0, initial_value = "x"):
     # Apply gate delay and put x (unknown) at the beginning
     out = ("x" * delay) + out[0:(length - delay)]
 
-    # Convert back to wavedrom format
-    out = binary_to_wavedrom(out)
+    # Convert back to dotted format
+    out = to_dotted(out)
 
     return out
 
@@ -275,7 +281,7 @@ def wavedrom_d_latch(d, e, delay=0, initial_value = "x"):
 #     # Not done yet
 #     pass
 
-def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "WaveDrom Link"):
+def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "WaveDrom Link", use_dotless = True):
     """
     Generates wavedrom related question or answer link in HTML
 
@@ -283,12 +289,15 @@ def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "
         title (str): String to label timing diagram like "Question 2"
         sig_names (list): List of input signal names like ["a", "b"]
         gen_sigs (list): List of generated signals corresponding to sig_names 
-        (in wavedrom format)
+        (in dotted format)
         fill_sig_names (list): List of signal names to hold space for
         students to complete -> ["a'","b'","ab'","F"]
         link_text (str): text for the link to appear as
-        alternate (bool): whether to use GitHub (true) or Watson Wiki (false)
+        use_dotless (bool): whether to use dotless form (11100111) instead of dotted (1..0.1..)
     """
+
+    if use_dotless:
+        gen_sigs = [to_dotless(sig) for sig in gen_sigs]
 
     title_html = title.replace(' ','%20')
     
@@ -358,9 +367,11 @@ def to_regex(name, signal):
     signal: output wavedrom signal like "0...1..0."
     """
 
+    dotless = to_dotless(signal)
+
     # Escape the silly dots
-    signal = signal.replace(".", "\\.")
+    dotted = signal.replace(".", "\\.")
 
     # Super-ultra-mega-monster regex, shoutout to the man himself Doug for this one
-    regex_ans = f"""(?i:name\\s*:\\s*['"]{name}['"]\\s*,\\s*wave\\s*:\\s*['"]{signal}['"])"""
+    regex_ans = f"""(?i:name\\s*:\\s*['"]{name}['"]\\s*,\\s*wave\\s*:\\s*['"](?:{dotted}|{dotless})['"])"""
     return regex_ans
