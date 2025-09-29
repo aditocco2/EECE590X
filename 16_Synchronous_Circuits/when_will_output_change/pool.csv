@@ -1,0 +1,27 @@
+NewQuestion,SA
+Title,Determine When The Output Changes
+QuestionText,"In the circuit above, the input D changes at 0 ns.                 The control signal C goes from low to high at 10 ns                 and toggles every 10 ns after that.                 At what time will the change in D reflect on the output?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/double_dff.png
+ANSWER,100,^\s*(30)\s*(ns)*\s*$,regexp
+
+
+NewQuestion,SA
+Title,Determine When The Output Changes
+QuestionText,"In the circuit above, the input D changes at 0 ns.                 The control signal C goes from low to high at 10 ns                 and toggles every 15 ns after that.                 At what time will the change in D reflect on the output?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/double_dff.png
+ANSWER,100,^\s*(40)\s*(ns)*\s*$,regexp
+
+
+NewQuestion,SA
+Title,Determine When The Output Changes
+QuestionText,"In the circuit above, the input D changes at 0 ns.                 The control signal C goes from low to high at 10 ns                 and toggles every 20 ns after that.                 At what time will the change in D reflect on the output?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/double_dff.png
+ANSWER,100,^\s*(50)\s*(ns)*\s*$,regexp
+
+

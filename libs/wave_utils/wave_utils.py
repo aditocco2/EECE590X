@@ -2,24 +2,32 @@ import random
 import urllib.parse
 import wavedrom
 
-def make_random_signal(length):
+def make_random_signal(length = 20, num_toggles = None):
 
     """
-    Makes a random wavedrom signal of length length and puts it in the form
-    1...0..1.0... (dotted form)
+    Makes a random wavedrom signal in dotted form
+
+    length (int): length of the signal in ns
+    num_toggles (int): by default will be a value between 2 and 5
+
     """
 
     signal = []
 
+    if num_toggles >= length:
+        raise Exception("num_toggles must be less than length")
+
+    if not num_toggles:
+        num_toggles = random.choice([2,3,4,5])
+
     # Pick random points for the signal to toggle
-    num_toggles = random.choice([2,3,4,5])
     toggle_pts = random.sample(range(1,length), num_toggles)
 
     signal_value = random.choice([0, 1])
     signal.append(signal_value)
 
     # Generate the signals
-    for i in range(length - 1):
+    for i in range(1, length):
         # If it's time to toggle, toggle the signal
         if i in toggle_pts:
             signal_value = 1 - signal_value
