@@ -40,7 +40,7 @@ def make_clock(length, period=10, first_rising_edge=5):
     Makes a wavedrom signal representing a clock
     length: length of the signal in ns
     period: clock period in ns, must be even, default 10
-    first_rising_edge: position of first rising edge, default 0
+    first_rising_edge: position of first rising edge, default 5
     """
 
     if period % 2 != 0:
@@ -49,16 +49,15 @@ def make_clock(length, period=10, first_rising_edge=5):
     signal = []
     signal_value = 0
 
+    # (Dotless form)
     # Generate a longer clock signal so a portion of it can be taken later
     for i in range(length + period):
         # Toggle the signal on multiples of half the period
         if i % (period/2) == 0:
             signal_value = 1 - signal_value
-            # Put the 0 or 1 there
-            signal.append(signal_value)
-        else:
-            # Put the . there if not a 0 or 1
-            signal.append(".")
+        
+        # Put the 0 or 1 in the list
+        signal.append(signal_value)
     
     # Turn list into string
     signal = [str(i) for i in signal]
@@ -68,6 +67,8 @@ def make_clock(length, period=10, first_rising_edge=5):
     start = period - first_rising_edge
     end = start + length
     signal = signal[start:end]
+
+    signal = to_dotted(signal)
 
     return signal
 
@@ -277,9 +278,50 @@ def wavedrom_d_latch(d, e, delay=0, initial_value = "x"):
 
     return out
 
-# def wavedrom_d_flip_flop(clk, d, q, en="", delay=0):
-#     # Not done yet
-#     pass
+def wavedrom_d_flip_flop(clk, d, en="", delay=0, initial_value = "x"):
+    """
+    Emulates a rising edge DFF with WaveDrom signals
+    d (str): data signal in dotted format
+    clk (str): clock signal in dotted format
+    en (str): Optional enable, constant 1 if left blank
+    delay (int): delay in ns (assumes the flop as a whole has a delay)
+    initial_value (str): "x" for unknown by default, can also be "0" or "1"
+    """
+
+    length = len(d)
+
+    d = to_dotless(d)
+
+    # If enable is not specified, assume a constant 1
+    if en:
+        en = to_dotless(en)
+    else:
+        en = "1" * length
+
+    # Keep clk dotted so that we have the transitions
+
+    signal_value = initial_value
+    out = ""
+
+    # Preserve the initial value for the first bit of the output
+    out += signal_value
+
+    for i in range(1, length):
+        # If the clock is rising and the DFF is enabled
+        # pass the value of D right before the rise through
+        if clk[i] == "1" and en[i] == "1":
+            signal_value = d[i-1]
+        # Otherwise keep the current signal value
+
+        out += signal_value
+
+        # Apply gate delay and put x (unknown) at the beginning
+    out = ("x" * delay) + out[0:(length - delay)]
+
+    # Convert back to dotted format
+    out = to_dotted(out)
+
+    return out
 
 def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "WaveDrom Link", use_dotless = True):
     """
