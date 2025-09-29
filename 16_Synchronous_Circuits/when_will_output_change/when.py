@@ -14,6 +14,7 @@ for period in [20, 30, 40]:
     ans = 10 + period
     regex_ans = f"^\\s*({ans})\\s*(ns)*\\s*$"
     question.add_answer(regex_ans, is_regex=True)
+    question.add_feedback(f"{ans} ns")
 
     pool.add_question(question)
 
