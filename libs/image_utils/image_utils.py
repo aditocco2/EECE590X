@@ -26,6 +26,44 @@ def apply_labels(input_filename, output_filename, labels, coords, font_size=25, 
     
     pic.save(output_filename)
 
+def paste_images(input_filename, output_filename, images, coords, scale = 1):
+    """
+    Function to more easily paste smaller images on a bigger one in mass. Uses PIL
+    Arguments:
+    input_filename
+    output_filename
+    images: list of filenames of smaller images (can also just use 1 string)
+    coords: list of tuples of (X, Y) coordinates, where top left is (0, 0). These
+    will be the MIDDLE coordinates of where the small images go
+    scale (int): Scale to resize the small image, default 1
+    """
+
+    # If a string is passed in, just duplicate it into a list
+    if isinstance(images, str):
+        images = [images for _ in range(len(coords))]
+
+    bg = Image.open(input_filename)
+
+    for image, coord in zip(images, coords):
+        small = Image.open(image)
+
+        # Scale up/down if needed
+        if scale != 1:
+            scale_w = int(scale * small.width)
+            scale_h = int(scale * small.height)
+            small = small.resize((scale_w, scale_h), Image.Resampling.NEAREST)
+
+        # Derive top left coords from middle coords and small image size
+        left_x = coord[0] - (small.width // 2)
+        top_y = coord[1] - (small.height // 2)
+        new_coord = (left_x, top_y)
+
+        # Paste with transparency
+        small = Image.alpha_composite(Image.new("RGBA", small.size), small.convert('RGBA'))
+        bg.paste(small, new_coord, small)
+
+    bg.save(output_filename)
+
 def svg2png(input_filename, output_filename):
     """
     Uses inkscape as a backend, requires it in PATH :/

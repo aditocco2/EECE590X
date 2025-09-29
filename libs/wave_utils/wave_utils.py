@@ -14,11 +14,11 @@ def make_random_signal(length = 20, num_toggles = None):
 
     signal = []
 
-    if num_toggles >= length:
-        raise Exception("num_toggles must be less than length")
-
     if not num_toggles:
         num_toggles = random.choice([2,3,4,5])
+
+    if num_toggles >= length:
+        raise Exception("num_toggles must be less than length")
 
     # Pick random points for the signal to toggle
     toggle_pts = random.sample(range(1,length), num_toggles)

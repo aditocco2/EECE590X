@@ -1,0 +1,50 @@
+NewQuestion,SA
+Title,Find Sequence for Shift Register Thingy
+QuestionText,Suppose the input D in the above circuit is a sequence of 1s and 0s being sent     at the same rate as the clock frequency. What sequence would make the output Q go high?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sequence_11001.png
+Feedback,11001,NOT HTML
+ANSWER,100,^\s*11001\s*$,regexp
+
+
+NewQuestion,SA
+Title,Find Sequence for Shift Register Thingy
+QuestionText,Suppose the input D in the above circuit is a sequence of 1s and 0s being sent     at the same rate as the clock frequency. What sequence would make the output Q go high?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sequence_11011.png
+Feedback,11011,NOT HTML
+ANSWER,100,^\s*11011\s*$,regexp
+
+
+NewQuestion,SA
+Title,Find Sequence for Shift Register Thingy
+QuestionText,Suppose the input D in the above circuit is a sequence of 1s and 0s being sent     at the same rate as the clock frequency. What sequence would make the output Q go high?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sequence_00101.png
+Feedback,00101,NOT HTML
+ANSWER,100,^\s*00101\s*$,regexp
+
+
+NewQuestion,SA
+Title,Find Sequence for Shift Register Thingy
+QuestionText,Suppose the input D in the above circuit is a sequence of 1s and 0s being sent     at the same rate as the clock frequency. What sequence would make the output Q go high?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sequence_01001.png
+Feedback,01001,NOT HTML
+ANSWER,100,^\s*01001\s*$,regexp
+
+
+NewQuestion,SA
+Title,Find Sequence for Shift Register Thingy
+QuestionText,Suppose the input D in the above circuit is a sequence of 1s and 0s being sent     at the same rate as the clock frequency. What sequence would make the output Q go high?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/sequence_01110.png
+Feedback,01110,NOT HTML
+ANSWER,100,^\s*01110\s*$,regexp
+
+

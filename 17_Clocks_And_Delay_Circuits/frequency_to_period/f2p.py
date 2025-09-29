@@ -1,7 +1,7 @@
 import d2l
 import random
 
-pool = d2l.QuestionPool("Period to Frequency")
+pool = d2l.QuestionPool("Frequency to Period")
 
 # This one does not use sigfigs and instead relies on period being a whole number.
 # May change to sigfigs later.
