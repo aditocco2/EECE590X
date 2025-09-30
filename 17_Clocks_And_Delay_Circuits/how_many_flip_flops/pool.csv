@@ -1,0 +1,180 @@
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 250 MHz, and you wanted to             see what the value of a signal was 28 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,7 flip-flops,NOT HTML
+ANSWER,100,^\s*7\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 50 MHz, and you wanted to             see what the value of a signal was 80 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,4 flip-flops,NOT HTML
+ANSWER,100,^\s*4\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 50 MHz, and you wanted to             see what the value of a signal was 80 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,4 flip-flops,NOT HTML
+ANSWER,100,^\s*4\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 200 MHz, and you wanted to             see what the value of a signal was 50 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,10 flip-flops,NOT HTML
+ANSWER,100,^\s*10\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 125 MHz, and you wanted to             see what the value of a signal was 80 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,10 flip-flops,NOT HTML
+ANSWER,100,^\s*10\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 200 MHz, and you wanted to             see what the value of a signal was 45 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,9 flip-flops,NOT HTML
+ANSWER,100,^\s*9\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 200 MHz, and you wanted to             see what the value of a signal was 35 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,7 flip-flops,NOT HTML
+ANSWER,100,^\s*7\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 25 MHz, and you wanted to             see what the value of a signal was 160 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,4 flip-flops,NOT HTML
+ANSWER,100,^\s*4\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 25 MHz, and you wanted to             see what the value of a signal was 160 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,4 flip-flops,NOT HTML
+ANSWER,100,^\s*4\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 50 MHz, and you wanted to             see what the value of a signal was 100 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,5 flip-flops,NOT HTML
+ANSWER,100,^\s*5\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 50 MHz, and you wanted to             see what the value of a signal was 160 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,8 flip-flops,NOT HTML
+ANSWER,100,^\s*8\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 25 MHz, and you wanted to             see what the value of a signal was 240 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,6 flip-flops,NOT HTML
+ANSWER,100,^\s*6\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 25 MHz, and you wanted to             see what the value of a signal was 160 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,4 flip-flops,NOT HTML
+ANSWER,100,^\s*4\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 500 MHz, and you wanted to             see what the value of a signal was 10 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,5 flip-flops,NOT HTML
+ANSWER,100,^\s*5\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 50 MHz, and you wanted to             see what the value of a signal was 160 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,8 flip-flops,NOT HTML
+ANSWER,100,^\s*8\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 250 MHz, and you wanted to             see what the value of a signal was 24 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,6 flip-flops,NOT HTML
+ANSWER,100,^\s*6\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 100 MHz, and you wanted to             see what the value of a signal was 90 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,9 flip-flops,NOT HTML
+ANSWER,100,^\s*9\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 200 MHz, and you wanted to             see what the value of a signal was 25 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,5 flip-flops,NOT HTML
+ANSWER,100,^\s*5\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 125 MHz, and you wanted to             see what the value of a signal was 64 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,8 flip-flops,NOT HTML
+ANSWER,100,^\s*8\s*[^0-9]*\s*$,regexp
+
+
+NewQuestion,SA
+Title,How Many Flip Flops
+QuestionText,"If the clock signal was 40 MHz, and you wanted to             see what the value of a signal was 100 ns ago, how many flip-            flops would you need to chain together?",NOT HTML
+Points,10
+Difficulty,1
+Feedback,4 flip-flops,NOT HTML
+ANSWER,100,^\s*4\s*[^0-9]*\s*$,regexp
+
+
