@@ -5,16 +5,15 @@ import image_utils.image_utils as img
 
 pool = d2l.QuestionPool("Determine Memory Unit from Timing Diagram")
 
-q_text = "What kind of memory unit is shown in the timing diagram above? \
-        Assume A and B are the inputs and C is the output."
+q_text = "Based on the timing diagram above, what do A and B represent?"
 
 for variant in ["A", "B", "C", "D", "E", "F"]:
 
     # One of these will be given 100 points later
     answer_choices = {
-        "An SR-latch": 0,
-        "A D-latch": 0,
-        "A D Flip-Flop": 0
+        "The S and R inputs of an SR latch, respectively": 0,
+        "The D and E inputs of a D latch, respectively": 0,
+        "The D and > inputs of a D flip-flop, respectively": 0
     }
 
     # Variants A and B are the SR latch
@@ -27,7 +26,7 @@ for variant in ["A", "B", "C", "D", "E", "F"]:
                 break
             except:
                 pass
-        answer_choices["An SR-latch"] = 100
+        answer_choices["The S and R inputs of an SR latch, respectively"] = 100
 
     # Variants C and D are the D latch
     elif variant in ["C", "D"]:
@@ -39,22 +38,24 @@ for variant in ["A", "B", "C", "D", "E", "F"]:
                 break
             except:
                 pass
-        answer_choices["A D-latch"] = 100
+        answer_choices["The D and E inputs of a D latch, respectively"] = 100
 
     # Variants E and F are the flip-flop
     else:
         A = wu.make_random_signal(20, 6)
         B = wu.make_clock(20, 8, 6) # Want some high clock time at the start
         C = wu.wavedrom_d_flip_flop(B, A)
-        answer_choices["A D Flip-Flop"] = 100
+        answer_choices["The D and > inputs of a D flip-flop, respectively"] = 100
 
     image_name = f"unknown_diagram_16{variant}"
 
-    wu.make_wavedrom_image("Timing Diagram", ["A", "B", "C"],
-                           [A, B, C], [], f"{image_name}.svg")
+    # Uncomment below if you need to change images too. I just needed to change wording
+
+    # wu.make_wavedrom_image("Timing Diagram", ["A", "B", "C"],
+    #                        [A, B, C], [], f"{image_name}.svg")
     
-    img.svg2png(f"{image_name}.svg", f"{image_name}.png")
-    print(f"Made image {variant}")
+    # img.svg2png(f"{image_name}.svg", f"{image_name}.png")
+    # print(f"Made image {variant}")
 
     question = d2l.MCQuestion(q_text, shuffle=False)
 

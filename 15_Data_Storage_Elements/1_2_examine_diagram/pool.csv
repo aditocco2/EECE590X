@@ -1,0 +1,66 @@
+NewQuestion,MC
+Title,Determine Circuit Type from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_15A.png
+OPTION,100,The two inputs to an AND gate,HTML
+OPTION,0,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,0,"The D and E inputs of a D latch, respectively",HTML
+
+
+NewQuestion,MC
+Title,Determine Circuit Type from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_15B.png
+OPTION,100,The two inputs to an AND gate,HTML
+OPTION,0,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,0,"The D and E inputs of a D latch, respectively",HTML
+
+
+NewQuestion,MC
+Title,Determine Circuit Type from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_15C.png
+OPTION,0,The two inputs to an AND gate,HTML
+OPTION,100,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,0,"The D and E inputs of a D latch, respectively",HTML
+
+
+NewQuestion,MC
+Title,Determine Circuit Type from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_15D.png
+OPTION,0,The two inputs to an AND gate,HTML
+OPTION,100,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,0,"The D and E inputs of a D latch, respectively",HTML
+
+
+NewQuestion,MC
+Title,Determine Circuit Type from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_15E.png
+OPTION,0,The two inputs to an AND gate,HTML
+OPTION,0,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,100,"The D and E inputs of a D latch, respectively",HTML
+
+
+NewQuestion,MC
+Title,Determine Circuit Type from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_15F.png
+OPTION,0,The two inputs to an AND gate,HTML
+OPTION,0,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,100,"The D and E inputs of a D latch, respectively",HTML
+
+

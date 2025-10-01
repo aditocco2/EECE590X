@@ -1,0 +1,120 @@
+NewQuestion,MS
+Title,Advantages of Flip-Flops
+QuestionText,Which of the following are advantages of flip flops over latches?             Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+OPTION,1,FFs do not pass glitches from input to output,HTML
+OPTION,1,FFs are less likely to produce undefined/unknown output,HTML
+OPTION,0,FFs can continuously pass data from input to output whenever they are enabled,HTML
+OPTION,0,FFs can be set and reset with different control signals,HTML
+OPTION,0,FFs are more compact and require less gates,HTML
+
+
+NewQuestion,MS
+Title,Advantages of Flip-Flops
+QuestionText,Which of the following are advantages of flip flops over latches?             Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+OPTION,1,FFs are less likely to produce undefined/unknown output,HTML
+OPTION,0,FFs can continuously pass data from input to output whenever they are enabled,HTML
+OPTION,1,FFs can be chained together to introduce a fixed delay,HTML
+OPTION,1,FFs only pass data from input and output on the edge of the control signal,HTML
+OPTION,1,FFs do not pass glitches from input to output,HTML
+
+
+NewQuestion,MS
+Title,Advantages of Flip-Flops
+QuestionText,Which of the following are advantages of flip flops over latches?             Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+OPTION,0,FFs are more compact and require less gates,HTML
+OPTION,1,FFs do not pass glitches from input to output,HTML
+OPTION,1,FFs are less likely to produce undefined/unknown output,HTML
+OPTION,0,FFs can continuously pass data from input to output whenever they are enabled,HTML
+OPTION,1,FFs can be chained together to introduce a fixed delay,HTML
+
+
+NewQuestion,MS
+Title,Advantages of Flip-Flops
+QuestionText,Which of the following are advantages of flip flops over latches?             Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+OPTION,0,FFs can continuously pass data from input to output whenever they are enabled,HTML
+OPTION,1,FFs are less likely to produce undefined/unknown output,HTML
+OPTION,0,FFs are more compact and require less gates,HTML
+OPTION,0,FFs can be set and reset with different control signals,HTML
+OPTION,1,FFs only pass data from input and output on the edge of the control signal,HTML
+
+
+NewQuestion,MS
+Title,Advantages of Flip-Flops
+QuestionText,Which of the following are advantages of flip flops over latches?             Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+OPTION,1,FFs do not pass glitches from input to output,HTML
+OPTION,0,FFs can continuously pass data from input to output whenever they are enabled,HTML
+OPTION,1,FFs can be used to synchronize input and output changes with a control signal,HTML
+OPTION,0,FFs are more compact and require less gates,HTML
+OPTION,1,FFs only pass data from input and output on the edge of the control signal,HTML
+
+
+NewQuestion,MS
+Title,Advantages of Flip-Flops
+QuestionText,Which of the following are advantages of flip flops over latches?             Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+OPTION,1,FFs only pass data from input and output on the edge of the control signal,HTML
+OPTION,0,FFs can continuously pass data from input to output whenever they are enabled,HTML
+OPTION,0,FFs can be set and reset with different control signals,HTML
+OPTION,0,FFs are more compact and require less gates,HTML
+OPTION,1,FFs do not pass glitches from input to output,HTML
+
+
+NewQuestion,MS
+Title,Advantages of Flip-Flops
+QuestionText,Which of the following are advantages of flip flops over latches?             Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+OPTION,1,FFs do not pass glitches from input to output,HTML
+OPTION,1,FFs can be chained together to introduce a fixed delay,HTML
+OPTION,0,FFs can be set and reset with different control signals,HTML
+OPTION,0,FFs are more compact and require less gates,HTML
+OPTION,1,FFs only pass data from input and output on the edge of the control signal,HTML
+
+
+NewQuestion,MS
+Title,Advantages of Flip-Flops
+QuestionText,Which of the following are advantages of flip flops over latches?             Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+OPTION,1,FFs only pass data from input and output on the edge of the control signal,HTML
+OPTION,0,FFs can be set and reset with different control signals,HTML
+OPTION,0,FFs are more compact and require less gates,HTML
+OPTION,0,FFs can continuously pass data from input to output whenever they are enabled,HTML
+OPTION,1,FFs can be used to synchronize input and output changes with a control signal,HTML
+
+
+NewQuestion,MS
+Title,Advantages of Flip-Flops
+QuestionText,Which of the following are advantages of flip flops over latches?             Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+OPTION,1,FFs only pass data from input and output on the edge of the control signal,HTML
+OPTION,1,FFs can be chained together to introduce a fixed delay,HTML
+OPTION,1,FFs can be used to synchronize input and output changes with a control signal,HTML
+OPTION,1,FFs are less likely to produce undefined/unknown output,HTML
+OPTION,0,FFs are more compact and require less gates,HTML
+
+
+NewQuestion,MS
+Title,Advantages of Flip-Flops
+QuestionText,Which of the following are advantages of flip flops over latches?             Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+OPTION,0,FFs can be set and reset with different control signals,HTML
+OPTION,1,FFs are less likely to produce undefined/unknown output,HTML
+OPTION,1,FFs can be used to synchronize input and output changes with a control signal,HTML
+OPTION,0,FFs are more compact and require less gates,HTML
+OPTION,1,FFs can be chained together to introduce a fixed delay,HTML
+
+

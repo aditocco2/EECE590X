@@ -1,0 +1,118 @@
+NewQuestion,MS,,
+Title,SR vs. D Latch,,
+QuestionText,Which of the following are true about SR latches and D latches? Select all that apply.,NOT HTML,
+Points,10,,
+Difficulty,1,,
+OPTION,1,SR latches and D latches are both memory units,HTML
+OPTION,1,A D latch is built by adding an enable input to an SR latch,HTML
+OPTION,0,SR latches and D latches both only use control inputs,HTML
+OPTION,0,SR latches and D latches both use a control and data input,HTML
+OPTION,1,Both SR and D latches are commonly implemented in real circuitry using NOR and NAND gates,HTML
+,,,
+,,,
+NewQuestion,MS,,
+Title,SR vs. D Latch,,
+QuestionText,Which of the following are true about SR latches and D latches? Select all that apply.,NOT HTML,
+Points,10,,
+Difficulty,1,,
+OPTION,0,D latches hold the value of the data input when the enable goes high,HTML
+OPTION,0,"SR latches use a control and a data input, while D latches only use control inputs",HTML
+OPTION,0,SR latches and D latches both only use control inputs,HTML
+OPTION,1,A D latch is built by adding an enable input to an SR latch,HTML
+OPTION,0,"SR latches are combinational units, while D latches are memory units",HTML
+,,,
+,,,
+NewQuestion,MS,,
+Title,SR vs. D Latch,,
+QuestionText,Which of the following are true about SR latches and D latches? Select all that apply.,NOT HTML,
+Points,10,,
+Difficulty,1,,
+OPTION,1,"SR latches only use control inputs, while D latches use a control and a data input",HTML
+OPTION,1,D latches hold the value of the data input when the enable goes low,HTML
+OPTION,1,Both SR and D latches are commonly implemented in real circuitry using NOR and NAND gates,HTML
+OPTION,0,SR latches and D latches both only use control inputs,HTML
+OPTION,0,"SR latches use a control and a data input, while D latches only use control inputs",HTML
+,,,
+,,,
+NewQuestion,MS,,
+Title,SR vs. D Latch,,
+QuestionText,Which of the following are true about SR latches and D latches? Select all that apply.,NOT HTML,
+Points,10,,
+Difficulty,1,,
+OPTION,0,"SR latches use a control and a data input, while D latches only use control inputs",HTML
+OPTION,0,D latches hold the value of the data input when the enable goes high,HTML
+OPTION,0,SR latches and D latches both use a control and data input,HTML
+OPTION,1,D latches hold the value of the data input when the enable goes low,HTML
+OPTION,0,"SR latches are memory units, while D latches are combinational units",HTML
+,,,
+,,,
+NewQuestion,MS,,
+Title,SR vs. D Latch,,
+QuestionText,Which of the following are true about SR latches and D latches? Select all that apply.,NOT HTML,
+Points,10,,
+Difficulty,1,,
+OPTION,0,SR latches and D latches both use a control and data input,HTML
+OPTION,0,SR latches and D latches are both combinational logic units,HTML
+OPTION,1,"SR latches only use control inputs, while D latches use a control and a data input",HTML
+OPTION,1,A D latch is built by adding an enable input to an SR latch,HTML
+OPTION,0,An SR latch is built by adding an enable input to a D latch,HTML
+,,,
+,,,
+NewQuestion,MS,,
+Title,SR vs. D Latch,,
+QuestionText,Which of the following are true about SR latches and D latches? Select all that apply.,NOT HTML,
+Points,10,,
+Difficulty,1,,
+OPTION,0,SR latches and D latches are both combinational logic units,HTML
+OPTION,1,D latches hold the value of the data input when the enable goes low,HTML
+OPTION,0,SR latches and D latches both only use control inputs,HTML
+OPTION,1,"SR latches only use control inputs, while D latches use a control and a data input",HTML
+OPTION,1,Both SR and D latches are commonly implemented in real circuitry using NOR and NAND gates,HTML
+,,,
+,,,
+NewQuestion,MS,,
+Title,SR vs. D Latch,,
+QuestionText,Which of the following are true about SR latches and D latches? Select all that apply.,NOT HTML,
+Points,10,,
+Difficulty,1,,
+OPTION,0,"SR latches use a control and a data input, while D latches only use control inputs",HTML
+OPTION,0,"SR latches are combinational units, while D latches are memory units",HTML
+OPTION,0,An SR latch is built by adding an enable input to a D latch,HTML
+OPTION,1,Both SR and D latches are commonly implemented in real circuitry using NOR and NAND gates,HTML
+OPTION,0,D latches hold the value of the data input when the enable goes high,HTML
+,,,
+,,,
+NewQuestion,MS,,
+Title,SR vs. D Latch,,
+QuestionText,Which of the following are true about SR latches and D latches? Select all that apply.,NOT HTML,
+Points,10,,
+Difficulty,1,,
+OPTION,1,D latches hold the value of the data input when the enable goes low,HTML
+OPTION,0,"SR latches use a control and a data input, while D latches only use control inputs",HTML
+OPTION,0,An SR latch is built by adding an enable input to a D latch,HTML
+OPTION,1,"SR latches only use control inputs, while D latches use a control and a data input",HTML
+OPTION,0,"SR latches are combinational units, while D latches are memory units",HTML
+,,,
+,,,
+NewQuestion,MS,,
+Title,SR vs. D Latch,,
+QuestionText,Which of the following are true about SR latches and D latches? Select all that apply.,NOT HTML,
+Points,10,,
+Difficulty,1,,
+OPTION,0,SR latches and D latches are both combinational logic units,HTML
+OPTION,0,SR latches and D latches both only use control inputs,HTML
+OPTION,1,D latches hold the value of the data input when the enable goes low,HTML
+OPTION,0,"SR latches are combinational units, while D latches are memory units",HTML
+OPTION,1,Both SR and D latches are commonly implemented in real circuitry using NOR and NAND gates,HTML
+,,,
+,,,
+NewQuestion,MS,,
+Title,SR vs. D Latch,,
+QuestionText,Which of the following are true about SR latches and D latches? Select all that apply.,NOT HTML,
+Points,10,,
+Difficulty,1,,
+OPTION,1,A D latch is built by adding an enable input to an SR latch,HTML
+OPTION,1,"SR latches only use control inputs, while D latches use a control and a data input",HTML
+OPTION,0,D latches hold the value of the data input when the enable goes high,HTML
+OPTION,1,D latches hold the value of the data input when the enable goes low,HTML
+OPTION,0,SR latches and D latches are both combinational logic units,HTML

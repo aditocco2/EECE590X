@@ -1,0 +1,66 @@
+NewQuestion,MC
+Title,Determine Memory Unit from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_16A.png
+OPTION,100,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,0,"The D and E inputs of a D latch, respectively",HTML
+OPTION,0,"The D and > inputs of a D flip-flop, respectively",HTML
+
+
+NewQuestion,MC
+Title,Determine Memory Unit from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_16B.png
+OPTION,100,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,0,"The D and E inputs of a D latch, respectively",HTML
+OPTION,0,"The D and > inputs of a D flip-flop, respectively",HTML
+
+
+NewQuestion,MC
+Title,Determine Memory Unit from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_16C.png
+OPTION,0,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,100,"The D and E inputs of a D latch, respectively",HTML
+OPTION,0,"The D and > inputs of a D flip-flop, respectively",HTML
+
+
+NewQuestion,MC
+Title,Determine Memory Unit from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_16D.png
+OPTION,0,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,100,"The D and E inputs of a D latch, respectively",HTML
+OPTION,0,"The D and > inputs of a D flip-flop, respectively",HTML
+
+
+NewQuestion,MC
+Title,Determine Memory Unit from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_16E.png
+OPTION,0,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,0,"The D and E inputs of a D latch, respectively",HTML
+OPTION,100,"The D and > inputs of a D flip-flop, respectively",HTML
+
+
+NewQuestion,MC
+Title,Determine Memory Unit from Timing Diagram
+QuestionText,"Based on the timing diagram above, what do A and B represent?",NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/unknown_diagram_16F.png
+OPTION,0,"The S and R inputs of an SR latch, respectively",HTML
+OPTION,0,"The D and E inputs of a D latch, respectively",HTML
+OPTION,100,"The D and > inputs of a D flip-flop, respectively",HTML
+
+
