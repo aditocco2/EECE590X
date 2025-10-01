@@ -1,6 +1,7 @@
 import d2l
 
-pool = d2l.QuestionPool("SR Latch Behavior")
+pool_0 = d2l.QuestionPool("SR Latch Reset Behavior", "q14_3.csv")
+pool_1 = d2l.QuestionPool("SR Latch Set Behavior", "q14_2.csv")
 
 text_0 = "When do SR latches reset their output to 0?"
 answers_0 = [
@@ -27,7 +28,8 @@ question_1 = d2l.MCQuestion(text_1, points=5)
 for (answer, points) in answers_1:
     question_1.add_answer(answer, points)
 
-pool.add_question(question_0)
-pool.add_question(question_1)
+pool_0.add_question(question_0)
+pool_0.package()
 
-pool.package()
+pool_1.add_question(question_1)
+pool_1.package()

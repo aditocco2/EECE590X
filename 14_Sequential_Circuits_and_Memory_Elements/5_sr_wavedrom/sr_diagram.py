@@ -37,9 +37,10 @@ for i in range(50):
     question.add_image(f"/imagepools/quantumbeef/sr_latch.png")
     question.add_answer(regex_ans, is_regex = True)
 
-    question.add_hint('Your wave for F should have 20 characters and look \
+    question.add_hint('<p>Your wave for F should have 20 characters and look \
                       something like "00000111110001110000" (or "0....1....0..1..0..."). \
-                      You may or may not have unknown output (x) at the start.')
+                      You may or may not have unknown output (x) at the start. </p> \
+                      <p> You can assume that if S and R are high at the same time, the latch resets.</p>')
 
     question.add_feedback(f"<p>Here was the right answer: <p> {a_link} </p><p> {a_link_alt} </p>")
 

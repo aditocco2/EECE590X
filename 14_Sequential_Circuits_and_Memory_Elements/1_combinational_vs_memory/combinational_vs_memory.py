@@ -1,10 +1,8 @@
-# WIP
 import d2l
 import random
 
 pool = d2l.QuestionPool("Combinational vs. Memory (Matching)")
 
-# Case matters!!!1
 matches = [
     # 12 here
     ("Detecting whether the number of high inputs is currently even or odd", "Combinational"),

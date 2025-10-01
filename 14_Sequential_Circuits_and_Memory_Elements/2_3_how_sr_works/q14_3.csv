@@ -1,0 +1,11 @@
+NewQuestion,MC
+Title,SR Latch Reset Behavior
+QuestionText,When do SR latches reset their output to 0?,NOT HTML
+Points,5
+Difficulty,1
+OPTION,0,When S goes low,HTML
+OPTION,0,When S goes high,HTML
+OPTION,0,When R goes low,HTML
+OPTION,100,When R goes high,HTML
+
+
