@@ -7,15 +7,14 @@ q_text = "Which of the following are advantages of flip flops over latches? \
             Select all that apply."
 
 all_answers = [
-    ("FFs are more glitch-resistant", True),
-    ("FFs can be used to synchronize inputs and outputs", True),
-    ("FFs only sample on the rising edge of the control signal", True),
+    ("FFs do not pass glitches from input to output", True),
+    ("FFs can be used to synchronize input and output changes with a control signal", True),
+    ("FFs only pass data from input and output on the edge of the control signal", True),
+    ("FFs can be chained together to introduce a fixed delay", True),
     ("FFs are less likely to produce undefined/unknown output", True),
-    ("FFs can be used to remember what an input was a while ago", True),
-    ("FFs can be set and reset", False),
-    ("FFs can reflect changes in input instantly when they are enabled", False),
-    ("FFs are more compact and require less gates", False)
-    # Maybe add some more?
+    ("FFs can continuously pass data from input to output whenever they are enabled", False),
+    ("FFs are more compact and require less gates", False),
+    ("FFs can be set and reset with different control signals", False)
 ]
 
 for i in range(10):

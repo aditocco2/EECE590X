@@ -6,8 +6,8 @@ pool = d2l.QuestionPool("Combinational vs. Memory (Matching)")
 
 # Case matters!!!1
 matches = [
-    # 13 here
-    ("Detecting whether the number of high inputs is even or odd", "Combinational"),
+    # 12 here
+    ("Detecting whether the number of high inputs is currently even or odd", "Combinational"),
     ("Adding two binary numbers together", "Combinational"),
     ("Subtracting two binary numbers", "Combinational"),
     ("Finding the remainder when a number is divided by 8", "Combinational"),
@@ -18,8 +18,7 @@ matches = [
     ("Determining whether two binary numbers are equal", "Combinational"),
     ("Turning on a light when the fridge door is open", "Combinational"),
     ("Turning on the A/C when the temperature is above 72 degrees", "Combinational"),
-    ("Turning an LED on when a button is pressed down", "Combinational"),
-    ("Using a knob to set the heat on the stove", "Combinational"),
+    ("Turning an LED on when a button is held and having it turn off when you let go", "Combinational"),
 
     # And 13 here
     ("Sounding an alarm if a door is propped open for too long", "Memory"),
@@ -27,7 +26,7 @@ matches = [
     ("Repeatedly adding 1 to a number", "Memory"),
     ("Detecting someone's pulse", "Memory"),
     ("Setting a timer on the microwave", "Memory"),
-    ("Having an LED stay on when you let go of a button", "Memory"),
+    ("Pressing a button to turn on an LED, but having it stay on when you unpress it", "Memory"),
     ("Keeping track of your maximum MPG on a road trip", "Memory"),
     ("Keeping a traffic light yellow for 5 seconds", "Memory"),
     ("Toggling case with the Caps Lock key", "Memory"),
