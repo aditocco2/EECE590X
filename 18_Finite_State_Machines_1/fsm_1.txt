@@ -1,0 +1,79 @@
+{
+    "nodeRadius": "50",
+    "fontSize": "22",
+    "inputs": "",
+    "outputs": "",
+    "fsmNodes": [
+        {
+            "referencePoint": {
+                "x": 223,
+                "y": 264
+            },
+            "stateName": "S0",
+            "outputText": "F=0",
+            "selected": false
+        },
+        {
+            "referencePoint": {
+                "x": 410,
+                "y": 257
+            },
+            "stateName": "S1",
+            "outputText": "F=1",
+            "selected": true
+        }
+    ],
+    "fsmArcs": [
+        {
+            "startNode": 0,
+            "endNode": 1,
+            "outputText": "a",
+            "referencePoint": {
+                "x": 313.7317688108606,
+                "y": 186.54868109014558
+            },
+            "selected": false
+        },
+        {
+            "startNode": 1,
+            "endNode": 0,
+            "outputText": "a",
+            "referencePoint": {
+                "x": 319.00656575993156,
+                "y": 327.4611138724473
+            },
+            "selected": false
+        }
+    ],
+    "fsmSelfArcs": [
+        {
+            "node": 0,
+            "outputText": "a'",
+            "referencePoint": {
+                "x": 167.9426003776806,
+                "y": 226.40841595153688
+            },
+            "selected": false
+        },
+        {
+            "node": 1,
+            "outputText": "a",
+            "referencePoint": {
+                "x": 466.1057768367398,
+                "y": 220.99185855962017
+            },
+            "selected": false
+        }
+    ],
+    "fsmResetArcs": [
+        {
+            "node": 0,
+            "outputText": "reset",
+            "referencePoint": {
+                "x": 150.01432734268076,
+                "y": 332.360014531586
+            },
+            "selected": false
+        }
+    ]
+}
