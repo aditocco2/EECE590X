@@ -50,7 +50,6 @@ print(f"rows: {num_rows}")
 # For example:
 # if state_names is ["00", "01", "10"]
 # this makes state_bit_combos ["00", "01", "10", "11"]
-
 state_bit_combos = [f"{i:0{num_state_bits}b}" for i in range(2 ** num_state_bits)]
 print(f"all possible state bit combos: {state_bit_combos}")
 
@@ -58,10 +57,34 @@ print(f"all possible state bit combos: {state_bit_combos}")
 input_combos = [f"{i:0{num_input_bits}b}" for i in range(2 ** num_input_bits)]
 print(f"all possible input combos: {input_combos}")
 
-for state in state_bit_combos:
+# Make a list of states with all their arcs
+fsm_data = []
+
+for current_state in state_bit_combos:
+
+    state_data = {"state": current_state, "arcs": []}
+    
     # Since arcs anchor to node ID and not state name, we have to use the arc's
     # start node ID to index into the list of states
-    leaving_arcs = [arc for arc in fsm["fsmArcs"] 
-                    if fsm["fsmNodes"][arc["startNode"]]["stateName"] == state]
-    
-    print(f"state: {state}, arcs {leaving_arcs}")
+    # They are also stored in two separate lists: fsmArcs and fsmSelfArcs
+
+    for arc in fsm["fsmArcs"]:
+        state_arc_leaves = fsm["fsmNodes"][arc["startNode"]]["stateName"]
+        state_arc_goes_to = fsm["fsmNodes"][arc["endNode"]]["stateName"]
+        if state_arc_leaves == current_state:
+            arc_data = {"expression": arc["outputText"],
+                        "next_state": state_arc_goes_to}
+            state_data["arcs"].append(arc_data)
+
+    for arc in fsm["fsmSelfArcs"]:
+        state_arc_is_on = fsm["fsmNodes"][arc["node"]]["stateName"]
+        if state_arc_is_on == current_state:
+            arc_data = {"expression": arc["outputText"],
+                        "next_state": state_arc_is_on}
+            state_data["arcs"].append(arc_data)
+            
+    fsm_data.append(state_data)
+
+print(json.dumps(fsm_data, indent=4))
+
+# Still gotta make the truth table, but honestly I think FSM data might be better as a class
