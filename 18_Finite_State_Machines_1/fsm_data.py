@@ -30,13 +30,13 @@ class FSMData():
                     text = node["outputText"]
             # replace everything but alphanumeric and underscore with space
             text = re.sub("[^0-9a-zA-Z_]+", " " , text)
-            output_words = text.replace("=", ",").split(",") #["F", "1", "G", "0"]
+            output_words = text.split(" ") #["F", "1", "G", "0"]
 
             for output in self.output_names:
                 # If an output exists under the state name, copy it to the outputs dict
                 if output in output_words:
-                    output_value = output_words.index(output) + 1
-                    current_state_data["outputs"][output] = output_value
+                    output_value = output_words[output_words.index(output) + 1]
+                    current_state_data["outputs"][output] = str(output_value)
                 # Otherwise assume it's 0
                 else:
                     current_state_data["outputs"][output] = "0"
@@ -112,13 +112,19 @@ class FSMData():
 
     def make_output_columns(self):
 
-        # First make all possible combinations of state with input
+        output_columns = {}
+
+        # Initialize output columns
+        for output in self.next_state_bit_names + self.output_names:
+            output_columns[output] = ""
+
+        # make all possible combinations of state with input
         # (sorta like TT rows but without the outputs)
         all_combos = itertools.product(self.state_bit_combos, self.input_combos)
 
-        next_state_columns = {}
-        
+        num_state_bits = len(self.state_bit_combos[0])
 
+        # Then drill the logic
         for combo in all_combos:
             state_combo = combo[0]
             input_combo = combo[1]
@@ -129,11 +135,99 @@ class FSMData():
             # If the state combo is used, figure out the appropriate next state
             if state_datum:
                 state_datum = state_datum[0]
+                current_state = state_datum["state"]
+
+                # Process the arc to get the next state
                 arcs = state_datum["arcs"]
                 for arc in arcs:
                     expression = arc["expression"]
-                    if logic_eval(self.input_names, input_combo):
+                    # If the expression on the arc evaluates to true (or it's empty)
+                    # Copy the arc's next state into the truth table
+                    if not expression or logic_eval(self.input_names, input_combo, expression):
+                        for i, column in zip(range(num_state_bits), self.next_state_bit_names):
+                            # 7 LEVELS OF INDENTATION I AM THE BEST PROGRAMMER TO WALK THIS EARTH RAAAAAAAHHHH
+                            output_columns[column] += arc["next_state"][i]
+                    # Otherwise copy the current state into the truth tablex
+                    # else:
+                    #     for i, column in zip(range(num_state_bits), self.next_state_bit_names):
+                    #         output_columns[column] += current_state[i]
+                
+                # Process the current state to get the Moore output
+                for output in self.output_names:
+                    if state_datum["outputs"][output] == "1":
+                        output_columns[output] += "1"
+                    else:
+                        output_columns[output] += "0"
+            
+            # If the state combo is unused:
+            else:
+                # Don't care next state / output
+                for column in self.next_state_bit_names + self.output_names:
+                    output_columns[column] += "x"
+                
+        self.output_columns = output_columns        
+        return output_columns
+    
 
+    def evaluate_all_combos(self):
+
+        rows = []
+
+        # Initialize output columns
+
+        # make all possible combinations of state with input
+        # (sorta like TT rows but without the outputs)
+        all_combos = itertools.product(self.state_bit_combos, self.input_combos)
+
+        # Then drill the logic
+        for combo in all_combos:
+
+            state_combo = combo[0]
+            input_combo = combo[1]
+
+            row = {}
+            row["state"] = state_combo
+            for i in range(len(combo[1])):
+                row[self.input_names[i]] = input_combo[i]
+            # A list, so we can check for improperly specified FSMs
+            row["next_states"] = []
+
+            # Get the dictionary with the appropriate state
+            state_datum = [d for d in self.state_data if d["state"] == state_combo]
+
+            # If the state combo is used, figure out the appropriate next state
+            if state_datum:
+                state_datum = state_datum[0]
+
+                # Process the arc to get the next state
+                arcs = state_datum["arcs"]
+                for arc in arcs:
+                    expression = arc["expression"]
+                    # If the expression on the arc evaluates to true (or it's empty)
+                    # Copy the arc's next state into the truth table
+                    if not expression or logic_eval(self.input_names, input_combo, expression):
+                        row["next_states"].append(arc["next_state"])
+                
+                # Process the current state to get the Moore output
+                for output in self.output_names:
+                    if state_datum["outputs"][output] == "1":
+                        row[output] = "1"
+                    else:
+                        row[output] = "0"
+
+                row["used"] = True
+            
+            # If the state combo is unused:
+            else:
+                # Don't care next state / output
+                row["next_states"].append("x" * len(state_combo))
+                for output in self.output_names:
+                    row[output] = "x"
+                row["used"] = False
+
+            rows.append(row)
+                
+        return rows
 
                 
 

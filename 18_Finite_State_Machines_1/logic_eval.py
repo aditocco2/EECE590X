@@ -31,6 +31,7 @@ def to_bitwise(inputs, expression):
 
     # If ' appears after (), move it before the appropriate group
     # ex: (a+(b)')' -> '(a+'(b))
+    
     # expression = re.sub(r"(\(.*\))'", r"'\1", expression) # for outer 
     # expression = re.sub(r"(\([^(]*?\))'", r"'\1", expression) # for inner
     for i in range(1, len(expression)):
