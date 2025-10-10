@@ -1,24 +1,56 @@
 from TruthTableHTML.html_tt import html_tt
-from logic_eval import logic_eval
+from logic_utils.logic_eval import logic_eval
 import itertools
 import json
 import re
 
-class FSMData():
+class FSM():
+
+    """
+    Class representing FSM data from FSM Explorer (https://ws.binghamton.edu/dsummer/fsmexplorer/)
+    Used for converting data from FSM drawing to truth table... (maybe more later)
+
+    Currently only works with Moore FSMs, which are used exclusively in EECE251.
+    May add Mealy outputs for EECE351 compatibility later.
+    """
+
+    """ 
+    Members:
+    input_names: inputs external to the FSM, like ["a", "b"]
+    input_combos: all possible combinations of input, like ["00", "01", "10"]
+    state_bit_names: names of separated bits of the current state, 
+        like ["Q1", "Q0"]
+    next_state_bit_names: names of separated bits of the NEXT state, 
+        like ["Q1+", "Q0+"]
+    num_state_bits: number of state bits
+    state_bit_combos: all possible combinations of the state bits, 
+        even if they are not used, like ["00", "01", "10", "11]
+    output_names: names of the FSM's external outputs, like ["F", "G"]
+    output_columns: list of columns of TT outputs as strings like ["000011xx"] 
+
+    fsm_json: JSON dictionary of FSM data straight from FSM Explorer
+    arc_data: List of dictionaries showing each state and its associated arcs
+    rows: List of dictionaries showing all possible input/state combos
+        and their outputs
+    """
 
     def __init__(self, filename, state_notation = "Q"):
+        self.load_fsm_from_json(filename, state_notation)
+
+
+    def load_fsm_from_json(self, filename, state_notation = "Q"):
         with open(filename, "r") as f:
             self.fsm_json = json.load(f)
         self.get_inputs_from_json()
         self.get_outputs_from_json()
         self.get_states_from_json(state_notation)
-        self.organize_state_data()
+        self.get_arc_data_from_json()
+        self.evaluate_all_combos()
     
-    def organize_state_data(self):
 
-        # Makes a list of states with all their arcs and outputs
+    def get_arc_data_from_json(self):
 
-        self.state_data = []
+        arc_data = []
 
         for current_state in self.state_names:
 
@@ -60,7 +92,11 @@ class FSMData():
                                 "next_state": state_arc_is_on}
                     current_state_data["arcs"].append(arc_dict)
                     
-            self.state_data.append(current_state_data)
+            arc_data.append(current_state_data)
+        
+        self.arc_data = arc_data
+        return arc_data
+    
 
     def get_states_from_json(self, notation = "Q"):
         self.state_names = []
@@ -68,14 +104,15 @@ class FSMData():
             self.state_names.append(node["stateName"])
         self.state_names = sorted(self.state_names)
 
-        num_state_bits = len(self.state_names[0])
-        self.state_bit_combos = [f"{i:0{num_state_bits}b}" for i in range(2 ** num_state_bits)]
+        self.num_state_bits = len(self.state_names[0])
+        self.state_bit_combos = [f"{i:0{self.num_state_bits}b}" for i in range(2 ** self.num_state_bits)]
 
         # Make state bit names like Q1, Q0, Q1+, Q0+
-        self.state_bit_names = [notation + str(i) for i in range(num_state_bits)]
+        self.state_bit_names = [notation + str(i) for i in range(self.num_state_bits)]
         self.state_bit_names.reverse()
         self.next_state_bit_names = [i + "+" for i in self.state_bit_names]
     
+
     def get_inputs_from_json(self):
         if self.fsm_json["inputs"]:
             self.input_names = self.fsm_json["inputs"].replace(" ", "").split(",")
@@ -98,6 +135,7 @@ class FSMData():
         num_input_bits = len(self.input_names)
         self.input_combos = [f"{i:0{num_input_bits}b}" for i in range(2 ** num_input_bits)]
 
+
     def get_outputs_from_json(self):
     # Get Moore outputs
         outputs = []
@@ -110,73 +148,12 @@ class FSMData():
             outputs = outputs + [o for o in node_outputs if o and o not in outputs and not o[0].isdigit()]
         self.output_names = outputs
 
-    def make_output_columns(self):
-
-        output_columns = {}
-
-        # Initialize output columns
-        for output in self.next_state_bit_names + self.output_names:
-            output_columns[output] = ""
-
-        # make all possible combinations of state with input
-        # (sorta like TT rows but without the outputs)
-        all_combos = itertools.product(self.state_bit_combos, self.input_combos)
-
-        num_state_bits = len(self.state_bit_combos[0])
-
-        # Then drill the logic
-        for combo in all_combos:
-            state_combo = combo[0]
-            input_combo = combo[1]
-
-            # Get the dictionary with the appropriate state
-            state_datum = [d for d in self.state_data if d["state"] == state_combo]
-
-            # If the state combo is used, figure out the appropriate next state
-            if state_datum:
-                state_datum = state_datum[0]
-                current_state = state_datum["state"]
-
-                # Process the arc to get the next state
-                arcs = state_datum["arcs"]
-                for arc in arcs:
-                    expression = arc["expression"]
-                    # If the expression on the arc evaluates to true (or it's empty)
-                    # Copy the arc's next state into the truth table
-                    if not expression or logic_eval(self.input_names, input_combo, expression):
-                        for i, column in zip(range(num_state_bits), self.next_state_bit_names):
-                            # 7 LEVELS OF INDENTATION I AM THE BEST PROGRAMMER TO WALK THIS EARTH RAAAAAAAHHHH
-                            output_columns[column] += arc["next_state"][i]
-                    # Otherwise copy the current state into the truth tablex
-                    # else:
-                    #     for i, column in zip(range(num_state_bits), self.next_state_bit_names):
-                    #         output_columns[column] += current_state[i]
-                
-                # Process the current state to get the Moore output
-                for output in self.output_names:
-                    if state_datum["outputs"][output] == "1":
-                        output_columns[output] += "1"
-                    else:
-                        output_columns[output] += "0"
-            
-            # If the state combo is unused:
-            else:
-                # Don't care next state / output
-                for column in self.next_state_bit_names + self.output_names:
-                    output_columns[column] += "x"
-                
-        self.output_columns = output_columns        
-        return output_columns
-    
 
     def evaluate_all_combos(self):
 
         rows = []
 
-        # Initialize output columns
-
         # make all possible combinations of state with input
-        # (sorta like TT rows but without the outputs)
         all_combos = itertools.product(self.state_bit_combos, self.input_combos)
 
         # Then drill the logic
@@ -193,7 +170,7 @@ class FSMData():
             row["next_states"] = []
 
             # Get the dictionary with the appropriate state
-            state_datum = [d for d in self.state_data if d["state"] == state_combo]
+            state_datum = [d for d in self.arc_data if d["state"] == state_combo]
 
             # If the state combo is used, figure out the appropriate next state
             if state_datum:
@@ -226,13 +203,51 @@ class FSMData():
                 row["used"] = False
 
             rows.append(row)
-                
+        
+        self.rows = rows
         return rows
+    
 
-                
+    def make_output_columns(self):
+    
+        # Initialize dictionary of empty output columns
+        output_columns = {}
+        for name in self.next_state_bit_names + self.output_names:
+            output_columns[name] = ""
+
+        # Start with next_state
+        for row in self.rows:
+            # Check for improperly specified states
+            if not row["next_states"]:
+                raise Exception(f"No state specified for the following row: {row}")
+            elif len(row["next_states"]) > 1:
+                raise Exception(f"Multiple states specified for the following row: {row}")
+            else:
+                next_state = row["next_states"][0]
+                for i, next_state_bit in zip(range(self.num_state_bits), self.next_state_bit_names):
+                    output_columns[self.next_state_bit_names[i]] += next_state[i]
+
+        # Then do Moore outputs
+        for row in self.rows:
+            for output in self.output_names:
+                output_columns[output] += row[output]
+    
+        self.output_columns = output_columns
+        return output_columns
 
 
+    def make_html_truth_table(self):
 
-            
-                    
+        if not hasattr(self, "output_columns"):
+            self.make_output_columns()
+        
+        all_out_names = self.next_state_bit_names + self.output_names
+        cols = [self.output_columns[key] for key in all_out_names]
+
+        headers = self.state_bit_names + self.input_names \
+                  + self.next_state_bit_names + self.output_names
+        
+        html_output = html_tt(cols, headers)
+
+        return html_output
                 

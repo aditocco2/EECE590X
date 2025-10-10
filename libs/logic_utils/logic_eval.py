@@ -57,11 +57,6 @@ def to_bitwise(inputs, expression):
 
     return expression
 
-# Sanity Check
-# print(to_bitwise(["a", "b", "c", "d"], "(a(b^c)')'"))
-# print(to_bitwise(["a", "b", "c", "d"], "(b'+c)d'"))
-# print(to_bitwise(["a", "b", "c", "d"], "a'bc'd"))
-
 def logic_eval(inputs, input_values, expression):
     """
     Evaluates a Boolean expression to return either 0 or 1.
@@ -87,5 +82,3 @@ def logic_eval(inputs, input_values, expression):
     output &= 1
 
     return output
-
-print(logic_eval(["a", "b", "c"], "101", "~a^c"))
