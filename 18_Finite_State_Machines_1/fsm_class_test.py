@@ -1,13 +1,16 @@
 from fsm.fsm_class import FSM
 
-fsm = FSM("fsm_2.txt")
+fsm = FSM("fsm_1_improper.txt")
 
 print("=========FSM DATA==========")
 print(f"state names: {fsm.state_names}, state bit combos: {fsm.state_bit_combos}")
 print(f"input names: {fsm.input_names}, input combos: {fsm.input_combos}")
 print(f"outputs: {fsm.output_names}")
-print(f"arc data: {fsm.arc_data}")
-print(f"state bits: {fsm.state_bit_names}, next_state_bits = {fsm.next_state_bit_names}")
+print(f"state bits: {fsm.state_bit_names}, next_state_bits: {fsm.next_state_bit_names}")
+
+print("arc data:")
+for state in fsm.arc_data:
+    print(state)
 
 print("rows:")
 for row in fsm.rows:
@@ -20,3 +23,5 @@ with open("tt.html", "w") as f:
     f.write(html_output)
 print("wrote truth table to tt.html")
 
+
+print(f"output expressions: {fsm.find_output_expressions()}")

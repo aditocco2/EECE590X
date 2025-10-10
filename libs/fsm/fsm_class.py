@@ -1,5 +1,6 @@
 from TruthTableHTML.html_tt import html_tt
 from logic_utils.logic_eval import logic_eval
+from logic_utils.optimized_sop import optimized_sop
 import itertools
 import json
 import re
@@ -8,10 +9,17 @@ class FSM():
 
     """
     Class representing FSM data from FSM Explorer (https://ws.binghamton.edu/dsummer/fsmexplorer/)
-    Used for converting data from FSM drawing to truth table... (maybe more later)
+    Used for converting data from FSM drawing to:
+        - HTML truth table
+        - Boolean expressions for the state/output logic
+        - ...
 
-    Currently only works with Moore FSMs, which are used exclusively in EECE251.
-    May add Mealy outputs for EECE351 compatibility later.
+    DISCLAIMERS:
+        - Currently only works with Moore FSMs, which are used exclusively in EECE251.
+            May add Mealy outputs for EECE351 compatibility later.
+        - States in FSM must be named after their respective binary state encodings, like "00" or "1".
+        - Outputs must be specified with their output names, i.e. "F=1". Implicit 0 is fine.
+        - To make a truth table, the FSM must be properly specified, including arcs that go back to the same state.
     """
 
     """ 
@@ -26,7 +34,8 @@ class FSM():
     state_bit_combos: all possible combinations of the state bits, 
         even if they are not used, like ["00", "01", "10", "11]
     output_names: names of the FSM's external outputs, like ["F", "G"]
-    output_columns: list of columns of TT outputs as strings like ["000011xx"] 
+    output_columns: dictionary of columns of TT outputs as strings like "000011xx"
+    output_expressions: dictionary of optimized sums of products
 
     fsm_json: JSON dictionary of FSM data straight from FSM Explorer
     arc_data: List of dictionaries showing each state and its associated arcs
@@ -183,6 +192,7 @@ class FSM():
                     # If the expression on the arc evaluates to true (or it's empty)
                     # Copy the arc's next state into the truth table
                     if not expression or logic_eval(self.input_names, input_combo, expression):
+                        # 6 levels of indentation let's go
                         row["next_states"].append(arc["next_state"])
                 
                 # Process the current state to get the Moore output
@@ -250,4 +260,19 @@ class FSM():
         html_output = html_tt(cols, headers)
 
         return html_output
-                
+    
+    def find_output_expressions(self):
+
+        if not hasattr(self, "output_columns"):
+            self.make_output_columns()
+
+        inputs = self.state_bit_names + self.input_names
+        outputs = self.next_state_bit_names + self.output_names
+        output_expressions = {}
+
+        for output in outputs:
+            col = self.output_columns[output]
+            output_expressions[output] = optimized_sop(inputs, col)
+
+        self.output_expressions = output_expressions
+        return output_expressions
