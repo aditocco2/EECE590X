@@ -1,6 +1,6 @@
 from fsm.fsm_class import FSM
 
-fsm = FSM("fsm_1_improper.txt")
+fsm = FSM("fsm_4_no_input.txt")
 
 print("=========FSM DATA==========")
 print(f"state names: {fsm.state_names}, state bit combos: {fsm.state_bit_combos}")
@@ -25,3 +25,6 @@ print("wrote truth table to tt.html")
 
 
 print(f"output expressions: {fsm.find_output_expressions()}")
+
+fsm.write_output_expressions_to_file("expressions.txt")
+print("wrote output expressions to expressions.txt")

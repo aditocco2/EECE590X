@@ -43,9 +43,9 @@ class FSM():
         and their outputs
     """
 
-    def __init__(self, filename, state_notation = "Q"):
+    def __init__(self, filename, fsm_name = "FSM", state_notation = "Q"):
+        self.fsm_name = fsm_name
         self.load_fsm_from_json(filename, state_notation)
-
 
     def load_fsm_from_json(self, filename, state_notation = "Q"):
         with open(filename, "r") as f:
@@ -142,7 +142,8 @@ class FSM():
             self.input_names = inputs
             
         num_input_bits = len(self.input_names)
-        self.input_combos = [f"{i:0{num_input_bits}b}" for i in range(2 ** num_input_bits)]
+        self.input_combos = [f"{i:0{num_input_bits}b}" for i in range(2 ** num_input_bits)] \
+                            if num_input_bits > 0 else [""]
 
 
     def get_outputs_from_json(self):
@@ -170,10 +171,10 @@ class FSM():
 
             state_combo = combo[0]
             input_combo = combo[1]
-
+            
             row = {}
             row["state"] = state_combo
-            for i in range(len(combo[1])):
+            for i in range(len(input_combo)):
                 row[self.input_names[i]] = input_combo[i]
             # A list, so we can check for improperly specified FSMs
             row["next_states"] = []
@@ -276,3 +277,19 @@ class FSM():
 
         self.output_expressions = output_expressions
         return output_expressions
+    
+    def write_output_expressions_to_file(self, filename = "outputs.txt"):
+        
+        f = open(filename, "a") # Append mode to not overwrite previous stuff
+        f.write(f"{self.fsm_name} outputs:\n")
+
+        if not hasattr(self, "output_expressions"):
+            self.find_output_expressions()
+        
+        for output_name in self.output_expressions:
+            output_expression = self.output_expressions[output_name]
+            f.write(f"{output_name} = {output_expression}\n")
+        
+        f.write("\n")
+
+        f.close()

@@ -1,0 +1,48 @@
+NewQuestion,MC
+Title,Circuit to FSM (no inputs)
+QuestionText,What is the correct finite state machine model for the circuit above?,NOT HTML
+Points,10
+Difficulty,1
+Hint,"As an intermediate step, make a truth table for the next state and the outputs, based on the current state.",NOT HTML
+OPTION,100,<Put FSM image A here,HTML
+OPTION,0,<Put FSM image C here,HTML
+OPTION,0,<Put FSM image B here,HTML
+OPTION,0,<Put FSM image D here,HTML
+
+
+NewQuestion,MC
+Title,Circuit to FSM (no inputs)
+QuestionText,What is the correct finite state machine model for the circuit above?,NOT HTML
+Points,10
+Difficulty,1
+Hint,"As an intermediate step, make a truth table for the next state and the outputs, based on the current state.",NOT HTML
+OPTION,0,<Put FSM image A here,HTML
+OPTION,0,<Put FSM image D here,HTML
+OPTION,100,<Put FSM image B here,HTML
+OPTION,0,<Put FSM image C here,HTML
+
+
+NewQuestion,MC
+Title,Circuit to FSM (no inputs)
+QuestionText,What is the correct finite state machine model for the circuit above?,NOT HTML
+Points,10
+Difficulty,1
+Hint,"As an intermediate step, make a truth table for the next state and the outputs, based on the current state.",NOT HTML
+OPTION,100,<Put FSM image C here,HTML
+OPTION,0,<Put FSM image B here,HTML
+OPTION,0,<Put FSM image D here,HTML
+OPTION,0,<Put FSM image A here,HTML
+
+
+NewQuestion,MC
+Title,Circuit to FSM (no inputs)
+QuestionText,What is the correct finite state machine model for the circuit above?,NOT HTML
+Points,10
+Difficulty,1
+Hint,"As an intermediate step, make a truth table for the next state and the outputs, based on the current state.",NOT HTML
+OPTION,100,<Put FSM image D here,HTML
+OPTION,0,<Put FSM image B here,HTML
+OPTION,0,<Put FSM image C here,HTML
+OPTION,0,<Put FSM image A here,HTML
+
+

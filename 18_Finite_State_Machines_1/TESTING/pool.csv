@@ -1,0 +1,11 @@
+NewQuestion,MC
+Title,test
+QuestionText,can I put answers on images lets' find out,NOT HTML
+Points,10
+Difficulty,1
+OPTION,100,"<img src=""/imagepools/quantumbeef/ideal.png"">",HTML
+OPTION,100,"<img src=""/imagepools/quantumbeef/ideal.png"">",HTML
+OPTION,100,"<img src=""/imagepools/quantumbeef/ideal.png"">",HTML
+OPTION,100,"<img src=""/imagepools/quantumbeef/ideal.png"">",HTML
+
+

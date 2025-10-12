@@ -1,0 +1,24 @@
+FSM_18_A outputs:
+Q1+ = Q1'Q0 + Q1Q0'
+Q0+ = Q0'
+F = Q1Q0'
+G = Q1Q0
+
+FSM_18_B outputs:
+Q1+ = Q0
+Q0+ = Q1'
+F = Q1Q0'
+G = Q1Q0
+
+FSM_18_C outputs:
+Q1+ = Q1'Q0 + Q1Q0'
+Q0+ = Q0'
+F = Q0'
+G = Q1'
+
+FSM_18_D outputs:
+Q1+ = Q0'
+Q0+ = Q1
+F = Q0'
+G = Q1'
+
