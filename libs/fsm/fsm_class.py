@@ -1,6 +1,7 @@
 from TruthTableHTML.html_tt import html_tt
-from logic_utils.logic_eval import logic_eval
+from logic_utils import logic_eval, boolean_to_english
 from logic_utils.optimized_sop import optimized_sop
+from schemdraw.parsing import logicparse
 import itertools
 import json
 import re
@@ -192,7 +193,8 @@ class FSM():
                     expression = arc["expression"]
                     # If the expression on the arc evaluates to true (or it's empty)
                     # Copy the arc's next state into the truth table
-                    if not expression or logic_eval(self.input_names, input_combo, expression):
+                    if not expression or logic_eval.logic_eval(
+                                        self.input_names, input_combo, expression):
                         # 6 levels of indentation let's go
                         row["next_states"].append(arc["next_state"])
                 
@@ -278,8 +280,13 @@ class FSM():
         self.output_expressions = output_expressions
         return output_expressions
     
-    def write_output_expressions_to_file(self, filename = "outputs.txt"):
+    def write_output_expressions_to_file(self, filename = "outputs.txt", clear=False):
         
+        # Clear the file
+        if clear:
+            with open(filename, "w") as f:
+                pass
+
         f = open(filename, "a") # Append mode to not overwrite previous stuff
         f.write(f"{self.fsm_name} outputs:\n")
 
@@ -293,3 +300,22 @@ class FSM():
         f.write("\n")
 
         f.close()
+
+    # def make_output_schematics(self, directory = "."):
+        
+    #     inputs = self.state_bit_names + self.input_names
+    #     outputs = self.next_state_bit_names + self.output_names
+
+    #     if not hasattr(self, "output_expressions"):
+    #         self.find_output_expressions()
+            
+    #     for output in self.output_expressions:
+            
+    #         expression = self.output_expressions[output]
+    #         expression = boolean_to_english.to_english(inputs, expression)
+
+    #         drawing = logicparse(expression)
+
+    #         drawing.save(f"{self.fsm_name}_{output}.png")
+            
+            

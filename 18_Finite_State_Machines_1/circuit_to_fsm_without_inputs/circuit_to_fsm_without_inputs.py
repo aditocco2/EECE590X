@@ -11,7 +11,6 @@ with open("outputs.txt", "w") as file:
 
 pool = d2l.QuestionPool("Circuit to FSM (no inputs)")
 
-q_text = "What is the correct finite state machine model for the circuit above?"
 hint = ("As an intermediate step, make a truth table for the next state " +
         "and the outputs, based on the current state.")
 
@@ -26,14 +25,17 @@ for q_letter in variants:
 
     fsm.write_output_expressions_to_file("outputs.txt")
 
-    question = d2l.MCQuestion(q_text)
+    q_text = (f"(put circuit image {q_letter} here)\n" +
+        "What is the correct finite state machine model for the circuit above?")
+
+    question = d2l.MCQuestion(q_text, shuffle=False)
     question.add_hint(hint)
 
     for a_letter in variants:
 
         points = 100 if q_letter == a_letter else 0
 
-        question.add_answer(f"<Put FSM image {a_letter} here", points)
+        question.add_answer(f"(Put FSM image {a_letter} here)", points)
 
     pool.add_question(question)
 
