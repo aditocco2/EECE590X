@@ -1,0 +1,160 @@
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>4</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_A.png
+Feedback,It will be in state 00,NOT HTML
+ANSWER,100,^[^0-9]*00[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>5</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_A.png
+Feedback,It will be in state 01,NOT HTML
+ANSWER,100,^[^0-9]*01[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>6</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_A.png
+Feedback,It will be in state 10,NOT HTML
+ANSWER,100,^[^0-9]*10[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>7</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_A.png
+Feedback,It will be in state 11,NOT HTML
+ANSWER,100,^[^0-9]*11[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>4</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_B.png
+Feedback,It will be in state 00,NOT HTML
+ANSWER,100,^[^0-9]*00[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>5</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_B.png
+Feedback,It will be in state 01,NOT HTML
+ANSWER,100,^[^0-9]*01[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>6</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_B.png
+Feedback,It will be in state 11,NOT HTML
+ANSWER,100,^[^0-9]*11[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>7</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_B.png
+Feedback,It will be in state 10,NOT HTML
+ANSWER,100,^[^0-9]*10[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>4</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_C.png
+Feedback,It will be in state 00,NOT HTML
+ANSWER,100,^[^0-9]*00[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>5</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_C.png
+Feedback,It will be in state 01,NOT HTML
+ANSWER,100,^[^0-9]*01[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>6</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_C.png
+Feedback,It will be in state 10,NOT HTML
+ANSWER,100,^[^0-9]*10[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>7</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_C.png
+Feedback,It will be in state 11,NOT HTML
+ANSWER,100,^[^0-9]*11[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>4</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_D.png
+Feedback,It will be in state 00,NOT HTML
+ANSWER,100,^[^0-9]*00[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>5</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_D.png
+Feedback,It will be in state 10,NOT HTML
+ANSWER,100,^[^0-9]*10[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>6</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_D.png
+Feedback,It will be in state 11,NOT HTML
+ANSWER,100,^[^0-9]*11[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Follow FSM from circuit
+QuestionText,<p>Suppose the FSM represented by the circuit above is originally             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in                 <i>7</i> clock cycles?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_18_D.png
+Feedback,It will be in state 01,NOT HTML
+ANSWER,100,^[^0-9]*01[^0-9]*$,regexp
+
+

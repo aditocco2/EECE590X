@@ -1,0 +1,30 @@
+Testing the questions after Brightspace upload for sanity check:
+
+var A
+Q1	Q0	Q1+	Q0+	F	G
+0	0	0	1	0	0
+0	1	1	1	0	0
+1	0	1	0	1	1
+1	1	0	0	0	1
+
+
+var B
+Q1	Q0	Q1+	Q0+	F	G
+0	0	0	1	0	0
+0	1	1	1	0	0
+1	0	0	0	1	0
+1	1	1	0	0	1
+
+var C
+Q1	Q0	Q1+	Q0+	F	G
+0	0	0	1	1	1
+0	1	1	0	0	1
+1	0	1	1	1	0
+1	1	0	0	0	0
+
+var D
+Q1	Q0	Q1+	Q0+	F	G
+0	0	1	0	0	0
+0	1	0	0	0	0
+1	0	1	1	1	1
+1	1	0	1	0	1
