@@ -1,6 +1,6 @@
 from logic_utils import qm2
 
-def optimized_sop(inputs, output_column):
+def optimized_sop(inputs, output_column, treat_dc_like_0 = False):
     """
     Call me Quine the way I be serving that optimized slop
     This is basically a wrapper for the qm2 file that adds named inputs and outputs
@@ -18,7 +18,7 @@ def optimized_sop(inputs, output_column):
     for i in range(len(output_column)):
         if output_column[i] == "1":
             ones.append(i)
-        elif output_column[i] == "0":
+        elif output_column[i] == "0" or (output_column[i] == "x" and treat_dc_like_0):
             zeros.append(i)
         elif output_column[i].lower() == "x":
             dc.append(i)

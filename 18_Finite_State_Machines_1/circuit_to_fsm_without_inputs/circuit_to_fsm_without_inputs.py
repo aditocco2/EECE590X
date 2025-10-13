@@ -23,14 +23,17 @@ for q_letter in variants:
 
     fsm = FSM(fsm_filename, fsm_name)
 
+    # Write output expressions so I can reference them while drawing diagrams
     fsm.write_output_expressions_to_file("outputs.txt")
 
+    # Placeholder for circuit image of the current variant
     q_text = (f"(put circuit image {q_letter} here)\n" +
         "What is the correct finite state machine model for the circuit above?")
 
     question = d2l.MCQuestion(q_text, shuffle=False)
     question.add_hint(hint)
 
+    # Put placeholders for the images for all variants (A, B, C, and D) as the answer
     for a_letter in variants:
 
         points = 100 if q_letter == a_letter else 0

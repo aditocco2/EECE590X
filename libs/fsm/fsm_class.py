@@ -231,7 +231,7 @@ class FSM():
         # Start with next_state
         for row in self.rows:
             # Check for improperly specified states
-            if not row["next_states"]:
+            if len(row["next_states"]) == 0:
                 raise Exception(f"No state specified for the following row: {row}")
             elif len(row["next_states"]) > 1:
                 raise Exception(f"Multiple states specified for the following row: {row}")
