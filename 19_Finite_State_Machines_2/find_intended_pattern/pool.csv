@@ -1,0 +1,40 @@
+NewQuestion,SA
+Title,Find Intended FSM Pattern
+QuestionText,Which pattern on the input A will make the FSM above output 1?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_19_0011.png
+Feedback,0011,NOT HTML
+ANSWER,100,^[^0-9]*0011[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find Intended FSM Pattern
+QuestionText,Which pattern on the input A will make the FSM above output 1?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_19_00110.png
+Feedback,00110,NOT HTML
+ANSWER,100,^[^0-9]*00110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find Intended FSM Pattern
+QuestionText,Which pattern on the input A will make the FSM above output 1?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_19_1010.png
+Feedback,1010,NOT HTML
+ANSWER,100,^[^0-9]*1010[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find Intended FSM Pattern
+QuestionText,Which pattern on the input A will make the FSM above output 1?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_19_10111.png
+Feedback,10111,NOT HTML
+ANSWER,100,^[^0-9]*10111[^0-9]*$,regexp
+
+

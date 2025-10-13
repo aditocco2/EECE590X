@@ -226,6 +226,13 @@ class FSM():
         self.rows = rows
         return rows
     
+    def is_properly_specified(self):
+        
+        for row in self.rows:
+            if len(row["next_states"]) != 1:
+                return False
+        
+        return True
 
     def make_output_columns(self):
     
@@ -395,9 +402,18 @@ class FSM():
     def find_outputs(self, state):
 
         """
-        Returns the outputs for a given state
+        Returns the outputs for a given state as dict
         """
 
         state_datum = [d for d in self.arc_data if d["state"] == state][0]
         return state_datum["outputs"]
 
+    def find_output(self, state, output):
+
+        """
+        Returns one output for a given state
+        """
+
+        state_datum = [d for d in self.arc_data if d["state"] == state][0]
+        output = state_datum["outputs"][output]
+        return output
