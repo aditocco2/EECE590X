@@ -46,3 +46,32 @@ Q0+ = Q0'
 F = Q1Q0'
 G = Q1Q0
 
+FSM outputs:
+Q1+ = Q1'Q0 + Q1Q0'
+Q0+ = Q0'
+F = Q1Q0'
+G = Q1Q0
+
+FSM outputs:
+Q0+ = ab + Q0b + Q0a
+F = Q0
+G = Q0'
+
+FSM outputs:
+Q1+ = Q1Q0' + Q1'Q0
+Q0+ = Q0'
+F = Q1Q0'
+G = Q1Q0
+
+FSM outputs:
+Q1+ = Q1'Q0 + Q1Q0'
+Q0+ = Q0'
+F = Q1Q0'
+G = Q1Q0
+
+FSM outputs:
+Q1+ = Q1Q0' + Q1'Q0
+Q0+ = Q0'
+F = Q1Q0'
+G = Q1Q0
+

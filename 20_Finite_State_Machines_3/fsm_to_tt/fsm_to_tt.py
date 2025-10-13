@@ -8,7 +8,7 @@ variants = "EFGH"
 # Make all 4 TTs at once so they can all be in the question's answers
 tts = {}
 for q_letter in variants:
-    fsm_name = f"FSM_18_{q_letter}"
+    fsm_name = f"FSM_20_{q_letter}"
     fsm_filename = fsm_name + ".txt"
     fsm = FSM(fsm_filename, fsm_name)
     tts[q_letter] = fsm.make_html_truth_table()
@@ -23,7 +23,7 @@ for q_letter in variants:
 
     q_text = "What is the correct truth table for the FSM model above?"
     hint = "Q and Q+ are the state and next state respectively."
-    image_link = f"/imagepools/quantumbeef/FSM_18_{q_letter}.png"
+    image_link = f"/imagepools/quantumbeef/FSM_20_{q_letter}.png"
 
     question = d2l.MCQuestion(q_text)
     question.add_hint(hint)

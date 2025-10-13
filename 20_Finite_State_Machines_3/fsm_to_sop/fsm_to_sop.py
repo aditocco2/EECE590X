@@ -10,7 +10,7 @@ variants = "IJKL"
 all_sops_dict = {}
 all_sops_list = []
 for q_letter in variants:
-    fsm_name = f"FSM_18_{q_letter}"
+    fsm_name = f"FSM_20_{q_letter}"
     fsm_filename = fsm_name + ".txt"
     fsm = FSM(fsm_filename, fsm_name)
     
@@ -37,7 +37,7 @@ for q_letter in variants:
 
     q_text = ("For the FSM model above, match the next state bits and outputs " +
               "to their Boolean expressions.")
-    image_link = f"/imagepools/quantumbeef/FSM_18_{q_letter}.png"
+    image_link = f"/imagepools/quantumbeef/FSM_20_{q_letter}.png"
 
     question = d2l.MQuestion(q_text, shuffle=True)
     question.add_image(image_link)

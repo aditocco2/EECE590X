@@ -1,4 +1,0 @@
-FSM_18_I detects the pattern 111
-FSM_18_J detects the pattern 000
-FSM_18_K is a pulser
-FSM_18_L detects 111, but then stays on until a is 0

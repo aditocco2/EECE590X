@@ -28,3 +28,5 @@ print(f"output expressions: {fsm.find_output_expressions()}")
 
 fsm.write_output_expressions_to_file("expressions.txt")
 print("wrote output expressions to expressions.txt")
+
+print(fsm.follow(7, "00"))

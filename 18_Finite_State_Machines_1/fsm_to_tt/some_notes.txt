@@ -1,4 +1,0 @@
-FSM_18_E detects two clock cycles of high input in a row
-FSM_18_F outputs high every three clock cycles of high input (not that useful)
-FSM_18_G detects if A was high an odd number of times
-FSM_18_H "flashes" the output twice for input going high

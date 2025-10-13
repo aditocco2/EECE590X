@@ -1,0 +1,4 @@
+FSM_20_E detects two clock cycles of high input in a row
+FSM_20_F outputs high every three clock cycles of high input (not that useful)
+FSM_20_G detects if A was high an odd number of times
+FSM_20_H "flashes" the output twice for input going high

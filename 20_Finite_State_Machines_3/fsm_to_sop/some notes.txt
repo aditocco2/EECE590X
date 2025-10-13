@@ -1,0 +1,4 @@
+FSM_20_I detects the pattern 111
+FSM_20_J detects the pattern 000
+FSM_20_K is a pulser
+FSM_20_L detects 111, but then stays on until a is 0

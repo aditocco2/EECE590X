@@ -26,6 +26,7 @@ class FSM():
     """ 
     Members:
     input_names: inputs external to the FSM, like ["a", "b"]
+    num_inputs: number of inputs
     input_combos: all possible combinations of input, like ["00", "01", "10"]
     state_bit_names: names of separated bits of the current state, 
         like ["Q1", "Q0"]
@@ -142,9 +143,9 @@ class FSM():
                         inputs.remove(i + j)
             self.input_names = inputs
             
-        num_input_bits = len(self.input_names)
-        self.input_combos = [f"{i:0{num_input_bits}b}" for i in range(2 ** num_input_bits)] \
-                            if num_input_bits > 0 else [""]
+        self.num_inputs = len(self.input_names)
+        self.input_combos = [f"{i:0{self.num_inputs}b}" for i in range(2 ** self.num_inputs)] \
+                            if self.num_inputs > 0 else [""]
 
 
     def get_outputs_from_json(self):
@@ -161,6 +162,11 @@ class FSM():
 
 
     def evaluate_all_combos(self):
+
+        """
+        Evaluates all combinations of state and input to find out what the
+        next state and output should be.
+        """
 
         rows = []
 
@@ -251,6 +257,8 @@ class FSM():
 
     def make_html_truth_table(self):
 
+        """Returns HTML truth table of FSM next state and outputs."""
+
         if not hasattr(self, "output_columns"):
             self.make_output_columns()
         
@@ -265,6 +273,11 @@ class FSM():
         return html_output
     
     def find_output_expressions(self):
+        
+        """
+        Returns a dictionary of each output (including next state) and its 
+        optimized sum of products.
+        """
 
         if not hasattr(self, "output_columns"):
             self.make_output_columns()
@@ -281,6 +294,14 @@ class FSM():
         return output_expressions
     
     def write_output_expressions_to_file(self, filename = "outputs.txt", clear=False):
+
+        """
+        Writes the logic for the FSM's output expressions to a file,
+        so that circuit diagrams can be made for it if need be.
+
+        filename: text file to write to
+        clear: whether or not to empty the file before writing to it
+        """
         
         # Clear the file
         if clear:
@@ -301,21 +322,82 @@ class FSM():
 
         f.close()
 
-    # def make_output_schematics(self, directory = "."):
+
+    def follow(self, sequence, starting_state):
         
-    #     inputs = self.state_bit_names + self.input_names
-    #     outputs = self.next_state_bit_names + self.output_names
+        """
+        Simulates the FSM, following the sequence of inputs from the starting state.
+        Returns the ending state.
 
-    #     if not hasattr(self, "output_expressions"):
-    #         self.find_output_expressions()
-            
-    #     for output in self.output_expressions:
-            
-    #         expression = self.output_expressions[output]
-    #         expression = boolean_to_english.to_english(inputs, expression)
+        sequence: can be multiple types:
+            - list of strings for more than one input
+            - string for one input
+            - number of iterations for no inputs
+        starting_state: string for starting state of the FSM
+        """
 
-    #         drawing = logicparse(expression)
+        # Process sequence argument into a list
+        if type(sequence) is int and self.num_inputs == 0:
+            sequence_length = sequence
+            sequence = ["" for _ in range(sequence)]
+        elif type(sequence) is str and self.num_inputs == 1:
+            sequence_length = len(sequence)
+            sequence = [i for i in sequence]
+        elif type(sequence) is list and self.num_inputs >= 1:
+            sequence_length = len(sequence)
+        else:
+            raise Exception("sequence argument type doesn't match number of inputs")
 
-    #         drawing.save(f"{self.fsm_name}_{output}.png")
+        state = starting_state
+
+        # Move through the sequence
+        for step in range(sequence_length):
+            # If there are inputs, check the state and its inputs
+            # if self.num_inputs >= 1:
+
+            # Find the row containing the state and its inputs
+            inputs = sequence[step]
+            row = self.find_row(state, inputs)
+
+            # Check to make sure it's properly specified
+            if len(row["next_states"]) != 1:
+                raise Exception(f"state {state} is improperly specified")
+            else:
+                next_state = row["next_states"][0]
+                state = next_state
+        
+        return state
+
+
+    def find_row(self, state, input_combo=""):
+
+        """
+        Process the dictionaries to find a row with a specific state and input combo
+        """
+
+        for row in self.rows:
+
+            # Go through all inputs and make sure they are correct
+            correct_input = True
+            for input, input_value in zip(self.input_names, input_combo):
+                if row[input] != input_value:
+                    correct_input = False
             
+            # Ensure state is correct
+            correct_state = (row["state"] == state)
+
+            if correct_input and correct_state:
+                return row
+    
+        # Error if nothing found
+        raise Exception("No state found")
             
+    def find_outputs(self, state):
+
+        """
+        Returns the outputs for a given state
+        """
+
+        state_datum = [d for d in self.arc_data if d["state"] == state][0]
+        return state_datum["outputs"]
+
