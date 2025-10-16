@@ -1,6 +1,5 @@
-fsm_4_no_input.txt outputs:
-Q1+ = Q1'Q0 + Q1Q0'
-Q0+ = Q0'
-F = Q1Q0'
-G = Q1Q0
+fsm_5_mealy outputs:
+Q0+ = a
+F = Q0
+g = Q0'a
 

@@ -1,6 +1,6 @@
 from fsm.fsm_class_2 import FSM
 
-fsm = FSM("fsm_4_no_input.txt")
+fsm = FSM("fsm_5_mealy.txt")
 
 print("=========FSM DATA==========")
 print(f"state names: {fsm.state_names}, state bit combos: {fsm.state_bit_combos}")
@@ -29,4 +29,4 @@ print(f"output expressions: {fsm.find_output_expressions()}")
 fsm.dump_output_expressions("expressions.txt", clear = True)
 print("wrote output expressions to expressions.txt")
 
-print(fsm.follow(7, "00"))
+print(fsm.follow("1110101", "0"))

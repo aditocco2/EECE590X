@@ -39,7 +39,8 @@ class FSM():
         # Parse groups of letters from the arcs
         for arc in self.fsm_json["fsmArcs"] + self.fsm_json["fsmSelfArcs"]:
 
-            text = arc["outputText"]
+            # Get stuff from left of /
+            text = arc["outputText"].split("/")[0]
 
             # Get rid of special characters (except _ and -)
             text = re.sub("[^0-9a-zA-Z_-]+", " " , text)
@@ -67,12 +68,11 @@ class FSM():
     def get_outputs_from_json(self):
     
         """
-        Sets up a list of Moore output names
+        Sets up lists of Moore and Mealy output names
         """
-
-        outputs = []
-
+    
         # Parse Moore outputs from states
+        outputs = []
         for node in self.fsm_json["fsmNodes"]:
             
             text = node["outputText"]
@@ -80,13 +80,32 @@ class FSM():
             # Get rid of special characters (except _ and -)
             text = re.sub("[^0-9a-zA-Z_]+", " " , text)
             output_words = text.split(" ")
-            # makes node outputs something like ["F", "0", "G", "1"]
+            # makes output_words something like ["F", "0", "G", "1"]
 
             # Add non-empty, non-duplicate strings that don't start with a number
             outputs += [o for o in output_words if o and o not in outputs 
                         and not o[0].isdigit()]
             
-        self.output_names = outputs
+        self.moore_names = outputs
+
+        # Parse Mealy outputs from arcs
+        outputs = []
+        for arc in self.fsm_json["fsmArcs"] + self.fsm_json["fsmSelfArcs"]:
+            # Get the text after the /
+            text = arc["outputText"].split("/")[1] if "/" in arc["outputText"] else ""
+
+            # Get rid of special characters (except _ and -)
+            text = re.sub("[^0-9a-zA-Z_]+", " " , text)
+            output_words = text.split(" ")
+            # makes outputs something like ["F", "0", "G", "1"]
+
+            # Add non-empty, non-duplicate strings that don't start with a number
+            outputs += [o for o in output_words if o and o not in outputs 
+                        and not o[0].isdigit()]
+        
+        self.mealy_names = outputs
+
+        self.output_names = self.moore_names+ self.mealy_names
 
     def get_states_from_json(self, state_notation):
 
@@ -145,7 +164,7 @@ class FSM():
             output_words = text.split(" ")
             # This brings up a list like ["F", "1", "G", "0"]
             
-            for output in self.output_names:
+            for output in self.moore_names:
                 # If an output exists under the state name
                 if output in output_words:
                     # Copy its value to the output dictionary
@@ -155,31 +174,53 @@ class FSM():
                 else:
                     outputs[output] = "0"
             
-            # Get expressions and next states of each arc
+            # Get expressions, next_states, and Mealy outputs from each arc
             arcs = []
             # Since arcs anchor to node ID and not state name, we have to use 
             # the arc's start node ID to index into the list of states
             # They are also stored in two separate lists: fsmArcs and fsmSelfArcs
-            for arc in self.fsm_json["fsmArcs"]:
-                # Index into the list of nodes
-                state_arc_leaves = self.fsm_json["fsmNodes"][arc["startNode"]]["stateName"]
-                state_arc_goes_to = self.fsm_json["fsmNodes"][arc["endNode"]]["stateName"]
+            for arc in self.fsm_json["fsmArcs"] + self.fsm_json["fsmSelfArcs"]:
+                
+                # Index into the list of nodes based on if it's a self arc
+                if arc in self.fsm_json["fsmArcs"]:
+                    state_arc_leaves = self.fsm_json["fsmNodes"][arc["startNode"]]["stateName"]
+                    state_arc_goes_to = self.fsm_json["fsmNodes"][arc["endNode"]]["stateName"]
+                elif arc in self.fsm_json["fsmSelfArcs"]:
+                    state_arc_leaves = self.fsm_json["fsmNodes"][arc["node"]]["stateName"]
+                    state_arc_goes_to = state_arc_leaves
+
+                # Get the expression
+                exp_text = arc["outputText"].split("/")[0]
+
+                # Get the output values
+                arc_outputs = {}
+                out_text = arc["outputText"].split("/")[1] if "/" in arc["outputText"] else ""
+
+                # Get rid of special characters except _ and -
+                out_text = re.sub("[^0-9a-zA-Z_-]+", " " , out_text)
+                output_words = out_text.split(" ")
+                # This brings up a list like ["F", "1", "G", "0"]
+
+                for output in self.mealy_names:
+                    # If an output exists under the state name
+                    if output in output_words:
+                        # Copy its value to the output dictionary
+                        output_value = output_words[output_words.index(output) + 1]
+                        arc_outputs[output] = str(output_value)
+                    # Otherwise assume it's 0
+                    else:
+                        arc_outputs[output] = "0"
+
                 # If on the state we're dealing with, set up and add arc dictionary
                 if state_arc_leaves == state:
-                    arc_dict = {"expression": arc["outputText"],
-                                "next_state": state_arc_goes_to}
+                    arc_dict = {"expression": exp_text,
+                                "next_state": state_arc_goes_to,
+                                "outputs": arc_outputs}
                     arcs.append(arc_dict)
 
-            for arc in self.fsm_json["fsmSelfArcs"]:
-                # Index into list of nodes
-                state_arc_is_on = self.fsm_json["fsmNodes"][arc["node"]]["stateName"]
-                # If on the state we're dealing with, set up and add arc dictionary
-                if state_arc_is_on == state:
-                    arc_dict = {"expression": arc["outputText"],
-                                "next_state": state_arc_is_on}
-                    arcs.append(arc_dict)
                     
             state_dict = {"state": state, "outputs": outputs, "arcs": arcs}
+            print(state_dict)
             self.state_data.append(state_dict)
 
     def get_state(self, state_name):
@@ -231,14 +272,18 @@ class FSM():
                         expression = arc["expression"]
                         # If the expression on the arc evaluates to true
                         # under the current input combo (or is empty),
-                        # copy the arc's next state into the list
+                        # copy the arc's next state and Mealy outputs
+                        # into the list
                         if logic_eval(self.input_names, input_combo, expression):
-                            # 7 levels of indentation
-                            # I am the best programmer to walk this earth
                             row["next_states"].append(arc["next_state"])
+                            for output in self.mealy_names:
+                                # 8 levels of indentation
+                                # I am the best programmer to walk this earth
+                                # Doug wishes he were me
+                                row[output] = arc["outputs"][output]
 
                     # If the state exists, also process it to get Moore output
-                    for output in self.output_names:
+                    for output in self.moore_names:
                         row[output] = state_dict["outputs"][output]
 
                 # If the state combo is unused, we don't care
@@ -292,7 +337,7 @@ class FSM():
             for i, next_state_bit in zip(range(self.num_state_bits), self.next_state_bit_names):
                 output_columns[next_state_bit] += next_state[i]
 
-            # Then do Moore outputs
+            # Then do outputs
             for output in self.output_names:
                 output_columns[output] += row[output]
     
@@ -376,8 +421,8 @@ class FSM():
         starting_state: string for starting state of the FSM
 
         Returns:
-        state_sequence: list of states it follows, excludes 1st state but
-            includes end state
+        state_sequence: list of states it follows, includes 1st state but
+            excludes end state
         output_sequences: dictionary of lists of what each output is
         ending_state: the ending state
         """
@@ -398,11 +443,9 @@ class FSM():
 
         sequence_length = len(sequence)
 
-
         # Initialize the stuff to keep track of
         state = starting_state
         state_sequence = []
-        
         output_sequences = {}
         for output in self.output_names:
             output_sequences[output] = []
@@ -417,24 +460,27 @@ class FSM():
             # Check to make sure it's properly specified
             if len(row["next_states"]) != 1:
                 raise ValueError(f"state {state} is improperly specified")
-            
-            # Go to the next state
-            next_state = row["next_states"][0]
-            state = next_state
 
             # Add state to the state sequence
             state_sequence.append(state)
 
             # Find each output and add it to the output sequences
-            for output in self.output_names:
-                output_value = self.get_output_value(state, output)
+            for output in self.moore_names:
+                output_value = self.get_moore_output_value(state, output)
                 output_sequences[output].append(output_value)
+            for output in self.mealy_names:
+                output_value = self.get_mealy_output_value(state, inputs, output)
+                output_sequences[output].append(output_value)
+
+            # Go to the next state
+            next_state = row["next_states"][0]
+            state = next_state
         
         # Return everything when pattern is finished
         ending_state = state
         return state_sequence, output_sequences, ending_state
     
-    def get_row(self, state, inputs):
+    def get_row(self, state, input_combo):
 
         """
         Comb through the dictionaries to find a row with a specific
@@ -445,7 +491,7 @@ class FSM():
 
             # Go through all inputs and make sure they are correct
             correct_input = True
-            for input, input_value in zip(self.input_names, inputs):
+            for input, input_value in zip(self.input_names, input_combo):
                 if row[input] != input_value:
                     correct_input = False
             
@@ -458,7 +504,7 @@ class FSM():
         # Error if nothing found
         raise ValueError(f"State {state} not found")
 
-    def get_state_outputs(self, state):
+    def get_moore_outputs(self, state):
 
         """
         Returns the dictionary of outputs for a given state (dict or string)
@@ -469,20 +515,51 @@ class FSM():
         
         return state["outputs"]
     
-    def get_output_value(self, state, output):
+    def get_moore_output_value(self, state, output_name):
 
         """
         Returns the output value 0 or 1 for a specific state and output
         
         state: dict or string
-        output: string
+        output_name: string
         """
 
         if type(state) is str:
             state = self.get_state(state)
         
-        return state["outputs"][output]
+        return state["outputs"][output_name]
     
+    def get_mealy_outputs(self, state_name, input_combo):
+
+        """
+        Returns the dictionary of outputs for a given state (string)
+        and input combo (string)
+        """
+
+        row = self.get_row(state_name, input_combo)
+
+        mealy = {}
+        for output in self.mealy_names:
+            mealy[output] = row[output]
+
+        return mealy
+    
+    def get_mealy_output_value(self, state_name, input_combo, output_name):
+
+        """
+        Returns the output value for a specific state, input combo, and output
+        
+        state: string
+        input_combo: string
+        output_name: string
+        """
+
+        outputs = self.get_mealy_outputs(state_name, input_combo)
+        return outputs[output_name]
+
+
+        
+        
 
 
         
