@@ -1,5 +1,37 @@
 import re
 
+def logic_eval(inputs, input_values, expression):
+    
+    """
+    Evaluates a Boolean expression to return either 0 or 1.
+
+    inputs: list of inputs like ["a", "b", "c"]
+    input_combo: string or list w/  current combination of those inputs,
+    like "101", meaning a=1, b=1, c=1
+    expression: Boolean expression like like "(a + bc)'"
+    """
+
+    # Empty strings just return 1 (think about FSM arcs with no labels)
+    if not expression:
+        return 1
+
+    expression = to_bitwise(inputs, expression)
+
+    # Convert from string to list if necessary
+    if type(input_values) == str:
+        input_values = [i for i in input_values]
+
+    # Replace inputs with their current values of 0 or 1
+    for i, iv in zip(inputs, input_values):
+        expression = expression.replace(i, iv)
+    
+    output = eval(expression)
+
+    # isolate LSB to avoid weird Python integer jank
+    output &= 1
+
+    return output
+
 def to_bitwise(inputs, expression):
     
     """
@@ -56,29 +88,3 @@ def to_bitwise(inputs, expression):
                                 # ^ as XOR is fine
 
     return expression
-
-def logic_eval(inputs, input_values, expression):
-    """
-    Evaluates a Boolean expression to return either 0 or 1.
-
-    inputs: list of inputs like ["a", "b", "c"]
-    input_combo: string or list w/  current combination of those inputs,
-    like "101", meaning a=1, b=1, c=1
-    expression: Boolean expression like like "(a + bc)'"
-    """
-    expression = to_bitwise(inputs, expression)
-
-    # Convert from string to list if necessary
-    if type(input_values) == str:
-        input_values = [i for i in input_values]
-
-    # Replace inputs with their current values of 0 or 1
-    for i, iv in zip(inputs, input_values):
-        expression = expression.replace(i, iv)
-    
-    output = eval(expression)
-
-    # isolate LSB to avoid weird Python integer jank
-    output &= 1
-
-    return output

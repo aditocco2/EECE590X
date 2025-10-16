@@ -1,8 +1,9 @@
 from logic_utils import qm2
 
 def optimized_sop(inputs, output_column, treat_dc_like_0 = False):
+    
     """
-    Call me Quine the way I be serving that optimized slop
+    Quine-McCluskey optimized sum of products finder
     This is basically a wrapper for the qm2 file that adds named inputs and outputs
 
     Arguments:

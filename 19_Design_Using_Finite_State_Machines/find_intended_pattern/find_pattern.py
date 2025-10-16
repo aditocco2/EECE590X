@@ -13,13 +13,13 @@ sequences = [s.replace("FSM_19_", "").replace(".png", "")
 for image, text, sequence in zip(image_names, text_names, sequences):
     
     # Make sure the FSM is properly specified
-    # And that the pattern actually works
     fsm = FSM(text)
     if not fsm.is_properly_specified():
         raise Exception(f"{text} is not properly specified")
     
+    # Make sure the pattern works starting from every state in the FSM
     for state in fsm.state_names:
-        end_state = fsm.follow(sequence, "000")
+        end_state = fsm.follow(sequence, state)
         end_out = fsm.find_output(end_state, "F")
         if end_out != "1":
             raise Exception(f"{text} doesn't follow the pattern {sequence} for state {state}")

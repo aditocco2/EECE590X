@@ -1,0 +1,498 @@
+from logic_utils.logic_eval import logic_eval
+from logic_utils.optimized_sop import optimized_sop
+from TruthTableHTML.html_tt import html_tt
+import json
+import re
+import os
+
+class FSM():
+
+    def __init__(self, filename, state_notation = "Q"):
+
+        """
+        Loads an FSM Explorer file and gets the appropriate data
+
+        filename: txt file saved from FSM Explorer
+        state_notation: What to name the bits of the state, default "Q1", "Q0" etc.
+        """
+
+        # Get filename without extension
+        self.name = os.path.splitext(os.path.basename(filename))[0]
+
+        with open(filename, "r") as f:
+            self.fsm_json = json.load(f)
+
+        self.get_inputs_from_json()
+        self.get_outputs_from_json()
+        self.get_states_from_json(state_notation)
+        self.get_state_data_from_json()
+        self.evaluate_all_combos()
+
+    def get_inputs_from_json(self):
+        
+        """
+        Sets up a list of input names
+        and another list of all possible input combinations
+        """
+
+        inputs = []
+        # Parse groups of letters from the arcs
+        for arc in self.fsm_json["fsmArcs"] + self.fsm_json["fsmSelfArcs"]:
+
+            text = arc["outputText"]
+
+            # Get rid of special characters (except _ and -)
+            text = re.sub("[^0-9a-zA-Z_-]+", " " , text)
+            arc_inputs = text.split(" ")
+
+            # Add non-empty, non-duplicate strings
+            inputs += [i for i in arc_inputs if i and i not in inputs]
+
+        # Remove strings made up of other strings, like "ab"
+        for i in inputs:
+            for j in inputs:
+                if i + j in inputs:
+                    inputs.remove(i + j)
+        
+        self.input_names = inputs
+        self.num_inputs = len(self.input_names)
+
+        # Make all binary strings from 0 to 2^num_inputs
+        self.input_combos = [f"{i:0{self.num_inputs}b}" for i in range(2 ** self.num_inputs)] \
+                            if self.num_inputs > 0 else [""]
+        # That last part was so that evaluate_all_combos still loops through
+        # every state once when there are no inputs
+
+
+    def get_outputs_from_json(self):
+    
+        """
+        Sets up a list of Moore output names
+        """
+
+        outputs = []
+
+        # Parse Moore outputs from states
+        for node in self.fsm_json["fsmNodes"]:
+            
+            text = node["outputText"]
+
+            # Get rid of special characters (except _ and -)
+            text = re.sub("[^0-9a-zA-Z_]+", " " , text)
+            output_words = text.split(" ")
+            # makes node outputs something like ["F", "0", "G", "1"]
+
+            # Add non-empty, non-duplicate strings that don't start with a number
+            outputs += [o for o in output_words if o and o not in outputs 
+                        and not o[0].isdigit()]
+            
+        self.output_names = outputs
+
+    def get_states_from_json(self, state_notation):
+
+        """
+        Sets up a list of state names
+        and another list of all possible combos of state bits
+        and some more for state bit names
+
+        So for a 3 state FSM:
+        state_names = ["00", "01", "10"]
+        state_bit_combos = ["00", "01", "10", "11"]
+        state_bit_names = ["Q1", "Q0"]
+        next_state_bit_names = ["Q1+", "Q0+"]
+        (this will be needed for the truth table)
+        """
+
+        self.state_names = []
+        for node in self.fsm_json["fsmNodes"]:
+            self.state_names.append(node["stateName"])
+        self.state_names = sorted(self.state_names)
+
+        self.num_state_bits = len(self.state_names[0])
+        # Get all binary strings from 0 to 2^num_state_bits
+        self.state_bit_combos = ([f"{i:0{self.num_state_bits}b}" 
+                                  for i in range(2 ** self.num_state_bits)])
+        
+        # Make state bit names like Q1, Q0, Q1+, Q0+
+        self.state_bit_names = [state_notation + str(i) for i in range(self.num_state_bits)]
+        self.state_bit_names.reverse()
+        self.next_state_bit_names = [i + "+" for i in self.state_bit_names]
+        
+
+    def get_state_data_from_json(self):
+
+        """
+        Sets up a list of dictionaries for each state with its arcs and outputs
+        """
+
+        # Not sure where else to put these tbh
+        self.all_output_names = self.next_state_bit_names + self.output_names
+        self.all_input_names = self.state_bit_names + self.input_names
+
+        self.state_data = []
+
+        for state in self.state_names:
+            
+            # Figure out what outputs the state has
+            outputs = {}
+            # Find the output text corresponding to the current state
+            for node in self.fsm_json["fsmNodes"]:
+                if node["stateName"] == state:
+                    text = node["outputText"]
+
+            # Get rid of special characters except _ and -
+            text = re.sub("[^0-9a-zA-Z_-]+", " " , text)
+            output_words = text.split(" ")
+            # This brings up a list like ["F", "1", "G", "0"]
+            
+            for output in self.output_names:
+                # If an output exists under the state name
+                if output in output_words:
+                    # Copy its value to the output dictionary
+                    output_value = output_words[output_words.index(output) + 1]
+                    outputs[output] = str(output_value)
+                # Otherwise assume it's 0
+                else:
+                    outputs[output] = "0"
+            
+            # Get expressions and next states of each arc
+            arcs = []
+            # Since arcs anchor to node ID and not state name, we have to use 
+            # the arc's start node ID to index into the list of states
+            # They are also stored in two separate lists: fsmArcs and fsmSelfArcs
+            for arc in self.fsm_json["fsmArcs"]:
+                # Index into the list of nodes
+                state_arc_leaves = self.fsm_json["fsmNodes"][arc["startNode"]]["stateName"]
+                state_arc_goes_to = self.fsm_json["fsmNodes"][arc["endNode"]]["stateName"]
+                # If on the state we're dealing with, set up and add arc dictionary
+                if state_arc_leaves == state:
+                    arc_dict = {"expression": arc["outputText"],
+                                "next_state": state_arc_goes_to}
+                    arcs.append(arc_dict)
+
+            for arc in self.fsm_json["fsmSelfArcs"]:
+                # Index into list of nodes
+                state_arc_is_on = self.fsm_json["fsmNodes"][arc["node"]]["stateName"]
+                # If on the state we're dealing with, set up and add arc dictionary
+                if state_arc_is_on == state:
+                    arc_dict = {"expression": arc["outputText"],
+                                "next_state": state_arc_is_on}
+                    arcs.append(arc_dict)
+                    
+            state_dict = {"state": state, "outputs": outputs, "arcs": arcs}
+            self.state_data.append(state_dict)
+
+    def get_state(self, state_name):
+
+        """
+        Returns a state dictionary from state_data that matches
+        the state name argument
+
+        Returns None if no match found
+        """
+
+        state = [d for d in self.state_data if d["state"] == state_name]
+
+        return state[0] if state else None
+
+    def evaluate_all_combos(self):
+
+        """
+        Evaluates all combinations of state and input to find out
+        what the next state and output should be
+
+        Sets up a list of dictionaries of each combo, its next state(s), 
+        and its output
+        """
+
+        rows = []
+        # Iterate over all possible combos of state and input
+        for state_combo in self.state_bit_combos:
+            for input_combo in self.input_combos:
+
+                row = {}
+
+                # Current state
+                row["state"] = state_combo
+
+                # map bits of the input combo to inputs of the FSM
+                for input_name, bit in zip(self.input_names, input_combo):
+                    row[input_name] = bit
+
+                # Find the next state
+                row["next_states"] = []
+                state_dict = self.get_state(state_combo)
+
+                # If the state exists,
+                # go through all arcs to find the next state
+                if state_dict:
+                    arcs = state_dict["arcs"]
+                    for arc in arcs:
+                        expression = arc["expression"]
+                        # If the expression on the arc evaluates to true
+                        # under the current input combo (or is empty),
+                        # copy the arc's next state into the list
+                        if logic_eval(self.input_names, input_combo, expression):
+                            # 7 levels of indentation
+                            # I am the best programmer to walk this earth
+                            row["next_states"].append(arc["next_state"])
+
+                    # If the state exists, also process it to get Moore output
+                    for output in self.output_names:
+                        row[output] = state_dict["outputs"][output]
+
+                # If the state combo is unused, we don't care
+                # about next state or output
+                else:
+                    row["next_states"].append("x" * len(state_combo))
+                    for output in self.output_names:
+                        row[output] = "x"
+
+                rows.append(row)
+
+        self.rows = rows
+
+    def is_properly_specified(self):
+        
+        """
+        Checks to make sure all state and input combos produce exactly
+        one next state
+        """
+
+        for row in self.rows:
+            if len(row("next_states")) != 1:
+                return False
+            
+        return True
+    
+    def make_output_columns(self):
+        
+        """
+        Sets up a list of output columns
+        Each column is a string, separated by output
+        """
+
+        # Initialize dictionary of empty columns
+        output_columns = {}
+        for name in self.all_output_names:
+            output_columns[name] = ""
+
+        # Go through every row
+        for row in self.rows:
+
+            # Start with next state
+            # Check for improperly specified states
+            if len(row["next_states"]) == 0:
+                raise ValueError(f"No state specified for the following row: {row}")
+            elif len(row["next_states"]) > 1:
+                raise ValueError(f"Multiple states specified for the following row: {row}")
+            
+            # Add the next state to the column
+            next_state = row["next_states"][0]
+            for i, next_state_bit in zip(range(self.num_state_bits), self.next_state_bit_names):
+                output_columns[next_state_bit] += next_state[i]
+
+            # Then do Moore outputs
+            for output in self.output_names:
+                output_columns[output] += row[output]
+    
+        self.output_columns = output_columns
+        return output_columns
+
+    def make_html_truth_table(self):
+        
+        """
+        Returns HTML truth table of FSM next state and outputs
+        """
+                
+        if not hasattr(self, "output_columns"):
+            self.make_output_columns()
+        
+        columns = [self.output_columns[output_name] for output_name in self.all_output_names]
+        headers = self.all_input_names + self.all_output_names
+
+        return html_tt(columns, headers)
+    
+
+    def find_output_expressions(self):
+
+        """
+        Returns a dictionary of each next state / output with its optimized SOP
+        """
+        if not hasattr(self, "output_columns"):
+            self.make_output_columns()
+
+        output_expressions = {}
+        for output in self.all_output_names:
+            column = self.output_columns[output]
+            output_expressions[output] = optimized_sop(self.all_input_names, column)
+
+        self.output_expressions = output_expressions
+        return output_expressions
+    
+    def dump_output_expressions(self, filename = "outputs.txt", clear = False):
+
+        """
+        Writes the logic for the FSM's output expressions to a file,
+        so that circuit diagrams can be made for it if need be.
+
+        filename: text file to write to
+        clear: whether or not to empty the file before writing to it
+        """
+
+        if not hasattr(self, "output_expressions"):
+            self.find_output_expressions()
+
+        # Clear the file if chosen
+        if clear:
+            with open(filename, "w") as f:
+                pass
+
+        # Re-open the file in append mode to not overwrite previous stuff
+        f = open(filename, "a") 
+
+        # Heading
+        f.write(f"{self.name} outputs:\n")
+        
+        # Outputs
+        for output_name in self.output_expressions:
+            output_expression = self.output_expressions[output_name]
+            f.write(f"{output_name} = {output_expression}\n")
+        
+        f.write("\n")
+
+        f.close()
+
+    def follow(self, sequence, starting_state):
+
+        """
+        Simulates the FSM, following the sequence of inputs from the 
+        starting state.
+
+        sequence: can be multiple types:
+            - list of strings for more than one input
+            - string for one input
+            - number of iterations for no inputs
+        starting_state: string for starting state of the FSM
+
+        Returns:
+        state_sequence: list of states it follows, excludes 1st state but
+            includes end state
+        output_sequences: dictionary of lists of what each output is
+        ending_state: the ending state
+        """
+
+        # Process sequence argument into a list
+
+        # For no input, turn number into list of empty strings
+        if type(sequence) is int and self.num_inputs == 0:
+            sequence = ["" for _ in range(sequence)]
+        # For one input, turn string into list
+        elif type(sequence) is str and self.num_inputs == 1:
+            sequence = [i for i in sequence]
+        # For one or more inputs and a list argument, it's already a list
+        elif type(sequence) is list and self.num_inputs >= 1:
+            pass
+        else:
+            raise ValueError("Sequence argument type doesn't match number of inputs")
+
+        sequence_length = len(sequence)
+
+
+        # Initialize the stuff to keep track of
+        state = starting_state
+        state_sequence = []
+        
+        output_sequences = {}
+        for output in self.output_names:
+            output_sequences[output] = []
+
+        # Move through the sequence
+        for step in range(sequence_length):
+
+            # Find the row containing the state and its inputs
+            inputs = sequence[step]
+            row = self.get_row(state, inputs)
+
+            # Check to make sure it's properly specified
+            if len(row["next_states"]) != 1:
+                raise ValueError(f"state {state} is improperly specified")
+            
+            # Go to the next state
+            next_state = row["next_states"][0]
+            state = next_state
+
+            # Add state to the state sequence
+            state_sequence.append(state)
+
+            # Find each output and add it to the output sequences
+            for output in self.output_names:
+                output_value = self.get_output_value(state, output)
+                output_sequences[output].append(output_value)
+        
+        # Return everything when pattern is finished
+        ending_state = state
+        return state_sequence, output_sequences, ending_state
+    
+    def get_row(self, state, inputs):
+
+        """
+        Comb through the dictionaries to find a row with a specific
+        state and input combo
+        """
+
+        for row in self.rows:
+
+            # Go through all inputs and make sure they are correct
+            correct_input = True
+            for input, input_value in zip(self.input_names, inputs):
+                if row[input] != input_value:
+                    correct_input = False
+            
+            # Ensure state is correct
+            correct_state = (row["state"] == state)
+
+            if correct_input and correct_state:
+                return row
+    
+        # Error if nothing found
+        raise ValueError(f"State {state} not found")
+
+    def get_state_outputs(self, state):
+
+        """
+        Returns the dictionary of outputs for a given state (dict or string)
+        """
+
+        if type(state) is str:
+            state = self.get_state(state)
+        
+        return state["outputs"]
+    
+    def get_output_value(self, state, output):
+
+        """
+        Returns the output value 0 or 1 for a specific state and output
+        
+        state: dict or string
+        output: string
+        """
+
+        if type(state) is str:
+            state = self.get_state(state)
+        
+        return state["outputs"][output]
+    
+
+
+        
+
+        
+
+        
+        
+
+    
+
+
+    
