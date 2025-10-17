@@ -1,6 +1,6 @@
 import d2l
 import random
-from fsm.fsm_class import FSM
+from fsm.fsm import FSM
 
 pool = d2l.QuestionPool("FSM to SOP matching")
 
@@ -12,7 +12,7 @@ all_sops_list = []
 for q_letter in variants:
     fsm_name = f"FSM_20_{q_letter}"
     fsm_filename = fsm_name + ".txt"
-    fsm = FSM(fsm_filename, fsm_name)
+    fsm = FSM(fsm_filename)
     
     expressions = fsm.find_output_expressions()
 

@@ -220,7 +220,6 @@ class FSM():
 
                     
             state_dict = {"state": state, "outputs": outputs, "arcs": arcs}
-            print(state_dict)
             self.state_data.append(state_dict)
 
     def get_state(self, state_name):
@@ -305,7 +304,7 @@ class FSM():
         """
 
         for row in self.rows:
-            if len(row("next_states")) != 1:
+            if len(row["next_states"]) != 1:
                 return False
             
         return True
@@ -381,7 +380,7 @@ class FSM():
         Writes the logic for the FSM's output expressions to a file,
         so that circuit diagrams can be made for it if need be.
 
-        filename: text file to write to
+        filename: file to write to
         clear: whether or not to empty the file before writing to it
         """
 
@@ -478,7 +477,7 @@ class FSM():
         
         # Return everything when pattern is finished
         ending_state = state
-        return state_sequence, output_sequences, ending_state
+        return ending_state, state_sequence, output_sequences
     
     def get_row(self, state, input_combo):
 

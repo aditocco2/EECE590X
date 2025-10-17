@@ -5,15 +5,15 @@ Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_20_I.png
 Scoring,EquallyWeighted
-Choice,1,Q1'Q0'a
+Choice,1,Q1Q0
 Choice,2,Q0'a'
-Choice,3,Q1Q0'a + Q1'Q0a
-Choice,4,Q0 + Q1a
-Choice,5,Q0'a
-Choice,6,Q1Q0
-Match,3,Q1+
-Match,5,Q0+
-Match,6,F
+Choice,3,Q0a + Q1a
+Choice,4,Q1Q0'a + Q1'Q0a
+Choice,5,Q0
+Choice,6,Q0'a
+Match,4,Q1+
+Match,6,Q0+
+Match,1,F
 
 
 NewQuestion,M
@@ -23,15 +23,15 @@ Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_20_J.png
 Scoring,EquallyWeighted
-Choice,1,Q1'Q0'a
-Choice,2,Q0
-Choice,3,Q0'a
-Choice,4,Q1Q0'a' + Q1'Q0a'
-Choice,5,Q1Q0
-Choice,6,Q0'a'
-Match,4,Q1+
-Match,6,Q0+
-Match,5,F
+Choice,1,Q0
+Choice,2,Q0'a'
+Choice,3,Q1'Q0a' + Q1Q0'a'
+Choice,4,Q1Q0
+Choice,5,Q1a + Q0'a
+Choice,6,Q0a + Q1a
+Match,3,Q1+
+Match,2,Q0+
+Match,4,F
 
 
 NewQuestion,M
@@ -41,15 +41,15 @@ Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_20_K.png
 Scoring,EquallyWeighted
-Choice,1,Q0
-Choice,2,Q1'Q0'a
-Choice,3,Q0 + Q1a
-Choice,4,Q0'a'
-Choice,5,Q0a + Q1a
-Choice,6,Q0'a
-Match,3,Q1+
-Match,2,Q0+
-Match,1,F
+Choice,1,Q1'Q0'a
+Choice,2,Q0
+Choice,3,Q0a + Q1a
+Choice,4,Q1'Q0a' + Q1Q0'a'
+Choice,5,Q1Q0
+Choice,6,Q0 + Q1a
+Match,6,Q1+
+Match,1,Q0+
+Match,2,F
 
 
 NewQuestion,M
@@ -59,14 +59,14 @@ Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_20_L.png
 Scoring,EquallyWeighted
-Choice,1,Q1'Q0'a
-Choice,2,Q0'a + Q1a
-Choice,3,Q1Q0'a' + Q1'Q0a'
-Choice,4,Q0'a
+Choice,1,Q0a + Q1a
+Choice,2,Q0'a
+Choice,3,Q0
+Choice,4,Q0'a'
 Choice,5,Q1Q0
-Choice,6,Q0a + Q1a
-Match,6,Q1+
-Match,2,Q0+
+Choice,6,Q1a + Q0'a
+Match,1,Q1+
+Match,6,Q0+
 Match,5,F
 
 

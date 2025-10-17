@@ -3,7 +3,7 @@
 #       Add the images manually to the questions and answers in Brightspace
 
 import d2l
-from fsm.fsm_class import FSM
+from fsm.fsm import FSM
 
 # Clear outputs.txt file before adding new data
 with open("outputs.txt", "w") as file:
@@ -18,13 +18,12 @@ variants = "ABCD"
 
 for q_letter in variants:
 
-    fsm_name = f"FSM_18_{q_letter}"
-    fsm_filename = f"{fsm_name}.txt"
+    fsm_filename = f"FSM_18_{q_letter}.txt"
 
-    fsm = FSM(fsm_filename, fsm_name)
+    fsm = FSM(fsm_filename)
 
     # Write output expressions so I can reference them while drawing diagrams
-    fsm.write_output_expressions_to_file("outputs.txt")
+    fsm.dump_output_expressions("outputs.txt")
 
     # Placeholder for circuit image of the current variant
     q_text = (f"(put circuit image {q_letter} here)\n" +

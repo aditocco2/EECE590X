@@ -1,5 +1,5 @@
 import d2l
-from fsm.fsm_class import FSM
+from fsm.fsm import FSM
 
 pool = d2l.QuestionPool("Follow FSM from circuit")
 
@@ -14,8 +14,8 @@ for letter in "ABCD":
     # 16 variants total
     for steps in range(4, 8):
 
-        ending_state = fsm.follow(steps, "00")
-
+        ending_state, _, _ = fsm.follow(steps, "00")
+ 
         q_text = f"<p>Suppose the FSM represented by the circuit above is originally \
             in state 00 (Q1 = 0 and Q0 = 0). At what state will the FSM be in \
                 <i>{steps}</i> clock cycles?</p>"

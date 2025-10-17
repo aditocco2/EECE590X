@@ -1,5 +1,5 @@
 import d2l
-from fsm.fsm_class import FSM
+from fsm.fsm import FSM
 
 pool = d2l.QuestionPool("FSM to Truth Table")
 

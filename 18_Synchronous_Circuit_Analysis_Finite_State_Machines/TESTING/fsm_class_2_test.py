@@ -1,4 +1,4 @@
-from fsm.fsm_class_2 import FSM
+from fsm.fsm import FSM
 
 fsm = FSM("fsm_5_mealy.txt")
 

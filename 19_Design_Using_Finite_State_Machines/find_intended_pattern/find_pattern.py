@@ -1,6 +1,6 @@
 import d2l
 import os
-from fsm.fsm_class import FSM
+from fsm.fsm import FSM
 
 pool = d2l.QuestionPool("Find Intended FSM Pattern")
 
@@ -19,8 +19,8 @@ for image, text, sequence in zip(image_names, text_names, sequences):
     
     # Make sure the pattern works starting from every state in the FSM
     for state in fsm.state_names:
-        end_state = fsm.follow(sequence, state)
-        end_out = fsm.find_output(end_state, "F")
+        end_state, _, _ = fsm.follow(sequence, state)
+        end_out = fsm.get_moore_output_value(end_state, "F")
         if end_out != "1":
             raise Exception(f"{text} doesn't follow the pattern {sequence} for state {state}")
     

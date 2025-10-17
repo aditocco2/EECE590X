@@ -1,6 +1,6 @@
 import d2l
 import random
-from fsm.fsm_class import FSM
+from fsm.fsm import FSM
 
 pool = d2l.QuestionPool("Follow FSM Pattern")
 
@@ -28,7 +28,7 @@ for state in fsm.state_names:
     # Make a variant for each of these numbers
     for sequence in sequences:
         
-        end_state = fsm.follow(sequence, state)
+        end_state, _, _ = fsm.follow(sequence, state)
 
         q_text = f"<p>If the FSM above starts in state {state} and has an input \
             sequence of {sequence}, what state will it end in?</p>"
