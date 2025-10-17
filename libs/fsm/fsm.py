@@ -137,6 +137,15 @@ class FSM():
         self.state_bit_names.reverse()
         self.next_state_bit_names = [i + "+" for i in self.state_bit_names]
         
+        # Figure out if there is a reset_state
+        if self.fsm_json["fsmResetArcs"]:
+            # Need to index into the list of states
+            arc = self.fsm_json["fsmResetArcs"][0]
+            self.has_reset = True
+            self.reset_state = self.fsm_json["fsmNodes"][arc["node"]]["stateName"]
+            self.reset_input_name = arc["outputText"]
+        else:
+            self.has_reset = False
 
     def get_state_data_from_json(self):
 
@@ -309,6 +318,30 @@ class FSM():
             
         return True
     
+    def verify(self):
+
+        """
+        Checks for proper specification and throws an error if improper
+        """
+
+        if not self.is_properly_specified():
+
+            # Make error text
+            multiple = [str(row) for row in self.rows if len(row["next_states"]) > 1]
+            none = [str(row) for row in self.rows if len(row["next_states"]) == 0]
+            multiple = "\n".join(multiple)
+            none = "\n".join(none)
+
+            error_text = "FSM is not properly specified!"
+            if multiple:
+                error_text += "\nThe following rows have multiple next states:\n" + multiple
+            if none: 
+                error_text += "\nThe following rows have no next state:\n" + multiple
+
+            raise ValueError("FSM is not properly specified!\n" \
+                            f"Multiple next states:\n{multiple}" \
+                            f"No next states:\n{none}")
+    
     def make_output_columns(self):
         
         """
@@ -358,10 +391,12 @@ class FSM():
         return html_tt(columns, headers)
     
 
-    def find_output_expressions(self):
+    def find_output_expressions(self, include_reset = True):
 
         """
         Returns a dictionary of each next state / output with its optimized SOP
+
+        include_reset: Whether to include the reset bit in the expressions
         """
         if not hasattr(self, "output_columns"):
             self.make_output_columns()
@@ -371,10 +406,22 @@ class FSM():
             column = self.output_columns[output]
             output_expressions[output] = optimized_sop(self.all_input_names, column)
 
+        # If there is a reset state and we want to include it:
+        if include_reset and self.has_reset:
+
+            # Add the appropriate r or r'
+            for bit, output in zip(self.reset_state, self.next_state_bit_names):
+                if bit == "1":
+                    output_expressions[output] = \
+                        f"({output_expressions[output]}) + {self.reset_input_name}"
+                else:
+                    output_expressions[output] = \
+                        f"({output_expressions[output]}){self.reset_input_name}'"
+
         self.output_expressions = output_expressions
         return output_expressions
     
-    def dump_output_expressions(self, filename = "outputs.txt", clear = False):
+    def dump_output_expressions(self, filename = "outputs.txt", include_reset = True, clear = False):
 
         """
         Writes the logic for the FSM's output expressions to a file,
@@ -385,7 +432,7 @@ class FSM():
         """
 
         if not hasattr(self, "output_expressions"):
-            self.find_output_expressions()
+            self.find_output_expressions(include_reset)
 
         # Clear the file if chosen
         if clear:
@@ -556,19 +603,3 @@ class FSM():
         outputs = self.get_mealy_outputs(state_name, input_combo)
         return outputs[output_name]
 
-
-        
-        
-
-
-        
-
-        
-
-        
-        
-
-    
-
-
-    
