@@ -1,5 +1,4 @@
-from logic_utils.logic_eval import logic_eval
-from logic_utils.optimized_sop import optimized_sop
+from logic_utils.logic_utils import logic_eval, optimized_sop
 from TruthTableHTML.html_tt import html_tt
 import json
 import re
@@ -549,6 +548,17 @@ class FSM():
     
         # Error if nothing found
         raise ValueError(f"State {state} not found")
+    
+    def get_rows_from_state(self, state):
+
+        """
+        Comb through the dictionaries to find all rows with a specific state
+        """
+
+        rows = []
+        for combo in self.input_combos:
+            rows.append(self.get_row(state, combo))
+        return rows
 
     def get_moore_outputs(self, state):
 

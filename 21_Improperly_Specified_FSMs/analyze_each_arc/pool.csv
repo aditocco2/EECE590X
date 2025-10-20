@@ -1,0 +1,64 @@
+NewQuestion,M
+Title,Analyze Each Arc of State
+QuestionText,"<p>The FSM above was <i>supposed</i> to determine whether two inputs went high         at the same time or at different times, but unfortunately,         there were a few mistakes in its design.</p>         <p>Analyze each of the arcs <i>leaving</i> <b>State 00</b>, and match each         combination of input to its correct description.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_E.png
+Scoring,EquallyWeighted
+Choice,1,Valid (one next state specified)
+Choice,2,No next state specified
+Choice,3,Multiple next states specified
+Match,1,"a = 0, b = 0"
+Match,1,"a = 0, b = 1"
+Match,2,"a = 1, b = 0"
+Match,1,"a = 1, b = 1"
+
+
+NewQuestion,M
+Title,Analyze Each Arc of State
+QuestionText,"<p>The FSM above was <i>supposed</i> to determine whether two inputs went high         at the same time or at different times, but unfortunately,         there were a few mistakes in its design.</p>         <p>Analyze each of the arcs <i>leaving</i> <b>State 01</b>, and match each         combination of input to its correct description.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_E.png
+Scoring,EquallyWeighted
+Choice,1,Valid (one next state specified)
+Choice,2,No next state specified
+Choice,3,Multiple next states specified
+Match,1,"a = 0, b = 0"
+Match,3,"a = 0, b = 1"
+Match,3,"a = 1, b = 0"
+Match,1,"a = 1, b = 1"
+
+
+NewQuestion,M
+Title,Analyze Each Arc of State
+QuestionText,"<p>The FSM above was <i>supposed</i> to determine whether two inputs went high         at the same time or at different times, but unfortunately,         there were a few mistakes in its design.</p>         <p>Analyze each of the arcs <i>leaving</i> <b>State 10</b>, and match each         combination of input to its correct description.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_E.png
+Scoring,EquallyWeighted
+Choice,1,Valid (one next state specified)
+Choice,2,No next state specified
+Choice,3,Multiple next states specified
+Match,1,"a = 0, b = 0"
+Match,3,"a = 0, b = 1"
+Match,3,"a = 1, b = 0"
+Match,1,"a = 1, b = 1"
+
+
+NewQuestion,M
+Title,Analyze Each Arc of State
+QuestionText,"<p>The FSM above was <i>supposed</i> to determine whether two inputs went high         at the same time or at different times, but unfortunately,         there were a few mistakes in its design.</p>         <p>Analyze each of the arcs <i>leaving</i> <b>State 11</b>, and match each         combination of input to its correct description.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_E.png
+Scoring,EquallyWeighted
+Choice,1,Valid (one next state specified)
+Choice,2,No next state specified
+Choice,3,Multiple next states specified
+Match,1,"a = 0, b = 0"
+Match,2,"a = 0, b = 1"
+Match,2,"a = 1, b = 0"
+Match,2,"a = 1, b = 1"
+
+

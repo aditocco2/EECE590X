@@ -1,5 +1,0 @@
-fsm_5_mealy outputs:
-Q0+ = a
-F = Q0
-g = Q0'a
-

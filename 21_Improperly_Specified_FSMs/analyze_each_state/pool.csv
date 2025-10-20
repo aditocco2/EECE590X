@@ -1,0 +1,68 @@
+NewQuestion,M
+Title,Analyze Each State of FSM
+QuestionText,"<p>The FSM above was <i>supposed</i> to count upwards in place if the input is high and stay in the same state otherwise, but unfortunately,             there were a few mistakes in its design. Analyze each state of this FSM and match it                 with the correct description.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_A.png
+Scoring,EquallyWeighted
+Choice,1,This state is properly specified
+Choice,2,The transitions are incomplete
+Choice,3,The transitions are non-exclusive
+Choice,4,The transitions are both incomplete and non-exclusive
+Match,4,State 00
+Match,1,State 01
+Match,2,State 10
+Match,3,State 11
+
+
+NewQuestion,M
+Title,Analyze Each State of FSM
+QuestionText,"<p>The FSM above was <i>supposed</i> to detect when the input goes from 0 to 1, but unfortunately,             there were a few mistakes in its design. Analyze each state of this FSM and match it                 with the correct description.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_B.png
+Scoring,EquallyWeighted
+Choice,1,This state is properly specified
+Choice,2,The transitions are incomplete
+Choice,3,The transitions are non-exclusive
+Choice,4,The transitions are both incomplete and non-exclusive
+Match,3,State 00
+Match,1,State 01
+Match,2,State 10
+
+
+NewQuestion,M
+Title,Analyze Each State of FSM
+QuestionText,"<p>The FSM above was <i>supposed</i> to toggle the output when the input changes from 0 to 1, but unfortunately,             there were a few mistakes in its design. Analyze each state of this FSM and match it                 with the correct description.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_C.png
+Scoring,EquallyWeighted
+Choice,1,This state is properly specified
+Choice,2,The transitions are incomplete
+Choice,3,The transitions are non-exclusive
+Choice,4,The transitions are both incomplete and non-exclusive
+Match,1,State 00
+Match,2,State 01
+Match,3,State 10
+Match,2,State 11
+
+
+NewQuestion,M
+Title,Analyze Each State of FSM
+QuestionText,"<p>The FSM above was <i>supposed</i> to detect four cycles of high input in a row, but unfortunately,             there were a few mistakes in its design. Analyze each state of this FSM and match it                 with the correct description.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_D.png
+Scoring,EquallyWeighted
+Choice,1,This state is properly specified
+Choice,2,The transitions are incomplete
+Choice,3,The transitions are non-exclusive
+Choice,4,The transitions are both incomplete and non-exclusive
+Match,1,State 000
+Match,3,State 001
+Match,2,State 010
+Match,1,State 011
+Match,4,State 100
+
+

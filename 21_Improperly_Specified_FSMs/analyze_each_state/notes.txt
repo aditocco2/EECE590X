@@ -1,0 +1,4 @@
+FSM_21_A is supposed to count up if a is high and stay in place if a is low
+FSM_21_B is supposed to be a pulser
+FSM_21_C is supposed to toggle the output when a goes high
+FSM_21_D is supposed to detect 4 high inputs in a row
