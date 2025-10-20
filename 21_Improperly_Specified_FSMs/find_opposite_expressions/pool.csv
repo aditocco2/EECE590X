@@ -1,0 +1,96 @@
+NewQuestion,MC
+Title,Find Opposite Expressions
+QuestionText,"<p> In order to make the FSM above properly specified, what expression would                need to go on the arc labeled <b>F</b>?",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_F.png
+OPTION,0,b'c' + a',HTML
+OPTION,0,a'b' + ab,HTML
+OPTION,100,a' + b,HTML
+OPTION,0,b' + c',HTML
+
+
+NewQuestion,MC
+Title,Find Opposite Expressions
+QuestionText,"<p> In order to make the FSM above properly specified, what expression would                need to go on the arc labeled <b>G</b>?",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_F.png
+OPTION,0,b'c' + a',HTML
+OPTION,0,a' + b,HTML
+OPTION,100,a'b' + ab,HTML
+OPTION,0,b' + c',HTML
+
+
+NewQuestion,MC
+Title,Find Opposite Expressions
+QuestionText,"<p> In order to make the FSM above properly specified, what expression would                need to go on the arc labeled <b>H</b>?",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_F.png
+OPTION,100,b'c' + a',HTML
+OPTION,0,a'b' + ab,HTML
+OPTION,0,a' + b,HTML
+OPTION,0,b' + c',HTML
+
+
+NewQuestion,MC
+Title,Find Opposite Expressions
+QuestionText,"<p> In order to make the FSM above properly specified, what expression would                need to go on the arc labeled <b>I</b>?",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_F.png
+OPTION,0,a'b' + ab,HTML
+OPTION,0,b'c' + a',HTML
+OPTION,0,a' + b,HTML
+OPTION,100,b' + c',HTML
+
+
+NewQuestion,MC
+Title,Find Opposite Expressions
+QuestionText,"<p> In order to make the FSM above properly specified, what expression would                need to go on the arc labeled <b>F</b>?",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_G.png
+OPTION,0,bc,HTML
+OPTION,0,a'c' + b'c',HTML
+OPTION,100,a'b',HTML
+OPTION,0,b' + a',HTML
+
+
+NewQuestion,MC
+Title,Find Opposite Expressions
+QuestionText,"<p> In order to make the FSM above properly specified, what expression would                need to go on the arc labeled <b>G</b>?",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_G.png
+OPTION,0,a'b',HTML
+OPTION,0,b' + a',HTML
+OPTION,100,bc,HTML
+OPTION,0,a'c' + b'c',HTML
+
+
+NewQuestion,MC
+Title,Find Opposite Expressions
+QuestionText,"<p> In order to make the FSM above properly specified, what expression would                need to go on the arc labeled <b>H</b>?",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_G.png
+OPTION,0,b' + a',HTML
+OPTION,100,a'c' + b'c',HTML
+OPTION,0,a'b',HTML
+OPTION,0,bc,HTML
+
+
+NewQuestion,MC
+Title,Find Opposite Expressions
+QuestionText,"<p> In order to make the FSM above properly specified, what expression would                need to go on the arc labeled <b>I</b>?",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_21_G.png
+OPTION,0,a'c' + b'c',HTML
+OPTION,0,bc,HTML
+OPTION,100,b' + a',HTML
+OPTION,0,a'b',HTML
+
+

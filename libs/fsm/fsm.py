@@ -34,25 +34,35 @@ class FSM():
         and another list of all possible input combinations
         """
 
-        inputs = []
-        # Parse groups of letters from the arcs
-        for arc in self.fsm_json["fsmArcs"] + self.fsm_json["fsmSelfArcs"]:
+        # First check for inputs explicitly specified in FSMExplorer
+        if "inputs" in self.fsm_json:
+            text = self.fsm_json["inputs"]
+            text = text.replace(",", " ")
+            spec_inputs = text.split(" ")
+            # Get rid of empty
+            inputs = [i for i in spec_inputs if i]
 
-            # Get stuff from left of /
-            text = arc["outputText"].split("/")[0]
+        # Otherwise extract them from the arcs
+        else:
+            inputs = []
+            # Parse groups of letters from the arcs
+            for arc in self.fsm_json["fsmArcs"] + self.fsm_json["fsmSelfArcs"]:
 
-            # Get rid of special characters (except _ and -)
-            text = re.sub("[^0-9a-zA-Z_-]+", " " , text)
-            arc_inputs = text.split(" ")
+                # Get stuff from left of /
+                text = arc["outputText"].split("/")[0]
 
-            # Add non-empty, non-duplicate strings
-            inputs += [i for i in arc_inputs if i and i not in inputs]
+                # Get rid of special characters (except _ and -)
+                text = re.sub("[^0-9a-zA-Z_-]+", " " , text)
+                arc_inputs = text.split(" ")
 
-        # Remove strings made up of other strings, like "ab"
-        for i in inputs:
-            for j in inputs:
-                if i + j in inputs:
-                    inputs.remove(i + j)
+                # Add non-empty, non-duplicate strings
+                inputs += [i for i in arc_inputs if i and i not in inputs]
+
+            # Remove strings made up of other strings, like "ab"
+            for i in inputs:
+                for j in inputs:
+                    if i + j in inputs:
+                        inputs.remove(i + j)
         
         self.input_names = inputs
         self.num_inputs = len(self.input_names)

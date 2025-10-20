@@ -90,8 +90,6 @@ def to_bitwise(inputs, expression):
 
     return expression
 
-import re
-
 def to_english(inputs, expression):
     
     """
