@@ -1,0 +1,126 @@
+NewQuestion,M
+Title,Find Output Expressions With Reset
+QuestionText,<p> The trivial FSM above always outputs the pattern 000101.         Suppose that you have already found the logic for the next state         and output to be the following: </p><p>Q2+ = Q1Q0 + Q2Q0' <br>Q1+ = Q1Q0' + Q2'Q1'Q0 <br>Q0+ = Q0' <br>F = Q1Q0 + Q2Q0 <br></p><p> You now want to add a reset input <i>r</i> that forces the FSM         into state <b>000</b>. What would the new logic expressions be? Match them below.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_22_A.png
+Hint,Q2 and Q0 are the most significant and least significant bits of the state respectively.,NOT HTML
+Scoring,EquallyWeighted
+Choice,1,(Q1Q0 + Q2Q0')r'
+Choice,2,(Q1Q0 + Q2Q0') + r
+Choice,3,(Q1Q0' + Q2'Q1'Q0)r'
+Choice,4,(Q0') + r
+Choice,5,Q1Q0 + Q2Q0
+Choice,6,(Q0')r'
+Choice,7,(Q1Q0' + Q2'Q1'Q0) + r
+Match,1,Q2+
+Match,3,Q1+
+Match,6,Q0+
+Match,5,F
+
+
+NewQuestion,M
+Title,Find Output Expressions With Reset
+QuestionText,<p> The trivial FSM above always outputs the pattern 000101.         Suppose that you have already found the logic for the next state         and output to be the following: </p><p>Q2+ = Q1Q0 + Q2Q0' <br>Q1+ = Q1Q0' + Q2'Q1'Q0 <br>Q0+ = Q0' <br>F = Q1Q0 + Q2Q0 <br></p><p> You now want to add a reset input <i>r</i> that forces the FSM         into state <b>001</b>. What would the new logic expressions be? Match them below.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_22_B.png
+Hint,Q2 and Q0 are the most significant and least significant bits of the state respectively.,NOT HTML
+Scoring,EquallyWeighted
+Choice,1,(Q1Q0' + Q2'Q1'Q0) + r
+Choice,2,(Q1Q0 + Q2Q0')r'
+Choice,3,(Q0') + r
+Choice,4,Q1Q0 + Q2Q0
+Choice,5,(Q0')r'
+Choice,6,(Q1Q0' + Q2'Q1'Q0)r'
+Choice,7,(Q1Q0 + Q2Q0') + r
+Match,2,Q2+
+Match,6,Q1+
+Match,3,Q0+
+Match,4,F
+
+
+NewQuestion,M
+Title,Find Output Expressions With Reset
+QuestionText,<p> The trivial FSM above always outputs the pattern 000101.         Suppose that you have already found the logic for the next state         and output to be the following: </p><p>Q2+ = Q1Q0 + Q2Q0' <br>Q1+ = Q1Q0' + Q2'Q1'Q0 <br>Q0+ = Q0' <br>F = Q1Q0 + Q2Q0 <br></p><p> You now want to add a reset input <i>r</i> that forces the FSM         into state <b>010</b>. What would the new logic expressions be? Match them below.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_22_C.png
+Hint,Q2 and Q0 are the most significant and least significant bits of the state respectively.,NOT HTML
+Scoring,EquallyWeighted
+Choice,1,(Q1Q0 + Q2Q0')r'
+Choice,2,Q1Q0 + Q2Q0
+Choice,3,(Q1Q0' + Q2'Q1'Q0) + r
+Choice,4,(Q0')r'
+Choice,5,(Q1Q0 + Q2Q0') + r
+Choice,6,(Q1Q0' + Q2'Q1'Q0)r'
+Choice,7,(Q0') + r
+Match,1,Q2+
+Match,3,Q1+
+Match,4,Q0+
+Match,2,F
+
+
+NewQuestion,M
+Title,Find Output Expressions With Reset
+QuestionText,<p> The trivial FSM above always outputs the pattern 000101.         Suppose that you have already found the logic for the next state         and output to be the following: </p><p>Q2+ = Q1Q0 + Q2Q0' <br>Q1+ = Q1Q0' + Q2'Q1'Q0 <br>Q0+ = Q0' <br>F = Q1Q0 + Q2Q0 <br></p><p> You now want to add a reset input <i>r</i> that forces the FSM         into state <b>011</b>. What would the new logic expressions be? Match them below.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_22_D.png
+Hint,Q2 and Q0 are the most significant and least significant bits of the state respectively.,NOT HTML
+Scoring,EquallyWeighted
+Choice,1,(Q1Q0 + Q2Q0') + r
+Choice,2,Q1Q0 + Q2Q0
+Choice,3,(Q1Q0' + Q2'Q1'Q0)r'
+Choice,4,(Q0') + r
+Choice,5,(Q0')r'
+Choice,6,(Q1Q0' + Q2'Q1'Q0) + r
+Choice,7,(Q1Q0 + Q2Q0')r'
+Match,7,Q2+
+Match,6,Q1+
+Match,4,Q0+
+Match,2,F
+
+
+NewQuestion,M
+Title,Find Output Expressions With Reset
+QuestionText,<p> The trivial FSM above always outputs the pattern 000101.         Suppose that you have already found the logic for the next state         and output to be the following: </p><p>Q2+ = Q1Q0 + Q2Q0' <br>Q1+ = Q1Q0' + Q2'Q1'Q0 <br>Q0+ = Q0' <br>F = Q1Q0 + Q2Q0 <br></p><p> You now want to add a reset input <i>r</i> that forces the FSM         into state <b>100</b>. What would the new logic expressions be? Match them below.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_22_E.png
+Hint,Q2 and Q0 are the most significant and least significant bits of the state respectively.,NOT HTML
+Scoring,EquallyWeighted
+Choice,1,Q1Q0 + Q2Q0
+Choice,2,(Q1Q0' + Q2'Q1'Q0)r'
+Choice,3,(Q1Q0 + Q2Q0') + r
+Choice,4,(Q1Q0' + Q2'Q1'Q0) + r
+Choice,5,(Q0') + r
+Choice,6,(Q0')r'
+Choice,7,(Q1Q0 + Q2Q0')r'
+Match,3,Q2+
+Match,2,Q1+
+Match,6,Q0+
+Match,1,F
+
+
+NewQuestion,M
+Title,Find Output Expressions With Reset
+QuestionText,<p> The trivial FSM above always outputs the pattern 000101.         Suppose that you have already found the logic for the next state         and output to be the following: </p><p>Q2+ = Q1Q0 + Q2Q0' <br>Q1+ = Q1Q0' + Q2'Q1'Q0 <br>Q0+ = Q0' <br>F = Q1Q0 + Q2Q0 <br></p><p> You now want to add a reset input <i>r</i> that forces the FSM         into state <b>101</b>. What would the new logic expressions be? Match them below.</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_22_F.png
+Hint,Q2 and Q0 are the most significant and least significant bits of the state respectively.,NOT HTML
+Scoring,EquallyWeighted
+Choice,1,(Q1Q0' + Q2'Q1'Q0) + r
+Choice,2,(Q1Q0 + Q2Q0') + r
+Choice,3,(Q0') + r
+Choice,4,Q1Q0 + Q2Q0
+Choice,5,(Q1Q0' + Q2'Q1'Q0)r'
+Choice,6,(Q1Q0 + Q2Q0')r'
+Choice,7,(Q0')r'
+Match,2,Q2+
+Match,5,Q1+
+Match,3,Q0+
+Match,4,F
+
+

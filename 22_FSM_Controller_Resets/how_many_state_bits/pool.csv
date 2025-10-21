@@ -1,0 +1,150 @@
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 2 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 1 state bits,NOT HTML
+ANSWER,100,^[^0-9]*1[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 3 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 2 state bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 4 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 2 state bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 5 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 3 state bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 6 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 3 state bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 7 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 3 state bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 8 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 3 state bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 9 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 4 state bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 10 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 4 state bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 11 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 4 state bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 12 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 4 state bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 13 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 4 state bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 14 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 4 state bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 15 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 4 state bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,How Many State Bits
+QuestionText,Suppose you are using the controller model above to implement         an FSM with 16 states. How many bits would the state register need?,NOT HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/generic_controller_model.png
+Feedback,There will be 4 state bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+

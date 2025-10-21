@@ -1,0 +1,152 @@
+NewQuestion,M
+Title,Find State Register SR Signals
+QuestionText,<p> Suppose you are using flip-flops with synchronous set and reset inputs         to implement a 3-bit state register as shown above.             You want the FSM to reset to state <b>000</b> when a signal <i>r</i> is high.                 What signals should go into the flip-flops' set and reset inputs?                 Match them below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/state_register_3b_unknown.png
+Scoring,EquallyWeighted
+Choice,1,r
+Choice,2,r'
+Choice,3,Constant 1
+Choice,4,Constant 0
+Match,4,A
+Match,1,B
+Match,4,C
+Match,1,D
+Match,4,E
+Match,1,F
+
+
+NewQuestion,M
+Title,Find State Register SR Signals
+QuestionText,<p> Suppose you are using flip-flops with synchronous set and reset inputs         to implement a 3-bit state register as shown above.             You want the FSM to reset to state <b>001</b> when a signal <i>r</i> is high.                 What signals should go into the flip-flops' set and reset inputs?                 Match them below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/state_register_3b_unknown.png
+Scoring,EquallyWeighted
+Choice,1,r
+Choice,2,r'
+Choice,3,Constant 1
+Choice,4,Constant 0
+Match,4,A
+Match,1,B
+Match,4,C
+Match,1,D
+Match,1,E
+Match,4,F
+
+
+NewQuestion,M
+Title,Find State Register SR Signals
+QuestionText,<p> Suppose you are using flip-flops with synchronous set and reset inputs         to implement a 3-bit state register as shown above.             You want the FSM to reset to state <b>010</b> when a signal <i>r</i> is high.                 What signals should go into the flip-flops' set and reset inputs?                 Match them below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/state_register_3b_unknown.png
+Scoring,EquallyWeighted
+Choice,1,r
+Choice,2,r'
+Choice,3,Constant 1
+Choice,4,Constant 0
+Match,4,A
+Match,1,B
+Match,1,C
+Match,4,D
+Match,4,E
+Match,1,F
+
+
+NewQuestion,M
+Title,Find State Register SR Signals
+QuestionText,<p> Suppose you are using flip-flops with synchronous set and reset inputs         to implement a 3-bit state register as shown above.             You want the FSM to reset to state <b>011</b> when a signal <i>r</i> is high.                 What signals should go into the flip-flops' set and reset inputs?                 Match them below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/state_register_3b_unknown.png
+Scoring,EquallyWeighted
+Choice,1,r
+Choice,2,r'
+Choice,3,Constant 1
+Choice,4,Constant 0
+Match,4,A
+Match,1,B
+Match,1,C
+Match,4,D
+Match,1,E
+Match,4,F
+
+
+NewQuestion,M
+Title,Find State Register SR Signals
+QuestionText,<p> Suppose you are using flip-flops with synchronous set and reset inputs         to implement a 3-bit state register as shown above.             You want the FSM to reset to state <b>100</b> when a signal <i>r</i> is high.                 What signals should go into the flip-flops' set and reset inputs?                 Match them below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/state_register_3b_unknown.png
+Scoring,EquallyWeighted
+Choice,1,r
+Choice,2,r'
+Choice,3,Constant 1
+Choice,4,Constant 0
+Match,1,A
+Match,4,B
+Match,4,C
+Match,1,D
+Match,4,E
+Match,1,F
+
+
+NewQuestion,M
+Title,Find State Register SR Signals
+QuestionText,<p> Suppose you are using flip-flops with synchronous set and reset inputs         to implement a 3-bit state register as shown above.             You want the FSM to reset to state <b>101</b> when a signal <i>r</i> is high.                 What signals should go into the flip-flops' set and reset inputs?                 Match them below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/state_register_3b_unknown.png
+Scoring,EquallyWeighted
+Choice,1,r
+Choice,2,r'
+Choice,3,Constant 1
+Choice,4,Constant 0
+Match,1,A
+Match,4,B
+Match,4,C
+Match,1,D
+Match,1,E
+Match,4,F
+
+
+NewQuestion,M
+Title,Find State Register SR Signals
+QuestionText,<p> Suppose you are using flip-flops with synchronous set and reset inputs         to implement a 3-bit state register as shown above.             You want the FSM to reset to state <b>110</b> when a signal <i>r</i> is high.                 What signals should go into the flip-flops' set and reset inputs?                 Match them below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/state_register_3b_unknown.png
+Scoring,EquallyWeighted
+Choice,1,r
+Choice,2,r'
+Choice,3,Constant 1
+Choice,4,Constant 0
+Match,1,A
+Match,4,B
+Match,1,C
+Match,4,D
+Match,4,E
+Match,1,F
+
+
+NewQuestion,M
+Title,Find State Register SR Signals
+QuestionText,<p> Suppose you are using flip-flops with synchronous set and reset inputs         to implement a 3-bit state register as shown above.             You want the FSM to reset to state <b>111</b> when a signal <i>r</i> is high.                 What signals should go into the flip-flops' set and reset inputs?                 Match them below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/state_register_3b_unknown.png
+Scoring,EquallyWeighted
+Choice,1,r
+Choice,2,r'
+Choice,3,Constant 1
+Choice,4,Constant 0
+Match,1,A
+Match,4,B
+Match,1,C
+Match,4,D
+Match,1,E
+Match,4,F
+
+
