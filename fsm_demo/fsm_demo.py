@@ -42,7 +42,8 @@ if fsm.has_reset:
 
 # Lastly, we can follow the FSM with a specified input pattern
 
-# (a bunch of setup)
+# (a bunch of setup, this is just to accomodate the number of inputs
+# for whatever FSM is selected)
 if fsm.num_inputs == 0:
     sequence = 7 # just a number of clock cycles
 elif fsm.num_inputs == 1:

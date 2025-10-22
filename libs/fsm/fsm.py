@@ -35,7 +35,7 @@ class FSM():
         """
 
         # First check for inputs explicitly specified in FSMExplorer
-        if "inputs" in self.fsm_json:
+        if "inputs" in self.fsm_json and self.fsm_json["inputs"]:
             text = self.fsm_json["inputs"]
             text = text.replace(",", " ")
             spec_inputs = text.split(" ")
