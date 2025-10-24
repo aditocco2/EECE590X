@@ -286,12 +286,14 @@ def wavedrom_d_latch(d, e, delay=0, initial_value = "x"):
 
     return out
 
-def wavedrom_d_flip_flop(clk, d, en="", delay=0, initial_value = "x"):
+def wavedrom_d_flip_flop(clk, d, en="", s="", r="", delay=0, initial_value="x"):
     """
     Emulates a rising edge DFF with WaveDrom signals
     d (str): data signal in dotted format
     clk (str): clock signal in dotted format
     en (str): Optional enable, constant 1 if left blank
+    s (str): optional set
+    r (str): optional reset
     delay (int): delay in ns (assumes the flop as a whole has a delay)
     initial_value (str): "x" for unknown by default, can also be "0" or "1"
     """
@@ -301,10 +303,11 @@ def wavedrom_d_flip_flop(clk, d, en="", delay=0, initial_value = "x"):
     d = to_dotless(d)
 
     # If enable is not specified, assume a constant 1
-    if en:
-        en = to_dotless(en)
-    else:
-        en = "1" * length
+    en = to_dotless(en) if en else "1" * length
+
+    # If S and R are not specified, assume constant 0
+    s = to_dotless(s) if s else "0" * length
+    r = to_dotless(r) if r else "0" * length
 
     # Keep clk dotted so that we have the transitions
 
@@ -319,6 +322,16 @@ def wavedrom_d_flip_flop(clk, d, en="", delay=0, initial_value = "x"):
         # pass the value of D right before the rise through
         if clk[i] == "1" and en[i] == "1":
             signal_value = d[i-1]
+
+            # Force to 1 or 0 if set or reset
+            # Check with Doug about this, but I'm pretty sure that this
+            # follows the same pattern as the data input - the set/reset
+            # has to be high BEFORE the rising edge
+            if s[i-1] == "1":
+                signal_value = "1"
+            if r[i-1] == "1":
+                signal_value = "0"
+        
         # Otherwise keep the current signal value
 
         out += signal_value
@@ -332,6 +345,7 @@ def wavedrom_d_flip_flop(clk, d, en="", delay=0, initial_value = "x"):
     return out
 
 def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "WaveDrom Link", use_dotless = True):
+
     """
     Generates wavedrom related question or answer link in HTML
 
@@ -345,6 +359,9 @@ def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "
         link_text (str): text for the link to appear as
         use_dotless (bool): whether to use dotless form (11100111) instead of dotted (1..0.1..)
     """
+
+    # Base wavedrom link, change this if need be
+    base_link = "https://dougsummerville.github.io/wavedrom"
 
     if use_dotless:
         gen_sigs = [to_dotless(sig) for sig in gen_sigs]
@@ -361,7 +378,7 @@ def make_wavedrom_link(title, sig_names, gen_sigs, fill_sig_names, link_text = "
 
     url_gen = urllib.parse.quote("".join(lines_url))
     
-    link = f"https://watsonwiki.binghamton.edu/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27{title_html}%27%7D%2C%0Asignal%3A%0A%5B%0A{url_gen}%5D%2C%0A%20%20foot%3A%7Btock%3A1%7D%0A%7D"
+    link = f"{base_link}/editor.html?%7B%20head%3A%7Btext%3A%27{title_html}%27%7D%2C%0Asignal%3A%0A%5B%0A{url_gen}%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"
 
     # Convert to HTML link and make it open in new tab
     link_html = f"<a href=\"{link}\" target=\"_blank\">{link_text}</a>"
@@ -405,7 +422,7 @@ def make_wavedrom_image(title, sig_names, gen_sigs, fill_sig_names=[], out_filen
 
     code = " ".join(lines)
 
-    code = '{signal: [ ' + code + '],  foot:{"tock":1},}'
+    code = '{signal: [ ' + code + '],  foot:{"tick":0},}'
 
     img = wavedrom.render(code)
     img.saveas(out_filename)

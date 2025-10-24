@@ -68,8 +68,13 @@ def svg2png(input_filename, output_filename):
     """
     Uses inkscape as a backend, requires it in PATH :/
     """
+
+    print(f"Converting {input_filename} to {output_filename}...", end=" ")
+
     subprocess.run(["inkscape", 
                     '--export-type=png',
                     f"--export-filename={output_filename}",
                     input_filename])
     os.remove(input_filename)
+    
+    print("Done")
