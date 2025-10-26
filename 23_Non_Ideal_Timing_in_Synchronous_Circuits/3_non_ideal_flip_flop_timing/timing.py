@@ -16,7 +16,7 @@ for i in variants:
     letter, setup, hold, c2q = i["name"], i["setup"], i["hold"], i["c2q"]
 
     label = f"Setup time: {setup} ns\n" + \
-    f"Hold time {hold} ns\n" + \
+    f"Hold time: {hold} ns\n" + \
     f"Clock-to-Q Delay: {c2q} ns"
 
     coords = (320, 360)

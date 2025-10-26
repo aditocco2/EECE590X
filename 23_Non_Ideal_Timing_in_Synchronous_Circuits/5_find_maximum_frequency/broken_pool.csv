@@ -1,0 +1,40 @@
+NewQuestion,NSA
+Title,Find Maximum Frequency
+QuestionText,"<p>For the non-ideal FSM circuit shown above, find the maximum clock frequency     in MHz at which it will still function correctly.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_E.png
+Feedback,1000 / (4 + 5 + 2) = 90.9 MHz,NOT HTML
+ANSWER,100,9[0-4](\.\d*)?|8[5-9](\.\d*)?,regexp
+
+
+NewQuestion,NSA
+Title,Find Maximum Frequency
+QuestionText,"<p>For the non-ideal FSM circuit shown above, find the maximum clock frequency     in MHz at which it will still function correctly.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_F.png
+Feedback,1000 / (2 + 4 + 2) = 125.0 MHz,NOT HTML
+ANSWER,100,1[0-4]\d{1}(\.\d*)?|9[5-9](\.\d*)?,regexp
+
+
+NewQuestion,NSA
+Title,Find Maximum Frequency
+QuestionText,"<p>For the non-ideal FSM circuit shown above, find the maximum clock frequency     in MHz at which it will still function correctly.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_G.png
+Feedback,1000 / (5 + 6 + 2) = 76.9 MHz,NOT HTML
+ANSWER,100,8[0-4](\.\d*)?|7[5-9](\.\d*)?,regexp
+
+
+NewQuestion,NSA
+Title,Find Maximum Frequency
+QuestionText,"<p>For the non-ideal FSM circuit shown above, find the maximum clock frequency     in MHz at which it will still function correctly.</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_H.png
+Feedback,1000 / (3 + 5 + 3) = 90.9 MHz,NOT HTML
+ANSWER,100,9[0-4](\.\d*)?|8[5-9](\.\d*)?,regexp
+
+

@@ -25,7 +25,7 @@ for i in variants:
     letter, setup, hold, c2q, gate_delay = i["name"], i["setup"], i["hold"], i["c2q"], i["gate"]
 
     dff_label = f"Setup time: {setup} ns\n" + \
-    f"Hold time {hold} ns\n" + \
+    f"Hold time: {hold} ns\n" + \
     f"Clock-to-Q Delay: {c2q} ns"
 
     gate_label = f"{gate_delay} ns"
