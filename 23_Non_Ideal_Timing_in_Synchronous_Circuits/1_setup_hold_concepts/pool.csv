@@ -1,0 +1,54 @@
+NewQuestion,TF
+Title,Setup and Hold Time Concepts
+QuestionText,<p> The <i>setup</i> time of a flip-flop is the amount of time <i>before</i> the rising edge of the clock that the inputs must remain stable.</p>,HTML
+Points,5
+Difficulty,1
+TRUE,100
+FALSE,0
+
+
+NewQuestion,TF
+Title,Setup and Hold Time Concepts
+QuestionText,<p> The <i>setup</i> time of a flip-flop is the amount of time <i>after</i> the rising edge of the clock that the inputs must remain stable.</p>,HTML
+Points,5
+Difficulty,1
+TRUE,0
+FALSE,100
+
+
+NewQuestion,TF
+Title,Setup and Hold Time Concepts
+QuestionText,<p> The <i>hold</i> time of a flip-flop is the amount of time <i>before</i> the rising edge of the clock that the inputs must remain stable.</p>,HTML
+Points,5
+Difficulty,1
+TRUE,0
+FALSE,100
+
+
+NewQuestion,TF
+Title,Setup and Hold Time Concepts
+QuestionText,<p> The <i>hold</i> time of a flip-flop is the amount of time <i>after</i> the rising edge of the clock that the inputs must remain stable.</p>,HTML
+Points,5
+Difficulty,1
+TRUE,100
+FALSE,0
+
+
+NewQuestion,TF
+Title,Setup and Hold Time Concepts
+QuestionText,<p> The clock-to-Q delay is the propagation delay of the logic <i>inside</i> the flip-flop.,HTML
+Points,5
+Difficulty,1
+TRUE,100
+FALSE,0
+
+
+NewQuestion,TF
+Title,Setup and Hold Time Concepts
+QuestionText,<p> The clock-to-Q delay is the propagation delay of the logic <i>outside</i> the flip-flop.,HTML
+Points,5
+Difficulty,1
+TRUE,0
+FALSE,100
+
+

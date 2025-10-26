@@ -22,7 +22,7 @@ def apply_labels(input_filename, output_filename, labels, coords, font_size=25, 
 
     for label, coord in zip(labels, coords):
         # Draw centered
-        drawer.text(coord, label, anchor="mm", font=font, fill=color)
+        drawer.text(coord, label, anchor="mm", align="center", font=font, fill=color)
     
     pic.save(output_filename)
 

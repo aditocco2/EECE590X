@@ -286,7 +286,7 @@ def wavedrom_d_latch(d, e, delay=0, initial_value = "x"):
 
     return out
 
-def wavedrom_d_flip_flop(clk, d, en="", s="", r="", delay=0, initial_value="x"):
+def wavedrom_d_flip_flop(clk, d, en="", s="", r="", setup_time=0, hold_time=0, delay=0, initial_value="x"):
     """
     Emulates a rising edge DFF with WaveDrom signals
     d (str): data signal in dotted format
@@ -294,6 +294,8 @@ def wavedrom_d_flip_flop(clk, d, en="", s="", r="", delay=0, initial_value="x"):
     en (str): Optional enable, constant 1 if left blank
     s (str): optional set
     r (str): optional reset
+    setup_time (int): optional setup time
+    hold_time (int): optional hold time
     delay (int): delay in ns (assumes the flop as a whole has a delay)
     initial_value (str): "x" for unknown by default, can also be "0" or "1"
     """
@@ -324,20 +326,30 @@ def wavedrom_d_flip_flop(clk, d, en="", s="", r="", delay=0, initial_value="x"):
             signal_value = d[i-1]
 
             # Force to 1 or 0 if set or reset
-            # Check with Doug about this, but I'm pretty sure that this
-            # follows the same pattern as the data input - the set/reset
-            # has to be high BEFORE the rising edge
+            # the set/reset has to be high BEFORE the rising edge
             if s[i-1] == "1":
                 signal_value = "1"
             if r[i-1] == "1":
                 signal_value = "0"
+
+            # Look for setup and hold time violations
+            if setup_time > 0 or hold_time > 0:
+                
+                left_bound = i-setup_time if i-setup_time > 0 else 0
+                right_bound = i+hold_time if i+hold_time < length-1 else length-1
+
+                all_1s = "1" * (setup_time + hold_time + 1)
+                all_0s = "0" * (setup_time + hold_time + 1)
+
+                if d[left_bound:right_bound+1] != all_1s and d[left_bound:right_bound+1] != all_0s:
+                    signal_value = "x"
         
         # Otherwise keep the current signal value
 
         out += signal_value
 
-        # Apply gate delay and put x (unknown) at the beginning
-    out = ("x" * delay) + out[0:(length - delay)]
+        # Apply gate delay and put unknown/initial value at the beginning
+    out = (initial_value * delay) + out[0:(length - delay)]
 
     # Convert back to dotted format
     out = to_dotted(out)
