@@ -1,0 +1,96 @@
+NewQuestion,MC
+Title,Determine Setup/Hold Time Violations
+QuestionText,"<p>Suppose the <i>clk</i> and <i>D</i> inputs above go into a     non-ideal flip-flop with a setup time of <b>3 ns</b>, a hold time     of <b>2 ns</b>, and a clock-to-Q delay of <b>5 ns</b>.     What can be said about the output of this flip-flop?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_23_A.png
+OPTION,100,<p>The output will be predictable</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>setup time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>hold time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>both setup and hold time</i> violations</p>,HTML
+
+
+NewQuestion,MC
+Title,Determine Setup/Hold Time Violations
+QuestionText,"<p>Suppose the <i>clk</i> and <i>D</i> inputs above go into a     non-ideal flip-flop with a setup time of <b>3 ns</b>, a hold time     of <b>2 ns</b>, and a clock-to-Q delay of <b>5 ns</b>.     What can be said about the output of this flip-flop?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_23_B.png
+OPTION,100,<p>The output will be predictable</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>setup time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>hold time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>both setup and hold time</i> violations</p>,HTML
+
+
+NewQuestion,MC
+Title,Determine Setup/Hold Time Violations
+QuestionText,"<p>Suppose the <i>clk</i> and <i>D</i> inputs above go into a     non-ideal flip-flop with a setup time of <b>3 ns</b>, a hold time     of <b>2 ns</b>, and a clock-to-Q delay of <b>5 ns</b>.     What can be said about the output of this flip-flop?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_23_C.png
+OPTION,0,<p>The output will be predictable</p>,HTML
+OPTION,100,<p>The output will be unpredictable because of <i>setup time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>hold time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>both setup and hold time</i> violations</p>,HTML
+
+
+NewQuestion,MC
+Title,Determine Setup/Hold Time Violations
+QuestionText,"<p>Suppose the <i>clk</i> and <i>D</i> inputs above go into a     non-ideal flip-flop with a setup time of <b>3 ns</b>, a hold time     of <b>2 ns</b>, and a clock-to-Q delay of <b>5 ns</b>.     What can be said about the output of this flip-flop?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_23_D.png
+OPTION,0,<p>The output will be predictable</p>,HTML
+OPTION,100,<p>The output will be unpredictable because of <i>setup time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>hold time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>both setup and hold time</i> violations</p>,HTML
+
+
+NewQuestion,MC
+Title,Determine Setup/Hold Time Violations
+QuestionText,"<p>Suppose the <i>clk</i> and <i>D</i> inputs above go into a     non-ideal flip-flop with a setup time of <b>3 ns</b>, a hold time     of <b>2 ns</b>, and a clock-to-Q delay of <b>5 ns</b>.     What can be said about the output of this flip-flop?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_23_E.png
+OPTION,0,<p>The output will be predictable</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>setup time</i> violations only</p>,HTML
+OPTION,100,<p>The output will be unpredictable because of <i>hold time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>both setup and hold time</i> violations</p>,HTML
+
+
+NewQuestion,MC
+Title,Determine Setup/Hold Time Violations
+QuestionText,"<p>Suppose the <i>clk</i> and <i>D</i> inputs above go into a     non-ideal flip-flop with a setup time of <b>3 ns</b>, a hold time     of <b>2 ns</b>, and a clock-to-Q delay of <b>5 ns</b>.     What can be said about the output of this flip-flop?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_23_F.png
+OPTION,0,<p>The output will be predictable</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>setup time</i> violations only</p>,HTML
+OPTION,100,<p>The output will be unpredictable because of <i>hold time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>both setup and hold time</i> violations</p>,HTML
+
+
+NewQuestion,MC
+Title,Determine Setup/Hold Time Violations
+QuestionText,"<p>Suppose the <i>clk</i> and <i>D</i> inputs above go into a     non-ideal flip-flop with a setup time of <b>3 ns</b>, a hold time     of <b>2 ns</b>, and a clock-to-Q delay of <b>5 ns</b>.     What can be said about the output of this flip-flop?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_23_G.png
+OPTION,0,<p>The output will be predictable</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>setup time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>hold time</i> violations only</p>,HTML
+OPTION,100,<p>The output will be unpredictable because of <i>both setup and hold time</i> violations</p>,HTML
+
+
+NewQuestion,MC
+Title,Determine Setup/Hold Time Violations
+QuestionText,"<p>Suppose the <i>clk</i> and <i>D</i> inputs above go into a     non-ideal flip-flop with a setup time of <b>3 ns</b>, a hold time     of <b>2 ns</b>, and a clock-to-Q delay of <b>5 ns</b>.     What can be said about the output of this flip-flop?</p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_23_H.png
+OPTION,0,<p>The output will be predictable</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>setup time</i> violations only</p>,HTML
+OPTION,0,<p>The output will be unpredictable because of <i>hold time</i> violations only</p>,HTML
+OPTION,100,<p>The output will be unpredictable because of <i>both setup and hold time</i> violations</p>,HTML
+
+
