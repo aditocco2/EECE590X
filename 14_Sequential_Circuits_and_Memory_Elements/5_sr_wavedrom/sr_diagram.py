@@ -20,18 +20,15 @@ for i in range(50):
 
     q_link = wu.make_wavedrom_link("SR Latch Timing Diagram", ["S", "R"],
                                    [S, R], ["Q"])
-    q_link_alt = wu.to_alternate(q_link)
     
     a_link = wu.make_wavedrom_link("SR Latch Timing Diagram Answer", ["S", "R", "Q"],
                                    [S, R, Q], [])
-    a_link_alt = wu.to_alternate(a_link)
     
     q_text = "<p>The image above shows a standard implementation of an SR latch. \
         Click on the link below to open the problem in WaveDrom. \
-        Complete the timing diagram, and then paste all your code \
+        Complete the timing diagram, and then paste <b>all</b> your code \
         into the answer box.</p>" \
-        f"<p>{q_link}</p>" \
-        f"<p>{q_link_alt}</p>"
+        f"<p>{q_link}</p>"
 
     question = d2l.SAQuestion(q_text)
     question.add_image(f"/imagepools/quantumbeef/sr_latch.png")
@@ -42,7 +39,7 @@ for i in range(50):
                       You may or may not have unknown output (x) at the start. </p> \
                       <p> You can assume that if S and R are high at the same time, the latch resets.</p>')
 
-    question.add_feedback(f"<p>Here was the right answer: <p> {a_link} </p><p> {a_link_alt} </p>")
+    question.add_feedback(f"<p>Here was the right answer: {a_link} </p>")
 
     pool.add_question(question)
 

@@ -18,18 +18,15 @@ for i in range(50):
 
     q_link = wu.make_wavedrom_link("DFF Timing Diagram", ["D", "C"],
                                    [D, C], ["Q"])
-    q_link_alt = wu.to_alternate(q_link)
     
     a_link = wu.make_wavedrom_link("DFF Timing Diagram Answer", ["D", "C", "Q"],
                                    [D, C, Q], [])
-    a_link_alt = wu.to_alternate(a_link)
     
     q_text = f"<p>In the circuit above, the signal C toggles every {period//2} ns. \
         Click on the link below to open the problem in WaveDrom. \
         Complete the timing diagram, and then paste all your code \
         into the answer box.</p>" \
-        f"<p>{q_link}</p>" \
-        f"<p>{q_link_alt}</p>"
+        f"<p>{q_link}</p>"
     
     question = d2l.SAQuestion(q_text)
     question.add_image(f"/imagepools/quantumbeef/dff.png")
@@ -38,7 +35,7 @@ for i in range(50):
     question.add_hint('Your wave for F should have 20 characters and look \
                       something like "xxx11100011100011100" (or "x..1..0..1..0..1..0.").')
     
-    question.add_feedback(f"<p>Here was the right answer: <p> {a_link} </p><p> {a_link_alt} </p>")
+    question.add_feedback(f"<p>Here was the right answer: {a_link} </p>")
 
     pool.add_question(question)
 

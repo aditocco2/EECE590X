@@ -20,28 +20,24 @@ for i in range(50):
 
     q_link = wu.make_wavedrom_link("Double DFF Timing Diagram", ["D", "clk"],
                                    [D, clk], ["F", "G"])
-    q_link_alt = wu.to_alternate(q_link)
     
     a_link = wu.make_wavedrom_link("Double DFF Timing Diagram Answer", ["D", "clk", "F", "G"],
                                    [D, clk, F, G], [])
-    a_link_alt = wu.to_alternate(a_link)
     
-    q_text = f"<p>You have arrived at yet another timing diagram question, \
-        this time with two flip-flops. \
+    q_text = f"<p>The diagram above shows an input signal going through two flip-flops. \
         Click on the link below to open the problem in WaveDrom. \
-        Complete the timing diagram, and then paste all your code \
+        Complete the timing diagram, and then paste <b>all</b> your code \
         into the answer box.</p>" \
-        f"<p>{q_link}</p>" \
-        f"<p>{q_link_alt}</p>"
+        f"<p>{q_link}</p>" 
     
     question = d2l.SAQuestion(q_text)
     question.add_image(f"/imagepools/quantumbeef/double_dff_with_label.png")
     question.add_answer(regex_ans, is_regex = True)
 
     question.add_hint('Your wave for G should have 20 characters and look \
-                      something like "xx1100110000001111110011" (or "x.1.0.1.0.....1.....0.1.").')
+                      something like "xxxxxx11110000111100" (or "x.....1...0...1...0.").')
     
-    question.add_feedback(f"<p>Here was the right answer: <p> {a_link} </p><p> {a_link_alt} </p>")
+    question.add_feedback(f"<p>Here was the right answer: {a_link} </p>")
 
     pool.add_question(question)
 

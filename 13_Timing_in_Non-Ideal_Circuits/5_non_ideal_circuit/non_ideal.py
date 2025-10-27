@@ -17,16 +17,14 @@ for i in range(50):
 
     q_link = make_wavedrom_link("Topic 13 Question 5", ["a", "b", "c"], [a, b, c], 
                                 ["ab", "f"])
-    q_link_alt = to_alternate(q_link)
     
     a_link = make_wavedrom_link("Topic 13 Question 5 Answer", ["a", "b", "c", "ab", "f"],
                                 [a, b, c, ab, f], [])
-    a_link_alt = to_alternate(a_link)
 
     q_text = f"<p> The above circuit is NON-ideal, so each gate now has a delay as shown. \
             Click on the link below to open the problem in WaveDrom. \
-            Complete the timing diagram, and then paste all the code \
-            into the answer box. </p> <p> {q_link} </p><p> {q_link_alt} </p>"
+            Complete the timing diagram, and then paste <b>all</b> the code \
+            into the answer box. </p> <p> {q_link} </p>"
 
     question = d2l.SAQuestion(q_text)
     # I added labels manually for this one
@@ -36,7 +34,7 @@ for i in range(50):
     question.add_hint('Your wave for F should have 20 characters and look \
                       something like "xxxx1111100011100000" (or "x...1....0..1..0....")')
 
-    question.add_feedback(f"<p>Here was the right answer: <p> {a_link} </p><p> {a_link_alt} </p>")
+    question.add_feedback(f"<p>Here was the right answer: {a_link} </p>")
 
     pool.add_question(question)
 

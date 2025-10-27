@@ -49,13 +49,10 @@ for variant in ["A", "B", "C", "D", "E", "F"]:
 
     image_name = f"unknown_diagram_16{variant}"
 
-    # Uncomment below if you need to change images too. I just needed to change wording
-
-    # wu.make_wavedrom_image("Timing Diagram", ["A", "B", "C"],
-    #                        [A, B, C], [], f"{image_name}.svg")
+    wu.make_wavedrom_image("Timing Diagram", ["A", "B", "C"],
+                           [A, B, C], [], f"{image_name}.svg")
     
-    # img.svg2png(f"{image_name}.svg", f"{image_name}.png")
-    # print(f"Made image {variant}")
+    img.svg2png(f"{image_name}.svg", f"{image_name}.png")
 
     question = d2l.MCQuestion(q_text, shuffle=False)
 

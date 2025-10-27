@@ -20,18 +20,15 @@ for i in range(50):
 
     q_link = wu.make_wavedrom_link("D Latch Timing Diagram", ["D", "E"],
                                    [D, E], ["Q"])
-    q_link_alt = wu.to_alternate(q_link)
     
     a_link = wu.make_wavedrom_link("D Latch Timing Diagram Answer", ["D", "E", "Q"],
                                    [D, E, Q], [])
-    a_link_alt = wu.to_alternate(a_link)
     
     q_text = "<p>The image above shows a standard implementation of a D latch. \
         Click on the link below to open the problem in WaveDrom. \
-        Complete the timing diagram, and then paste all your code \
+        Complete the timing diagram, and then paste <b>all</b> your code \
         into the answer box.</p>" \
-        f"<p>{q_link}</p>" \
-        f"<p>{q_link_alt}</p>"
+        f"<p>{q_link}</p>"
 
     question = d2l.SAQuestion(q_text)
     question.add_image(f"/imagepools/quantumbeef/d_latch.png")
@@ -41,7 +38,7 @@ for i in range(50):
                       something like "00000111110001110000" (or "0....1....0..1..0..."). \
                       You may or may not have unknown output (x) at the start.')
 
-    question.add_feedback(f"<p>Here was the right answer: <p> {a_link} </p><p> {a_link_alt} </p>")
+    question.add_feedback(f"<p>Here was the right answer: {a_link} </p>")
 
     pool.add_question(question)
 

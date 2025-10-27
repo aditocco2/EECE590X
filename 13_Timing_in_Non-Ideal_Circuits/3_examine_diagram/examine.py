@@ -31,7 +31,7 @@ for variant in ["A", "B", "C", "D"]:
 
     # Make the pictures
     svg_filename = f"examine_{variant}.svg"
-    png_filename = f"examine_{variant}.svg"
+    png_filename = f"examine_{variant}.png"
 
     make_wavedrom_image(f"Topic 13 Question 6 (variant {variant})", 
                         sig_names, gen_sigs, out_filename=svg_filename)
