@@ -320,9 +320,10 @@ def wavedrom_d_flip_flop(clk, d, en="", s="", r="", setup_time=0, hold_time=0, d
     out += signal_value
 
     for i in range(1, length):
-        # If the clock is rising and the DFF is enabled
-        # pass the value of D right before the rise through
+        # Only change the value on rising edge of the clock
         if clk[i] == "1" and en[i] == "1":
+
+            # pass the value of D right before the rise through
             signal_value = d[i-1]
 
             # Force to 1 or 0 if set or reset
@@ -335,13 +336,17 @@ def wavedrom_d_flip_flop(clk, d, en="", s="", r="", setup_time=0, hold_time=0, d
             # Look for setup and hold time violations
             if setup_time > 0 or hold_time > 0:
                 
-                left_bound = i-setup_time if i-setup_time > 0 else 0
-                right_bound = i+hold_time if i+hold_time < length-1 else length-1
+                # If i=8, setup_time is 3, and hold_time is 2
+                # Left bound would be 5 and right 10
+                left_bound = max(i-setup_time, 0)
+                right_bound = min(i+hold_time, length-1)
 
-                all_1s = "1" * (setup_time + hold_time + 1)
-                all_0s = "0" * (setup_time + hold_time + 1)
-
-                if d[left_bound:right_bound+1] != all_1s and d[left_bound:right_bound+1] != all_0s:
+                # Scanning from 5 to 9
+                # 5 to 7 is the setup time window, and 8-9 is the hold time window
+                all_1s = "1" * (right_bound - left_bound)
+                all_0s = "0" * (right_bound - left_bound)
+                if d[left_bound:right_bound] != all_1s and d[left_bound:right_bound] != all_0s:
+                    # Force output to x if changes exist here
                     signal_value = "x"
         
         # Otherwise keep the current signal value
@@ -419,6 +424,9 @@ def make_wavedrom_image(title, sig_names, gen_sigs, fill_sig_names=[], out_filen
         out_filename (str): SVG output file
     """
 
+    gen_sigs = [to_dotted(sig) for sig in gen_sigs]
+
+    title_line = f"head:{{text:'{title}'}},"
 
     lines = []
     for sig_name, sig in zip(sig_names, gen_sigs):
@@ -432,9 +440,9 @@ def make_wavedrom_image(title, sig_names, gen_sigs, fill_sig_names=[], out_filen
         line = f"{{name: \"{sig_name}\", wave: ''}},"
         lines.append(line)
 
-    code = " ".join(lines)
+    signal_code = " ".join(lines)
 
-    code = '{signal: [ ' + code + '],  foot:{"tick":0},}'
+    code = '{' + title_line + ' signal: [ ' + signal_code + '],  foot:{"tick":0},}'
 
     img = wavedrom.render(code)
     img.saveas(out_filename)
