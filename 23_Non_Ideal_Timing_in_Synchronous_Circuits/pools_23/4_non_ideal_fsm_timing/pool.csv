@@ -1,0 +1,88 @@
+NewQuestion,SA
+Title,Non-Ideal FSM Timing Diagram
+QuestionText,"<p>The circuit above is a simple FSM with a <i>non-ideal</i> gate and             flip-flop. Their delays and other attributes are shown above.</p>             <p><b>Assume the FSM starts in state 0.</b></p>             Click on the link below to open the problem in WaveDrom. Complete the timing             diagram, and paste <b>all</b> your code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22000000001111111111000000000001%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%27%27%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_A.png
+Hint,"<p>Your wave for Q should have 30 characters and look                     something like ""000001111111111000000000011111"".</p>",HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22000000001111111111000000000001%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%22x00000000111111111101111111111%22%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%22000000000000000000011111111111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]Q['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.1\.\.\.\.\.\.\.\.\.\.|000000000000000000011111111111)['""])",regexp
+
+
+NewQuestion,SA
+Title,Non-Ideal FSM Timing Diagram
+QuestionText,"<p>The circuit above is a simple FSM with a <i>non-ideal</i> gate and             flip-flop. Their delays and other attributes are shown above.</p>             <p><b>Assume the FSM starts in state 0.</b></p>             Click on the link below to open the problem in WaveDrom. Complete the timing             diagram, and paste <b>all</b> your code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22100000000111111111101111111100%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%27%27%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_A.png
+Hint,"<p>Your wave for Q should have 30 characters and look                     something like ""000001111111111000000000011111"".</p>",HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22100000000111111111101111111100%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%22x10000000011111111111000000001%22%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%22000000000000000000011111111110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]Q['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.1\.\.\.\.\.\.\.\.\.0|000000000000000000011111111110)['""])",regexp
+
+
+NewQuestion,SA
+Title,Non-Ideal FSM Timing Diagram
+QuestionText,"<p>The circuit above is a simple FSM with a <i>non-ideal</i> gate and             flip-flop. Their delays and other attributes are shown above.</p>             <p><b>Assume the FSM starts in state 0.</b></p>             Click on the link below to open the problem in WaveDrom. Complete the timing             diagram, and paste <b>all</b> your code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22000000001111111111000000000001%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%27%27%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_B.png
+Hint,"<p>Your wave for Q should have 30 characters and look                     something like ""000001111111111000000000011111"".</p>",HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22000000001111111111000000000001%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%22xx0000000011111111111111111111%22%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%22000000000000000000111111111111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]Q['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.1\.\.\.\.\.\.\.\.\.\.\.|000000000000000000111111111111)['""])",regexp
+
+
+NewQuestion,SA
+Title,Non-Ideal FSM Timing Diagram
+QuestionText,"<p>The circuit above is a simple FSM with a <i>non-ideal</i> gate and             flip-flop. Their delays and other attributes are shown above.</p>             <p><b>Assume the FSM starts in state 0.</b></p>             Click on the link below to open the problem in WaveDrom. Complete the timing             diagram, and paste <b>all</b> your code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22100000000111111111101111111100%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%27%27%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_B.png
+Hint,"<p>Your wave for Q should have 30 characters and look                     something like ""000001111111111000000000011111"".</p>",HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22100000000111111111101111111100%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%22xx1000000001111111110100000000%22%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%22000000000000000000111111111100%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]Q['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.1\.\.\.\.\.\.\.\.\.0\.|000000000000000000111111111100)['""])",regexp
+
+
+NewQuestion,SA
+Title,Non-Ideal FSM Timing Diagram
+QuestionText,"<p>The circuit above is a simple FSM with a <i>non-ideal</i> gate and             flip-flop. Their delays and other attributes are shown above.</p>             <p><b>Assume the FSM starts in state 0.</b></p>             Click on the link below to open the problem in WaveDrom. Complete the timing             diagram, and paste <b>all</b> your code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22000000001111111111000000000001%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%27%27%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_C.png
+Hint,"<p>Your wave for Q should have 30 characters and look                     something like ""000001111111111000000000011111"".</p>",HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22000000001111111111000000000001%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%22x00000000111111111111111111111%22%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%22000000000000000000111111111111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]Q['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.1\.\.\.\.\.\.\.\.\.\.\.|000000000000000000111111111111)['""])",regexp
+
+
+NewQuestion,SA
+Title,Non-Ideal FSM Timing Diagram
+QuestionText,"<p>The circuit above is a simple FSM with a <i>non-ideal</i> gate and             flip-flop. Their delays and other attributes are shown above.</p>             <p><b>Assume the FSM starts in state 0.</b></p>             Click on the link below to open the problem in WaveDrom. Complete the timing             diagram, and paste <b>all</b> your code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22100000000111111111101111111100%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%27%27%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_C.png
+Hint,"<p>Your wave for Q should have 30 characters and look                     something like ""000001111111111000000000011111"".</p>",HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22100000000111111111101111111100%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%22x10000000011111111101000000000%22%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%22000000000000000000111111111100%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]Q['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.1\.\.\.\.\.\.\.\.\.0\.|000000000000000000111111111100)['""])",regexp
+
+
+NewQuestion,SA
+Title,Non-Ideal FSM Timing Diagram
+QuestionText,"<p>The circuit above is a simple FSM with a <i>non-ideal</i> gate and             flip-flop. Their delays and other attributes are shown above.</p>             <p><b>Assume the FSM starts in state 0.</b></p>             Click on the link below to open the problem in WaveDrom. Complete the timing             diagram, and paste <b>all</b> your code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22000000001111111111000000000001%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%27%27%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_D.png
+Hint,"<p>Your wave for Q should have 30 characters and look                     something like ""000001111111111000000000011111"".</p>",HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22000000001111111111000000000001%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%22xx0000000011111111110111111111%22%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%22000000000000000000011111111111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]Q['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.1\.\.\.\.\.\.\.\.\.\.|000000000000000000011111111111)['""])",regexp
+
+
+NewQuestion,SA
+Title,Non-Ideal FSM Timing Diagram
+QuestionText,"<p>The circuit above is a simple FSM with a <i>non-ideal</i> gate and             flip-flop. Their delays and other attributes are shown above.</p>             <p><b>Assume the FSM starts in state 0.</b></p>             Click on the link below to open the problem in WaveDrom. Complete the timing             diagram, and paste <b>all</b> your code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22100000000111111111101111111100%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%27%27%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/circ_23_D.png
+Hint,"<p>Your wave for Q should have 30 characters and look                     something like ""000001111111111000000000011111"".</p>",HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27Non-Ideal%20FSM%20Circuit%20Timing%20Diagram%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%22000001111100000111110000011111%22%7D%2C%7Bname%3A%20%22a%22%2C%20wave%3A%20%22100000000111111111101111111100%22%7D%2C%7Bname%3A%20%22D%22%2C%20wave%3A%20%22xx1000000001111111111100000000%22%7D%2C%7Bname%3A%20%22Q%22%2C%20wave%3A%20%22000000000000000000011111111110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]Q['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.1\.\.\.\.\.\.\.\.\.0|000000000000000000011111111110)['""])",regexp
+
+
