@@ -1,7 +1,7 @@
 import d2l
 import image_utils.image_utils as img
 
-pool = d2l.QuestionPool("Find Maximum Frequency", "broken_pool.csv")
+pool = d2l.QuestionPool("Find Maximum Frequency", "pool.csv")
 
 variants = [
     {"name": "E", "setup": 4, "hold": 2, "c2q": 5, "xor": 2, "not": 1},
@@ -41,6 +41,7 @@ for i in variants:
     question.add_feedback(feedback)
 
     question.add_answer(max_freq_MHz, 2, False)
+    question.add_answer(max_freq_MHz, 2, False, units="MHz")
 
     pool.add_question(question)
 
