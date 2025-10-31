@@ -64,7 +64,7 @@ class Question(object):
         return self.Difficulty
 
     def dump(self):
-        for m in ("NewQuestion","Title","QuestionText","Points","Difficulty","Image","shuffle"):
+        for m in ("NewQuestion","Title","QuestionText","Points","Difficulty","Image","shuffle","Feedback","Scoring","Hint"):
             if not hasattr(self,m):
                 continue
             print(m,": ",getattr(self,m))
@@ -74,7 +74,7 @@ class Question(object):
     def write_to_csv(self,writer,title=""):
         if title != "":
             self.set_title(title)
-        for m in ("NewQuestion","Title","QuestionText","Points","Difficulty","Image","Hint","Feedback"):
+        for m in ("NewQuestion","Title","QuestionText","Points","Difficulty","Image","Hint","Feedback","Scoring"):
             if m == "answers":
                 continue
             if not hasattr(self,m):
@@ -116,8 +116,9 @@ class MCQuestion(Question):
 
 #todo verify that one answer is 100 and others are 0-99
 class MSQuestion(Question):
-    def __init__(self,text="",points=10,difficulty=1,title="",shuffle=True):
+    def __init__(self,text="",points=10,difficulty=1,title="",shuffle=True,scoring="RightAnswers"):
         super().__init__("MS",title,text,points,difficulty)
+        self.Scoring = scoring
         if shuffle:
             self.shuffle=True
     def add_answer(self,text="",is_correct=True):
@@ -134,29 +135,33 @@ class SAQuestion(Question):
 
 class NSAQuestion(Question):
     def __init__(self,text="",points=10,difficulty=1,title=""):
-        super().__init__("NSA",title,text,points,difficulty)
-    def add_answer(self,value=1.0, sigfigs=2, exact=False ,points=100):
+        super().__init__("SA",title,text,points,difficulty)
+    def add_answer(self,value=1.0, sigfigs=2, whole=True, units = "", exact=False ,points=100):
             text = regex_match_significant_digits(value, sigfigs, exact )
+            if units != "":
+                text = text +f"\\s*{units}"
+            if whole:
+                text = "^\\s*"+text+"\\s*$"
             self.answers.append(("ANSWER",points,text,"regexp"))
 
 class MQuestion(Question):
-    def __init__(self,text="",points=10,difficulty=1,title="",shuffle=False):
+    def __init__(self,text="",points=10,difficulty=1,title="",shuffle=False,scoring="EquallyWeighted"):
         super().__init__("M",title,text,points,difficulty)
         self.shuffle=shuffle 
+        self.Scoring=scoring
     def add_answer(self,match="",choice="",points=10):
         assert choice, "Must specify choice value"
         self.answers.append((match,choice))
     def write_to_csv(self,writer,title=""):
         if title != "":
             self.set_title(title)
-        for m in ("NewQuestion","Title","QuestionText","Points","Difficulty","Image","Hint","Feedback"):
+        for m in ("NewQuestion","Title","QuestionText","Points","Difficulty","Image","Hint","Feedback","Scoring"):
             if not hasattr(self,m):
                 continue
             if type(getattr(self,m)) is tuple:
                 writer.writerow([m]+list(getattr(self,m)))
             else:
                 writer.writerow([m]+[getattr(self,m)])
-        writer.writerow(["Scoring","EquallyWeighted"])
         choice_list= list(dict.fromkeys([ a[1] for a in self.answers ] ))
         if self.shuffle:
             shuffle(choice_list)
