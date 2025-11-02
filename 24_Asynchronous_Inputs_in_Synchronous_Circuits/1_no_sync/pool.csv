@@ -1,0 +1,96 @@
+NewQuestion,MC
+Title,No Synchronization
+QuestionText,<p>Suppose the flip-flop above had a setup time <b>2 ns</b> and the unsynchronized     input <i>a</i> changed as shown in the timing diagram. Which of the following choices     best describes what would happen to the state Q?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_1.png
+OPTION,0,The signal Q be forced into the incorrect state due to a setup time violation,HTML
+OPTION,0,The signal Q will be forced into the incorrect state due to a hold time violation,HTML
+OPTION,0,The signal Q stay in the correct state despite the setup time violation,HTML
+OPTION,100,"The signal Q will be in an unknown state, which may or may not be correct",HTML
+
+
+NewQuestion,MC
+Title,No Synchronization
+QuestionText,<p>Suppose the flip-flop above had a setup time <b>2 ns</b> and the unsynchronized     input <i>a</i> changed as shown in the timing diagram. Which of the following choices     best describes what would happen to the state Q?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_1.png
+OPTION,0,The signal Q will be forced into the incorrect state due to a hold time violation,HTML
+OPTION,100,The signal Q suffer from glitches before settling to an unpredictable value,HTML
+OPTION,0,The signal Q experience glitches at first but settle into the correct state,HTML
+OPTION,0,The signal Q stay in the correct state despite the setup time violation,HTML
+
+
+NewQuestion,MC
+Title,No Synchronization
+QuestionText,<p>Suppose the flip-flop above had a setup time <b>2 ns</b> and the unsynchronized     input <i>a</i> changed as shown in the timing diagram. Which of the following choices     best describes what would happen to the state Q?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_1.png
+OPTION,0,The signal Q be forced into the incorrect state due to a setup time violation,HTML
+OPTION,0,The signal Q experience glitches at first but settle into the correct state,HTML
+OPTION,0,The signal Q will be forced into the incorrect state due to a hold time violation,HTML
+OPTION,100,The signal Q suffer from glitches before settling to an unpredictable value,HTML
+
+
+NewQuestion,MC
+Title,No Synchronization
+QuestionText,<p>Suppose the flip-flop above had a setup time <b>2 ns</b> and the unsynchronized     input <i>a</i> changed as shown in the timing diagram. Which of the following choices     best describes what would happen to the state Q?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_1.png
+OPTION,0,"The signal Q change state as expected, as there are no violations",HTML
+OPTION,100,The signal Q or may not enter an incorrect state due to a setup time violation,HTML
+OPTION,0,The signal Q stay in the correct state despite the setup time violation,HTML
+OPTION,0,The signal Q will be forced into the incorrect state due to a hold time violation,HTML
+
+
+NewQuestion,MC
+Title,No Synchronization
+QuestionText,<p>Suppose the flip-flop above had a setup time <b>2 ns</b> and the unsynchronized     input <i>a</i> changed as shown in the timing diagram. Which of the following choices     best describes what would happen to the state Q?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_1.png
+OPTION,100,The signal Q or may not enter an incorrect state due to a setup time violation,HTML
+OPTION,0,The signal Q will be forced into the incorrect state due to a hold time violation,HTML
+OPTION,0,The signal Q experience glitches at first but settle into the correct state,HTML
+OPTION,0,The signal Q be forced into the incorrect state due to a setup time violation,HTML
+
+
+NewQuestion,MC
+Title,No Synchronization
+QuestionText,<p>Suppose the flip-flop above had a setup time <b>2 ns</b> and the unsynchronized     input <i>a</i> changed as shown in the timing diagram. Which of the following choices     best describes what would happen to the state Q?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_1.png
+OPTION,100,The signal Q suffer from glitches before settling to an unpredictable value,HTML
+OPTION,0,The signal Q be forced into the incorrect state due to a setup time violation,HTML
+OPTION,0,The signal Q experience glitches at first but settle into the correct state,HTML
+OPTION,0,"The signal Q change state as expected, as there are no violations",HTML
+
+
+NewQuestion,MC
+Title,No Synchronization
+QuestionText,<p>Suppose the flip-flop above had a setup time <b>2 ns</b> and the unsynchronized     input <i>a</i> changed as shown in the timing diagram. Which of the following choices     best describes what would happen to the state Q?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_1.png
+OPTION,0,The signal Q experience glitches at first but settle into the correct state,HTML
+OPTION,0,The signal Q stay in the correct state despite the setup time violation,HTML
+OPTION,0,"The signal Q change state as expected, as there are no violations",HTML
+OPTION,100,"The signal Q will be in an unknown state, which may or may not be correct",HTML
+
+
+NewQuestion,MC
+Title,No Synchronization
+QuestionText,<p>Suppose the flip-flop above had a setup time <b>2 ns</b> and the unsynchronized     input <i>a</i> changed as shown in the timing diagram. Which of the following choices     best describes what would happen to the state Q?</p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_1.png
+OPTION,100,"The signal Q will be in an unknown state, which may or may not be correct",HTML
+OPTION,0,The signal Q be forced into the incorrect state due to a setup time violation,HTML
+OPTION,0,The signal Q stay in the correct state despite the setup time violation,HTML
+OPTION,0,The signal Q experience glitches at first but settle into the correct state,HTML
+
+

@@ -64,7 +64,71 @@ def paste_images(input_filename, output_filename, images, coords, scale = 1):
 
     bg.save(output_filename)
 
-def svg2png(input_filename, output_filename):
+def image_concat(image_list, output_filename, mode="v", bg_color = "white", cleanup = False):
+    
+    """
+    Horizontally or vertically concatenates images
+
+    images: list of image filenames
+    output_filename: figure it out
+    mode: either "v" for vertical or "h" for horizontal
+    bg_color: string for valid HTML color like "white" or "black"
+              (or RGB color tuple)
+    cleanup: whether to delete the old images
+    """
+    images = [Image.open(i) for i in image_list]
+    widths = [i.width for i in images]
+    heights = [i.height for i in images]
+
+    if mode == "v":
+        bg_width = max(widths)
+        bg_height = sum(heights)
+
+        bg = Image.new("RGB", (bg_width, bg_height), bg_color)
+
+        x_left, y_top = 0, 0
+        for image in images:
+            # In vertical mode, x is set to be centered and y accumulates
+            x_left = (bg_width - image.width) // 2
+            bg.paste(image, (x_left, y_top))
+            y_top = y_top + image.height
+
+    elif mode == "h":
+        bg_width = sum(widths)
+        bg_height = max(heights)
+
+        bg = Image.new("RGB", (bg_width, bg_height))
+
+        x_left, y_top = 0, 0
+        for image in images:
+            # In horizontal mode, x accumulates and y is set to be centered
+            y_top = (bg_height - image.height) // 2
+            bg.paste(image, (x_left, y_top))
+            x_left = x_left + image.width
+
+    else:
+        raise ValueError("Invalid mode specified")
+    
+    bg.save(output_filename)
+    if cleanup:
+        for i in image_list:
+            os.remove(i)
+    
+    print(f"Concatenated {image_list} into {output_filename}")
+
+def upscale(in_name, out_name, factor = 2):
+
+    image = Image.open(in_name)
+
+    w = int(factor * image.width)
+    h = int(factor * image.height)
+
+    image = image.resize((w, h), Image.Resampling.BICUBIC)
+
+    image.save(out_name)
+    print(f"Upscaled {in_name} to {out_name}")
+
+def svg2png(input_filename, output_filename, dpi=96):
     """
     Uses inkscape as a backend, requires it in PATH :/
     """
@@ -73,6 +137,7 @@ def svg2png(input_filename, output_filename):
 
     subprocess.run(["inkscape", 
                     '--export-type=png',
+                    f'--export-dpi={dpi}',
                     f"--export-filename={output_filename}",
                     input_filename])
     os.remove(input_filename)
