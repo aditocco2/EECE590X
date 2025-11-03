@@ -1,96 +1,96 @@
 NewQuestion,MC
 Title,1 FF Synchronization (Bad Case)
-QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>6 ns</b> before settling back into 0 as shown above. What will     happen to the state now? </p>",HTML
+QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>7 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/composite_24_3.png
 OPTION,100,The signal Q will now become unpredictable because c took too long to settle,HTML
 OPTION,0,The signal Q will stay stable because there is still a transition on c from 0 to 1,HTML
-OPTION,0,"The signal Q will suffer from glitches, but eventually settle into the correct state",HTML
-OPTION,0,The signal Q will stay stable because c settled before the next clock edge,HTML
-
-
-NewQuestion,MC
-Title,1 FF Synchronization (Bad Case)
-QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>6 ns</b> before settling back into 0 as shown above. What will     happen to the state now? </p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/composite_24_3.png
-OPTION,0,"The signal Q will suffer from glitches, but eventually settle into the correct state",HTML
-OPTION,0,The signal Q is still predictable despite the setup time violations in a and c,HTML
-OPTION,100,The signal Q is no longer guaranteed to be in the correct state,HTML
-OPTION,0,The signal Q will stay stable because c settled before the next clock edge,HTML
-
-
-NewQuestion,MC
-Title,1 FF Synchronization (Bad Case)
-QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>6 ns</b> before settling back into 0 as shown above. What will     happen to the state now? </p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/composite_24_3.png
-OPTION,0,"The signal Q will suffer from glitches, but eventually settle into the correct state",HTML
-OPTION,100,The signal Q will become unknown because there is now a setup time violation in c,HTML
 OPTION,0,The signal Q is still predictable despite the setup time violations in a and c,HTML
 OPTION,0,"The signal Q will suffer from glitches, then be forced into the incorrect state",HTML
 
 
 NewQuestion,MC
 Title,1 FF Synchronization (Bad Case)
-QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>6 ns</b> before settling back into 0 as shown above. What will     happen to the state now? </p>",HTML
+QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>7 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/composite_24_3.png
-OPTION,0,The signal Q is still predictable despite the setup time violations in a and c,HTML
-OPTION,0,"The signal Q will suffer from glitches, but eventually settle into the correct state",HTML
 OPTION,0,The signal Q will stay stable because c settled before the next clock edge,HTML
+OPTION,0,"The signal Q will suffer from glitches, then be forced into the incorrect state",HTML
+OPTION,0,The signal Q will stay stable because there is still a transition on c from 0 to 1,HTML
 OPTION,100,The signal Q will now become unpredictable because c took too long to settle,HTML
 
 
 NewQuestion,MC
 Title,1 FF Synchronization (Bad Case)
-QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>6 ns</b> before settling back into 0 as shown above. What will     happen to the state now? </p>",HTML
+QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>7 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/composite_24_3.png
-OPTION,0,The signal Q will stay stable because c settled before the next clock edge,HTML
-OPTION,0,The signal Q is still predictable despite the setup time violations in a and c,HTML
-OPTION,100,The signal Q will become unknown because there is now a setup time violation in c,HTML
 OPTION,0,The signal Q will stay stable because there is still a transition on c from 0 to 1,HTML
-
-
-NewQuestion,MC
-Title,1 FF Synchronization (Bad Case)
-QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>6 ns</b> before settling back into 0 as shown above. What will     happen to the state now? </p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/composite_24_3.png
-OPTION,0,The signal Q will stay stable because c settled before the next clock edge,HTML
-OPTION,0,The signal Q will stay stable because there is still a transition on c from 0 to 1,HTML
-OPTION,0,"The signal Q will suffer from glitches, but eventually settle into the correct state",HTML
-OPTION,100,The signal Q is no longer guaranteed to be in the correct state,HTML
-
-
-NewQuestion,MC
-Title,1 FF Synchronization (Bad Case)
-QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>6 ns</b> before settling back into 0 as shown above. What will     happen to the state now? </p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/composite_24_3.png
-OPTION,0,The signal Q is still predictable despite the setup time violations in a and c,HTML
 OPTION,100,The signal Q will become unknown because there is now a setup time violation in c,HTML
-OPTION,0,The signal Q will stay stable because c settled before the next clock edge,HTML
 OPTION,0,"The signal Q will suffer from glitches, but eventually settle into the correct state",HTML
+OPTION,0,"The signal Q will suffer from glitches, then be forced into the incorrect state",HTML
 
 
 NewQuestion,MC
 Title,1 FF Synchronization (Bad Case)
-QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>6 ns</b> before settling back into 0 as shown above. What will     happen to the state now? </p>",HTML
+QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>7 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/composite_24_3.png
 OPTION,0,"The signal Q will suffer from glitches, but eventually settle into the correct state",HTML
 OPTION,0,The signal Q is still predictable despite the setup time violations in a and c,HTML
 OPTION,0,"The signal Q will suffer from glitches, then be forced into the incorrect state",HTML
-OPTION,100,The signal Q will become unknown because there is now a setup time violation in c,HTML
+OPTION,100,The signal Q will now become unpredictable because c took too long to settle,HTML
+
+
+NewQuestion,MC
+Title,1 FF Synchronization (Bad Case)
+QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>7 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_3.png
+OPTION,0,The signal Q will stay stable because c settled before the next clock edge,HTML
+OPTION,0,"The signal Q will suffer from glitches, then be forced into the incorrect state",HTML
+OPTION,0,The signal Q is still predictable despite the setup time violations in a and c,HTML
+OPTION,100,The signal Q is no longer guaranteed to be in the correct state,HTML
+
+
+NewQuestion,MC
+Title,1 FF Synchronization (Bad Case)
+QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>7 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_3.png
+OPTION,0,"The signal Q will suffer from glitches, but eventually settle into the correct state",HTML
+OPTION,0,The signal Q will stay stable because there is still a transition on c from 0 to 1,HTML
+OPTION,100,The signal Q is no longer guaranteed to be in the correct state,HTML
+OPTION,0,"The signal Q will suffer from glitches, then be forced into the incorrect state",HTML
+
+
+NewQuestion,MC
+Title,1 FF Synchronization (Bad Case)
+QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>7 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_3.png
+OPTION,0,The signal Q will stay stable because there is still a transition on c from 0 to 1,HTML
+OPTION,100,The signal Q is no longer guaranteed to be in the correct state,HTML
+OPTION,0,The signal Q will stay stable because c settled before the next clock edge,HTML
+OPTION,0,"The signal Q will suffer from glitches, but eventually settle into the correct state",HTML
+
+
+NewQuestion,MC
+Title,1 FF Synchronization (Bad Case)
+QuestionText,"<p>Suppose, in an alternate case, the output <i>c</i>     experiences glitches for <b>7 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_3.png
+OPTION,0,"The signal Q will suffer from glitches, then be forced into the incorrect state",HTML
+OPTION,0,"The signal Q will suffer from glitches, but eventually settle into the correct state",HTML
+OPTION,100,The signal Q will now become unpredictable because c took too long to settle,HTML
+OPTION,0,The signal Q is still predictable despite the setup time violations in a and c,HTML
 
 

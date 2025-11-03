@@ -15,21 +15,21 @@ img.svg2png("wave.svg", "wave.png", dpi=200)
 img.upscale("no_sync.png", "no_sync_upscaled.png", 2.5)
 img.image_concat(["no_sync_upscaled.png", "wave.png"], "composite_24_1.png", "v", cleanup=True)
 
-q_text = f"<p>Suppose the flip-flop above had a setup time <b>2 ns</b> and the unsynchronized \
+q_text = f"<p>Suppose the flip-flop above had a setup time of <b>2 ns</b> and the unsynchronized \
     input <i>a</i> changed as shown in the timing diagram. Which of the following choices \
     best describes what would happen to the state Q?</p>"
 
 correct = [
     ("The signal Q will be in an unknown state, which may or may not be correct", True),
-    ("The signal Q or may not enter an incorrect state due to a setup time violation", True),
-    ("The signal Q suffer from glitches before settling to an unpredictable value", True)
+    ("The signal Q may or may not enter an incorrect state due to a setup time violation", True),
+    ("The signal Q will suffer from glitches before settling to an unpredictable value", True)
 ]
 
 wrong = [
-    ("The signal Q be forced into the incorrect state due to a setup time violation", False),
-    ("The signal Q stay in the correct state despite the setup time violation", False),
-    ("The signal Q experience glitches at first but settle into the correct state", False),
-    ("The signal Q change state as expected, as there are no violations", False),
+    ("The signal Q will be forced into the incorrect state due to a setup time violation", False),
+    ("The signal Q will stay in the correct state despite the setup time violation", False),
+    ("The signal Q will experience glitches at first but settle into the correct state", False),
+    ("The signal Q will change state as expected, as there are no violations", False),
     ("The signal Q will be forced into the incorrect state due to a hold time violation", False)
 ]
 

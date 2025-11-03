@@ -8,7 +8,7 @@ image_link = "/imagepools/quantumbeef/composite_24_3.png"
 clk = wu.make_clock(18, 8, 4)
           # clk = 000011110000111100
 a = wu.to_dotted("000111111111111111")
-c = wu.to_dotted("0000xxxxxxx0111111")
+c = wu.to_dotted("0000xxxxxxx1111111")
 
 wu.make_wavedrom_image("", ["clk", "a", "c"], [clk, a, c], out_filename="wave.svg")
 img.svg2png("wave.svg", "wave.png", dpi=200)
@@ -16,7 +16,7 @@ img.upscale("with_1_ff.png", "with_1_ff_upscaled.png", 2.5)
 img.image_concat(["with_1_ff_upscaled.png", "wave.png"], "composite_24_3.png", "v", cleanup=True)
 
 q_text = f"<p>Suppose, in an alternate case, the output <i>c</i> \
-    experiences glitches for <b>6 ns</b> before settling back into 0 as shown above. What will \
+    experiences glitches for <b>7 ns</b> before settling into 1 as shown above. What will \
     happen to the state now? </p>"
 
 correct = [
