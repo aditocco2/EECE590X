@@ -1,5 +1,5 @@
 # EECE590X
-EECE251 Question Development
+Question Development for the EECE251 Digital Logic Design course at Binghamton University
 
 ## How it Works
 Each question has an associated Python script, which generates relevant data to the question. This includes the question text, answers, hints, feedback, images, etc.
@@ -15,7 +15,7 @@ Once the CSV question pools (and supplemental images) have been generated, you c
 ### Upload Images to the File System
 **If your questions have images attached, it is important to upload the images _before_ uploading questions, because otherwise the questions won't link the images properly.**
 - Go to `Course Tools` -> `Course Admin` -> `Manage Files`
-- Navigate to the image directory specified by the CSV / Python script (usually `/imagepools/deadbeef` or `/imagepools/alivebeef`)
+- Navigate to the image directory specified by the CSV / Python script (usually `/imagepools/alivebeef` or `/imagepools/quantumbeef`)
 - `Upload`, select/drag the image, and finish with `Save`
 
 ### Upload Questions to the Question Library
