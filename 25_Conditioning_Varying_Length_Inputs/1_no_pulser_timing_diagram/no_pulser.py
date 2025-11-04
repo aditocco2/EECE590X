@@ -15,10 +15,6 @@ def main():
 
         F = get_F(b, clk)
 
-        print(clk)
-        print(b)
-        print(F)
-
         q_link = wu.make_wavedrom_link("FSM Without Pulser", ["clk", "b"],
                                     [clk, b], ["F"])
         
@@ -27,7 +23,7 @@ def main():
         
         q_text = f"<p>The following FSM is designed to toggle the output <i>F</i> continously \
             while a button input <i>b</i> is high.</p> \
-            <p><b>Assume the circuit starts in the off state with F=0.<b></p> \
+            <p><b>Assume the circuit starts in the off state with F=0.</b></p> \
             <p>Use the link below to open the \
             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your \
             code into the answer box.</p> \

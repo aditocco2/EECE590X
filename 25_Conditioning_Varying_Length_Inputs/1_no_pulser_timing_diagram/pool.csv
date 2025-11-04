@@ -1,61 +1,6 @@
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111000111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111000111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110000001100110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.\.\.\.\.1\.0\.1\.0|00000110000001100110)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111111000011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111111000011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200011001100111111001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.1\.0\.1\.0\.1\.\.\.\.\.0\.1|00011001100111111001)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111000111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111000111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000001100110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.\.\.1\.0\.1\.0|01100110000001100110)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111000000111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111000000111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000000011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.\.\.\.\.1\.0\.1|01100110000000011001)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111100111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111100111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110011110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.1\.\.\.0\.1\.0\.1|01100110011110011001)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111110000011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111110000011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
@@ -66,51 +11,73 @@ ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.1\.
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111100011%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111100111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111100011%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110011110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.1\.\.\.0|00000001100110011110)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111100111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100111100110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.\.\.0\.1\.0|00000001100111100110)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111111000001111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111111000111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111111000001111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200011001100111111001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.1\.0\.1\.0\.1\.\.\.\.\.0\.1|00011001100111111001)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111111000111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110000001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.\.\.\.\.1|00000001100110000001)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111110001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110001111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111110001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100000011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.\.\.\.\.1\.0\.1|00000001100000011001)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110001111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.1\.0\.1\.0\.1|01100110000110011001)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110000011111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111110001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110000011111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000001100110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.\.\.1\.0\.1\.0|01100110000001100110)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111110001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110011111100110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.1\.\.\.\.\.0\.1\.0|01100110011111100110)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111100000011111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110001111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110001111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.1\.0\.1\.0\.1|01100110000110011001)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111111100001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111111100001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110011111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.1\.\.\.\.|00000001100110011111)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111100000011111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
@@ -121,18 +88,95 @@ ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.\.\.\.
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200001111111000111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111000001111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200001111111000111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110011000011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.1\.0\.\.\.1\.0\.1|00000110011000011001)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111000001111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100111111001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.\.\.\.\.0\.1|00000001100111111001)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200001111111110000001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200001111100011111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200001111100011111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110011110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.1\.\.\.0\.1\.0\.1|00000110011110011001)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111100000111111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111100000111111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100111111110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.\.\.\.\.\.\.0\.1\.0\.1|01100111111110011001)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111111100000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111111100000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110011111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.1\.\.\.\.|00000001100110011111)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111100000011111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111100000011111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100111111110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.\.\.\.\.\.\.0\.1\.0\.1|01100111111110011001)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111110000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111110000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110011111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.1\.\.\.\.|00000001100110011111)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110011111111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110011111111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.1\.0\.1\.0\.1|01100110000110011001)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111111100011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111111100011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200011001100111111001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.1\.0\.1\.0\.1\.\.\.\.\.0\.1|00011001100111111001)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200001111111110000001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
@@ -143,18 +187,40 @@ ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.1
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111110011111000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111000011111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111110011111000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200011001100001100111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.1\.0\.1\.0\.\.\.1\.0\.1\.\.|00011001100001100111)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111000011111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200011001111110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.1\.0\.1\.\.\.\.\.0\.1\.0\.1|00011001111110011001)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111110001111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111111000001111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111111000001111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110011000000110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.1\.0\.\.\.\.\.1\.0|00000110011000000110)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111111100001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111111100001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110011111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.1\.\.\.\.|00000001100110011111)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111110001111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
@@ -165,139 +231,40 @@ ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.1\.
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111100011111100011%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100111100110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.\.\.0\.1\.0|00000001100111100110)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111100011111100011%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100111111001100001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.\.\.\.\.0\.1\.0\.\.\.1|01100111111001100001)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111100111111100%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200001111111111000111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111100111111100%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110011110011000%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.1\.\.\.0\.1\.0\.\.|01100110011110011000)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200001111111111000111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110011001111110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.1\.0\.1\.\.\.\.\.0|00000110011001111110)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111000111111100011%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111000001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111000111111100011%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100111100110011110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.\.\.0\.1\.0\.1\.\.\.0|01100111100110011110)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111000001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000000011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.\.\.\.\.1\.0\.1|01100110000000011001)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110011111111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110011111111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.1\.0\.1\.0\.1|01100110000110011001)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111111100001111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111111100001111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200011001100111111001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.1\.0\.1\.0\.1\.\.\.\.\.0\.1|00011001100111111001)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111100111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111100111111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110011110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.1\.\.\.0\.1\.0\.1|01100110011110011001)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200001111110000011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200001111110000011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110011111111001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.1\.\.\.\.\.\.\.0\.1|00000110011111111001)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111000001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111000001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110000000%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.\.\.\.\.\.|00000001100110000000)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111100001111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111100001111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110011111100110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.1\.\.\.\.\.0\.1\.0|01100110011111100110)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111100111111100000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111100111111100000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100111100110011111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.\.\.0\.1\.0\.1\.\.\.\.|01100111100110011111)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111110000001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111110000001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110000000%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.\.\.\.\.\.|00000001100110000000)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110011111111100%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110011111111100%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000110011000%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.1\.0\.1\.0\.\.|01100110000110011000)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110000011111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110000011111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
@@ -308,133 +275,166 @@ ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111110011111000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111000111111000111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111110011111000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110011110011000%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.1\.\.\.0\.1\.0\.\.|01100110011110011000)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111000111111000111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100111100110000001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.\.\.0\.1\.0\.\.\.\.\.1|01100111100110000001)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111000001111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111000000111110000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111000001111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100111111001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.\.\.\.\.0\.1|00000001100111111001)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111000000111110000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100111111110011111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.\.\.\.\.\.\.0\.1\.\.\.\.|01100111111110011111)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110000001111100%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111000111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110000001111100%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000000011000%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.\.\.\.\.1\.0\.\.|01100110000000011000)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110011111111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110011111111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.1\.0\.1\.0\.1|01100110000110011001)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111100111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111100111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110011110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.1\.\.\.0|00000001100110011110)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111001111100111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111001111100111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110000110011110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.\.\.1\.0\.1\.\.\.0|00000110000110011110)['""])",regexp
-
-
-NewQuestion,SA
-Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111000111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-Points,10
-Difficulty,1
-Image,/imagepools/quantumbeef/FSM_25_A.png
-Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000111111000111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100111100110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111000111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100111100110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.\.\.0\.1\.0|00000001100111100110)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111110000001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111001111111001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111110000001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110000000%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.\.\.\.\.\.|00000001100110000000)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111001111111001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000110011000%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.1\.0\.1\.0\.\.|01100110000110011000)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111111000011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111110001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111111000011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110011000000110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.1\.0\.\.\.\.\.1\.0|00000110011000000110)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111110001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110011111100110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.1\.\.\.\.\.0\.1\.0|00000110011111100110)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111111100000011%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110000011111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200111111111100000011%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200011001100111111110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.1\.0\.1\.0\.1\.\.\.\.\.\.\.0|00011001100111111110)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111110000011111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000001100110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.\.\.1\.0\.1\.0|01100110000001100110)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111110011%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111111000111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111110011%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110011110%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.1\.\.\.0|00000001100110011110)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111111000111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110011000011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.1\.0\.\.\.1\.0\.1|00000110011000011001)['""])",regexp
 
 
 NewQuestion,SA
 Title,FSM Without Pulser
-QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.<b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111111110011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111110000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/FSM_25_A.png
 Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
-Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111111110011111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110011001111001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
-ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.1\.0\.1\.\.\.0\.1|00000110011001111001)['""])",regexp
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111110000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110011111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.1\.\.\.\.|00000001100110011111)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111000011111100111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111000011111100111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100111111001100001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.\.\.\.\.0\.1\.0\.\.\.1|01100111111001100001)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111111001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111111001111111%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110011000011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.1\.0\.\.\.1\.0\.1|00000110011000011001)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111100011111000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111100011111000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110011110011000%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.1\.\.\.0\.1\.0\.\.|01100110011110011000)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111001111111000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111001111111000%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110000110011000%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.\.\.1\.0\.1\.0\.\.|01100110000110011000)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111000111111100%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200011111000111111100%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000110000001100111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.1\.0\.\.\.\.\.1\.0\.1\.\.|00000110000001100111)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111110011111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2211111111110011111110%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2201100110011110011001%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:01\.0\.1\.0\.1\.\.\.0\.1\.0\.1|01100110011110011001)['""])",regexp
+
+
+NewQuestion,SA
+Title,FSM Without Pulser
+QuestionText,"<p>The following FSM is designed to toggle the output <i>F</i> continously             while a button input <i>b</i> is high.</p>             <p><b>Assume the circuit starts in the off state with F=0.</b></p>             <p>Use the link below to open the             problem in WaveDrom. Finish the timing diagram, and then paste <b>all</b> your             code into the answer box.</p>             <p><a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111100001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%27%27%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/FSM_25_A.png
+Hint,Your wave should be 20 characters and be comprised of exclusively 1s and 0s.,NOT HTML
+Feedback,"<p>Here was the right answer: <a href=""https://dougsummerville.github.io/wavedrom/editor.html?%7B%20head%3A%7Btext%3A%27FSM%20Without%20Pulser%20Answer%27%7D%2C%0Asignal%3A%0A%5B%0A%7Bname%3A%20%22clk%22%2C%20wave%3A%20%2201010101010101010101%22%7D%2C%7Bname%3A%20%22b%22%2C%20wave%3A%20%2200000011111111100001%22%7D%2C%7Bname%3A%20%22F%22%2C%20wave%3A%20%2200000001100110011111%22%7D%2C%5D%2C%0A%20%20foot%3A%7Btick%3A0%7D%0A%7D"" target=""_blank"">WaveDrom Link</a></p>",HTML
+ANSWER,100,"(?i:name\s*:\s*['""]F['""]\s*,\s*wave\s*:\s*['""](?:0\.\.\.\.\.\.1\.0\.1\.0\.1\.\.\.\.|00000001100110011111)['""])",regexp
 
 

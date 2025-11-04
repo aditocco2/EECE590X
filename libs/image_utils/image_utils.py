@@ -88,9 +88,12 @@ def image_concat(image_list, output_filename, mode="v", bg_color = "white", clea
 
         x_left, y_top = 0, 0
         for image in images:
-            # In vertical mode, x is set to be centered and y accumulates
+            # Set x to be centered
             x_left = (bg_width - image.width) // 2
-            bg.paste(image, (x_left, y_top))
+            # Paste w/ transparency
+            image = Image.alpha_composite(Image.new("RGBA", image.size), image.convert('RGBA'))
+            bg.paste(image, (x_left, y_top), image)
+            # Accumulate y
             y_top = y_top + image.height
 
     elif mode == "h":
@@ -101,9 +104,12 @@ def image_concat(image_list, output_filename, mode="v", bg_color = "white", clea
 
         x_left, y_top = 0, 0
         for image in images:
-            # In horizontal mode, x accumulates and y is set to be centered
+            # set y to be centered
             y_top = (bg_height - image.height) // 2
-            bg.paste(image, (x_left, y_top))
+            # Paste w/ transparency
+            image = Image.alpha_composite(Image.new("RGBA", image.size), image.convert('RGBA'))
+            bg.paste(image, (x_left, y_top), image)
+            # Accumulate x
             x_left = x_left + image.width
 
     else:

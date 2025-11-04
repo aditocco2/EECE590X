@@ -80,7 +80,7 @@ def make_clock(length, period=10, first_rising_edge=5):
 
     return signal
 
-def make_pulses(length, on_min, on_max, off_min, off_max):
+def make_pulses(length, on_min, on_max, off_min, off_max, initial = ""):
     
     """
     Makes a wavedrom signal with pulses that are on/off
@@ -91,10 +91,15 @@ def make_pulses(length, on_min, on_max, off_min, off_max):
     on_max: maximum length of high sections
     off_min: minimum length of low sections
     off_max: maximum length of low sections
+    initial: starting value, either "0" or "1"
     """
 
     signal = ""
-    signal_value = random.choice(["0", "1"])
+
+    if initial:
+        signal_value = initial
+    else:
+        signal_value = random.choice(["0", "1"])
     
     while len(signal) < length:
         # Add a number of chars in the appropriate range, then toggle
