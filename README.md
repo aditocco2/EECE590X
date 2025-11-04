@@ -18,6 +18,13 @@ Once the CSV question pools (and supplemental images) have been generated, you c
 - Navigate to the image directory specified by the CSV / Python script (usually `/imagepools/alivebeef` or `/imagepools/quantumbeef`)
 - `Upload`, select/drag the image, and finish with `Save`
 
+#### Uploading Images in Mass
+For convenience, there is a script to extract all images from a specified range of problem sets. Here is how to use it:
+- Open a terminal in `EECE590X`
+- `python3 extract_images.py <problem set numbers>`
+- For example, `python3 extract_images.py 18-20 22` takes all images from problem sets 18, 19, 20, and 22
+The images will be copied to `EECE590X/images` where you can then upload all of them to Brightspace at once.
+
 ### Upload Questions to the Question Library
 - Go to `Quizzes` -> `Question Library`
 - Make a `New` -> `Section` (basically a folder)
@@ -66,3 +73,8 @@ Inkscape is the backend this project currently uses for converting SVG to PNG. S
 
 ### Installing Requirements
 - `pip3 install -r requirements.txt`
+
+## Credits
+The `d2l` library is made by Dr. Douglas Summerville, who is supervising question development.
+Problem sets 1 through 12 were made in the Spring 2025 semester by Zack Kornreich, Mary Ronan, and Sara Williams.
+Problem sets 13 through 28 are in development by me, Angelo DiTocco.
