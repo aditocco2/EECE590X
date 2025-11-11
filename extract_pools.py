@@ -4,14 +4,14 @@ import sys
 import shutil
 
 """
-Takes all the images out of the specified folders and places them in
-one place (temp_images)
+Takes all the pools out of the specified folders and places them in
+one place (temp_pools)
 
-For example, "python3 extract_images.py 8-10 22" takes all the pngs
+For example, "python3 extract_pools.py 8-10 22" takes all the csvs
 from sections 8, 9, 10, and 22
 """
 
-destination_directory = "temp_images"
+destination_directory = "temp_pools"
 
 # Quit if no arguments
 if len(sys.argv) <= 1:
@@ -42,13 +42,24 @@ if os.path.exists(destination_directory) and os.path.isdir(destination_directory
     shutil.rmtree(destination_directory)
 os.mkdir(destination_directory)
 
-
 for folder in base_folders:
     # Walk through every folder and copy all PNGs into the destination directory
     for root, dirs, files in os.walk(folder):
         for file in files:
-            if file.endswith("png"):
+            if file.endswith("csv"):
+                # Go from the start to the first underscore
+                set_num = str(int(folder[0:folder.find("_")]))
+                # Go from the first / to the next underscore after that
+                q_num = (root.split('\\')[1]).split('_')[0]
+                new_name = f"q{set_num}_{q_num}.csv"
+
                 source = os.path.join(root, file)
-                dest = os.path.join(destination_directory, file)
+                dest = os.path.join(destination_directory, new_name)
+
+                # Put a _ before .csv if the file already exists
+                while os.path.exists(dest):
+                    dest = dest[:-4] + "_" + dest[-4:]
+
+                # print(dest)
                 shutil.copy(source, dest)
     print(f"Copied images from {folder} into {destination_directory}")

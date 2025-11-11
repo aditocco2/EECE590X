@@ -1,0 +1,84 @@
+NewQuestion,MC
+Title,"Choose basic circuit, word prob"
+QuestionText,"<p>The local candy store owner wants to secure the             front and back door of their shop. They wire the             system so that when the alarm is set and a door is unlocked             its sensor outputs high ('1'), and low ('0') otherwise.</p><p>They want the silent alarm to sound during the day if both doors are locked or only one is unlocked.</p><p><b>If they ask you to build the circuit, which gate             should you use?</b></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/n_base_circuits_1.png
+OPTION,100,1,HTML
+OPTION,0,4,HTML
+OPTION,0,5,HTML
+OPTION,0,3,HTML
+OPTION,0,6,HTML
+OPTION,0,2,HTML
+
+
+NewQuestion,MC
+Title,"Choose basic circuit, word prob"
+QuestionText,"<p>The local candy store owner wants to secure the             front and back door of their shop. They wire the             system so that when the alarm is set and a door is unlocked             its sensor outputs high ('1'), and low ('0') otherwise.</p><p>They want the silent alarm to sound during the night if both doors are simultaneously unlocked.</p><p><b>If they ask you to build the circuit, which gate             should you use?</b></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/n_base_circuits_1.png
+OPTION,0,6,HTML
+OPTION,0,5,HTML
+OPTION,0,4,HTML
+OPTION,0,3,HTML
+OPTION,0,1,HTML
+OPTION,100,2,HTML
+
+
+NewQuestion,MC
+Title,"Choose basic circuit, word prob"
+QuestionText,"<p>The local candy store owner wants to secure the             front and back door of their shop. They wire the             system so that when the alarm is set and a door is unlocked             its sensor outputs high ('1'), and low ('0') otherwise.</p><p>They want the silent alarm to sound day or night when only one of the doors are locked.</p><p><b>If they ask you to build the circuit, which gate             should you use?</b></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/n_base_circuits_1.png
+OPTION,0,4,HTML
+OPTION,0,1,HTML
+OPTION,0,6,HTML
+OPTION,100,3,HTML
+OPTION,0,2,HTML
+OPTION,0,5,HTML
+
+
+NewQuestion,MC
+Title,"Choose basic circuit, word prob"
+QuestionText,"<p>The local candy store owner wants to secure the             front and back door of their shop. They wire the             system so that when the alarm is set and a door is unlocked             its sensor outputs high ('1'), and low ('0') otherwise.</p><p>They want the silent alarm to sound during the day if both doors are simultaneously locked.</p><p><b>If they ask you to build the circuit, which gate             should you use?</b></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/n_base_circuits_1.png
+OPTION,0,2,HTML
+OPTION,0,3,HTML
+OPTION,100,4,HTML
+OPTION,0,1,HTML
+OPTION,0,6,HTML
+OPTION,0,5,HTML
+
+
+NewQuestion,MC
+Title,"Choose basic circuit, word prob"
+QuestionText,"<p>The local candy store owner wants to secure the             front and back door of their shop. They wire the             system so that when the alarm is set and a door is unlocked             its sensor outputs high ('1'), and low ('0') otherwise.</p><p>They want the silent alarm to sound during the day if both doors are locked or both are unlocked.</p><p><b>If they ask you to build the circuit, which gate             should you use?</b></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/n_base_circuits_1.png
+OPTION,0,2,HTML
+OPTION,0,3,HTML
+OPTION,100,5,HTML
+OPTION,0,1,HTML
+OPTION,0,4,HTML
+OPTION,0,6,HTML
+
+
+NewQuestion,MC
+Title,"Choose basic circuit, word prob"
+QuestionText,"<p>The local candy store owner wants to secure the             front and back door of their shop. They wire the             system so that when the alarm is set and a door is unlocked             its sensor outputs high ('1'), and low ('0') otherwise.</p><p>They want the silent alarm to sound during the night if at least 1 door is unlocked.</p><p><b>If they ask you to build the circuit, which gate             should you use?</b></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/n_base_circuits_1.png
+OPTION,0,5,HTML
+OPTION,0,4,HTML
+OPTION,0,3,HTML
+OPTION,0,2,HTML
+OPTION,100,6,HTML
+OPTION,0,1,HTML
+
+

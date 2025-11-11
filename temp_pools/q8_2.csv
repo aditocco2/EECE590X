@@ -1,0 +1,450 @@
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression c'a' + b'a'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'b'c + a'bc',NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'b'c|a'bc')(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|a'bc')(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|a'bc')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression ab' + b'c'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + ab'c' + ab'c,NOT HTML
+ANSWER,100,^\s*(a'b'c'|ab'c'|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|ab'c'|ab'c)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|ab'c'|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression ab' + ac'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,ab'c' + ab'c + abc',NOT HTML
+ANSWER,100,^\s*(ab'c'|ab'c|abc')(?!.*\1(?:\s|\+|$))\s*\+\s*(ab'c'|ab'c|abc')(?!.*\2(?:\s|\+|$))\s*\+\s*(ab'c'|ab'c|abc')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression c'b + a'c?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c + a'bc' + a'bc + abc',NOT HTML
+ANSWER,100,^\s*(a'b'c|a'bc'|a'bc|abc')(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc'|a'bc|abc')(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc'|a'bc|abc')(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc'|a'bc|abc')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression cb + cb?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'bc + abc,NOT HTML
+ANSWER,100,^\s*(a'bc|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'bc|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression bb' + ac?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,ab'c + abc,NOT HTML
+ANSWER,100,^\s*(ab'c|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(ab'c|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression c'c + ba?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,abc' + abc,NOT HTML
+ANSWER,100,^\s*(abc'|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(abc'|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression cc' + c'a?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,ab'c' + abc',NOT HTML
+ANSWER,100,^\s*(ab'c'|abc')(?!.*\1(?:\s|\+|$))\s*\+\s*(ab'c'|abc')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression ab' + ba'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'bc' + a'bc + ab'c' + ab'c,NOT HTML
+ANSWER,100,^\s*(a'bc'|a'bc|ab'c'|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc|ab'c'|ab'c)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc|ab'c'|ab'c)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc|ab'c'|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression cb' + c'b'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'b'c + ab'c' + ab'c,NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'b'c|ab'c'|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|ab'c'|ab'c)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|ab'c'|ab'c)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|ab'c'|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression ab' + a'a?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,ab'c' + ab'c,NOT HTML
+ANSWER,100,^\s*(ab'c'|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(ab'c'|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression cc' + b'a'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'b'c,NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'b'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression c'a + cc'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,ab'c' + abc',NOT HTML
+ANSWER,100,^\s*(ab'c'|abc')(?!.*\1(?:\s|\+|$))\s*\+\s*(ab'c'|abc')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression bc' + c'a'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'bc' + abc',NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'bc'|abc')(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|abc')(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|abc')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression c'c + bc?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'bc + abc,NOT HTML
+ANSWER,100,^\s*(a'bc|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'bc|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression b'c' + a'c?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'b'c + a'bc + ab'c',NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'b'c|a'bc|ab'c')(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|a'bc|ab'c')(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|a'bc|ab'c')(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|a'bc|ab'c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression cb + a'b?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'bc' + a'bc + abc,NOT HTML
+ANSWER,100,^\s*(a'bc'|a'bc|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc|abc)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression b'c' + ac'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + ab'c' + abc',NOT HTML
+ANSWER,100,^\s*(a'b'c'|ab'c'|abc')(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|ab'c'|abc')(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|ab'c'|abc')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression c'b' + c'c?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + ab'c',NOT HTML
+ANSWER,100,^\s*(a'b'c'|ab'c')(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|ab'c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression aa' + ab?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,abc' + abc,NOT HTML
+ANSWER,100,^\s*(abc'|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(abc'|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression c'a' + ba?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'bc' + abc' + abc,NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'bc'|abc'|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|abc'|abc)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|abc'|abc)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|abc'|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression cb' + b'c'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'b'c + ab'c' + ab'c,NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'b'c|ab'c'|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|ab'c'|ab'c)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|ab'c'|ab'c)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|ab'c'|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression ca' + b'a?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c + a'bc + ab'c' + ab'c,NOT HTML
+ANSWER,100,^\s*(a'b'c|a'bc|ab'c'|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc|ab'c'|ab'c)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc|ab'c'|ab'c)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc|ab'c'|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression b'a + c'c?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,ab'c' + ab'c,NOT HTML
+ANSWER,100,^\s*(ab'c'|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(ab'c'|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression a'c' + c'a?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'bc' + ab'c' + abc',NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'bc'|ab'c'|abc')(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|ab'c'|abc')(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|ab'c'|abc')(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|ab'c'|abc')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression cb + a'a?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'bc + abc,NOT HTML
+ANSWER,100,^\s*(a'bc|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'bc|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression ba + cc'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,abc' + abc,NOT HTML
+ANSWER,100,^\s*(abc'|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(abc'|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression a'c' + ba?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'bc' + abc' + abc,NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'bc'|abc'|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|abc'|abc)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|abc'|abc)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|abc'|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression a'c' + b'c'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'bc' + ab'c',NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'bc'|ab'c')(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|ab'c')(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|ab'c')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression b'b + ba'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'bc' + a'bc,NOT HTML
+ANSWER,100,^\s*(a'bc'|a'bc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression b'c + a'c'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'b'c + a'bc' + ab'c,NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'b'c|a'bc'|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|a'bc'|ab'c)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|a'bc'|ab'c)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|a'bc'|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression ab + a'b'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'b'c + abc' + abc,NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'b'c|abc'|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|abc'|abc)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|abc'|abc)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|abc'|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression b'a + c'a?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,ab'c' + ab'c + abc',NOT HTML
+ANSWER,100,^\s*(ab'c'|ab'c|abc')(?!.*\1(?:\s|\+|$))\s*\+\s*(ab'c'|ab'c|abc')(?!.*\2(?:\s|\+|$))\s*\+\s*(ab'c'|ab'c|abc')\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression b'c + cc'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c + ab'c,NOT HTML
+ANSWER,100,^\s*(a'b'c|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression ab' + ab?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,ab'c' + ab'c + abc' + abc,NOT HTML
+ANSWER,100,^\s*(ab'c'|ab'c|abc'|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(ab'c'|ab'c|abc'|abc)(?!.*\2(?:\s|\+|$))\s*\+\s*(ab'c'|ab'c|abc'|abc)(?!.*\3(?:\s|\+|$))\s*\+\s*(ab'c'|ab'c|abc'|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression ba' + cb?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'bc' + a'bc + abc,NOT HTML
+ANSWER,100,^\s*(a'bc'|a'bc|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc|abc)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression aa' + a'b?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'bc' + a'bc,NOT HTML
+ANSWER,100,^\s*(a'bc'|a'bc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression a'b' + b'a?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'b'c + ab'c' + ab'c,NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'b'c|ab'c'|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|ab'c'|ab'c)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|ab'c'|ab'c)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|ab'c'|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression cb' + a'b?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c + a'bc' + a'bc + ab'c,NOT HTML
+ANSWER,100,^\s*(a'b'c|a'bc'|a'bc|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc'|a'bc|ab'c)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc'|a'bc|ab'c)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc'|a'bc|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression a'b + b'c?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c + a'bc' + a'bc + ab'c,NOT HTML
+ANSWER,100,^\s*(a'b'c|a'bc'|a'bc|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc'|a'bc|ab'c)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc'|a'bc|ab'c)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc'|a'bc|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression a'c + bb'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c + a'bc,NOT HTML
+ANSWER,100,^\s*(a'b'c|a'bc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c|a'bc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression c'c + ba'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'bc' + a'bc,NOT HTML
+ANSWER,100,^\s*(a'bc'|a'bc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression ba + cb'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c + ab'c + abc' + abc,NOT HTML
+ANSWER,100,^\s*(a'b'c|ab'c|abc'|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c|ab'c|abc'|abc)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c|ab'c|abc'|abc)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c|ab'c|abc'|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression a'c' + bc?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'bc' + a'bc + abc,NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'bc'|a'bc|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|a'bc|abc)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|a'bc|abc)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c'|a'bc'|a'bc|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression b'a + ba'?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'bc' + a'bc + ab'c' + ab'c,NOT HTML
+ANSWER,100,^\s*(a'bc'|a'bc|ab'c'|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc|ab'c'|ab'c)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc|ab'c'|ab'c)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'bc'|a'bc|ab'c'|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression a'b' + bc?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + a'b'c + a'bc + abc,NOT HTML
+ANSWER,100,^\s*(a'b'c'|a'b'c|a'bc|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|a'bc|abc)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|a'bc|abc)(?!.*\3(?:\s|\+|$))\s*\+\s*(a'b'c'|a'b'c|a'bc|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression ac + a'a?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,ab'c + abc,NOT HTML
+ANSWER,100,^\s*(ab'c|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(ab'c|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression bc + ab?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'bc + abc' + abc,NOT HTML
+ANSWER,100,^\s*(a'bc|abc'|abc)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'bc|abc'|abc)(?!.*\2(?:\s|\+|$))\s*\+\s*(a'bc|abc'|abc)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression b'c + a'a?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c + ab'c,NOT HTML
+ANSWER,100,^\s*(a'b'c|ab'c)(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c|ab'c)\s*$,regexp
+
+
+NewQuestion,SA
+Title,short_form_to_canonical_SOP
+QuestionText,<p>Enter the canonical Sum of Products expression that is equivalent to the expression b'c' + c'c?<br/> NOTE: Enter each term in standard (alphabetical) form - i.e. abc + [...],HTML
+Points,10
+Difficulty,1
+Feedback,a'b'c' + ab'c',NOT HTML
+ANSWER,100,^\s*(a'b'c'|ab'c')(?!.*\1(?:\s|\+|$))\s*\+\s*(a'b'c'|ab'c')\s*$,regexp
+
+

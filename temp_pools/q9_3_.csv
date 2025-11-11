@@ -1,0 +1,40 @@
+NewQuestion,MC
+Title,Make 4 input gate
+QuestionText,<p>Logic gates with more than two inputs are             typically constructed by combining multiple 2-input             gates.</p><p><b> Use the diagram to determine if you can make a 4-input XOR using only 2-input XOR gates.</b></p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/XOR_parallel.png
+OPTION,100,Yes,HTML
+OPTION,0,No,HTML
+
+
+NewQuestion,MC
+Title,Make 4 input gate
+QuestionText,<p>Logic gates with more than two inputs are             typically constructed by combining multiple 2-input             gates.</p><p><b> Use the diagram to determine if you can make a 4-input XOR using only 2-input XOR gates.</b></p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/XOR_cascade.png
+OPTION,100,Yes,HTML
+OPTION,0,No,HTML
+
+
+NewQuestion,MC
+Title,Make 4 input gate
+QuestionText,<p>Logic gates with more than two inputs are             typically constructed by combining multiple 2-input             gates.</p><p><b> Use the diagram to determine if you can make a 4-input XNOR using only 2-input XNOR gates.</b></p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/XNOR_parallel.png
+OPTION,100,Yes,HTML
+OPTION,0,No,HTML
+
+
+NewQuestion,MC
+Title,Make 4 input gate
+QuestionText,<p>Logic gates with more than two inputs are             typically constructed by combining multiple 2-input             gates.</p><p><b> Use the diagram to determine if you can make a 4-input XNOR using only 2-input XNOR gates.</b></p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/alivebeef/XNOR_cascade.png
+OPTION,100,Yes,HTML
+OPTION,0,No,HTML
+
+
