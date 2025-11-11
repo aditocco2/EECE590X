@@ -7,16 +7,19 @@ image_link = "/imagepools/quantumbeef/composite_24_1.png"
 
 clk = wu.make_clock(18, 8, 4)
           # clk = 000011110000111100
-a = wu.to_dotted("000111111111111111")
+a = wu.to_dotted("011111111111111111")
+D = wu.to_dotted("000111")
+Q = wu.to_dotted("0000")
 
-
-wu.make_wavedrom_image("", ["clk", "a"], [clk, a], out_filename="wave.svg")
+wu.make_wavedrom_image("", ["clk", "a", "D", "Q"], [clk, a, D, Q], out_filename="wave.svg")
 img.svg2png("wave.svg", "wave.png", dpi=200)
 img.upscale("no_sync.png", "no_sync_upscaled.png", 2.5)
 img.image_concat(["no_sync_upscaled.png", "wave.png"], "composite_24_1.png", "v", cleanup=True)
 
 q_text = f"<p>Suppose the flip-flop above had a setup time of <b>2 ns</b> and the unsynchronized \
-    input <i>a</i> changed as shown in the timing diagram. Which of the following choices \
+    input <i>a</i> changed as shown in the timing diagram. This results in the partial waveforms of \
+    <i>D</i> and <i>Q</i> also shown above. \
+    </p>Which of the following choices \
     best describes what would happen to the state Q?</p>"
 
 correct = [
