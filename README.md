@@ -23,7 +23,7 @@ For convenience, there is a script to extract all images from a specified range 
 - Open a terminal in `EECE590X`
 - `python3 extract_images.py <problem set numbers>`
 - For example, `python3 extract_images.py 18-20 22` takes all images from problem sets 18, 19, 20, and 22
-The images will be copied to `EECE590X/images` where you can then upload all of them to Brightspace at once.
+The images will be copied to `EECE590X/temp_images` where you can then upload all of them to Brightspace at once.
 
 ### Upload Questions to the Question Library
 - Go to `Quizzes` -> `Question Library`
@@ -32,6 +32,13 @@ The images will be copied to `EECE590X/images` where you can then upload all of 
 - Navigate to the section/folder you just made
 - `Import` -> `Upload File`
 - Select/drag the CSV and finish with `Import All`
+
+#### Extracting Question Pools in Mass
+Similar to the script for images, there is a script to extract all images from a specified range of problem sets. Here is how to use it:
+- Open a terminal in `EECE590X`
+- `python3 extract_pools.py <problem set numbers>`
+- For example, `python3 extract_pools.py 18-20 22` takes all pools from problem sets 18, 19, 20, and 22
+The CSVs will be copied to `EECE590X/temp_pools` where you can then upload them to multiple Brightspace sections without having to navigate between different folders on your computer.
 
 ### Import Questions to a Quiz
 - In the `Quizzes` tab, click on a quiz to edit it (or make a new quiz)
@@ -75,8 +82,8 @@ Inkscape is the backend this project currently uses for converting SVG to PNG. S
 - `pip3 install -r requirements.txt`
 
 ## Credits
-The `d2l` library is made by Dr. Douglas Summerville, who is supervising question development.
+LogicDesigner, FSM Explorer, and the `d2l` library were all made by Dr. Douglas Summerville, who is supervising question development.
 
 Problem sets 1 through 12 were made in the Spring 2025 semester by Zack Kornreich, Mary Ronan, and Sara Williams.
 
-Problem sets 13 through 28 are in development by me, Angelo DiTocco.
+Problem sets 13 through 28 are in development in the Fall 2025 semester by me, Angelo DiTocco.
