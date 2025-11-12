@@ -86,4 +86,4 @@ LogicDesigner, FSM Explorer, and the `d2l` library were all made by Dr. Douglas 
 
 Problem sets 1 through 12 were made in the Spring 2025 semester by Zack Kornreich, Mary Ronan, and Sara Williams.
 
-Problem sets 13 through 28 are in development in the Fall 2025 semester by me, Angelo DiTocco.
+Problem sets 13 through 28 are in development by me throughout the Fall 2025 semester.
