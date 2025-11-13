@@ -1,0 +1,96 @@
+NewQuestion,MC
+Title,1 FF Synchronization (Good Case)
+QuestionText,<p>Suppose a single flip-flop was added in front of this non-ideal FSM. The output of this FF     experiences glitches for <b>4 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_2.png
+OPTION,0,The signal Q will suffer from glitches before settling to an unpredictable value,HTML
+OPTION,0,"The signal Q will still be in an unknown state, which may or may not be correct",HTML
+OPTION,100,The signal Q will stay in the correct state because c settled quickly enough to avoid violations,HTML
+OPTION,0,The signal Q will stay in the correct state regardless of how quickly c settles,HTML
+
+
+NewQuestion,MC
+Title,1 FF Synchronization (Good Case)
+QuestionText,<p>Suppose a single flip-flop was added in front of this non-ideal FSM. The output of this FF     experiences glitches for <b>4 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_2.png
+OPTION,0,The signal Q will stay in the correct state regardless of how quickly c settles,HTML
+OPTION,0,The signal Q will suffer from glitches before settling to an unpredictable value,HTML
+OPTION,0,"The signal Q will still be in an unknown state, which may or may not be correct",HTML
+OPTION,100,"The signal Q will stay in the correct state, as the sampling of c does not have violations",HTML
+
+
+NewQuestion,MC
+Title,1 FF Synchronization (Good Case)
+QuestionText,<p>Suppose a single flip-flop was added in front of this non-ideal FSM. The output of this FF     experiences glitches for <b>4 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_2.png
+OPTION,0,The signal Q will still be forced into the incorrect state because the signal a has violations,HTML
+OPTION,0,"The signal Q will still be in an unknown state, which may or may not be correct",HTML
+OPTION,0,The signal Q will suffer from glitches before settling to an unpredictable value,HTML
+OPTION,100,The signal Q will stay in the correct state because the input c now has a good transition from 0 to 1,HTML
+
+
+NewQuestion,MC
+Title,1 FF Synchronization (Good Case)
+QuestionText,<p>Suppose a single flip-flop was added in front of this non-ideal FSM. The output of this FF     experiences glitches for <b>4 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_2.png
+OPTION,100,The signal Q will stay in the correct state because c settled quickly enough to avoid violations,HTML
+OPTION,0,The signal Q will suffer from glitches before settling to an unpredictable value,HTML
+OPTION,0,The signal Q will stay in the correct state regardless of how quickly c settles,HTML
+OPTION,0,The signal Q will still be forced into the incorrect state because the signal a has violations,HTML
+
+
+NewQuestion,MC
+Title,1 FF Synchronization (Good Case)
+QuestionText,<p>Suppose a single flip-flop was added in front of this non-ideal FSM. The output of this FF     experiences glitches for <b>4 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_2.png
+OPTION,0,"The signal Q will still be in an unknown state, which may or may not be correct",HTML
+OPTION,0,The signal Q will still be forced into the incorrect state because the signal a has violations,HTML
+OPTION,100,The signal Q will stay in the correct state because c settled quickly enough to avoid violations,HTML
+OPTION,0,The signal Q will suffer from glitches before settling to an unpredictable value,HTML
+
+
+NewQuestion,MC
+Title,1 FF Synchronization (Good Case)
+QuestionText,<p>Suppose a single flip-flop was added in front of this non-ideal FSM. The output of this FF     experiences glitches for <b>4 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_2.png
+OPTION,0,"The signal Q will still be in an unknown state, which may or may not be correct",HTML
+OPTION,0,The signal Q will suffer from glitches before settling to an unpredictable value,HTML
+OPTION,0,The signal Q will still be forced into the incorrect state because the signal a has violations,HTML
+OPTION,100,"The signal Q will stay in the correct state, as the sampling of c does not have violations",HTML
+
+
+NewQuestion,MC
+Title,1 FF Synchronization (Good Case)
+QuestionText,<p>Suppose a single flip-flop was added in front of this non-ideal FSM. The output of this FF     experiences glitches for <b>4 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_2.png
+OPTION,0,The signal Q will stay in the correct state regardless of how quickly c settles,HTML
+OPTION,100,The signal Q will stay in the correct state because c settled quickly enough to avoid violations,HTML
+OPTION,0,The signal Q will suffer from glitches before settling to an unpredictable value,HTML
+OPTION,0,The signal Q will still be forced into the incorrect state because the signal a has violations,HTML
+
+
+NewQuestion,MC
+Title,1 FF Synchronization (Good Case)
+QuestionText,<p>Suppose a single flip-flop was added in front of this non-ideal FSM. The output of this FF     experiences glitches for <b>4 ns</b> before settling into 1 as shown above. What will     happen to the state now? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/composite_24_2.png
+OPTION,100,The signal Q will stay in the correct state because c settled quickly enough to avoid violations,HTML
+OPTION,0,The signal Q will stay in the correct state regardless of how quickly c settles,HTML
+OPTION,0,The signal Q will suffer from glitches before settling to an unpredictable value,HTML
+OPTION,0,The signal Q will still be forced into the incorrect state because the signal a has violations,HTML
+
+

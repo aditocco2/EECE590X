@@ -1,0 +1,96 @@
+NewQuestion,MS
+Title,Synchronizer Use Cases
+QuestionText,In which of the following scenarios would a synchronizer be necessary? Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,RightAnswers
+OPTION,0,An input that is running on the same clock as the rest of the system,HTML
+OPTION,1,A signal coming from a different system with the same clock frequency,HTML
+OPTION,1,A signal coming from a different system with a different clock frequency,HTML
+OPTION,0,An internal signal going from one register to another in the same system,HTML
+
+
+NewQuestion,MS
+Title,Synchronizer Use Cases
+QuestionText,In which of the following scenarios would a synchronizer be necessary? Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,RightAnswers
+OPTION,0,An input that is running on the same clock as the rest of the system,HTML
+OPTION,1,A system sampling an external waveform at an unknown frequency,HTML
+OPTION,1,A button on the FPGA board,HTML
+OPTION,1,A signal coming from a different system with a different clock frequency,HTML
+
+
+NewQuestion,MS
+Title,Synchronizer Use Cases
+QuestionText,In which of the following scenarios would a synchronizer be necessary? Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,RightAnswers
+OPTION,1,A system sampling an external waveform at an unknown frequency,HTML
+OPTION,1,A signal coming from a different system with a different clock frequency,HTML
+OPTION,0,An internal signal going from one register to another in the same system,HTML
+OPTION,0,A signal going directly to the LEDs on the FPGA board,HTML
+
+
+NewQuestion,MS
+Title,Synchronizer Use Cases
+QuestionText,In which of the following scenarios would a synchronizer be necessary? Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,RightAnswers
+OPTION,0,An internal signal going from one register to another in the same system,HTML
+OPTION,1,A system sampling an external waveform at an unknown frequency,HTML
+OPTION,1,A signal coming from a different system with the same clock frequency,HTML
+OPTION,1,A switch on the FPGA board,HTML
+
+
+NewQuestion,MS
+Title,Synchronizer Use Cases
+QuestionText,In which of the following scenarios would a synchronizer be necessary? Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,RightAnswers
+OPTION,0,An internal signal going from one register to another in the same system,HTML
+OPTION,1,A system sampling an external waveform at an unknown frequency,HTML
+OPTION,1,A signal coming from a different system with the same clock frequency,HTML
+OPTION,1,A switch on the FPGA board,HTML
+
+
+NewQuestion,MS
+Title,Synchronizer Use Cases
+QuestionText,In which of the following scenarios would a synchronizer be necessary? Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,RightAnswers
+OPTION,1,A signal coming from a different system with the same clock frequency,HTML
+OPTION,0,An input that is running on the same clock as the rest of the system,HTML
+OPTION,1,A switch on the FPGA board,HTML
+OPTION,1,A signal coming from a different system with a different clock frequency,HTML
+
+
+NewQuestion,MS
+Title,Synchronizer Use Cases
+QuestionText,In which of the following scenarios would a synchronizer be necessary? Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,RightAnswers
+OPTION,1,A system sampling an external waveform at an unknown frequency,HTML
+OPTION,0,An input that is running on the same clock as the rest of the system,HTML
+OPTION,1,A switch on the FPGA board,HTML
+OPTION,1,A signal coming from a different system with the same clock frequency,HTML
+
+
+NewQuestion,MS
+Title,Synchronizer Use Cases
+QuestionText,In which of the following scenarios would a synchronizer be necessary? Select all that apply.,NOT HTML
+Points,10
+Difficulty,1
+Scoring,RightAnswers
+OPTION,0,A signal going directly to the LEDs on the FPGA board,HTML
+OPTION,1,A button on the FPGA board,HTML
+OPTION,0,A signal going into a purely combinational circuit,HTML
+OPTION,1,A system sampling an external waveform at an unknown frequency,HTML
+
+
