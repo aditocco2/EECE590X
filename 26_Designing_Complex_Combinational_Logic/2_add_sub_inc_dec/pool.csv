@@ -1,0 +1,85 @@
+NewQuestion,M
+Title,Add Sub Inc Dec
+QuestionText,"<p> Suppose you have built a 1-bit adder block using combinational logic.     You want to chain these together to create a <b>2-bit adder</b>. </p>     <p> A diagram is shown above with placeholders for the inputs to the adders.     Determine which signals should be connected to each input, and match them below. </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/two_bit_adder_skeleton.png
+Scoring,EquallyWeighted
+Choice,1,B[0]
+Choice,2,C[0]
+Choice,3,B[0]'
+Choice,4,Constant 1
+Choice,5,C[1]
+Choice,6,B[1]
+Choice,7,B[1]'
+Choice,8,Constant 0
+Choice,9,A[0]
+Match,6,Input 1
+Match,2,Input 2
+Match,9,Input 3
+Match,1,Input 4
+Match,8,Input 5
+
+
+NewQuestion,M
+Title,Add Sub Inc Dec
+QuestionText,"<p> Suppose you have built a 1-bit adder block using combinational logic.     You want to chain these together to create a <b>2-bit subtractor</b> using two's complement. </p>     <p> A diagram is shown above with placeholders for the inputs to the adders.     Determine which signals should be connected to each input, and match them below. </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/two_bit_adder_skeleton.png
+Scoring,EquallyWeighted
+Choice,1,Constant 0
+Choice,2,B[1]
+Choice,3,C[1]
+Choice,4,A[0]
+Choice,5,C[0]
+Choice,6,B[1]'
+Choice,7,B[0]
+Choice,8,B[0]'
+Choice,9,Constant 1
+Match,6,Input 1
+Match,5,Input 2
+Match,4,Input 3
+Match,8,Input 4
+Match,9,Input 5
+
+
+NewQuestion,M
+Title,Add Sub Inc Dec
+QuestionText,"<p> Suppose you have built a 1-bit adder block using combinational logic.     You want to chain these together to create a <b>2-bit incrementer</b>, which adds 1 to a number. </p>     <p> A diagram is shown above with placeholders for the inputs to the adders.     Determine which signals should be connected to each input, and match them below. </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/two_bit_incrementer_skeleton.png
+Scoring,EquallyWeighted
+Choice,1,S[1]
+Choice,2,S[0]
+Choice,3,Constant 0
+Choice,4,C[1]
+Choice,5,Constant 1
+Choice,6,A[0]
+Choice,7,C[0]
+Match,3,Input 1
+Match,7,Input 2
+Match,6,Input 3
+Match,5,Input 4
+
+
+NewQuestion,M
+Title,Add Sub Inc Dec
+QuestionText,"<p> Suppose you have built a 1-bit adder block using combinational logic.     You want to chain these together to create a <b>2-bit decrementer</b>, which subtracts 1 from a number using two's complement. </p>     <p> A diagram is shown above with placeholders for the inputs to the adders.     Determine which signals should be connected to each input, and match them below. </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/two_bit_incrementer_skeleton.png
+Scoring,EquallyWeighted
+Choice,1,"Constant 0, C[1]"
+Choice,2,Constant 1
+Choice,3,C[0]
+Choice,4,A[1]'
+Choice,5,A[0]'
+Choice,6,A[0]
+Match,2,Input 1
+Match,3,Input 2
+Match,6,Input 3
+Match,2,Input 4
+
+

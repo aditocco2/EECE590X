@@ -1,0 +1,360 @@
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -92? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,10100100,NOT HTML
+ANSWER,100,^\s*10100100\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -51? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,11001101,NOT HTML
+ANSWER,100,^\s*11001101\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -7? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,11111001,NOT HTML
+ANSWER,100,^\s*11111001\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -66? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,10111110,NOT HTML
+ANSWER,100,^\s*10111110\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -107? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,10010101,NOT HTML
+ANSWER,100,^\s*10010101\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -43? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,11010101,NOT HTML
+ANSWER,100,^\s*11010101\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -97? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,10011111,NOT HTML
+ANSWER,100,^\s*10011111\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -42? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,11010110,NOT HTML
+ANSWER,100,^\s*11010110\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -53? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,11001011,NOT HTML
+ANSWER,100,^\s*11001011\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -86? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,10101010,NOT HTML
+ANSWER,100,^\s*10101010\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -98? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,10011110,NOT HTML
+ANSWER,100,^\s*10011110\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -84? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,10101100,NOT HTML
+ANSWER,100,^\s*10101100\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -21? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,11101011,NOT HTML
+ANSWER,100,^\s*11101011\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -16? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,11110000,NOT HTML
+ANSWER,100,^\s*11110000\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -79? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,10110001,NOT HTML
+ANSWER,100,^\s*10110001\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -81? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,10101111,NOT HTML
+ANSWER,100,^\s*10101111\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -35? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,11011101,NOT HTML
+ANSWER,100,^\s*11011101\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -10? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,11110110,NOT HTML
+ANSWER,100,^\s*11110110\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -4? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,11111100,NOT HTML
+ANSWER,100,^\s*11111100\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the 8-bit two's complement representation         of the decimal number -91? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,10100101,NOT HTML
+ANSWER,100,^\s*10100101\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 11011001 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-39,NOT HTML
+ANSWER,100,^\s*-39\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 10010000 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-112,NOT HTML
+ANSWER,100,^\s*-112\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 10001010 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-118,NOT HTML
+ANSWER,100,^\s*-118\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 10100100 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-92,NOT HTML
+ANSWER,100,^\s*-92\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 10011110 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-98,NOT HTML
+ANSWER,100,^\s*-98\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 10001101 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-115,NOT HTML
+ANSWER,100,^\s*-115\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 11010110 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-42,NOT HTML
+ANSWER,100,^\s*-42\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 11011100 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-36,NOT HTML
+ANSWER,100,^\s*-36\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 11000011 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-61,NOT HTML
+ANSWER,100,^\s*-61\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 10011001 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-103,NOT HTML
+ANSWER,100,^\s*-103\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 11110110 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-10,NOT HTML
+ANSWER,100,^\s*-10\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 11101001 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-23,NOT HTML
+ANSWER,100,^\s*-23\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 11000100 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-60,NOT HTML
+ANSWER,100,^\s*-60\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 10000011 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-125,NOT HTML
+ANSWER,100,^\s*-125\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 11011110 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-34,NOT HTML
+ANSWER,100,^\s*-34\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 10100101 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-91,NOT HTML
+ANSWER,100,^\s*-91\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 11101011 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-21,NOT HTML
+ANSWER,100,^\s*-21\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 10011000 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-104,NOT HTML
+ANSWER,100,^\s*-104\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 10010111 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-105,NOT HTML
+ANSWER,100,^\s*-105\s*$,regexp
+
+
+NewQuestion,SA
+Title,Two's Complement Representation
+QuestionText,<p>What is the decimal representation of the         signed binary number 11111110 (in two's complement)? </b>,HTML
+Points,10
+Difficulty,1
+Feedback,-2,NOT HTML
+ANSWER,100,^\s*-2\s*$,regexp
+
+
