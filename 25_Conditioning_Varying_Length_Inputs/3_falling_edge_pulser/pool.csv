@@ -1,0 +1,40 @@
+NewQuestion,MC
+Title,Falling Edge Pulser
+QuestionText,<p> Suppose that you wanted a pulse to be sent out when you <i>let go</i> of the button     rather than when you first press it down. Would the design above be correct? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/pattern_00.png
+OPTION,0,Yes,HTML
+OPTION,100,No,HTML
+
+
+NewQuestion,MC
+Title,Falling Edge Pulser
+QuestionText,<p> Suppose that you wanted a pulse to be sent out when you <i>let go</i> of the button     rather than when you first press it down. Would the design above be correct? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/pattern_01.png
+OPTION,0,Yes,HTML
+OPTION,100,No,HTML
+
+
+NewQuestion,MC
+Title,Falling Edge Pulser
+QuestionText,<p> Suppose that you wanted a pulse to be sent out when you <i>let go</i> of the button     rather than when you first press it down. Would the design above be correct? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/pattern_10.png
+OPTION,100,Yes,HTML
+OPTION,0,No,HTML
+
+
+NewQuestion,MC
+Title,Falling Edge Pulser
+QuestionText,<p> Suppose that you wanted a pulse to be sent out when you <i>let go</i> of the button     rather than when you first press it down. Would the design above be correct? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/pattern_11.png
+OPTION,0,Yes,HTML
+OPTION,100,No,HTML
+
+
