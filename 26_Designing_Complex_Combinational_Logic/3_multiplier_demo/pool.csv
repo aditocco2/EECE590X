@@ -1,0 +1,198 @@
+NewQuestion,SA
+Title,Combinational Multiplier Design
+QuestionText,"<p>You may recall that multiplication on paper is done by multiplying the entire top number by one digit of the bottom number at a time to create partial products, and then adding them all up, like so:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">           1   
+        1 2 3
+   *    2 1 4
+   -----------
+        4 9 2
+      1 2 3 0
+    2 4 6 0 0
+   -----------
+    2 6 0 7 6</pre>
+<p style=""text-align: center;"">&nbsp;</p>
+<p>The same algorithm can be used for binary numbers. Making the partial products is even easier: You either copy the number down if the digit is 1 (since multiplying by 1 is the identity) or just write down 0 if the digit is 0 (anything times 0 is 0). The example below shows the binary equivalent of 11 * 5 = 55:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">         1 0 1 1
+  *      0 1 0 1
+   ---------------
+         1 0 1 1
+       0 0 0 0 0
+     1 0 1 1 0 0
+   0 0 0 0 0 0 0
+   ----------------
+   0 1 1 0 1 1 1</pre>
+<p>&nbsp;</p>
+<p>Suppose you were making a combinational multiplier that took two 2-bit numbers as its inputs. How many 2-bit adders would you need to use in this design?</p>",HTML
+Points,10
+Difficulty,1
+Feedback,"1 adders, as you will have 2 partial products",NOT HTML
+ANSWER,100,^\s*1\s*$,regexp
+
+
+NewQuestion,SA
+Title,Combinational Multiplier Design
+QuestionText,"<p>You may recall that multiplication on paper is done by multiplying the entire top number by one digit of the bottom number at a time to create partial products, and then adding them all up, like so:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">           1   
+        1 2 3
+   *    2 1 4
+   -----------
+        4 9 2
+      1 2 3 0
+    2 4 6 0 0
+   -----------
+    2 6 0 7 6</pre>
+<p style=""text-align: center;"">&nbsp;</p>
+<p>The same algorithm can be used for binary numbers. Making the partial products is even easier: You either copy the number down if the digit is 1 (since multiplying by 1 is the identity) or just write down 0 if the digit is 0 (anything times 0 is 0). The example below shows the binary equivalent of 11 * 5 = 55:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">         1 0 1 1
+  *      0 1 0 1
+   ---------------
+         1 0 1 1
+       0 0 0 0 0
+     1 0 1 1 0 0
+   0 0 0 0 0 0 0
+   ----------------
+   0 1 1 0 1 1 1</pre>
+<p>&nbsp;</p>
+<p>Suppose you were making a combinational multiplier that took two 4-bit numbers as its inputs. How many 4-bit adders would you need to use in this design?</p>",HTML
+Points,10
+Difficulty,1
+Feedback,"3 adders, as you will have 4 partial products",NOT HTML
+ANSWER,100,^\s*3\s*$,regexp
+
+
+NewQuestion,SA
+Title,Combinational Multiplier Design
+QuestionText,"<p>You may recall that multiplication on paper is done by multiplying the entire top number by one digit of the bottom number at a time to create partial products, and then adding them all up, like so:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">           1   
+        1 2 3
+   *    2 1 4
+   -----------
+        4 9 2
+      1 2 3 0
+    2 4 6 0 0
+   -----------
+    2 6 0 7 6</pre>
+<p style=""text-align: center;"">&nbsp;</p>
+<p>The same algorithm can be used for binary numbers. Making the partial products is even easier: You either copy the number down if the digit is 1 (since multiplying by 1 is the identity) or just write down 0 if the digit is 0 (anything times 0 is 0). The example below shows the binary equivalent of 11 * 5 = 55:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">         1 0 1 1
+  *      0 1 0 1
+   ---------------
+         1 0 1 1
+       0 0 0 0 0
+     1 0 1 1 0 0
+   0 0 0 0 0 0 0
+   ----------------
+   0 1 1 0 1 1 1</pre>
+<p>&nbsp;</p>
+<p>Suppose you were making a combinational multiplier that took two 6-bit numbers as its inputs. How many 6-bit adders would you need to use in this design?</p>",HTML
+Points,10
+Difficulty,1
+Feedback,"5 adders, as you will have 6 partial products",NOT HTML
+ANSWER,100,^\s*5\s*$,regexp
+
+
+NewQuestion,SA
+Title,Combinational Multiplier Design
+QuestionText,"<p>You may recall that multiplication on paper is done by multiplying the entire top number by one digit of the bottom number at a time to create partial products, and then adding them all up, like so:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">           1   
+        1 2 3
+   *    2 1 4
+   -----------
+        4 9 2
+      1 2 3 0
+    2 4 6 0 0
+   -----------
+    2 6 0 7 6</pre>
+<p style=""text-align: center;"">&nbsp;</p>
+<p>The same algorithm can be used for binary numbers. Making the partial products is even easier: You either copy the number down if the digit is 1 (since multiplying by 1 is the identity) or just write down 0 if the digit is 0 (anything times 0 is 0). The example below shows the binary equivalent of 11 * 5 = 55:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">         1 0 1 1
+  *      0 1 0 1
+   ---------------
+         1 0 1 1
+       0 0 0 0 0
+     1 0 1 1 0 0
+   0 0 0 0 0 0 0
+   ----------------
+   0 1 1 0 1 1 1</pre>
+<p>&nbsp;</p>
+<p>Suppose you were making a combinational multiplier that took two 8-bit numbers as its inputs. How many 8-bit adders would you need to use in this design?</p>",HTML
+Points,10
+Difficulty,1
+Feedback,"7 adders, as you will have 8 partial products",NOT HTML
+ANSWER,100,^\s*7\s*$,regexp
+
+
+NewQuestion,SA
+Title,Combinational Multiplier Design
+QuestionText,"<p>You may recall that multiplication on paper is done by multiplying the entire top number by one digit of the bottom number at a time to create partial products, and then adding them all up, like so:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">           1   
+        1 2 3
+   *    2 1 4
+   -----------
+        4 9 2
+      1 2 3 0
+    2 4 6 0 0
+   -----------
+    2 6 0 7 6</pre>
+<p style=""text-align: center;"">&nbsp;</p>
+<p>The same algorithm can be used for binary numbers. Making the partial products is even easier: You either copy the number down if the digit is 1 (since multiplying by 1 is the identity) or just write down 0 if the digit is 0 (anything times 0 is 0). The example below shows the binary equivalent of 11 * 5 = 55:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">         1 0 1 1
+  *      0 1 0 1
+   ---------------
+         1 0 1 1
+       0 0 0 0 0
+     1 0 1 1 0 0
+   0 0 0 0 0 0 0
+   ----------------
+   0 1 1 0 1 1 1</pre>
+<p>&nbsp;</p>
+<p>Suppose you were making a combinational multiplier that took two 12-bit numbers as its inputs. How many 12-bit adders would you need to use in this design?</p>",HTML
+Points,10
+Difficulty,1
+Feedback,"11 adders, as you will have 12 partial products",NOT HTML
+ANSWER,100,^\s*11\s*$,regexp
+
+
+NewQuestion,SA
+Title,Combinational Multiplier Design
+QuestionText,"<p>You may recall that multiplication on paper is done by multiplying the entire top number by one digit of the bottom number at a time to create partial products, and then adding them all up, like so:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">           1   
+        1 2 3
+   *    2 1 4
+   -----------
+        4 9 2
+      1 2 3 0
+    2 4 6 0 0
+   -----------
+    2 6 0 7 6</pre>
+<p style=""text-align: center;"">&nbsp;</p>
+<p>The same algorithm can be used for binary numbers. Making the partial products is even easier: You either copy the number down if the digit is 1 (since multiplying by 1 is the identity) or just write down 0 if the digit is 0 (anything times 0 is 0). The example below shows the binary equivalent of 11 * 5 = 55:</p>
+<p>&nbsp;</p>
+<pre style=""text-align: center;"">         1 0 1 1
+  *      0 1 0 1
+   ---------------
+         1 0 1 1
+       0 0 0 0 0
+     1 0 1 1 0 0
+   0 0 0 0 0 0 0
+   ----------------
+   0 1 1 0 1 1 1</pre>
+<p>&nbsp;</p>
+<p>Suppose you were making a combinational multiplier that took two 16-bit numbers as its inputs. How many 16-bit adders would you need to use in this design?</p>",HTML
+Points,10
+Difficulty,1
+Feedback,"15 adders, as you will have 16 partial products",NOT HTML
+ANSWER,100,^\s*15\s*$,regexp
+
+

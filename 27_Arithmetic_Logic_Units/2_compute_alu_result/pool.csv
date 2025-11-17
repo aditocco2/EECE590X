@@ -1,0 +1,400 @@
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = B - A</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A & B</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>10100101</code>, and         B = <code>00100010</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11000111,NOT HTML
+ANSWER,100,^[^0-9]*11000111[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A ^ B</td></tr><tr><td>01</td><td>F = A - B</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>         <p> If the opcode is <code>11</code>, A = <code>00011101</code>, and         B = <code>00010010</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,00101111,NOT HTML
+ANSWER,100,^[^0-9]*00101111[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = B - A</td></tr><tr><td>10</td><td>F = A & B</td></tr><tr><td>11</td><td>F = A</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>01000010</code>, and         B = <code>10001100</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11001110,NOT HTML
+ANSWER,100,^[^0-9]*11001110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A</td></tr><tr><td>01</td><td>F = 2 * A</td></tr><tr><td>10</td><td>F = A ^ B</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>01110011</code>, and         B = <code>00001010</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,01110011,NOT HTML
+ANSWER,100,^[^0-9]*01110011[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A & B</td></tr><tr><td>01</td><td>F = A ^ B</td></tr><tr><td>10</td><td>F = B - A</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>10011010</code>, and         B = <code>01111001</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,00011000,NOT HTML
+ANSWER,100,^[^0-9]*00011000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B - A</td></tr><tr><td>01</td><td>F = 2 * A</td></tr><tr><td>10</td><td>F = A ^ B</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>10001011</code>, and         B = <code>01111100</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11110001,NOT HTML
+ANSWER,100,^[^0-9]*11110001[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B - A</td></tr><tr><td>01</td><td>F = A & B</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = A</td></tr></table>         <p> If the opcode is <code>11</code>, A = <code>01110100</code>, and         B = <code>10100000</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,01110100,NOT HTML
+ANSWER,100,^[^0-9]*01110100[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 2 * A</td></tr><tr><td>01</td><td>F = A</td></tr><tr><td>10</td><td>F = A ^ B</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>         <p> If the opcode is <code>01</code>, A = <code>01001110</code>, and         B = <code>00100100</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,01001110,NOT HTML
+ANSWER,100,^[^0-9]*01001110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B - A</td></tr><tr><td>01</td><td>F = 2 * A</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>         <p> If the opcode is <code>11</code>, A = <code>11100110</code>, and         B = <code>11110000</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11010110,NOT HTML
+ANSWER,100,^[^0-9]*11010110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A ^ B</td></tr><tr><td>01</td><td>F = A & B</td></tr><tr><td>10</td><td>F = B - A</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>         <p> If the opcode is <code>10</code>, A = <code>00010110</code>, and         B = <code>10110111</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,10100001,NOT HTML
+ANSWER,100,^[^0-9]*10100001[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A - B</td></tr><tr><td>01</td><td>F = B - A</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>         <p> If the opcode is <code>10</code>, A = <code>11011100</code>, and         B = <code>00110110</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,10111000,NOT HTML
+ANSWER,100,^[^0-9]*10111000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A ^ B</td></tr><tr><td>01</td><td>F = B - A</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A & B</td></tr></table>         <p> If the opcode is <code>10</code>, A = <code>11000000</code>, and         B = <code>00111110</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,10000000,NOT HTML
+ANSWER,100,^[^0-9]*10000000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A - B</td></tr><tr><td>01</td><td>F = A</td></tr><tr><td>10</td><td>F = A & B</td></tr><tr><td>11</td><td>F = B - A</td></tr></table>         <p> If the opcode is <code>10</code>, A = <code>11110001</code>, and         B = <code>00111111</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,00110001,NOT HTML
+ANSWER,100,^[^0-9]*00110001[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A & B</td></tr><tr><td>01</td><td>F = A - B</td></tr><tr><td>10</td><td>F = A + B</td></tr><tr><td>11</td><td>F = A</td></tr></table>         <p> If the opcode is <code>10</code>, A = <code>11110100</code>, and         B = <code>01101111</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,01100011,NOT HTML
+ANSWER,100,^[^0-9]*01100011[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 2 * A</td></tr><tr><td>01</td><td>F = A ^ B</td></tr><tr><td>10</td><td>F = A & B</td></tr><tr><td>11</td><td>F = B - A</td></tr></table>         <p> If the opcode is <code>11</code>, A = <code>10010011</code>, and         B = <code>00110100</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,10100001,NOT HTML
+ANSWER,100,^[^0-9]*10100001[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A ^ B</td></tr><tr><td>01</td><td>F = 2 * A</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>         <p> If the opcode is <code>11</code>, A = <code>00001101</code>, and         B = <code>00011001</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,00100110,NOT HTML
+ANSWER,100,^[^0-9]*00100110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 2 * A</td></tr><tr><td>01</td><td>F = A - B</td></tr><tr><td>10</td><td>F = A</td></tr><tr><td>11</td><td>F = A ^ B</td></tr></table>         <p> If the opcode is <code>11</code>, A = <code>11101100</code>, and         B = <code>00101000</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11000100,NOT HTML
+ANSWER,100,^[^0-9]*11000100[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2 * A</td></tr><tr><td>10</td><td>F = B - A</td></tr><tr><td>11</td><td>F = A ^ B</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>11110110</code>, and         B = <code>11001011</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11000001,NOT HTML
+ANSWER,100,^[^0-9]*11000001[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = A & B</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A ^ B</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>11011011</code>, and         B = <code>10000110</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,01100001,NOT HTML
+ANSWER,100,^[^0-9]*01100001[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B - A</td></tr><tr><td>01</td><td>F = A & B</td></tr><tr><td>10</td><td>F = A</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>         <p> If the opcode is <code>01</code>, A = <code>00111111</code>, and         B = <code>00101100</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,00101100,NOT HTML
+ANSWER,100,^[^0-9]*00101100[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B - A</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>         <p> If the opcode is <code>11</code>, A = <code>01110101</code>, and         B = <code>00101010</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11101010,NOT HTML
+ANSWER,100,^[^0-9]*11101010[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = A ^ B</td></tr><tr><td>11</td><td>F = B - A</td></tr></table>         <p> If the opcode is <code>10</code>, A = <code>01110011</code>, and         B = <code>10111000</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11001011,NOT HTML
+ANSWER,100,^[^0-9]*11001011[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 2 * A</td></tr><tr><td>01</td><td>F = A</td></tr><tr><td>10</td><td>F = A & B</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>         <p> If the opcode is <code>11</code>, A = <code>10001110</code>, and         B = <code>10111000</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,01000110,NOT HTML
+ANSWER,100,^[^0-9]*01000110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A - B</td></tr><tr><td>01</td><td>F = A</td></tr><tr><td>10</td><td>F = B - A</td></tr><tr><td>11</td><td>F = A & B</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>10000000</code>, and         B = <code>01111011</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,00000101,NOT HTML
+ANSWER,100,^[^0-9]*00000101[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A ^ B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A & B</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>01000010</code>, and         B = <code>10000011</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11000001,NOT HTML
+ANSWER,100,^[^0-9]*11000001[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A - B</td></tr><tr><td>01</td><td>F = B - A</td></tr><tr><td>10</td><td>F = A ^ B</td></tr><tr><td>11</td><td>F = A</td></tr></table>         <p> If the opcode is <code>01</code>, A = <code>10110000</code>, and         B = <code>10111101</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,00001101,NOT HTML
+ANSWER,100,^[^0-9]*00001101[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A</td></tr><tr><td>01</td><td>F = 2 * A</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = B - A</td></tr></table>         <p> If the opcode is <code>11</code>, A = <code>11011011</code>, and         B = <code>10111010</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11011111,NOT HTML
+ANSWER,100,^[^0-9]*11011111[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = A & B</td></tr><tr><td>10</td><td>F = A ^ B</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>         <p> If the opcode is <code>10</code>, A = <code>11100001</code>, and         B = <code>01110101</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,10010100,NOT HTML
+ANSWER,100,^[^0-9]*10010100[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A & B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = B - A</td></tr><tr><td>11</td><td>F = A</td></tr></table>         <p> If the opcode is <code>01</code>, A = <code>10010101</code>, and         B = <code>01011000</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11101101,NOT HTML
+ANSWER,100,^[^0-9]*11101101[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A</td></tr><tr><td>01</td><td>F = A & B</td></tr><tr><td>10</td><td>F = A ^ B</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>         <p> If the opcode is <code>01</code>, A = <code>10011010</code>, and         B = <code>11001011</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,10001010,NOT HTML
+ANSWER,100,^[^0-9]*10001010[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = A & B</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = B - A</td></tr></table>         <p> If the opcode is <code>01</code>, A = <code>10000001</code>, and         B = <code>10011111</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,10000001,NOT HTML
+ANSWER,100,^[^0-9]*10000001[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A - B</td></tr><tr><td>01</td><td>F = A ^ B</td></tr><tr><td>10</td><td>F = B - A</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>         <p> If the opcode is <code>10</code>, A = <code>00001101</code>, and         B = <code>11100100</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11010111,NOT HTML
+ANSWER,100,^[^0-9]*11010111[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A - B</td></tr><tr><td>01</td><td>F = A</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>         <p> If the opcode is <code>01</code>, A = <code>10000011</code>, and         B = <code>10011010</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,10000011,NOT HTML
+ANSWER,100,^[^0-9]*10000011[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = A</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>01101011</code>, and         B = <code>01111001</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11100100,NOT HTML
+ANSWER,100,^[^0-9]*11100100[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B - A</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = A ^ B</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>10001110</code>, and         B = <code>00101000</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,10011010,NOT HTML
+ANSWER,100,^[^0-9]*10011010[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A ^ B</td></tr><tr><td>01</td><td>F = A & B</td></tr><tr><td>10</td><td>F = A</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>         <p> If the opcode is <code>01</code>, A = <code>11010011</code>, and         B = <code>00011110</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,00010010,NOT HTML
+ANSWER,100,^[^0-9]*00010010[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = B - A</td></tr><tr><td>10</td><td>F = A</td></tr><tr><td>11</td><td>F = A ^ B</td></tr></table>         <p> If the opcode is <code>01</code>, A = <code>10110101</code>, and         B = <code>11110111</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,01000010,NOT HTML
+ANSWER,100,^[^0-9]*01000010[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 2 * A</td></tr><tr><td>01</td><td>F = A & B</td></tr><tr><td>10</td><td>F = A ^ B</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>00110011</code>, and         B = <code>01111111</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,01100110,NOT HTML
+ANSWER,100,^[^0-9]*01100110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A ^ B</td></tr><tr><td>01</td><td>F = A & B</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>         <p> If the opcode is <code>00</code>, A = <code>11100011</code>, and         B = <code>00101110</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,11001101,NOT HTML
+ANSWER,100,^[^0-9]*11001101[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Compute ALU Result
+QuestionText,"<p> The ALU above has 8-bit inputs <i>A</i> and <i>B</i> and an 8-bit         output <i>F</i>. The table below shows its operations: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 2 * A</td></tr><tr><td>01</td><td>F = A</td></tr><tr><td>10</td><td>F = A + B</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>         <p> If the opcode is <code>10</code>, A = <code>11111010</code>, and         B = <code>10000101</code>,         what is the value of F? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/alu_8b.png
+Feedback,01111111,NOT HTML
+ANSWER,100,^[^0-9]*01111111[^0-9]*$,regexp
+
+

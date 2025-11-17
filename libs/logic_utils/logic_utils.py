@@ -223,3 +223,38 @@ def opposite(inputs, expression):
 
     # Make the new expression
     return optimized_sop(inputs,  col)
+
+def b_format(num, width):
+
+    """
+    Formats a number as a binary string. Negatives get two's complement
+
+    num: number to format
+    width: bit width
+    """
+
+    all_1s = (1 << width) - 1
+
+    # Masking and formatting must be done on same line
+    out = f"{(num & all_1s):0{width}b}"
+
+    return out
+
+def h_format(num, width):
+
+    """
+    Formats a number as a hexadecimal string. Negatives get two's complement
+
+    num: number to format, can be binary string or regular int
+    width: hex width
+    """
+    
+    all_1s = (1 << (width*4)) - 1
+
+    # Masking and formatting must be done on same line
+    out = f"{(num & all_1s):0{width}x}"
+
+    out = out.upper()
+
+    return out 
+    

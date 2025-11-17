@@ -1,0 +1,48 @@
+NewQuestion,MC
+Title,Choose Correct Operation Table
+QuestionText,<p> What is the correct operation table for the         arithmetic logic unit pictured above? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/ALU_27_A.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = 0</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A</td></tr><tr><td>01</td><td>F = B</td></tr><tr><td>10</td><td>F = A + B</td></tr><tr><td>11</td><td>F = 2A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A & B</td></tr><tr><td>01</td><td>F = 0</td></tr><tr><td>10</td><td>F = 2A</td></tr><tr><td>11</td><td>F = A * B</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2A</td></tr><tr><td>10</td><td>F = B</td></tr><tr><td>11</td><td>F = A</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose Correct Operation Table
+QuestionText,<p> What is the correct operation table for the         arithmetic logic unit pictured above? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/ALU_27_B.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2A</td></tr><tr><td>10</td><td>F = B</td></tr><tr><td>11</td><td>F = A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B</td></tr><tr><td>01</td><td>F = 0</td></tr><tr><td>10</td><td>F = A + B</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2A</td></tr><tr><td>10</td><td>F = A</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 0</td></tr><tr><td>01</td><td>F = B</td></tr><tr><td>10</td><td>F = A + B</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose Correct Operation Table
+QuestionText,<p> What is the correct operation table for the         arithmetic logic unit pictured above? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/ALU_27_C.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2A</td></tr><tr><td>10</td><td>F = B</td></tr><tr><td>11</td><td>F = A</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = 0</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 0</td></tr><tr><td>01</td><td>F = A - 1</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = 2A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = 0</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose Correct Operation Table
+QuestionText,<p> What is the correct operation table for the         arithmetic logic unit pictured above? </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/ALU_27_D.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A - 1</td></tr><tr><td>01</td><td>F = A - B</td></tr><tr><td>10</td><td>F = A + 1</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 0</td></tr><tr><td>01</td><td>F = A - B</td></tr><tr><td>10</td><td>F = 2A</td></tr><tr><td>11</td><td>F = B</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2A</td></tr><tr><td>10</td><td>F = B</td></tr><tr><td>11</td><td>F = A</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = A - B</td></tr><tr><td>10</td><td>F = A + 1</td></tr><tr><td>11</td><td>F = A - 1</td></tr></table>,HTML
+
+

@@ -1,0 +1,360 @@
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A - B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A ^ B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A ^ B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A * B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A + B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,4 bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = 0</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A - B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A + B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = 0</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A + B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,4 bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A & B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A + 1</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,4 bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A + B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A - B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = 0</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A + B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A + B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = 0</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A & B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A * B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,4 bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,4 bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A & B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,4 bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A - B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A + 1</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = 2A</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A ^ B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A * B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,4 bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A + B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = A * B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A - 1</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A + 1</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A - 1</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = 0</td></tr><tr><td>?</td><td>F = A - 1</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A ^ B</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,2 bits,NOT HTML
+ANSWER,100,^[^0-9]*2[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = 2A</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,3 bits,NOT HTML
+ANSWER,100,^[^0-9]*3[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Determine ALU Opcode Width
+QuestionText,<p>Suppose you are designing an arithmetic logic unit with a specific set of         functionalities. You have started filling out the operation table below: <p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>?</td><td>F = B</td></tr><tr><td>?</td><td>F = 2A</td></tr><tr><td>?</td><td>F = A + 1</td></tr><tr><td>?</td><td>F = A * B</td></tr><tr><td>?</td><td>F = A - B</td></tr><tr><td>?</td><td>F = A & B</td></tr><tr><td>?</td><td>F = A ^ B</td></tr><tr><td>?</td><td>F = A + B</td></tr><tr><td>?</td><td>F = A</td></tr><tr><td>?</td><td>F = A - 1</td></tr></table>         <p> How many bits wide would the opcode need to be to accomodate all of these operations?,HTML
+Points,10
+Difficulty,1
+Feedback,4 bits,NOT HTML
+ANSWER,100,^[^0-9]*4[^0-9]*$,regexp
+
+
