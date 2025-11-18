@@ -27,7 +27,7 @@ for variant in variants:
         image = "two_bit_incrementer_skeleton.png"
         placeholder = "<b>2-bit decrementer</b>, which subtracts 1 from a number using two's complement"
         answers = ["Constant 1", "C[0]", "A[0]", "Constant 1"]
-        distractors = ["Constant 0, C[1]", "A[1]'", "A[0]'"]
+        distractors = ["Constant 0", "C[1]", "A[1]'", "A[0]'"]
 
     q_text = f"<p> Suppose you have built a 1-bit adder block using combinational logic. \
     You want to chain these together to create a {placeholder}. </p> \
