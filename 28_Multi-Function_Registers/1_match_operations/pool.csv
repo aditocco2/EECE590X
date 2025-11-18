@@ -1,0 +1,840 @@
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- I</td></tr><tr><td>0010</td><td>Q <- Q + I</td></tr><tr><td>0100</td><td>Q <- Q - 1</td></tr><tr><td>1000</td><td>Q <- 2Q</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B
+Choice,2,F = 2A
+Choice,3,F = 2B
+Choice,4,F = A + 1
+Choice,5,F = A + B
+Choice,6,F = B - 1
+Choice,7,F = A
+Match,1,Opcode 0000
+Match,7,Opcode 0001
+Match,5,Opcode 0010
+Match,6,Opcode 0100
+Match,3,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + 1</td></tr><tr><td>0010</td><td>Q <- Q + I</td></tr><tr><td>0100</td><td>Q <- I</td></tr><tr><td>1000</td><td>Q <- 0</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A + B
+Choice,2,F = 0
+Choice,3,F = B + 1
+Choice,4,F = B
+Choice,5,F = A - 1
+Choice,6,F = A
+Choice,7,F = A - B
+Match,4,Opcode 0000
+Match,3,Opcode 0001
+Match,1,Opcode 0010
+Match,6,Opcode 0100
+Match,2,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- 2Q</td></tr><tr><td>0100</td><td>Q <- I</td></tr><tr><td>1000</td><td>Q <- Q + I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A - B
+Choice,2,F = A + B
+Choice,3,F = A - 1
+Choice,4,F = A
+Choice,5,F = B
+Choice,6,F = 2B
+Choice,7,F = 0
+Match,5,Opcode 0000
+Match,7,Opcode 0001
+Match,6,Opcode 0010
+Match,4,Opcode 0100
+Match,2,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 2Q</td></tr><tr><td>0010</td><td>Q <- Q - I</td></tr><tr><td>0100</td><td>Q <- Q + 1</td></tr><tr><td>1000</td><td>Q <- I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = 2A
+Choice,2,F = B + 1
+Choice,3,F = B - A
+Choice,4,F = A - 1
+Choice,5,F = 2B
+Choice,6,F = B
+Choice,7,F = A
+Match,6,Opcode 0000
+Match,5,Opcode 0001
+Match,3,Opcode 0010
+Match,2,Opcode 0100
+Match,7,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + 1</td></tr><tr><td>0010</td><td>Q <- I</td></tr><tr><td>0100</td><td>Q <- 2Q</td></tr><tr><td>1000</td><td>Q <- Q + I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = 2B
+Choice,2,F = 2A
+Choice,3,F = A + 1
+Choice,4,F = A
+Choice,5,F = B + 1
+Choice,6,F = A + B
+Choice,7,F = B
+Match,7,Opcode 0000
+Match,5,Opcode 0001
+Match,4,Opcode 0010
+Match,1,Opcode 0100
+Match,6,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - I</td></tr><tr><td>0010</td><td>Q <- Q - 1</td></tr><tr><td>0100</td><td>Q <- I</td></tr><tr><td>1000</td><td>Q <- 2Q</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B - A
+Choice,2,F = 2B
+Choice,3,F = B
+Choice,4,F = A + 1
+Choice,5,F = A - 1
+Choice,6,F = B - 1
+Choice,7,F = A
+Match,3,Opcode 0000
+Match,1,Opcode 0001
+Match,6,Opcode 0010
+Match,7,Opcode 0100
+Match,2,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - I</td></tr><tr><td>0010</td><td>Q <- Q + I</td></tr><tr><td>0100</td><td>Q <- 2Q</td></tr><tr><td>1000</td><td>Q <- I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = 2B
+Choice,2,F = A + B
+Choice,3,F = B - A
+Choice,4,F = A
+Choice,5,F = A + 1
+Choice,6,F = B
+Choice,7,F = A - 1
+Match,6,Opcode 0000
+Match,3,Opcode 0001
+Match,2,Opcode 0010
+Match,1,Opcode 0100
+Match,4,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + 1</td></tr><tr><td>0010</td><td>Q <- 2Q</td></tr><tr><td>0100</td><td>Q <- Q - I</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = 2B
+Choice,2,F = B + 1
+Choice,3,F = 2A
+Choice,4,F = B - 1
+Choice,5,F = B
+Choice,6,F = A - 1
+Choice,7,F = B - A
+Match,5,Opcode 0000
+Match,2,Opcode 0001
+Match,1,Opcode 0010
+Match,7,Opcode 0100
+Match,4,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + I</td></tr><tr><td>0010</td><td>Q <- I</td></tr><tr><td>0100</td><td>Q <- 0</td></tr><tr><td>1000</td><td>Q <- Q + 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A - B
+Choice,2,F = B
+Choice,3,F = 0
+Choice,4,F = B + 1
+Choice,5,F = 2A
+Choice,6,F = A + B
+Choice,7,F = A
+Match,2,Opcode 0000
+Match,6,Opcode 0001
+Match,7,Opcode 0010
+Match,3,Opcode 0100
+Match,4,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - I</td></tr><tr><td>0010</td><td>Q <- Q - 1</td></tr><tr><td>0100</td><td>Q <- I</td></tr><tr><td>1000</td><td>Q <- Q + I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A - 1
+Choice,2,F = A - B
+Choice,3,F = B - A
+Choice,4,F = B - 1
+Choice,5,F = B
+Choice,6,F = A + B
+Choice,7,F = A
+Match,5,Opcode 0000
+Match,3,Opcode 0001
+Match,4,Opcode 0010
+Match,7,Opcode 0100
+Match,6,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - I</td></tr><tr><td>0010</td><td>Q <- Q + I</td></tr><tr><td>0100</td><td>Q <- Q - 1</td></tr><tr><td>1000</td><td>Q <- I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A - 1
+Choice,2,F = 2A
+Choice,3,F = A + B
+Choice,4,F = B - A
+Choice,5,F = B - 1
+Choice,6,F = A
+Choice,7,F = B
+Match,7,Opcode 0000
+Match,4,Opcode 0001
+Match,3,Opcode 0010
+Match,5,Opcode 0100
+Match,6,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- Q - 1</td></tr><tr><td>0100</td><td>Q <- I</td></tr><tr><td>1000</td><td>Q <- Q + I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A
+Choice,2,F = 2A
+Choice,3,F = 0
+Choice,4,F = A - B
+Choice,5,F = A + B
+Choice,6,F = B
+Choice,7,F = B - 1
+Match,6,Opcode 0000
+Match,3,Opcode 0001
+Match,7,Opcode 0010
+Match,1,Opcode 0100
+Match,5,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- I</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- Q + I</td></tr><tr><td>1000</td><td>Q <- 2Q</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A + B
+Choice,2,F = A - B
+Choice,3,F = A
+Choice,4,F = B
+Choice,5,F = A - 1
+Choice,6,F = 0
+Choice,7,F = 2B
+Match,4,Opcode 0000
+Match,3,Opcode 0001
+Match,6,Opcode 0010
+Match,1,Opcode 0100
+Match,7,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 2Q</td></tr><tr><td>0010</td><td>Q <- I</td></tr><tr><td>0100</td><td>Q <- Q - I</td></tr><tr><td>1000</td><td>Q <- Q + I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A - 1
+Choice,2,F = A + B
+Choice,3,F = 2B
+Choice,4,F = A
+Choice,5,F = B
+Choice,6,F = A - B
+Choice,7,F = B - A
+Match,5,Opcode 0000
+Match,3,Opcode 0001
+Match,4,Opcode 0010
+Match,7,Opcode 0100
+Match,2,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + I</td></tr><tr><td>0010</td><td>Q <- Q - I</td></tr><tr><td>0100</td><td>Q <- 0</td></tr><tr><td>1000</td><td>Q <- 2Q</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A - 1
+Choice,2,F = B
+Choice,3,F = A + B
+Choice,4,F = 0
+Choice,5,F = 2B
+Choice,6,F = A - B
+Choice,7,F = B - A
+Match,2,Opcode 0000
+Match,3,Opcode 0001
+Match,7,Opcode 0010
+Match,4,Opcode 0100
+Match,5,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 2Q</td></tr><tr><td>0010</td><td>Q <- Q - I</td></tr><tr><td>0100</td><td>Q <- Q + 1</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B - 1
+Choice,2,F = B + 1
+Choice,3,F = B - A
+Choice,4,F = A + 1
+Choice,5,F = 2B
+Choice,6,F = A - B
+Choice,7,F = B
+Match,7,Opcode 0000
+Match,5,Opcode 0001
+Match,3,Opcode 0010
+Match,2,Opcode 0100
+Match,1,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - I</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- 2Q</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B - A
+Choice,2,F = 2A
+Choice,3,F = 0
+Choice,4,F = 2B
+Choice,5,F = B - 1
+Choice,6,F = A - B
+Choice,7,F = B
+Match,7,Opcode 0000
+Match,1,Opcode 0001
+Match,3,Opcode 0010
+Match,4,Opcode 0100
+Match,5,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 2Q</td></tr><tr><td>0010</td><td>Q <- Q - 1</td></tr><tr><td>0100</td><td>Q <- Q + 1</td></tr><tr><td>1000</td><td>Q <- Q + I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = 2A
+Choice,2,F = A + B
+Choice,3,F = B - 1
+Choice,4,F = A - B
+Choice,5,F = B
+Choice,6,F = 2B
+Choice,7,F = B + 1
+Match,5,Opcode 0000
+Match,6,Opcode 0001
+Match,3,Opcode 0010
+Match,7,Opcode 0100
+Match,2,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - 1</td></tr><tr><td>0010</td><td>Q <- Q + I</td></tr><tr><td>0100</td><td>Q <- 0</td></tr><tr><td>1000</td><td>Q <- I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A
+Choice,2,F = 2A
+Choice,3,F = A + B
+Choice,4,F = B - 1
+Choice,5,F = 0
+Choice,6,F = B
+Choice,7,F = A - 1
+Match,6,Opcode 0000
+Match,4,Opcode 0001
+Match,3,Opcode 0010
+Match,5,Opcode 0100
+Match,1,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- I</td></tr><tr><td>0010</td><td>Q <- 2Q</td></tr><tr><td>0100</td><td>Q <- Q + 1</td></tr><tr><td>1000</td><td>Q <- 0</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B
+Choice,2,F = B + 1
+Choice,3,F = 0
+Choice,4,F = A - 1
+Choice,5,F = 2B
+Choice,6,F = A + 1
+Choice,7,F = A
+Match,1,Opcode 0000
+Match,7,Opcode 0001
+Match,5,Opcode 0010
+Match,2,Opcode 0100
+Match,3,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - 1</td></tr><tr><td>0010</td><td>Q <- Q + I</td></tr><tr><td>0100</td><td>Q <- I</td></tr><tr><td>1000</td><td>Q <- Q + 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A + 1
+Choice,2,F = B - 1
+Choice,3,F = A + B
+Choice,4,F = A - 1
+Choice,5,F = B
+Choice,6,F = B + 1
+Choice,7,F = A
+Match,5,Opcode 0000
+Match,2,Opcode 0001
+Match,3,Opcode 0010
+Match,7,Opcode 0100
+Match,6,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - I</td></tr><tr><td>0010</td><td>Q <- I</td></tr><tr><td>0100</td><td>Q <- 2Q</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B - A
+Choice,2,F = A
+Choice,3,F = A - B
+Choice,4,F = B
+Choice,5,F = 2B
+Choice,6,F = B - 1
+Choice,7,F = A + 1
+Match,4,Opcode 0000
+Match,1,Opcode 0001
+Match,2,Opcode 0010
+Match,5,Opcode 0100
+Match,6,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- Q + I</td></tr><tr><td>0100</td><td>Q <- Q - I</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A + B
+Choice,2,F = B
+Choice,3,F = B - 1
+Choice,4,F = 0
+Choice,5,F = A + 1
+Choice,6,F = A - 1
+Choice,7,F = B - A
+Match,2,Opcode 0000
+Match,4,Opcode 0001
+Match,1,Opcode 0010
+Match,7,Opcode 0100
+Match,3,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + 1</td></tr><tr><td>0010</td><td>Q <- I</td></tr><tr><td>0100</td><td>Q <- Q - 1</td></tr><tr><td>1000</td><td>Q <- 0</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = 2A
+Choice,2,F = B
+Choice,3,F = A
+Choice,4,F = B + 1
+Choice,5,F = B - 1
+Choice,6,F = 0
+Choice,7,F = A + 1
+Match,2,Opcode 0000
+Match,4,Opcode 0001
+Match,3,Opcode 0010
+Match,5,Opcode 0100
+Match,6,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- I</td></tr><tr><td>0100</td><td>Q <- Q + I</td></tr><tr><td>1000</td><td>Q <- Q + 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = 2A
+Choice,2,F = 0
+Choice,3,F = A
+Choice,4,F = A + B
+Choice,5,F = A + 1
+Choice,6,F = B
+Choice,7,F = B + 1
+Match,6,Opcode 0000
+Match,2,Opcode 0001
+Match,3,Opcode 0010
+Match,4,Opcode 0100
+Match,7,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - 1</td></tr><tr><td>0010</td><td>Q <- 2Q</td></tr><tr><td>0100</td><td>Q <- Q - I</td></tr><tr><td>1000</td><td>Q <- I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A - B
+Choice,2,F = 2B
+Choice,3,F = B - 1
+Choice,4,F = A + 1
+Choice,5,F = B
+Choice,6,F = A
+Choice,7,F = B - A
+Match,5,Opcode 0000
+Match,3,Opcode 0001
+Match,2,Opcode 0010
+Match,7,Opcode 0100
+Match,6,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 2Q</td></tr><tr><td>0010</td><td>Q <- Q + I</td></tr><tr><td>0100</td><td>Q <- I</td></tr><tr><td>1000</td><td>Q <- 0</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A + B
+Choice,2,F = 2B
+Choice,3,F = 0
+Choice,4,F = B
+Choice,5,F = A
+Choice,6,F = A - B
+Choice,7,F = A - 1
+Match,4,Opcode 0000
+Match,2,Opcode 0001
+Match,1,Opcode 0010
+Match,5,Opcode 0100
+Match,3,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- Q - I</td></tr><tr><td>0100</td><td>Q <- 2Q</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B
+Choice,2,F = A - B
+Choice,3,F = A - 1
+Choice,4,F = B - A
+Choice,5,F = B - 1
+Choice,6,F = 0
+Choice,7,F = 2B
+Match,1,Opcode 0000
+Match,6,Opcode 0001
+Match,4,Opcode 0010
+Match,7,Opcode 0100
+Match,5,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + 1</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- 2Q</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B - 1
+Choice,2,F = B + 1
+Choice,3,F = A - 1
+Choice,4,F = 2B
+Choice,5,F = 0
+Choice,6,F = B
+Choice,7,F = A + 1
+Match,6,Opcode 0000
+Match,2,Opcode 0001
+Match,5,Opcode 0010
+Match,4,Opcode 0100
+Match,1,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- Q + 1</td></tr><tr><td>0100</td><td>Q <- 2Q</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B + 1
+Choice,2,F = A - B
+Choice,3,F = B - 1
+Choice,4,F = 2B
+Choice,5,F = 0
+Choice,6,F = B
+Choice,7,F = 2A
+Match,6,Opcode 0000
+Match,5,Opcode 0001
+Match,1,Opcode 0010
+Match,4,Opcode 0100
+Match,3,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + I</td></tr><tr><td>0010</td><td>Q <- 2Q</td></tr><tr><td>0100</td><td>Q <- Q - 1</td></tr><tr><td>1000</td><td>Q <- 0</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B
+Choice,2,F = A + B
+Choice,3,F = 0
+Choice,4,F = A - 1
+Choice,5,F = B - 1
+Choice,6,F = A - B
+Choice,7,F = 2B
+Match,1,Opcode 0000
+Match,2,Opcode 0001
+Match,7,Opcode 0010
+Match,5,Opcode 0100
+Match,3,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + I</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- I</td></tr><tr><td>1000</td><td>Q <- 2Q</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = 0
+Choice,2,F = A - B
+Choice,3,F = 2B
+Choice,4,F = A + 1
+Choice,5,F = A + B
+Choice,6,F = B
+Choice,7,F = A
+Match,6,Opcode 0000
+Match,5,Opcode 0001
+Match,1,Opcode 0010
+Match,7,Opcode 0100
+Match,3,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - 1</td></tr><tr><td>0010</td><td>Q <- Q + I</td></tr><tr><td>0100</td><td>Q <- Q - I</td></tr><tr><td>1000</td><td>Q <- I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B - A
+Choice,2,F = B
+Choice,3,F = B - 1
+Choice,4,F = A
+Choice,5,F = A + B
+Choice,6,F = A - 1
+Choice,7,F = 2A
+Match,2,Opcode 0000
+Match,3,Opcode 0001
+Match,5,Opcode 0010
+Match,1,Opcode 0100
+Match,4,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- Q - 1</td></tr><tr><td>0100</td><td>Q <- Q - I</td></tr><tr><td>1000</td><td>Q <- I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B - 1
+Choice,2,F = A
+Choice,3,F = 0
+Choice,4,F = B
+Choice,5,F = B - A
+Choice,6,F = A + 1
+Choice,7,F = A - B
+Match,4,Opcode 0000
+Match,3,Opcode 0001
+Match,1,Opcode 0010
+Match,5,Opcode 0100
+Match,2,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- I</td></tr><tr><td>0010</td><td>Q <- Q + 1</td></tr><tr><td>0100</td><td>Q <- 2Q</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B + 1
+Choice,2,F = A - 1
+Choice,3,F = B
+Choice,4,F = A
+Choice,5,F = B - 1
+Choice,6,F = 2B
+Choice,7,F = A - B
+Match,3,Opcode 0000
+Match,4,Opcode 0001
+Match,1,Opcode 0010
+Match,6,Opcode 0100
+Match,5,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + I</td></tr><tr><td>0010</td><td>Q <- Q - 1</td></tr><tr><td>0100</td><td>Q <- 0</td></tr><tr><td>1000</td><td>Q <- 2Q</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = 2B
+Choice,2,F = A - B
+Choice,3,F = B
+Choice,4,F = B - 1
+Choice,5,F = 0
+Choice,6,F = A + B
+Choice,7,F = A + 1
+Match,3,Opcode 0000
+Match,6,Opcode 0001
+Match,4,Opcode 0010
+Match,5,Opcode 0100
+Match,1,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 2Q</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- Q - 1</td></tr><tr><td>1000</td><td>Q <- Q + I</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = A - 1
+Choice,2,F = 2B
+Choice,3,F = A + 1
+Choice,4,F = 0
+Choice,5,F = B - 1
+Choice,6,F = B
+Choice,7,F = A + B
+Match,6,Opcode 0000
+Match,2,Opcode 0001
+Match,4,Opcode 0010
+Match,5,Opcode 0100
+Match,7,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- I</td></tr><tr><td>0010</td><td>Q <- Q - I</td></tr><tr><td>0100</td><td>Q <- Q + I</td></tr><tr><td>1000</td><td>Q <- 2Q</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B - A
+Choice,2,F = 2B
+Choice,3,F = B
+Choice,4,F = A
+Choice,5,F = A - B
+Choice,6,F = A - 1
+Choice,7,F = A + B
+Match,3,Opcode 0000
+Match,4,Opcode 0001
+Match,1,Opcode 0010
+Match,7,Opcode 0100
+Match,2,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - I</td></tr><tr><td>0010</td><td>Q <- I</td></tr><tr><td>0100</td><td>Q <- Q - 1</td></tr><tr><td>1000</td><td>Q <- Q + 1</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B
+Choice,2,F = A
+Choice,3,F = B + 1
+Choice,4,F = B - A
+Choice,5,F = 2A
+Choice,6,F = A + 1
+Choice,7,F = B - 1
+Match,1,Opcode 0000
+Match,4,Opcode 0001
+Match,2,Opcode 0010
+Match,7,Opcode 0100
+Match,3,Opcode 1000
+
+
+NewQuestion,M
+Title,Match MFR Operation w/ ALU Operation
+QuestionText,<p> The multi-function register shown above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - I</td></tr><tr><td>0010</td><td>Q <- I</td></tr><tr><td>0100</td><td>Q <- Q - 1</td></tr><tr><td>1000</td><td>Q <- 0</td></tr></table>         <p> Match the MFR opcodes with their corresponding <b>ALU operations</b> below. </p>,HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Scoring,EquallyWeighted
+Choice,1,F = B
+Choice,2,F = B - 1
+Choice,3,F = 0
+Choice,4,F = B - A
+Choice,5,F = A + 1
+Choice,6,F = A
+Choice,7,F = A - B
+Match,1,Opcode 0000
+Match,4,Opcode 0001
+Match,6,Opcode 0010
+Match,2,Opcode 0100
+Match,3,Opcode 1000
+
+

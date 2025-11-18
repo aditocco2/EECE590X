@@ -1,0 +1,1 @@
+# Plan to make a wavedrom timing diagram with multiple bits, and then ask to choose between four ALU opcode tables
