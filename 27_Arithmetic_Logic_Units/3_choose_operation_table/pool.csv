@@ -1,48 +1,84 @@
-NewQuestion,MC
-Title,Choose Correct Operation Table
-QuestionText,<p> What is the correct operation table for the         arithmetic logic unit pictured above? </p>,HTML
+NewQuestion,M
+Title,Match Opcodes with Operations
+QuestionText,"<p> For the ALU pictured above, match each opcode to its          corresponding operation. </p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/ALU_27_A.png
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = 0</td></tr></table>,HTML
-OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A</td></tr><tr><td>01</td><td>F = B</td></tr><tr><td>10</td><td>F = A + B</td></tr><tr><td>11</td><td>F = 2A</td></tr></table>,HTML
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A & B</td></tr><tr><td>01</td><td>F = 0</td></tr><tr><td>10</td><td>F = 2A</td></tr><tr><td>11</td><td>F = A * B</td></tr></table>,HTML
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2A</td></tr><tr><td>10</td><td>F = B</td></tr><tr><td>11</td><td>F = A</td></tr></table>,HTML
+Scoring,EquallyWeighted
+Choice,1,F = A + 1
+Choice,2,F = 2A
+Choice,3,F = A - B
+Choice,4,F = 0
+Choice,5,F = A
+Choice,6,F = A + B
+Choice,7,F = B
+Choice,8,F = A - 1
+Match,5,Opcode 00
+Match,7,Opcode 01
+Match,6,Opcode 10
+Match,2,Opcode 11
 
 
-NewQuestion,MC
-Title,Choose Correct Operation Table
-QuestionText,<p> What is the correct operation table for the         arithmetic logic unit pictured above? </p>,HTML
+NewQuestion,M
+Title,Match Opcodes with Operations
+QuestionText,"<p> For the ALU pictured above, match each opcode to its          corresponding operation. </p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/ALU_27_B.png
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2A</td></tr><tr><td>10</td><td>F = B</td></tr><tr><td>11</td><td>F = A</td></tr></table>,HTML
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B</td></tr><tr><td>01</td><td>F = 0</td></tr><tr><td>10</td><td>F = A + B</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>,HTML
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2A</td></tr><tr><td>10</td><td>F = A</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>,HTML
-OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 0</td></tr><tr><td>01</td><td>F = B</td></tr><tr><td>10</td><td>F = A + B</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>,HTML
+Scoring,EquallyWeighted
+Choice,1,F = 2A
+Choice,2,F = 0
+Choice,3,F = A + 1
+Choice,4,F = A - B
+Choice,5,F = A + B
+Choice,6,F = B
+Choice,7,F = A - 1
+Choice,8,F = A
+Match,2,Opcode 00
+Match,6,Opcode 01
+Match,5,Opcode 10
+Match,4,Opcode 11
 
 
-NewQuestion,MC
-Title,Choose Correct Operation Table
-QuestionText,<p> What is the correct operation table for the         arithmetic logic unit pictured above? </p>,HTML
+NewQuestion,M
+Title,Match Opcodes with Operations
+QuestionText,"<p> For the ALU pictured above, match each opcode to its          corresponding operation. </p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/ALU_27_C.png
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2A</td></tr><tr><td>10</td><td>F = B</td></tr><tr><td>11</td><td>F = A</td></tr></table>,HTML
-OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = 0</td></tr></table>,HTML
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 0</td></tr><tr><td>01</td><td>F = A - 1</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = 2A</td></tr></table>,HTML
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = 0</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>,HTML
+Scoring,EquallyWeighted
+Choice,1,F = 2A
+Choice,2,F = A - 1
+Choice,3,F = A
+Choice,4,F = A - B
+Choice,5,F = A + 1
+Choice,6,F = A + B
+Choice,7,F = 0
+Choice,8,F = B
+Match,8,Opcode 00
+Match,6,Opcode 01
+Match,4,Opcode 10
+Match,7,Opcode 11
 
 
-NewQuestion,MC
-Title,Choose Correct Operation Table
-QuestionText,<p> What is the correct operation table for the         arithmetic logic unit pictured above? </p>,HTML
+NewQuestion,M
+Title,Match Opcodes with Operations
+QuestionText,"<p> For the ALU pictured above, match each opcode to its          corresponding operation. </p>",HTML
 Points,10
 Difficulty,1
 Image,/imagepools/quantumbeef/ALU_27_D.png
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A - 1</td></tr><tr><td>01</td><td>F = A - B</td></tr><tr><td>10</td><td>F = A + 1</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>,HTML
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 0</td></tr><tr><td>01</td><td>F = A - B</td></tr><tr><td>10</td><td>F = 2A</td></tr><tr><td>11</td><td>F = B</td></tr></table>,HTML
-OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2A</td></tr><tr><td>10</td><td>F = B</td></tr><tr><td>11</td><td>F = A</td></tr></table>,HTML
-OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = A - B</td></tr><tr><td>10</td><td>F = A + 1</td></tr><tr><td>11</td><td>F = A - 1</td></tr></table>,HTML
+Scoring,EquallyWeighted
+Choice,1,F = 2A
+Choice,2,F = A - 1
+Choice,3,F = B
+Choice,4,F = A
+Choice,5,F = 0
+Choice,6,F = A - B
+Choice,7,F = A + B
+Choice,8,F = A + 1
+Match,7,Opcode 00
+Match,6,Opcode 01
+Match,8,Opcode 10
+Match,2,Opcode 11
 
 
