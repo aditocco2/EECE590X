@@ -1,6 +1,6 @@
 import d2l
 import random
-from RegularTableHTML.html_table import html_table
+from html_utils.html_utils import html_table
 
 pool = d2l.QuestionPool("Match Opcodes with Operations")
 

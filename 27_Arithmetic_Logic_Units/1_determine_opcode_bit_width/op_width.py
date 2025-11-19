@@ -1,7 +1,7 @@
 import d2l
 import random
 import math
-from RegularTableHTML.html_table import html_table
+from html_utils.html_utils import html_table
 
 pool = d2l.QuestionPool("Determine ALU Opcode Width")
 

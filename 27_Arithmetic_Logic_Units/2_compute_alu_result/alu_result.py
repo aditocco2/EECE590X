@@ -1,7 +1,7 @@
 import d2l
 import random
 import math
-from RegularTableHTML.html_table import html_table
+from html_utils.html_utils import html_table
 from logic_utils.logic_utils import b_format
 
 pool = d2l.QuestionPool("Compute ALU Result")
