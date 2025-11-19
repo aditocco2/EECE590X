@@ -1,0 +1,400 @@
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q & A</td></tr><tr><td>0010</td><td>Q <- Q + 1</td></tr><tr><td>0100</td><td>Q <- A</td></tr><tr><td>1000</td><td>Q <- Q + A</td></tr></table>         <p> The value of Q is initially <code>11100001</code>. The value of A is <code>10111101</code>,         and it stays constant. The MFR receives opcodes of <code>0000</code>,         <code>1000</code>, and <code>0010</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,10011111,NOT HTML
+ANSWER,100,^[^0-9]*10011111[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- A</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- Q + A</td></tr><tr><td>1000</td><td>Q <- Q & A</td></tr></table>         <p> The value of Q is initially <code>00101111</code>. The value of A is <code>11000111</code>,         and it stays constant. The MFR receives opcodes of <code>1000</code>,         <code>1000</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00000111,NOT HTML
+ANSWER,100,^[^0-9]*00000111[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q & A</td></tr><tr><td>0010</td><td>Q <- 2 * Q</td></tr><tr><td>0100</td><td>Q <- A</td></tr><tr><td>1000</td><td>Q <- Q + A</td></tr></table>         <p> The value of Q is initially <code>00001100</code>. The value of A is <code>01100000</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0000</code>, and <code>0010</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,11000000,NOT HTML
+ANSWER,100,^[^0-9]*11000000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q ^ A</td></tr><tr><td>0010</td><td>Q <- 2 * Q</td></tr><tr><td>0100</td><td>Q <- Q - A</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> The value of Q is initially <code>00001111</code>. The value of A is <code>01010000</code>,         and it stays constant. The MFR receives opcodes of <code>0001</code>,         <code>0001</code>, and <code>1000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00001110,NOT HTML
+ANSWER,100,^[^0-9]*00001110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q & A</td></tr><tr><td>0010</td><td>Q <- A</td></tr><tr><td>0100</td><td>Q <- Q + 1</td></tr><tr><td>1000</td><td>Q <- 0</td></tr></table>         <p> The value of Q is initially <code>00100100</code>. The value of A is <code>00011000</code>,         and it stays constant. The MFR receives opcodes of <code>0010</code>,         <code>0010</code>, and <code>0001</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00011000,NOT HTML
+ANSWER,100,^[^0-9]*00011000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- A</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- Q + 1</td></tr><tr><td>1000</td><td>Q <- Q + A</td></tr></table>         <p> The value of Q is initially <code>11001110</code>. The value of A is <code>00010101</code>,         and it stays constant. The MFR receives opcodes of <code>0010</code>,         <code>0000</code>, and <code>1000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00010101,NOT HTML
+ANSWER,100,^[^0-9]*00010101[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- A</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- Q + A</td></tr><tr><td>1000</td><td>Q <- Q - A</td></tr></table>         <p> The value of Q is initially <code>11011000</code>. The value of A is <code>00111001</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0010</code>, and <code>0100</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00111001,NOT HTML
+ANSWER,100,^[^0-9]*00111001[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- Q ^ A</td></tr><tr><td>0100</td><td>Q <- Q - A</td></tr><tr><td>1000</td><td>Q <- 2 * Q</td></tr></table>         <p> The value of Q is initially <code>01001101</code>. The value of A is <code>01001011</code>,         and it stays constant. The MFR receives opcodes of <code>0001</code>,         <code>0000</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00000000,NOT HTML
+ANSWER,100,^[^0-9]*00000000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - 1</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- Q + A</td></tr><tr><td>1000</td><td>Q <- Q & A</td></tr></table>         <p> The value of Q is initially <code>11100000</code>. The value of A is <code>01110000</code>,         and it stays constant. The MFR receives opcodes of <code>0001</code>,         <code>0001</code>, and <code>0100</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,01001110,NOT HTML
+ANSWER,100,^[^0-9]*01001110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- A</td></tr><tr><td>0010</td><td>Q <- Q + A</td></tr><tr><td>0100</td><td>Q <- 2 * Q</td></tr><tr><td>1000</td><td>Q <- 0</td></tr></table>         <p> The value of Q is initially <code>01010110</code>. The value of A is <code>01001101</code>,         and it stays constant. The MFR receives opcodes of <code>0001</code>,         <code>0100</code>, and <code>0001</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,01001101,NOT HTML
+ANSWER,100,^[^0-9]*01001101[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- A</td></tr><tr><td>0100</td><td>Q <- Q + A</td></tr><tr><td>1000</td><td>Q <- Q & A</td></tr></table>         <p> The value of Q is initially <code>11100101</code>. The value of A is <code>00101011</code>,         and it stays constant. The MFR receives opcodes of <code>0010</code>,         <code>0100</code>, and <code>0001</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00000000,NOT HTML
+ANSWER,100,^[^0-9]*00000000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q ^ A</td></tr><tr><td>0010</td><td>Q <- Q - A</td></tr><tr><td>0100</td><td>Q <- 2 * Q</td></tr><tr><td>1000</td><td>Q <- Q & A</td></tr></table>         <p> The value of Q is initially <code>00100111</code>. The value of A is <code>11110101</code>,         and it stays constant. The MFR receives opcodes of <code>0000</code>,         <code>0100</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,01001110,NOT HTML
+ANSWER,100,^[^0-9]*01001110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + 1</td></tr><tr><td>0010</td><td>Q <- Q - 1</td></tr><tr><td>0100</td><td>Q <- Q & A</td></tr><tr><td>1000</td><td>Q <- A</td></tr></table>         <p> The value of Q is initially <code>11011000</code>. The value of A is <code>01111010</code>,         and it stays constant. The MFR receives opcodes of <code>1000</code>,         <code>0100</code>, and <code>0001</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,01111011,NOT HTML
+ANSWER,100,^[^0-9]*01111011[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + A</td></tr><tr><td>0010</td><td>Q <- 2 * Q</td></tr><tr><td>0100</td><td>Q <- Q - A</td></tr><tr><td>1000</td><td>Q <- 0</td></tr></table>         <p> The value of Q is initially <code>11100100</code>. The value of A is <code>01111010</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0010</code>, and <code>0010</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,10101000,NOT HTML
+ANSWER,100,^[^0-9]*10101000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + 1</td></tr><tr><td>0010</td><td>Q <- 2 * Q</td></tr><tr><td>0100</td><td>Q <- 0</td></tr><tr><td>1000</td><td>Q <- Q - A</td></tr></table>         <p> The value of Q is initially <code>01001100</code>. The value of A is <code>11011010</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0010</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00000000,NOT HTML
+ANSWER,100,^[^0-9]*00000000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- Q + A</td></tr><tr><td>0100</td><td>Q <- 2 * Q</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> The value of Q is initially <code>10101111</code>. The value of A is <code>10001010</code>,         and it stays constant. The MFR receives opcodes of <code>1000</code>,         <code>0000</code>, and <code>1000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,10101101,NOT HTML
+ANSWER,100,^[^0-9]*10101101[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q ^ A</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- A</td></tr><tr><td>1000</td><td>Q <- Q - A</td></tr></table>         <p> The value of Q is initially <code>00000111</code>. The value of A is <code>11010100</code>,         and it stays constant. The MFR receives opcodes of <code>0010</code>,         <code>0100</code>, and <code>0100</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,11010100,NOT HTML
+ANSWER,100,^[^0-9]*11010100[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- Q ^ A</td></tr><tr><td>0100</td><td>Q <- Q + A</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> The value of Q is initially <code>00110110</code>. The value of A is <code>11111100</code>,         and it stays constant. The MFR receives opcodes of <code>1000</code>,         <code>0100</code>, and <code>0001</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00000000,NOT HTML
+ANSWER,100,^[^0-9]*00000000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - 1</td></tr><tr><td>0010</td><td>Q <- Q & A</td></tr><tr><td>0100</td><td>Q <- Q + A</td></tr><tr><td>1000</td><td>Q <- Q ^ A</td></tr></table>         <p> The value of Q is initially <code>11001111</code>. The value of A is <code>10100000</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0000</code>, and <code>0001</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,01101110,NOT HTML
+ANSWER,100,^[^0-9]*01101110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - 1</td></tr><tr><td>0010</td><td>Q <- Q - A</td></tr><tr><td>0100</td><td>Q <- 2 * Q</td></tr><tr><td>1000</td><td>Q <- 0</td></tr></table>         <p> The value of Q is initially <code>00100110</code>. The value of A is <code>00011001</code>,         and it stays constant. The MFR receives opcodes of <code>0000</code>,         <code>1000</code>, and <code>0100</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00000000,NOT HTML
+ANSWER,100,^[^0-9]*00000000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 2 * Q</td></tr><tr><td>0010</td><td>Q <- Q ^ A</td></tr><tr><td>0100</td><td>Q <- Q + A</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> The value of Q is initially <code>00010000</code>. The value of A is <code>01100110</code>,         and it stays constant. The MFR receives opcodes of <code>1000</code>,         <code>0001</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00011110,NOT HTML
+ANSWER,100,^[^0-9]*00011110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + A</td></tr><tr><td>0010</td><td>Q <- Q - A</td></tr><tr><td>0100</td><td>Q <- A</td></tr><tr><td>1000</td><td>Q <- 2 * Q</td></tr></table>         <p> The value of Q is initially <code>11101010</code>. The value of A is <code>10100111</code>,         and it stays constant. The MFR receives opcodes of <code>1000</code>,         <code>0000</code>, and <code>0010</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00101101,NOT HTML
+ANSWER,100,^[^0-9]*00101101[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - 1</td></tr><tr><td>0010</td><td>Q <- A</td></tr><tr><td>0100</td><td>Q <- Q - A</td></tr><tr><td>1000</td><td>Q <- Q + A</td></tr></table>         <p> The value of Q is initially <code>10110001</code>. The value of A is <code>10111110</code>,         and it stays constant. The MFR receives opcodes of <code>0000</code>,         <code>0100</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,11110011,NOT HTML
+ANSWER,100,^[^0-9]*11110011[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 2 * Q</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- Q ^ A</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> The value of Q is initially <code>00000010</code>. The value of A is <code>00110000</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0010</code>, and <code>0100</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00110000,NOT HTML
+ANSWER,100,^[^0-9]*00110000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - A</td></tr><tr><td>0010</td><td>Q <- Q & A</td></tr><tr><td>0100</td><td>Q <- Q + 1</td></tr><tr><td>1000</td><td>Q <- 2 * Q</td></tr></table>         <p> The value of Q is initially <code>11111000</code>. The value of A is <code>11110100</code>,         and it stays constant. The MFR receives opcodes of <code>0000</code>,         <code>0100</code>, and <code>1000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,11110010,NOT HTML
+ANSWER,100,^[^0-9]*11110010[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 2 * Q</td></tr><tr><td>0010</td><td>Q <- A</td></tr><tr><td>0100</td><td>Q <- Q - A</td></tr><tr><td>1000</td><td>Q <- Q ^ A</td></tr></table>         <p> The value of Q is initially <code>00111111</code>. The value of A is <code>01101010</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0000</code>, and <code>0001</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,10101010,NOT HTML
+ANSWER,100,^[^0-9]*10101010[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q & A</td></tr><tr><td>0010</td><td>Q <- Q - A</td></tr><tr><td>0100</td><td>Q <- Q + 1</td></tr><tr><td>1000</td><td>Q <- 2 * Q</td></tr></table>         <p> The value of Q is initially <code>01101111</code>. The value of A is <code>00001011</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0010</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,01100101,NOT HTML
+ANSWER,100,^[^0-9]*01100101[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- Q - A</td></tr><tr><td>0100</td><td>Q <- A</td></tr><tr><td>1000</td><td>Q <- Q + 1</td></tr></table>         <p> The value of Q is initially <code>11111111</code>. The value of A is <code>10010110</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0100</code>, and <code>0001</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00000000,NOT HTML
+ANSWER,100,^[^0-9]*00000000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - A</td></tr><tr><td>0010</td><td>Q <- Q & A</td></tr><tr><td>0100</td><td>Q <- Q + A</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> The value of Q is initially <code>00000110</code>. The value of A is <code>11110110</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0100</code>, and <code>1000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,11110001,NOT HTML
+ANSWER,100,^[^0-9]*11110001[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + 1</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- Q - A</td></tr><tr><td>1000</td><td>Q <- 2 * Q</td></tr></table>         <p> The value of Q is initially <code>10111010</code>. The value of A is <code>11111010</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0010</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00000000,NOT HTML
+ANSWER,100,^[^0-9]*00000000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - 1</td></tr><tr><td>0010</td><td>Q <- 2 * Q</td></tr><tr><td>0100</td><td>Q <- Q ^ A</td></tr><tr><td>1000</td><td>Q <- Q & A</td></tr></table>         <p> The value of Q is initially <code>01101011</code>. The value of A is <code>11101011</code>,         and it stays constant. The MFR receives opcodes of <code>0001</code>,         <code>0010</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,11010100,NOT HTML
+ANSWER,100,^[^0-9]*11010100[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q & A</td></tr><tr><td>0010</td><td>Q <- 2 * Q</td></tr><tr><td>0100</td><td>Q <- Q ^ A</td></tr><tr><td>1000</td><td>Q <- Q + A</td></tr></table>         <p> The value of Q is initially <code>11011001</code>. The value of A is <code>00100111</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0001</code>, and <code>0001</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00100110,NOT HTML
+ANSWER,100,^[^0-9]*00100110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- A</td></tr><tr><td>0010</td><td>Q <- Q ^ A</td></tr><tr><td>0100</td><td>Q <- Q - A</td></tr><tr><td>1000</td><td>Q <- 2 * Q</td></tr></table>         <p> The value of Q is initially <code>00000110</code>. The value of A is <code>11100010</code>,         and it stays constant. The MFR receives opcodes of <code>0010</code>,         <code>0010</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00000110,NOT HTML
+ANSWER,100,^[^0-9]*00000110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q & A</td></tr><tr><td>0010</td><td>Q <- Q - 1</td></tr><tr><td>0100</td><td>Q <- 2 * Q</td></tr><tr><td>1000</td><td>Q <- A</td></tr></table>         <p> The value of Q is initially <code>10001110</code>. The value of A is <code>01010110</code>,         and it stays constant. The MFR receives opcodes of <code>0010</code>,         <code>1000</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,01010110,NOT HTML
+ANSWER,100,^[^0-9]*01010110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 2 * Q</td></tr><tr><td>0010</td><td>Q <- A</td></tr><tr><td>0100</td><td>Q <- Q - 1</td></tr><tr><td>1000</td><td>Q <- Q - A</td></tr></table>         <p> The value of Q is initially <code>10100011</code>. The value of A is <code>10010101</code>,         and it stays constant. The MFR receives opcodes of <code>0001</code>,         <code>0100</code>, and <code>0001</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,10001010,NOT HTML
+ANSWER,100,^[^0-9]*10001010[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q - 1</td></tr><tr><td>0010</td><td>Q <- Q ^ A</td></tr><tr><td>0100</td><td>Q <- Q - A</td></tr><tr><td>1000</td><td>Q <- 0</td></tr></table>         <p> The value of Q is initially <code>01010110</code>. The value of A is <code>10000100</code>,         and it stays constant. The MFR receives opcodes of <code>0100</code>,         <code>0001</code>, and <code>0100</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,01001101,NOT HTML
+ANSWER,100,^[^0-9]*01001101[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + 1</td></tr><tr><td>0010</td><td>Q <- Q & A</td></tr><tr><td>0100</td><td>Q <- Q + A</td></tr><tr><td>1000</td><td>Q <- Q ^ A</td></tr></table>         <p> The value of Q is initially <code>00110011</code>. The value of A is <code>11101000</code>,         and it stays constant. The MFR receives opcodes of <code>1000</code>,         <code>0100</code>, and <code>0010</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,11000000,NOT HTML
+ANSWER,100,^[^0-9]*11000000[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- 0</td></tr><tr><td>0010</td><td>Q <- Q ^ A</td></tr><tr><td>0100</td><td>Q <- Q - 1</td></tr><tr><td>1000</td><td>Q <- A</td></tr></table>         <p> The value of Q is initially <code>11101011</code>. The value of A is <code>01011011</code>,         and it stays constant. The MFR receives opcodes of <code>0001</code>,         <code>0100</code>, and <code>0100</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,11111110,NOT HTML
+ANSWER,100,^[^0-9]*11111110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- A</td></tr><tr><td>0010</td><td>Q <- Q - A</td></tr><tr><td>0100</td><td>Q <- 2 * Q</td></tr><tr><td>1000</td><td>Q <- Q - 1</td></tr></table>         <p> The value of Q is initially <code>10010111</code>. The value of A is <code>11000011</code>,         and it stays constant. The MFR receives opcodes of <code>0001</code>,         <code>0100</code>, and <code>0000</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,10000110,NOT HTML
+ANSWER,100,^[^0-9]*10000110[^0-9]*$,regexp
+
+
+NewQuestion,SA
+Title,Find MFR Result
+QuestionText,"<p> The multi-function register pictured above has the following         operation table: </p>         <table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>MFR Operation</th></tr><tr><td>0000</td><td>Q <- Q</td></tr><tr><td>0001</td><td>Q <- Q + 1</td></tr><tr><td>0010</td><td>Q <- 0</td></tr><tr><td>0100</td><td>Q <- Q + A</td></tr><tr><td>1000</td><td>Q <- 2 * Q</td></tr></table>         <p> The value of Q is initially <code>10000001</code>. The value of A is <code>10000010</code>,         and it stays constant. The MFR receives opcodes of <code>1000</code>,         <code>0001</code>, and <code>0001</code> over the next         three clock cycles.</p>         <p> What is the resulting value of Q? <i>Enter your answer in binary.</i></p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/MFR_28_1.png
+Feedback,00000100,NOT HTML
+ANSWER,100,^[^0-9]*00000100[^0-9]*$,regexp
+
+

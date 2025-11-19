@@ -26,7 +26,7 @@ for i in range(40):
     q_text = f"<p>Suppose you are designing an arithmetic logic unit with a specific set of \
         functionalities. You have started filling out the operation table below: <p> \
         {table} \
-        <p> How many bits wide would the opcode need to be to accomodate all of these operations?"
+        <p> What is the minimum bit width the opcode would need to be to accomodate all of these operations?"
     
     regex_ans = rf"^[^0-9]*{ans}[^0-9]*$"
 

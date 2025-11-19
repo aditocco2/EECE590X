@@ -9,17 +9,17 @@ image_link = "/imagepools/quantumbeef/MFR_28_1.png"
 
 # MFR operation on left, ALU operation on right
 operation_bank = {
-    "Q <- Q" : "F = B", # hold
-    "Q <- I" : "F = A", # load
+    "Q <- Q" : "F = R", # hold
+    "Q <- A" : "F = L", # load
     "Q <- 0" : "F = 0", # reset
-    "Q <- Q + I" : "F = A + B", # add
-    "Q <- Q - I" : "F = B - A", # sub
-    "Q <- 2Q" : "F = 2B", # double
-    "Q <- Q + 1" : "F = B + 1", # inc
-    "Q <- Q - 1" : "F = B - 1", # dec
+    "Q <- Q + A" : "F = L + R", # add
+    "Q <- Q - A" : "F = R - L", # sub
+    "Q <- 2Q" : "F = 2R", # double
+    "Q <- Q + 1" : "F = R + 1", # inc
+    "Q <- Q - 1" : "F = R - 1", # dec
 }
 
-distractors = ["F = A - B", "F = A + 1", "F = A - 1", "F = 2A"]
+distractors = ["F = L - R", "F = L + 1", "F = L - 1", "F = 2L"]
 
 num_operations = 5
 opcode_bits = num_operations - 1
