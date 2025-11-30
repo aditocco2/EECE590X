@@ -1,0 +1,72 @@
+NewQuestion,MC
+Title,Choose ALU Table from Timing Diagram
+QuestionText,"<p> An ALU has 4-bit inputs A and B and a 2-bit opcode.         Based on the timing diagram above, what is the correct operation table         for this ALU? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_A.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A ^ B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = A & B</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A ^ B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A & B</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = A ^ B</td></tr><tr><td>10</td><td>F = A & B</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A ^ B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = A & B</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose ALU Table from Timing Diagram
+QuestionText,"<p> An ALU has 4-bit inputs A and B and a 2-bit opcode.         Based on the timing diagram above, what is the correct operation table         for this ALU? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_B.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = B - A</td></tr><tr><td>10</td><td>F = A & B</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2 * A</td></tr><tr><td>10</td><td>F = A & B</td></tr><tr><td>11</td><td>F = B - A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B - A</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = A & B</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A & B</td></tr><tr><td>01</td><td>F = B - A</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose ALU Table from Timing Diagram
+QuestionText,"<p> An ALU has 4-bit inputs A and B and a 2-bit opcode.         Based on the timing diagram above, what is the correct operation table         for this ALU? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_C.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A & B</td></tr><tr><td>01</td><td>F = A</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A - B</td></tr><tr><td>01</td><td>F = A</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A & B</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 2 * A</td></tr><tr><td>01</td><td>F = A</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = A & B</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A</td></tr><tr><td>01</td><td>F = A - B</td></tr><tr><td>10</td><td>F = A & B</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose ALU Table from Timing Diagram
+QuestionText,"<p> An ALU has 4-bit inputs A and B and a 2-bit opcode.         Based on the timing diagram above, what is the correct operation table         for this ALU? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_D.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = 2 * A</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = B - A</td></tr><tr><td>11</td><td>F = A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A</td></tr><tr><td>01</td><td>F = 2 * A</td></tr><tr><td>10</td><td>F = A + B</td></tr><tr><td>11</td><td>F = B - A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = 2 * A</td></tr><tr><td>10</td><td>F = A</td></tr><tr><td>11</td><td>F = B - A</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B - A</td></tr><tr><td>01</td><td>F = A</td></tr><tr><td>10</td><td>F = A + B</td></tr><tr><td>11</td><td>F = 2 * A</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose ALU Table from Timing Diagram
+QuestionText,"<p> An ALU has 4-bit inputs A and B and a 2-bit opcode.         Based on the timing diagram above, what is the correct operation table         for this ALU? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_E.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = B - A</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A ^ B</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B - A</td></tr><tr><td>01</td><td>F = A ^ B</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = B - A</td></tr><tr><td>01</td><td>F = 2 * A</td></tr><tr><td>10</td><td>F = A + B</td></tr><tr><td>11</td><td>F = A ^ B</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A ^ B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = 2 * A</td></tr><tr><td>11</td><td>F = B - A</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose ALU Table from Timing Diagram
+QuestionText,"<p> An ALU has 4-bit inputs A and B and a 2-bit opcode.         Based on the timing diagram above, what is the correct operation table         for this ALU? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_F.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A - B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = B - A</td></tr><tr><td>11</td><td>F = A & B</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A & B</td></tr><tr><td>01</td><td>F = A + B</td></tr><tr><td>10</td><td>F = A - B</td></tr><tr><td>11</td><td>F = B - A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A & B</td></tr><tr><td>01</td><td>F = A - B</td></tr><tr><td>10</td><td>F = B - A</td></tr><tr><td>11</td><td>F = A + B</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>00</td><td>F = A + B</td></tr><tr><td>01</td><td>F = A & B</td></tr><tr><td>10</td><td>F = B - A</td></tr><tr><td>11</td><td>F = A - B</td></tr></table>,HTML
+
+

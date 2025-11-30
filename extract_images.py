@@ -15,7 +15,7 @@ destination_directory = "temp_images"
 
 # Quit if no arguments
 if len(sys.argv) <= 1:
-    print("Must pass in arguments")
+    print("Usage: python3 extract_images.py <sections to extract images from>")
     exit
 args = sys.argv[1:]
 
@@ -35,6 +35,7 @@ for arg in args:
 # Get a list of folders to walk through
 base_folders = []
 for number in numbers:
+    # Get folders starting with the specified numbers, with or without leading 0s
     base_folders += [i for i in os.listdir() if os.path.isdir(i) and re.match(rf"^0?{number}_", i)]
 
 # Make a new directory (remove it if it already exists)
@@ -42,12 +43,11 @@ if os.path.exists(destination_directory) and os.path.isdir(destination_directory
     shutil.rmtree(destination_directory)
 os.mkdir(destination_directory)
 
-
 for folder in base_folders:
     # Walk through every folder and copy all PNGs into the destination directory
     for root, dirs, files in os.walk(folder):
         for file in files:
-            if file.endswith("png"):
+            if file.lower().endswith("png"):
                 source = os.path.join(root, file)
                 dest = os.path.join(destination_directory, file)
                 shutil.copy(source, dest)

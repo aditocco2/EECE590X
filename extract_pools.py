@@ -46,12 +46,14 @@ for folder in base_folders:
     # Walk through every folder and copy all PNGs into the destination directory
     for root, dirs, files in os.walk(folder):
         for file in files:
-            if file.endswith("csv"):
+            if file.lower().endswith("csv"):
                 # Go from the start to the first underscore
                 set_num = str(int(folder[0:folder.find("_")]))
                 # Go from the first / to the next underscore after that
                 q_num = (root.split('\\')[1]).split('_')[0]
                 new_name = f"q{set_num}_{q_num}.csv"
+                # Example: 16_Synchronous_Circuits\5_dff_advantages\pool.csv
+                #           -> q16_5.csv
 
                 source = os.path.join(root, file)
                 dest = os.path.join(destination_directory, new_name)
@@ -62,4 +64,4 @@ for folder in base_folders:
 
                 # print(dest)
                 shutil.copy(source, dest)
-    print(f"Copied images from {folder} into {destination_directory}")
+    print(f"Copied pools from {folder} into {destination_directory}")
