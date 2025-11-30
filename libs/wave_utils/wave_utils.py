@@ -1,6 +1,7 @@
 import random
 import urllib.parse
 import wavedrom
+from logic_utils.logic_utils import b_format, to_decimal
 
 def make_random_signal(length = 20, num_toggles = None):
 
@@ -497,3 +498,204 @@ def to_regex(name, signal):
     # Super-ultra-mega-monster regex, shoutout to the man himself Doug for this one
     regex_ans = f"""(?i:name\\s*:\\s*['"]{name}['"]\\s*,\\s*wave\\s*:\\s*['"](?:{dotted}|{dotless})['"])"""
     return regex_ans
+
+def make_random_buses(length = 20, width = 8, min_duration = 4, max_duration = 6):
+    
+    """
+    Makes a sequence of random buses for wavedrom
+
+    length: duration of the signal
+    width: bus width in bits
+    min_duration: minimum duration at which each bus remains unchanged
+    max_duration: maximum duration at which each bus remains unchanged
+
+    returns:
+    wave: wave string like "2..3..2.3..."
+    data: array corresponding to each string
+    IN THAT ORDER!
+    """
+
+    data = []
+    wave = ""
+
+    # Progressing between different elements is just done by switching between 2 and 3
+    wave_value = "2"
+
+    # keep track of how many spots in the wave have been filled
+    tag = 0
+
+    # Make the wave signal and the data array
+    while tag < length:
+        num = b_format(random.randint(0, (1<<width - 1)), width)
+        duration = random.randrange(min_duration, max_duration+1)
+
+        # add number to the data array
+        data.append(num)
+        # add the index and the appropriate number of . to the wave
+        wave += wave_value + ("." * (duration - 1))
+
+        tag += duration
+
+        wave_value = "3" if wave_value == "2" else "2"
+
+    wave = wave[0:length]
+
+    return wave, data
+
+def make_random_timing_of_buses(buses, length, min_duration = 4, max_duration = 6):
+
+    """
+    Makes random wave and data signals given an array of buses
+
+    buses: the list of buses
+    length: duration of the signal
+    min_duration: minimum duration at which each bus remains unchanged
+    max_duration: maximum duration at which each bus remains unchanged
+
+    returns:
+    wave: wave string like "2..3..2.3..."
+    data: array with each string
+    IN THAT ORDER!
+    """
+
+    # List of stuff to sample from
+    bus_pool = buses.copy()
+
+    wave = ""
+    data = []
+
+    # Progressing between different elements is just done by switching between 2 and 3
+    wave_value = "2"
+
+    tag = 0
+
+    while tag < length:
+        
+        duration = random.randrange(min_duration, max_duration+1)
+
+        # If already sampled all possible buses, refill the list
+        if bus_pool == []:
+            bus_pool = buses.copy()
+        
+        # Remove a random element from the list
+        bus = bus_pool.pop(random.randrange(len(bus_pool)))
+
+        data.append(bus)
+
+        # add the index and the appropriate number of . to the wave
+        wave += wave_value + ("." * (duration - 1))
+
+        wave_value = "3" if wave_value == "2" else "2"
+
+        tag += duration
+
+    wave = wave[0:length]
+
+    return wave, data
+
+def wavedrom_alu(A, B, opcodes, opcodes_sorted, operations):
+
+    """
+    Does ALU operation on wavedrom bus signals
+
+    A, B: Tuples of (wave, data) of A and B buses
+    opcodes: Tuple of (wave, data) of opcodes
+    opcodes_sorted: sorted list of opcodes
+    operations: list of operations corresponding to each sorted opcode like "0" or "A + B"
+
+    """
+
+    A_wave, A_data = A
+    B_wave, B_data = B
+    op_wave, op_data = opcodes
+
+    # Remove "F = " and spaces from operations if needed
+    operations = [o.replace(" ", "") for o in operations]
+    operations = [(o.split("=")[1] if "=" in o else o) for o in operations]
+
+    length = len(A_wave)
+    width = len(A_data[0])
+
+    A_index, B_index, op_index = -1, -1, -1
+
+    F_value = ""
+    wave_value = "2"
+
+    wave = ""
+    data = []
+
+    for i in range(length):
+
+        if A_wave[i] != ".":
+            A_index += 1
+        if B_wave[i] != ".":
+            B_index += 1
+        if op_wave[i] != ".":
+            op_index += 1
+        
+        A = to_decimal(A_data[A_index])
+        B = to_decimal(B_data[B_index])
+        opcode = op_data[op_index]
+
+        operation = operations[opcodes_sorted.index(opcode)]
+
+        F = eval(operation)
+        F = b_format(F, width)
+
+        if F != F_value:
+            wave += wave_value
+            data.append(F)
+
+            wave_value = "3" if wave_value == "2" else "2"
+        else:
+            wave += "."
+
+        F_value = F
+
+    return wave, data
+
+def make_wavedrom_image_with_buses(title, sig_names, buses, out_filename="image.svg"):
+    """
+    Generates wavedrom image with buses
+    Args:
+        title (str): String to label timing diagram like "Question 2"
+        sig_names (list): List of input signal names like ["a", "b"]
+        buses: list of tuples of wave and data for buses
+        out_filename (str): SVG output file
+    """
+
+    title_line = f"head:{{text:'{title}'}},"
+
+    lines = []
+    for sig_name, bus in zip(sig_names, buses):
+
+        # Separate tuple into string and array
+        wave = bus[0]
+        data = bus[1]
+        # Make data into a proper string
+        data = [f'"{s}",' for s in data]
+        data = " ".join(data)
+        
+        line = f"{{name: \"{sig_name}\", wave: \"{wave}\", data: [{data}]}},"
+        lines.append(line)
+
+    signal_code = " ".join(lines)
+
+    code = '{' + title_line + ' signal: [ ' + signal_code + '],  foot:{"tick":0},}'
+
+    img = wavedrom.render(code)
+    img.saveas(out_filename)
+
+
+
+    
+
+    
+
+
+
+
+
+        
+                
+

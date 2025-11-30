@@ -257,4 +257,8 @@ def h_format(num, width):
     out = out.upper()
 
     return out 
+
+def to_decimal(binary):
+    # turns binary string to decimal
+    return int(binary, 2)
     
