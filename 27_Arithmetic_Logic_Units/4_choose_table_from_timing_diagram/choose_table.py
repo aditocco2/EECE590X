@@ -3,7 +3,7 @@ import random
 import math
 import wave_utils.wave_utils as wu
 import image_utils.image_utils as img
-from html_utils.html_utils import html_table
+from html_utils.html_utils import *
 from logic_utils.logic_utils import b_format
 
 pool = d2l.QuestionPool("Choose ALU Table from Timing Diagram")
@@ -16,8 +16,8 @@ opcodes = [b_format(i, op_width) for i in range(num_operations)] # 00, 01, 10, 1
 # 6 variants
 for letter in "ABCDEF":
     
-    image_name = f"diagram_28_{letter}.png"
-    image_name_svg = f"diagram_28_{letter}.svg"
+    image_name = f"diagram_27_{letter}.png"
+    image_name_svg = f"diagram_27_{letter}.svg"
     image_link = f"/imagepools/quantumbeef/{image_name}"
 
     operations = random.sample(all_operations, num_operations)
@@ -32,7 +32,8 @@ for letter in "ABCDEF":
                                   [A, B, op, F], image_name_svg)
     img.svg2png(image_name_svg, image_name)
 
-    q_text = f"<p> An ALU has 4-bit inputs A and B and a 2-bit opcode. \
+    q_text = f"<p> An ALU has 4-bit data inputs {italic("A")} and {italic("B")}, \
+        a 4-bit data output {italic("F")}, and a 2-bit opcode. \
         Based on the timing diagram above, what is the correct operation table \
         for this ALU? </p>"
     question = d2l.MCQuestion(q_text)
@@ -48,7 +49,10 @@ for letter in "ABCDEF":
     # Make 3 wrong answers
     for _ in range(0, 3):
         wrong_operations = operations.copy()
-        random.shuffle(wrong_operations)
+
+        # shuffle sometimes does nothing so repeat until it does something
+        while wrong_operations == operations:
+            random.shuffle(wrong_operations)
 
         cols = [opcodes, wrong_operations]
         table = html_table(headers, cols)

@@ -1,0 +1,72 @@
+NewQuestion,MC
+Title,Choose MFR Table from Timing Diagram
+QuestionText,"<p> A multi-function register has a 4-bit data input <i>A</i>,         a 4-bit data output <i>Q</i>, and a 3-bit opcode.         Based on the timing diagram above, what is the correct table for this MFR? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_A.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q + A</td></tr><tr><td>001</td><td>Q <- Q & A</td></tr><tr><td>010</td><td>Q <- 0</td></tr><tr><td>100</td><td>Q <- Q</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q + A</td></tr><tr><td>001</td><td>Q <- 0</td></tr><tr><td>010</td><td>Q <- Q</td></tr><tr><td>100</td><td>Q <- Q & A</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q</td></tr><tr><td>001</td><td>Q <- Q + A</td></tr><tr><td>010</td><td>Q <- Q & A</td></tr><tr><td>100</td><td>Q <- 0</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q & A</td></tr><tr><td>001</td><td>Q <- Q</td></tr><tr><td>010</td><td>Q <- Q + A</td></tr><tr><td>100</td><td>Q <- 0</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose MFR Table from Timing Diagram
+QuestionText,"<p> A multi-function register has a 4-bit data input <i>A</i>,         a 4-bit data output <i>Q</i>, and a 3-bit opcode.         Based on the timing diagram above, what is the correct table for this MFR? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_B.png
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q</td></tr><tr><td>001</td><td>Q <- A</td></tr><tr><td>010</td><td>Q <- Q + A</td></tr><tr><td>100</td><td>Q <- Q & A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q</td></tr><tr><td>001</td><td>Q <- Q + A</td></tr><tr><td>010</td><td>Q <- A</td></tr><tr><td>100</td><td>Q <- Q & A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q & A</td></tr><tr><td>001</td><td>Q <- A</td></tr><tr><td>010</td><td>Q <- Q</td></tr><tr><td>100</td><td>Q <- Q + A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- A</td></tr><tr><td>001</td><td>Q <- Q + A</td></tr><tr><td>010</td><td>Q <- Q</td></tr><tr><td>100</td><td>Q <- Q & A</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose MFR Table from Timing Diagram
+QuestionText,"<p> A multi-function register has a 4-bit data input <i>A</i>,         a 4-bit data output <i>Q</i>, and a 3-bit opcode.         Based on the timing diagram above, what is the correct table for this MFR? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_C.png
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q</td></tr><tr><td>001</td><td>Q <- Q - A</td></tr><tr><td>010</td><td>Q <- Q ^ A</td></tr><tr><td>100</td><td>Q <- Q + A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q</td></tr><tr><td>001</td><td>Q <- Q + A</td></tr><tr><td>010</td><td>Q <- Q - A</td></tr><tr><td>100</td><td>Q <- Q ^ A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q</td></tr><tr><td>001</td><td>Q <- Q ^ A</td></tr><tr><td>010</td><td>Q <- Q - A</td></tr><tr><td>100</td><td>Q <- Q + A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q + A</td></tr><tr><td>001</td><td>Q <- Q</td></tr><tr><td>010</td><td>Q <- Q ^ A</td></tr><tr><td>100</td><td>Q <- Q - A</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose MFR Table from Timing Diagram
+QuestionText,"<p> A multi-function register has a 4-bit data input <i>A</i>,         a 4-bit data output <i>Q</i>, and a 3-bit opcode.         Based on the timing diagram above, what is the correct table for this MFR? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_D.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q & A</td></tr><tr><td>001</td><td>Q <- Q</td></tr><tr><td>010</td><td>Q <- Q - 1</td></tr><tr><td>100</td><td>Q <- Q + 1</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q</td></tr><tr><td>001</td><td>Q <- Q & A</td></tr><tr><td>010</td><td>Q <- Q + 1</td></tr><tr><td>100</td><td>Q <- Q - 1</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q - 1</td></tr><tr><td>001</td><td>Q <- Q + 1</td></tr><tr><td>010</td><td>Q <- Q & A</td></tr><tr><td>100</td><td>Q <- Q</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q & A</td></tr><tr><td>001</td><td>Q <- Q</td></tr><tr><td>010</td><td>Q <- Q - 1</td></tr><tr><td>100</td><td>Q <- Q + 1</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose MFR Table from Timing Diagram
+QuestionText,"<p> A multi-function register has a 4-bit data input <i>A</i>,         a 4-bit data output <i>Q</i>, and a 3-bit opcode.         Based on the timing diagram above, what is the correct table for this MFR? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_E.png
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q</td></tr><tr><td>001</td><td>Q <- Q + 1</td></tr><tr><td>010</td><td>Q <- 2 * Q</td></tr><tr><td>100</td><td>Q <- Q - A</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q + 1</td></tr><tr><td>001</td><td>Q <- Q - A</td></tr><tr><td>010</td><td>Q <- 2 * Q</td></tr><tr><td>100</td><td>Q <- Q</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- 2 * Q</td></tr><tr><td>001</td><td>Q <- Q - A</td></tr><tr><td>010</td><td>Q <- Q + 1</td></tr><tr><td>100</td><td>Q <- Q</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q + 1</td></tr><tr><td>001</td><td>Q <- 2 * Q</td></tr><tr><td>010</td><td>Q <- Q - A</td></tr><tr><td>100</td><td>Q <- Q</td></tr></table>,HTML
+
+
+NewQuestion,MC
+Title,Choose MFR Table from Timing Diagram
+QuestionText,"<p> A multi-function register has a 4-bit data input <i>A</i>,         a 4-bit data output <i>Q</i>, and a 3-bit opcode.         Based on the timing diagram above, what is the correct table for this MFR? </p>",HTML
+Points,10
+Difficulty,1
+Image,/imagepools/quantumbeef/diagram_28_F.png
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q ^ A</td></tr><tr><td>001</td><td>Q <- Q - 1</td></tr><tr><td>010</td><td>Q <- 2 * Q</td></tr><tr><td>100</td><td>Q <- Q</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q - 1</td></tr><tr><td>001</td><td>Q <- 2 * Q</td></tr><tr><td>010</td><td>Q <- Q</td></tr><tr><td>100</td><td>Q <- Q ^ A</td></tr></table>,HTML
+OPTION,100,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- Q</td></tr><tr><td>001</td><td>Q <- Q ^ A</td></tr><tr><td>010</td><td>Q <- 2 * Q</td></tr><tr><td>100</td><td>Q <- Q - 1</td></tr></table>,HTML
+OPTION,0,<table style='border-collapse: collapse; text-align: center'><tr>    <th style='border-bottom: 2px solid black; padding: 15px;'>Opcode</th>    <th style='border-bottom: 2px solid black; padding: 15px;'>Operation</th></tr><tr><td>000</td><td>Q <- 2 * Q</td></tr><tr><td>001</td><td>Q <- Q</td></tr><tr><td>010</td><td>Q <- Q ^ A</td></tr><tr><td>100</td><td>Q <- Q - 1</td></tr></table>,HTML
+
+

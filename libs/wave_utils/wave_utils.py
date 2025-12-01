@@ -616,6 +616,7 @@ def wavedrom_alu(A, B, opcodes, opcodes_sorted, operations):
     length = len(A_wave)
     width = len(A_data[0])
 
+    # Indices corresponding to the data arrays
     A_index, B_index, op_index = -1, -1, -1
 
     F_value = ""
@@ -626,6 +627,7 @@ def wavedrom_alu(A, B, opcodes, opcodes_sorted, operations):
 
     for i in range(length):
 
+        # Move on to next element in data array if on a new element
         if A_wave[i] != ".":
             A_index += 1
         if B_wave[i] != ".":
@@ -633,15 +635,15 @@ def wavedrom_alu(A, B, opcodes, opcodes_sorted, operations):
         if op_wave[i] != ".":
             op_index += 1
         
+        # Unpack the numbers and evaluate each time
         A = to_decimal(A_data[A_index])
         B = to_decimal(B_data[B_index])
         opcode = op_data[op_index]
-
         operation = operations[opcodes_sorted.index(opcode)]
-
         F = eval(operation)
         F = b_format(F, width)
 
+        # If the value of F changed, add a new data array element
         if F != F_value:
             wave += wave_value
             data.append(F)
@@ -651,6 +653,71 @@ def wavedrom_alu(A, B, opcodes, opcodes_sorted, operations):
             wave += "."
 
         F_value = F
+
+    return wave, data
+
+def wavedrom_mfr(clk, Q_start, A, opcodes, opcodes_sorted, operations):
+
+    """
+    Does MFR operations on wavedrom bus signals
+
+    clk: wavedrom clock signal from make_clock()
+    Q_start: initial MFR value
+    A: tuple of MFR input as (wave, data)
+    opcodes: Tuple of (wave, data) of opcodes
+    opcodes_sorted: sorted list of opcodes
+    operations: list of operations corresponding to each sorted opcode like "0" or "Q + A"
+
+    """
+
+    A_wave, A_data = A
+    op_wave, op_data = opcodes
+
+    # Remove "Q <- " and spaces from operations if needed
+    operations = [o.replace(" ", "") for o in operations]
+    operations = [(o.split("<-")[1] if "<-" in o else o) for o in operations]
+
+    length = len(A_wave)
+    width = len(A_data[0])
+
+    # Indices for values in the data arrays
+    A_index, op_index = -1, -1
+
+    wave_value = "2"
+
+    wave = wave_value
+    Q_value = Q_start
+    Q = Q_start
+    data = [Q_value]
+
+    for i in range(1, length):
+
+        # Move on to next element in data array if on a new element 
+        if A_wave[i - 1] != ".":
+            A_index += 1
+        if op_wave[i - 1] != ".":
+            op_index += 1
+        
+        A = to_decimal(A_data[A_index])
+        opcode = op_data[op_index]
+
+        operation = operations[opcodes_sorted.index(opcode)]
+
+        # Every rising edge, update Q based on opcode and A value
+        if clk[i] == "1":
+            Q = to_decimal(Q)
+            Q = eval(operation)
+            Q = b_format(Q, width)
+
+        if Q != Q_value:
+            wave += wave_value
+            data.append(Q)
+
+            wave_value = "3" if wave_value == "2" else "2"
+        else:
+            wave += "."
+
+        Q_value = Q
 
     return wave, data
 
@@ -669,15 +736,29 @@ def make_wavedrom_image_with_buses(title, sig_names, buses, out_filename="image.
     lines = []
     for sig_name, bus in zip(sig_names, buses):
 
-        # Separate tuple into string and array
-        wave = bus[0]
-        data = bus[1]
-        # Make data into a proper string
-        data = [f'"{s}",' for s in data]
-        data = " ".join(data)
-        
-        line = f"{{name: \"{sig_name}\", wave: \"{wave}\", data: [{data}]}},"
-        lines.append(line)
+        # If it's a tuple, it's a bus
+        if type(bus) is tuple:
+            
+            # Separate tuple into string and array
+            wave = bus[0]
+            data = bus[1]
+            # Make data into a proper string
+            data = [f'"{s}",' for s in data]
+            data = " ".join(data)
+            
+            line = f"{{name: \"{sig_name}\", wave: \"{wave}\", data: [{data}]}},"
+            lines.append(line)
+
+        # Otherwise it's just a plain signal, so handle it
+        # like in make_wavedrom_image()
+        else:
+            sig = bus
+            # Force sharp edges by replacing 1 and 0 with h and l
+            sig = sig.replace("1", "h")
+            sig = sig.replace("0", "l")
+            
+            line = f"{{name: \"{sig_name}\", wave: \"{sig}\"}},"
+            lines.append(line)
 
     signal_code = " ".join(lines)
 
@@ -689,13 +770,4 @@ def make_wavedrom_image_with_buses(title, sig_names, buses, out_filename="image.
 
 
     
-
-    
-
-
-
-
-
-        
-                
 
