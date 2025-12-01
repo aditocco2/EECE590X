@@ -1,0 +1,359 @@
+<p>A <strong>magnitude comparator</strong> is a device that determines the relative size of two numbers, i.e., it determines whether one number is greater than or less than the other. In this problem, we'll begin to develop a 4-bit magnitude comparator, which takes two 4-bit numbers A and B and has two outputs:</p>
+<ul>
+<li><strong>GT</strong> (Greater Than), which is high when <strong>A&gt;B</strong>, and low otherwise</li>
+<li><strong>LT</strong> (Less Than), which is high when <strong>A&lt;B</strong>, and low otherwise</li>
+</ul>
+<p>Since the outputs only depend on the current inputs, we can make this circuit using only combinational logic. As such, you may be tempted to fill out a truth table for the whole circuit:</p>
+<table border="1" align="center">
+<tbody>
+<tr>
+<td><strong>A(3)</strong></td>
+<td><strong>A(2)</strong></td>
+<td><strong>A(1)</strong></td>
+<td><strong>A(0)</strong></td>
+<td><strong>B(3)</strong></td>
+<td><strong>B(2)</strong></td>
+<td><strong>B(1)</strong></td>
+<td><strong>B(0)</strong></td>
+<td><strong>GT</strong></td>
+<td><strong>LT</strong></td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="10"><strong>...</strong></td>
+</tr>
+</tbody>
+</table>
+<p>But consider the scale of the problem. Since there are 8 bits of input, you'd need 256 rows! Even if you were patient enough to fill all those rows out, you'd have a really hard time turning it into combinational logic.</p>
+<p>Instead, we can break this complicated problem down into a series of steps like we did with addition. Think about how you would normally determine which of these two decimal numbers is greater:</p>
+<p style="text-align: center;"><code>A = 1325</code><br /><code>B = 1330</code></p>
+<p>We can start this process by looking at the <strong>leftmost</strong> digit and working our way rightwards. Starting off with the thousands place, we notice that both of these numbers start with one, so they seem to be of equal magnitude <strong>so far</strong>. Let's document our observations in a table:</p>
+<table border="1" align="center">
+<tbody>
+<tr>
+<td rowspan="2"><strong>The A digit is __ the B digit.</strong></td>
+<td><strong>1</strong></td>
+<td><strong>3</strong></td>
+<td><strong>2</strong></td>
+<td><strong>5</strong></td>
+<td rowspan="2"><strong>Result</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>3</strong></td>
+<td><strong>3</strong></td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>GT (Greater Than)</td>
+<td>No</td>
+<td>&nbsp; &nbsp;</td>
+<td>&nbsp; &nbsp;</td>
+<td>&nbsp; &nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>LT (Less Than)</td>
+<td>No</td>
+<td>&nbsp; &nbsp;</td>
+<td>&nbsp; &nbsp;</td>
+<td>&nbsp; &nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>Moving on to the hundreds place, we see that these two digits are also the same (neither A&gt;B or A&lt;B). So we update the table:</p>
+<table border="1" align="center">
+<tbody>
+<tr>
+<td rowspan="2"><strong>The A digit is __ the B digit.</strong></td>
+<td><strong>1</strong></td>
+<td><strong>3</strong></td>
+<td><strong>2</strong></td>
+<td><strong>5</strong></td>
+<td rowspan="2"><strong>Result</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>3</strong></td>
+<td><strong>3</strong></td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>GT (Greater Than)</td>
+<td>No</td>
+<td>No</td>
+<td>&nbsp; &nbsp;</td>
+<td>&nbsp; &nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>LT (Less Than)</td>
+<td>No</td>
+<td>No</td>
+<td>&nbsp; &nbsp;</td>
+<td>&nbsp; &nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>Then we move on to the tens place. At this point, we see that A's tens place digit is 2, and B's tens place digit is 3. We can confirm that B is greater than A.</p>
+<table border="1" align="center">
+<tbody>
+<tr>
+<td rowspan="2"><strong>The A digit is __ the B digit.</strong></td>
+<td><strong>1</strong></td>
+<td><strong>3</strong></td>
+<td><strong>2</strong></td>
+<td><strong>5</strong></td>
+<td rowspan="2"><strong>Result</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>3</strong></td>
+<td><strong>3</strong></td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>GT (Greater Than)</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>&nbsp; &nbsp;</td>
+<td><strong>&nbsp;</strong></td>
+</tr>
+<tr>
+<td>LT (Less Than)</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>&nbsp; &nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>The values in the ones place are different, but that doesn't matter - we already determined A to be greater than B. We can simply pass our previous results through to the end.</p>
+<table border="1" align="center">
+<tbody>
+<tr>
+<td rowspan="2"><strong>The A digit is __ the B digit.</strong></td>
+<td><strong>1</strong></td>
+<td><strong>3</strong></td>
+<td><strong>2</strong></td>
+<td><strong>5</strong></td>
+<td rowspan="2"><strong>Result</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>3</strong></td>
+<td><strong>3</strong></td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>GT (Greater Than)</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>-&gt;</td>
+<td><strong>No&nbsp;</strong></td>
+</tr>
+<tr>
+<td>LT (Less Than)</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>-&gt;</td>
+<td><strong>Yes</strong></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>The algorithm is the same for binary, going column by column from left to right. If we already determined one number to be greater than the other, we pass those through unchanged. Otherwise, we analyze the bits of A and B in our specific column to look for a result. Here are a few examples:</p>
+<p style="text-align: center;"><strong><code>A = 1010, B = 1001</code></strong></p>
+<table border="1" align="center">
+<tbody>
+<tr>
+<td rowspan="2"><strong>The A bit is __ the B bit.</strong></td>
+<td><strong>1</strong></td>
+<td><strong>0</strong></td>
+<td><strong>1</strong></td>
+<td><strong>0</strong></td>
+<td rowspan="2"><strong>Result</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>0</strong></td>
+<td><strong>0</strong></td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>GT (Greater Than)</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>-&gt;</td>
+<td><strong>Yes&nbsp;</strong></td>
+</tr>
+<tr>
+<td>LT (Less Than)</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>-&gt;</td>
+<td><strong>No</strong></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">&nbsp;<strong><code>A = 0110, B = 1001</code></strong></p>
+<table border="1" align="center">
+<tbody>
+<tr>
+<td rowspan="2"><strong>The A bit is __ the B bit.</strong></td>
+<td><strong>0</strong></td>
+<td><strong>1</strong></td>
+<td><strong>1</strong></td>
+<td><strong>0</strong></td>
+<td rowspan="2"><strong>Result</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>0</strong></td>
+<td><strong>0</strong></td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>GT (Greater Than)</td>
+<td>No</td>
+<td>-&gt;</td>
+<td>-&gt;</td>
+<td>-&gt;</td>
+<td><strong>No&nbsp;</strong></td>
+</tr>
+<tr>
+<td>LT (Less Than)</td>
+<td>Yes</td>
+<td>-&gt;</td>
+<td>-&gt;</td>
+<td>-&gt;</td>
+<td><strong>Yes</strong></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p style="text-align: center;">&nbsp;<strong><code>A = 1011, B = 1011</code></strong></p>
+<table border="1" align="center">
+<tbody>
+<tr>
+<td rowspan="2"><strong>The A bit is __ the B bit.</strong></td>
+<td><strong>1</strong></td>
+<td><strong>0</strong></td>
+<td><strong>1</strong></td>
+<td><strong>1</strong></td>
+<td rowspan="2"><strong>Result</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td><strong>0</strong></td>
+<td><strong>1</strong></td>
+<td><strong>1</strong></td>
+</tr>
+<tr>
+<td>GT (Greater Than)</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td><strong>No&nbsp;</strong></td>
+</tr>
+<tr>
+<td>LT (Less Than)</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td><strong>No</strong></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>Now that we've gone over the algorithm, we can break the logic into pieces. We will build a 4-bit magnitude comparator by chaining together four 1-bit magnitude comparators, just like we did with adders in lecture. The 1-bit comparator will look like this:</p>
+<p style="text-align: center;"><code>a&nbsp; &nbsp; b<br />___|____|___<br />|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |<br />&nbsp;GT_in ----|&nbsp; &nbsp;1-bit&nbsp; &nbsp; |---- GT_out<br />&nbsp;LT_in ----| Comparator |---- LT_out<br />|____________|</code></p>
+<p style="text-align: left;">In that diagram<em>,</em>&nbsp;each signal has the following purpose:&nbsp;</p>
+<ul>
+<li style="text-align: left;"><em>a</em> and&nbsp;<em>b</em> are the individual bits of the column we're working with</li>
+<li style="text-align: left;"><em>GT_in</em> and&nbsp;<em>LT_in</em> are the results of the comparison from the <strong>previous column</strong></li>
+<li style="text-align: left;"><em>GT_out</em> and&nbsp;<em>LT_out</em>&nbsp;are the results of the&nbsp;<strong>current column's comparison</strong> (that will be passed on to the next column)</li>
+</ul>
+<p style="text-align: left;">Here's how we can chain them together to make a 4-bit magnitude comparator:<code></code></p>
+<p style="text-align: center; font-size: 12px"><code>A[3] B[3]&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A[2] B[2]&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A[1] B[1]&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A[0] B[0]<br />___|____|___&nbsp; &nbsp; &nbsp;&nbsp;___|____|___&nbsp; &nbsp; &nbsp; ___|____|___&nbsp; &nbsp; &nbsp; ___|____|___<br />|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp;&nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp;&nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |<br />&nbsp;0 ----|&nbsp; &nbsp;1-bit&nbsp; &nbsp; |----|&nbsp; &nbsp;1-bit&nbsp; &nbsp; |----|&nbsp; &nbsp;1-bit&nbsp; &nbsp; |----|&nbsp; &nbsp;1-bit&nbsp; &nbsp; |---- GT<br />&nbsp;0 ----| Comparator |----| Comparator |----| Comparator |----| Comparator |---- LT<br />|____________|&nbsp;&nbsp;&nbsp;&nbsp;|____________|&nbsp;&nbsp;&nbsp;&nbsp;|____________|&nbsp;&nbsp;&nbsp;&nbsp;|____________|</code></p>
+<p style="text-align: left;">We can now reason that the 1-bit comparator will behave in the following way:</p>
+<ul>
+<li style="text-align: left;"><strong>If either GT_in or LT_in are already true</strong>, simply <strong>pass the current values</strong> of GT_in and LT_in to GT_out and LT_out (we already figured out which number is greater).</li>
+<li style="text-align: left;">If <strong>both GT_in and LT_in are false...</strong>
+<ul>
+<li style="text-align: left;"><strong>If a = 1 and b = 0, GT_out should be high </strong>(because A&gt;B). <strong>LT_out should remain low</strong>.</li>
+<li style="text-align: left;"><strong>If a = 0 and b = 1, LT_out should be low</strong> (because A&lt;B). <strong>GT_out should remain low.</strong></li>
+<li style="text-align: left;">Lastly, <strong>if A and B are the same, both GT_out and LT_out should be low</strong> (we still haven't figured out which number is greater).</li>
+</ul>
+</li>
+</ul>
+<p>Based on the design and intended behavior of the 1-bit magnitude comparator described above, what is the correct truth table for the 1-bit comparator?</p>
