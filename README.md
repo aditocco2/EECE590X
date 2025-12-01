@@ -23,6 +23,7 @@ For convenience, there is a script to extract all images from a specified range 
 - Open a terminal in `EECE590X`
 - `python3 extract_images.py <problem set numbers>`
 - For example, `python3 extract_images.py 18-20 22` takes all images from problem sets 18, 19, 20, and 22
+
 The images will be copied to `EECE590X/temp_images` where you can then upload all of them to Brightspace at once.
 
 ### Upload Questions to the Question Library
@@ -38,6 +39,7 @@ Similar to the script for images, there is a script to extract all images from a
 - Open a terminal in `EECE590X`
 - `python3 extract_pools.py <problem set numbers>`
 - For example, `python3 extract_pools.py 18-20 22` takes all pools from problem sets 18, 19, 20, and 22
+
 The CSVs will be copied to `EECE590X/temp_pools` where you can then upload them to multiple Brightspace sections without having to navigate between different folders on your computer.
 
 ### Import Questions to a Quiz
